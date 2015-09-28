@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GP/GP.iml" filepath="$PROJECT_DIR$/GP/GP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myBot/myBot.iml" filepath="$PROJECT_DIR$/myBot/myBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/warlight2/warlight2.iml" filepath="$PROJECT_DIR$/warlight2/warlight2.iml" />
+    </modules>
+  </component>
+</project>

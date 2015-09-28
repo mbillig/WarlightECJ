@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="ecj.23">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/ecj.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/warlight2/lib/java-json.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bsh-core-2.0b4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/warlight2/lib/java-json.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,28 @@
+parent.0 = general.params
+
+gp.fs.size = 1
+gp.fs.0 = ec.gp.GPFunctionSet
+gps.fs.0.name = f0
+
+#functions
+gp.fs.0.size = 5
+gp.fs.0.func.0 = warlight2.sense_world.AvgNeighbourScore
+gp.fs.0.func.0.nc = nc0
+gp.fs.0.func.1 = warlight2.sense_world.SuperRegionScore
+gp.fs.0.func.1.nc = nc0
+gp.fs.0.func.2 = warlight2.Sub
+gp.fs.0.func.2.nc = nc2
+gp.fs.0.func.3 = warlight2.Mul
+gp.fs.0.func.3.nc = nc2
+gp.fs.0.func.4 = warlight2.Add
+gp.fs.0.func.4.nc = nc2
+
+generations =				1
+
+#stats
+stat = statistics.TabularStats
+stat.do-size = true
+stat.do-time = true
+
+eval.problem = warlight2.sense_world.SenseWorld
+eval.problem.data = warlight2.DoubleData

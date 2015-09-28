@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="myBot2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/myBot/out/artifacts/myBot_jar/myBot.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="myBot">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/warlight2/out/production/warlight2-engine-master/com/myBot.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,5 @@
+stat = ec.simple.SimpleStatistics
+
+stat.do-size = true
+stat.do-time = true
+stat.file = $out.stat
