@@ -1,0 +1,4 @@
+grant CodeBase "myBot.jar"
+{
+    permission java.security.AllPermission;
+};

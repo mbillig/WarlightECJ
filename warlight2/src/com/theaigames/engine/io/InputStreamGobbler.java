@@ -45,7 +45,6 @@ public class InputStreamGobbler extends Thread {
 
     public void run() {
     	String lastLine;
-    	
         try {
             InputStreamReader inputStreamReader = new InputStreamReader(this.inputStream);
             BufferedReader bufferedReader = new BufferedReader(inputStreamReader);

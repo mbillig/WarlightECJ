@@ -138,7 +138,9 @@ public class Processor {
 				int index = (int) (rand*pickableRegions.size());
 				region = pickableRegions.get(index);
 			}
-			
+
+			//LOOK HERE
+
 			if(currentPlayer == player1)
 				player1Regions.add(region);
 			else

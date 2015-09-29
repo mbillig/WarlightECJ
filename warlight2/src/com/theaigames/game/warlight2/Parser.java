@@ -82,7 +82,7 @@ public class Parser {
 	 * @param player : player who gave the input
 	 * @return : parsed move
 	 */
-	private Move parseMove(String input, Player player)
+	protected Move parseMove(String input, Player player)
 	{
 		int armies = -1;
 		

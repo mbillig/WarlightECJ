@@ -5,6 +5,7 @@ import ec.gp.GPIndividual;
 import ec.gp.GPNode;
 import ec.gp.GPTree;
 import ec.gp.koza.KozaFitness;
+import ec.simple.SimpleFitness;
 import warlight2.JarCompiler;
 import com.theaigames.game.warlight2.Warlight2;
 import ec.EvolutionState;
@@ -14,6 +15,9 @@ import ec.simple.SimpleProblemForm;
 import ec.util.Parameter;
 import warlight2.DoubleData;
 
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
 import java.io.*;
 
 /**
@@ -34,8 +38,8 @@ public class SenseWorld extends GPProblem implements SimpleProblemForm {
         }
     }
 
-    public String getTree(GPNode node){
-        if(node.children.length != 0)
+    public String getTree(GPNode node) {
+        if (node.children.length != 0)
             return "(" + getTree(node.children[0]) + node.toString() + getTree(node.children[1]) + ")";
         else
             return node.toString();
@@ -48,7 +52,7 @@ public class SenseWorld extends GPProblem implements SimpleProblemForm {
             DoubleData input = (DoubleData) (this.input);
 
             String tree = getTree(((GPIndividual) individual).trees[0].child);
-           // System.out.println(tree);
+            // System.out.println(tree);
 
             PrintWriter printer;
             try {
@@ -67,10 +71,14 @@ public class SenseWorld extends GPProblem implements SimpleProblemForm {
             JarCompiler JC = new JarCompiler();
 
             try {
-                JC.run("myBot\\out\\production\\mybot", "myBot.jar");
+                JC.run("out\\production\\mybot", "myBot.jar");
             } catch (IOException ioe) {
                 System.out.println("io exception");
+                ioe.printStackTrace();
             }
+            System.out.println();
+            individual.printIndividualForHumans(evolutionState, 0);
+            System.out.println();
 
             String[] warlightArgs = new String[]{"map.txt", "java -jar myBot.jar", "java -jar randomBot.jar"};
 
@@ -80,9 +88,14 @@ public class SenseWorld extends GPProblem implements SimpleProblemForm {
                 e.printStackTrace();
             }
             //Connect to warlight and calculate fitness
+            double fitness =(double) (GameResults.getInstance().getWinner()
+                    + (GameResults.getInstance().getScore() / 160));
+            System.out.println("winner = " + GameResults.getInstance().getWinner());
+            System.out.println("Score = " + GameResults.getInstance().getScore());
+            System.out.println("Fitness = " + fitness);
 
             KozaFitness f = ((KozaFitness) individual.fitness);
-            f.setStandardizedFitness(evolutionState, (GameResults.getInstance().getWinner() == 1? 1:0));
+            f.setStandardizedFitness(evolutionState, fitness);
             individual.evaluated = true;
         }
     }

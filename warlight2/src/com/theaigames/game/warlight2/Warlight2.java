@@ -81,8 +81,6 @@ public class Warlight2 implements Logic
 		
 		Map initMap, map;
 		
-		System.out.println("setting up game");
-		
         // Determine array size is two players
         if (players.size() != 2) {
             throw new IncorrectPlayerCountException("Should be two players");
@@ -121,7 +119,7 @@ public class Warlight2 implements Logic
 	@Override
     public void playRound(int roundNumber) 
 	{
-		player1.getBot().addToDump(String.format("Round %d\n", roundNumber));
+        player1.getBot().addToDump(String.format("Round %d\n", roundNumber));
 		player2.getBot().addToDump(String.format("Round %d\n", roundNumber));
 		
 		this.processor.playRound(roundNumber);
@@ -195,8 +193,6 @@ public class Warlight2 implements Logic
 			e.printStackTrace();
 		}
 		
-		System.out.println("Done.");
-
 		gameDone = true;
 		if(this.processor.getWinner() == null)
 			winner = 0;
@@ -205,7 +201,7 @@ public class Warlight2 implements Logic
 		else
 			winner = 2;
 
-		score = 160 - (this.processor.getRoundNr() - 1);
+		score = this.processor.getRoundNr()-1;
         //System.exit(0);
 	}
 
@@ -278,7 +274,6 @@ public class Warlight2 implements Logic
 			System.out.println("Score: " + score);
 		}
 		
-		System.out.println("Saving the game...");
         //System.out.println(getPlayedGame(winner, "player1"));
 		// do stuff here if you want to save results
 	}
@@ -289,7 +284,7 @@ public class Warlight2 implements Logic
 	 * @throws Exception
 	 */
 	public static void main(String args[]) throws Exception
-	{	
+	{
 		String mapFile = args[0];
 		String bot1Cmd = args[1];
 		String bot2Cmd = args[2];
@@ -303,12 +298,13 @@ public class Warlight2 implements Logic
         // Add players
         engine.addPlayer(bot1Cmd);
         engine.addPlayer(bot2Cmd);
-		
-        engine.start();
+
+		engine.start();
+
 		boolean running = true;
 		while(running){
 			if(gameDone) {
-				System.out.println("Game over");
+				System.out.println("Done");
 				running = false;
 				GameResults GR = GameResults.getInstance();
 				GR.setScore(score);

@@ -82,7 +82,7 @@ breedthreads                            =       1
 pop.subpop.0.species.fitness            =       ec.gp.koza.KozaFitness
 
 #==========Breeder================
-breed.elite.0                           = 			10
+breed.elite.0                           = 			2
 
 #==========Seed===================
 seed.0                                  =       time

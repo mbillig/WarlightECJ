@@ -5,8 +5,8 @@ package com.theaigames.game.warlight2;
  */
 public class GameResults {
 
-    private int winner;
-    private int score;
+    private static int winner;
+    private static int score;
 
     private static final GameResults INSTANCE = new GameResults();
 

@@ -3,27 +3,250 @@ Generation: 0
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
 Tree 0:
- ( +  ( -  ( -  ( +   AvgNeighbourScore   AvgNeighbourScore )
-     ( -   SuperRegionScore   SuperRegionScore ))
-     ( *  ( +   SuperRegionScore   SuperRegionScore )
-         ( -   SuperRegionScore   SuperRegionScore )))
-     ( -  ( -  ( *   AvgNeighbourScore   AvgNeighbourScore )
-         ( -   AvgNeighbourScore   AvgNeighbourScore ))
-         ( +  ( +   SuperRegionScore   AvgNeighbourScore )
-             ( +   AvgNeighbourScore   AvgNeighbourScore ))))
+ ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -   SuperRegionScore 
+      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -   SuperRegionScore 
+      AvgNeighbourScore ))) ( -  ( -  ( -   SuperRegionScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -   AvgNeighbourScore 
+      AvgNeighbourScore )))) ( -  ( -  ( -  ( - 
+      SuperRegionScore   AvgNeighbourScore ) ( - 
+      SuperRegionScore   SuperRegionScore )) ( - 
+     ( -   AvgNeighbourScore   SuperRegionScore )
+     ( -   SuperRegionScore   AvgNeighbourScore )))
+     ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
+         ( -   SuperRegionScore   SuperRegionScore ))
+         ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+             ( -   SuperRegionScore   AvgNeighbourScore )))))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Tree 0:
+ ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -   SuperRegionScore 
+      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -   SuperRegionScore 
+      AvgNeighbourScore ))) ( -  ( -  ( -   SuperRegionScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -   AvgNeighbourScore 
+      AvgNeighbourScore )))) ( -  ( -  ( -  ( - 
+      SuperRegionScore   AvgNeighbourScore ) ( - 
+      SuperRegionScore   SuperRegionScore )) ( - 
+     ( -   AvgNeighbourScore   SuperRegionScore )
+     ( -   SuperRegionScore   AvgNeighbourScore )))
+     ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
+         ( -   SuperRegionScore   SuperRegionScore ))
+         ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+             ( -   SuperRegionScore   AvgNeighbourScore )))))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Tree 0:
+ ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -   SuperRegionScore 
+      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -   SuperRegionScore 
+      AvgNeighbourScore ))) ( -  ( -  ( -   SuperRegionScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -   AvgNeighbourScore 
+      AvgNeighbourScore )))) ( -  ( -  ( -  ( - 
+      SuperRegionScore   AvgNeighbourScore ) ( - 
+      SuperRegionScore   SuperRegionScore )) ( - 
+     ( -   AvgNeighbourScore   SuperRegionScore )
+      SuperRegionScore )) ( -  ( -  ( -   AvgNeighbourScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      SuperRegionScore )) ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -   SuperRegionScore 
+      AvgNeighbourScore )))))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Tree 0:
+ ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -   SuperRegionScore 
+      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -   SuperRegionScore 
+      AvgNeighbourScore ))) ( -  ( -  ( -   SuperRegionScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -   AvgNeighbourScore 
+      AvgNeighbourScore )))) ( -  ( -  ( -  ( - 
+      SuperRegionScore   AvgNeighbourScore ) ( - 
+      SuperRegionScore   SuperRegionScore )) ( - 
+     ( -   AvgNeighbourScore   SuperRegionScore )
+      SuperRegionScore )) ( -  ( -  ( -   AvgNeighbourScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      SuperRegionScore )) ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -   SuperRegionScore 
+      AvgNeighbourScore )))))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Tree 0:
+ ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -   SuperRegionScore 
+      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -   SuperRegionScore 
+      AvgNeighbourScore ))) ( -  ( -  ( -   SuperRegionScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -   AvgNeighbourScore 
+      AvgNeighbourScore )))) ( -  ( -  ( -  ( - 
+      SuperRegionScore   AvgNeighbourScore ) ( - 
+      SuperRegionScore   SuperRegionScore )) ( - 
+     ( -   AvgNeighbourScore   SuperRegionScore )
+      SuperRegionScore )) ( -  ( -  ( -   AvgNeighbourScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      SuperRegionScore )) ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -   SuperRegionScore 
+      AvgNeighbourScore )))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Tree 0:
+ ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore )  AvgNeighbourScore ))
+     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+         ( -   SuperRegionScore   AvgNeighbourScore )))
+     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+         ( -   SuperRegionScore   AvgNeighbourScore )))
+     ( -  ( -  ( -  ( -   SuperRegionScore   AvgNeighbourScore )
+         ( -   SuperRegionScore   SuperRegionScore ))
+         ( -  ( -   AvgNeighbourScore   SuperRegionScore )
+             ( -   SuperRegionScore   AvgNeighbourScore )))
+         ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
+             ( -   SuperRegionScore   SuperRegionScore ))
+             ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+                 ( -   SuperRegionScore   AvgNeighbourScore )))))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Tree 0:
+ ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore )  AvgNeighbourScore ))
+     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+         ( -   SuperRegionScore   AvgNeighbourScore )))
+     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+         ( -   SuperRegionScore   AvgNeighbourScore )))
+     ( -  ( -  ( -  ( -   SuperRegionScore   AvgNeighbourScore )
+         ( -   SuperRegionScore   SuperRegionScore ))
+         ( -  ( -   AvgNeighbourScore   SuperRegionScore )
+             ( -   SuperRegionScore   AvgNeighbourScore )))
+         ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
+             ( -   SuperRegionScore   SuperRegionScore ))
+             ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+                 ( -   SuperRegionScore   AvgNeighbourScore )))))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Tree 0:
+ ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore )  AvgNeighbourScore ))
+     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+         ( -   SuperRegionScore   AvgNeighbourScore )))
+     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+         ( -   SuperRegionScore   AvgNeighbourScore )))
+     ( -  ( -  ( -  ( -   SuperRegionScore   AvgNeighbourScore )
+         ( -   SuperRegionScore   SuperRegionScore ))
+         ( -  ( -   AvgNeighbourScore   SuperRegionScore )
+             ( -   SuperRegionScore   AvgNeighbourScore )))
+         ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
+             ( -   SuperRegionScore   SuperRegionScore ))
+             ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+                 ( -   SuperRegionScore   AvgNeighbourScore )))))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Tree 0:
+ ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore )  AvgNeighbourScore ))
+     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+         ( -   SuperRegionScore   AvgNeighbourScore )))
+     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+         ( -   SuperRegionScore   AvgNeighbourScore )))
+     ( -  ( -  ( -  ( -   SuperRegionScore   AvgNeighbourScore )
+         ( -   SuperRegionScore   SuperRegionScore ))
+         ( -  ( -   AvgNeighbourScore   SuperRegionScore )
+             ( -   SuperRegionScore   AvgNeighbourScore )))
+         ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
+             ( -   SuperRegionScore   SuperRegionScore ))
+             ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+                 ( -   SuperRegionScore   AvgNeighbourScore )))))
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Tree 0:
+ ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore )  AvgNeighbourScore ))
+     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+         ( -   SuperRegionScore   AvgNeighbourScore )))
+     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+         ( -   SuperRegionScore   AvgNeighbourScore )))
+     ( -  ( -  ( -   SuperRegionScore   AvgNeighbourScore )
+         ( -  ( -   AvgNeighbourScore   SuperRegionScore )
+             ( -   SuperRegionScore   AvgNeighbourScore )))
+         ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
+             ( -   SuperRegionScore   SuperRegionScore ))
+             ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+                 ( -   SuperRegionScore   AvgNeighbourScore )))))
 
 Best Individual of Run:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
 Tree 0:
- ( +  ( -  ( -  ( +   AvgNeighbourScore   AvgNeighbourScore )
-     ( -   SuperRegionScore   SuperRegionScore ))
-     ( *  ( +   SuperRegionScore   SuperRegionScore )
-         ( -   SuperRegionScore   SuperRegionScore )))
-     ( -  ( -  ( *   AvgNeighbourScore   AvgNeighbourScore )
-         ( -   AvgNeighbourScore   AvgNeighbourScore ))
-         ( +  ( +   SuperRegionScore   AvgNeighbourScore )
-             ( +   AvgNeighbourScore   AvgNeighbourScore ))))
+ ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -   SuperRegionScore 
+      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -   SuperRegionScore 
+      AvgNeighbourScore ))) ( -  ( -  ( -   SuperRegionScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
+      AvgNeighbourScore ) ( -   AvgNeighbourScore 
+      AvgNeighbourScore )))) ( -  ( -  ( -  ( - 
+      SuperRegionScore   AvgNeighbourScore ) ( - 
+      SuperRegionScore   SuperRegionScore )) ( - 
+     ( -   AvgNeighbourScore   SuperRegionScore )
+     ( -   SuperRegionScore   AvgNeighbourScore )))
+     ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
+         ( -   SuperRegionScore   SuperRegionScore ))
+         ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+             ( -   SuperRegionScore   AvgNeighbourScore )))))

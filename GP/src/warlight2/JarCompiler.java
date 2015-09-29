@@ -17,9 +17,9 @@ public class JarCompiler {
         manifest.getMainAttributes().put(Attributes.Name.MANIFEST_VERSION, "1.0");
         manifest.getMainAttributes().putValue("Main-Class", "bot.BotStarter");
         JarOutputStream target = new JarOutputStream(new FileOutputStream(target_path), manifest);
-        add(new File(source_dir + "//bot"), target, "myBOt//out//production//myBot");
-        add(new File(source_dir + "//move"), target, "myBOt//out//production//myBot");
-        add(new File(source_dir + "//map"), target, "myBOt//out//production//myBot");
+        add(new File(source_dir + "//bot"), target, "out//production//myBot");
+        add(new File(source_dir + "//move"), target, "out//production//myBot");
+        add(new File(source_dir + "//map"), target, "out//production//myBot");
         target.close();
     }
 
