@@ -38,6 +38,7 @@ public class BotStarter implements Bot {
             new ScriptEngineManager();
     ScriptEngine engine =
             engineManager.getEngineByName("nashorn");
+
     @Override
     /**
      * A method that returns which region the bot would like to start on, the pickable regions are stored in the BotState.
@@ -48,43 +49,24 @@ public class BotStarter implements Bot {
 
         HashMap<Region, Double> scoredRegions = new HashMap<>();
 
-        try (BufferedReader br = new BufferedReader(new FileReader("myBot\\src\\bot\\sense_world.txt"))) {
-
-            //ECJ
-            String expression = "";
-
-            String line = br.readLine();
-            while (line != null) {
-                expression += line;
-                line = br.readLine();
-            }
-
+        String expression = getDummyExpression();
+        try {
             engine.eval("function tree(AvgNeighbourScore, SuperRegionScore) { return " + expression + "}");
             for (Region region : state.getPickableStartingRegions()) {
                 scoredRegions.put(region, (Double) engine.eval("tree(" + getAvgNeighbourScore(region, state) + "," + getSuperRegionScore(region, state) + ");"));
             }
 
-
-        } catch (IOException e) {
-            e.printStackTrace();
         } catch (ScriptException e) {
             e.printStackTrace();
         }
 
-        Map.Entry<Region,Double> maxEntry = null;
-        for(Map.Entry<Region,Double> entry : scoredRegions.entrySet()) {
-            if (maxEntry == null || entry.getValue() > maxEntry.getValue()) {
-                maxEntry = entry;
-            }
-        }
-
-        return maxEntry.getKey();
+        return getMaxFromHashMap(scoredRegions).getKey();
     }
 
     public double getSuperRegionScore(Region region, BotState state) {
         //size - reward
-        //return (region.getSuperRegion().getSubRegions().size() - region.getSuperRegion().getArmiesReward());
-        return region.getSuperRegion().getArmiesReward();
+        return (region.getSuperRegion().getSubRegions().size() - region.getSuperRegion().getArmiesReward());
+        //return region.getSuperRegion().getArmiesReward();
     }
 
     public double getAvgNeighbourScore(Region region, BotState state) {
@@ -92,13 +74,56 @@ public class BotStarter implements Bot {
         double sum = 0;
         for (Region neighbour : neighbours) {
             if (neighbour.ownedByPlayer(state.getMyPlayerName()))
-                sum += 1;
+                sum += 0.5;
             else if (neighbour.ownedByPlayer(state.getOpponentPlayerName()))
-                sum -= 1;
+                sum += 1;
             else
-                sum +=0.2;
+                sum += 0.1;
         }
         return sum / neighbours.size();
+    }
+
+    public Map.Entry<Region, Double> getMaxFromHashMap(HashMap<Region, Double> input) {
+        Map.Entry<Region, Double> maxEntry = null;
+        for (Map.Entry<Region, Double> entry : input.entrySet()) {
+            if (maxEntry == null || entry.getValue() > maxEntry.getValue()) {
+                maxEntry = entry;
+            }
+        }
+        return maxEntry;
+    }
+
+    public double getEnemyOrFriendly(Region region, BotState state) {
+        if (region.ownedByPlayer(state.getMyPlayerName()))
+            return 0;
+        else
+            return 1;
+    }
+
+    public double getNumSoldiers(Region region, BotState state) {
+        return region.getArmies();
+    }
+
+    public String getDummyExpression(){
+        return "Math.sqrt (0-SuperRegionScore)";
+    }
+
+    public String getExpression() {
+        String expression = "";
+        try (BufferedReader br = new BufferedReader(new FileReader("myBot\\src\\bot\\sense_world.txt"))) {
+
+            String line = br.readLine();
+            while (line != null) {
+                expression += line;
+                line = br.readLine();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return expression;
+        //return "Math.tan( 0-( 0-( Math.sqrt(( Math.sqrt( 0-( SuperRegionScore )) /  Math.sin( SuperRegionScore ))))))";
+        // return "SuperRegionScore - Math.cos (SuperRegionScore)";
+        // return "Math.sqrt (0-SuperRegionScore)
     }
 
     @Override
@@ -113,95 +138,71 @@ public class BotStarter implements Bot {
         ArrayList<PlaceArmiesMove> placeArmiesMoves = new ArrayList<PlaceArmiesMove>();
         String myName = state.getMyPlayerName();
 
-        try (BufferedReader br = new BufferedReader(new FileReader("myBot\\src\\bot\\sense_world.txt"))) {
-
-            //ECJ
-            String expression = "";
-
-            String line = br.readLine();
-            while (line != null) {
-                expression += line;
-                line = br.readLine();
-            }
-
+        String expression = getDummyExpression();
+        try {
             engine.eval("function tree(AvgNeighbourScore, SuperRegionScore) { return " + expression + "}");
             for (Region region : state.getVisibleMap().getRegions()) {
-                if(region.ownedByPlayer(myName))
+                if (region.ownedByPlayer(myName))
                     scoredRegions.put(region, (Double) engine.eval("tree(" + getAvgNeighbourScore(region, state) + "," + getSuperRegionScore(region, state) + ");"));
             }
-        } catch (IOException e) {
-            e.printStackTrace();
         } catch (ScriptException e) {
             e.printStackTrace();
         }
+        int availableUnits = state.getStartingArmies();
+        int firstArmy, secondArmy = 0;
 
-        Map.Entry<Region,Double> maxEntry = null;
-        for(Map.Entry<Region,Double> entry : scoredRegions.entrySet()) {
-            if (maxEntry == null || entry.getValue() > maxEntry.getValue()) {
-                maxEntry = entry;
-            }
+        if(availableUnits%2==0){
+            firstArmy = availableUnits/2;
+            secondArmy = availableUnits/2;
+        } else{
+            firstArmy = (availableUnits+1)/2;
+            secondArmy = (availableUnits-1)/2;
         }
-        placeArmiesMoves.add(new PlaceArmiesMove(myName, maxEntry.getKey(), state.getStartingArmies()));
+
+        //place first half of units
+        Region bestRegion = getMaxFromHashMap(scoredRegions).getKey();
+        placeArmiesMoves.add(new PlaceArmiesMove(myName, bestRegion, firstArmy));
+        scoredRegions.remove(bestRegion);
+        //place second half
         return placeArmiesMoves;
     }
 
     @Override
     /**
-     * This method is called for at the second part of each round. This example attacks if a region has
-     * more than 6 armies on it, and transfers if it has less than 6 and a neighboring owned region.
-     * @return The list of PlaceArmiesMoves for one round
+
      */
     public ArrayList<AttackTransferMove> getAttackTransferMoves(BotState state, Long timeOut) {
 
-/*
         ArrayList<AttackTransferMove> attackTransferMoves = new ArrayList<AttackTransferMove>();
         String myName = state.getMyPlayerName();
-        int armies = 5;
-        int maxTransfers = 10;
-        int transfers = 0;
+        String expression = getExpression();
+        int maxmoves = 10;
 
-        for (Region fromRegion : state.getVisibleMap().getRegions()) {
-            if (fromRegion.ownedByPlayer(myName)) //do an attack
-            {
-                ArrayList<Region> possibleToRegions = new ArrayList<Region>();
-                possibleToRegions.addAll(fromRegion.getNeighbors());
+        try {
+            engine.eval("function tree(AvgNeighbourScore, SuperRegionScore, numSoldiers, enemyOrFriendly) { return " + expression + "}");
 
-                while (!possibleToRegions.isEmpty()) {
-                    double rand = Math.random();
-                    int r = (int) (rand * possibleToRegions.size());
-                    Region toRegion = possibleToRegions.get(r);
+            for (Region fromRegion : state.getVisibleMap().getRegions()) {
+                if (maxmoves > 0 && fromRegion.ownedByPlayer(myName) && fromRegion.getArmies() > 4) {
+                    HashMap<Region, Double> scoredRegions = new HashMap<>();
 
-                    if (!toRegion.getPlayerName().equals(myName) && fromRegion.getArmies() > 6) //do an attack
-                    {
-                        attackTransferMoves.add(new AttackTransferMove(myName, fromRegion, toRegion, armies));
-                        break;
-                    } else if (toRegion.getPlayerName().equals(myName) && fromRegion.getArmies() > 1
-                            && transfers < maxTransfers) //do a transfer
-                    {
-                        attackTransferMoves.add(new AttackTransferMove(myName, fromRegion, toRegion, armies));
-                        transfers++;
-                        break;
-                    } else
-                        possibleToRegions.remove(toRegion);
+                    for (Region possibleToRegion : fromRegion.getNeighbors()) {
+                        scoredRegions.put(possibleToRegion, (Double) engine.eval("tree("
+                                + getAvgNeighbourScore(possibleToRegion, state) + ","
+                                + getSuperRegionScore(possibleToRegion, state) + ","
+                                + getNumSoldiers(possibleToRegion, state) + "," +
+                                + getEnemyOrFriendly(possibleToRegion, state) + ")"));
+                    }
+                    attackTransferMoves.add(new AttackTransferMove(myName, fromRegion, getMaxFromHashMap(scoredRegions).getKey(), fromRegion.getArmies() - 1));
+                    maxmoves--;
                 }
             }
+        } catch (ScriptException e) {
+            e.printStackTrace();
         }
-*/
-
-        return null;
+        return attackTransferMoves;
     }
 
     public static void main(String[] args) {
-        try {
-            OutputStreamWriter log = new OutputStreamWriter(new FileOutputStream(" C:\\Users\\Jonatan\\workspace\\ecj\\myBotLog.txt"));
-            log.write("hello");
-            log.close();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
         BotParser parser = new BotParser(new BotStarter());
         parser.run();
     }

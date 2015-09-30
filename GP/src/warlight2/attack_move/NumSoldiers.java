@@ -1,4 +1,4 @@
-package warlight2.sense_world;
+package warlight2.attack_move;
 
 import ec.EvolutionState;
 import ec.Problem;
@@ -6,24 +6,18 @@ import ec.gp.ADFStack;
 import ec.gp.GPData;
 import ec.gp.GPIndividual;
 import ec.gp.GPNode;
-import warlight2.data_types.DoubleData;
 
 /**
- * Created by Jonatan on 24-Sep-15.
+ * Created by Jonatan on 30-Sep-15.
  */
-public class AvgNeighbourScore extends GPNode {
-
-    //isWasteland
-    //isEnemy
-    //isFriendly
-
+public class NumSoldiers extends GPNode {
     public int expectedChildren() {
         return 0;
     }
 
     @Override
     public String toString() {
-        return " AvgNeighbourScore ";
+        return " numSoldiers ";
     }
 
     @Override

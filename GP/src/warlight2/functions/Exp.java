@@ -1,4 +1,4 @@
-package warlight2;
+package warlight2.functions;
 
 import ec.EvolutionState;
 import ec.Problem;
@@ -6,24 +6,28 @@ import ec.gp.ADFStack;
 import ec.gp.GPData;
 import ec.gp.GPIndividual;
 import ec.gp.GPNode;
+import warlight2.data_types.DoubleData;
 
 /**
- * Created by Jonatan on 15-Sep-15.
+ * Created by Jonatan on 17-Sep-15.
  */
-public class Y extends GPNode {
+public class Exp extends GPNode {
+
     public int expectedChildren() {
-        return 0;
+        return 1;
     }
 
     @Override
     public String toString() {
-        return "Y";
+        return " Math.exp";
     }
 
     @Override
     public void eval(EvolutionState state, int thread, GPData gpData, ADFStack adfStack, GPIndividual gpIndividual, Problem problem) {
-        IntData rd = ((IntData) (gpData));
-        rd.x = ((MultiValuedRegression)problem).currentY;
+        DoubleData rd = ((DoubleData) (gpData));
 
+        children[0].eval(state, thread, gpData, adfStack, gpIndividual, problem);
+
+        rd.x = Math.exp(rd.x);
     }
 }

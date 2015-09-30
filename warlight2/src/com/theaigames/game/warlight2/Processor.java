@@ -629,7 +629,7 @@ public class Processor {
 	 * Informs the player about how his visible map looks now
 	 * @param player : player to send the info to
 	 */
-	private void sendUpdateMapInfo(Player player)
+	public void sendUpdateMapInfo(Player player)
 	{
 		LinkedList<Region> visibleRegions = map.visibleRegionsForPlayer(player);
 		String updateMapString = "update_map";
@@ -642,6 +642,10 @@ public class Processor {
 			updateMapString = updateMapString.concat(" " + id + " " + playerName + " " + armies);
 		}
 		player.sendInfo(updateMapString);
+	}
+
+	public LinkedList<Region> getMap(){
+		return map.getRegions();
 	}
 
 	/**

@@ -3,250 +3,208 @@ Generation: 0
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Fitness: Standardized=0.734375 Adjusted=0.5765765765765766 Hits=0
 Tree 0:
- ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore ))) ( -  ( -  ( -   SuperRegionScore 
-      SuperRegionScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   AvgNeighbourScore 
-      AvgNeighbourScore )))) ( -  ( -  ( -  ( - 
-      SuperRegionScore   AvgNeighbourScore ) ( - 
-      SuperRegionScore   SuperRegionScore )) ( - 
-     ( -   AvgNeighbourScore   SuperRegionScore )
-     ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-         ( -   SuperRegionScore   SuperRegionScore ))
-         ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-             ( -   SuperRegionScore   AvgNeighbourScore )))))
+ ( /  ( 1/ ( Math.tan ( 0- ( +  ( Math.exp
+     ( -  ( *  ( -   enemyOrFriendly  SuperRegionScore )
+         ( 0-  SuperRegionScore )) ( Math.tan ( * 
+          SuperRegionScore   numSoldiers )))) ( Math.exp
+     ( -  ( -  ( /   enemyOrFriendly  numSoldiers )
+         ( -   SuperRegionScore   enemyOrFriendly))
+         ( Math.tan ( Math.sin  enemyOrFriendly))))))))
+     ( 1/ ( Math.cos ( Math.cos ( *  ( +  ( Math.tan
+         ( *  ( Math.sin  SuperRegionScore ) ( / 
+              enemyOrFriendly  enemyOrFriendly))) ( / 
+         ( Math.exp ( 0-  numSoldiers )) ( *  ( 0-
+          enemyOrFriendly) ( 1/  SuperRegionScore ))))
+         ( Math.sin ( -  ( -  ( *   numSoldiers   numSoldiers )
+             ( +   numSoldiers   SuperRegionScore )) ( + 
+             ( *   numSoldiers   numSoldiers ) ( +   numSoldiers 
+              numSoldiers )))))))))
 
 Generation: 1
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Fitness: Standardized=0.4375 Adjusted=0.6956521739130435 Hits=0
 Tree 0:
- ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore ))) ( -  ( -  ( -   SuperRegionScore 
-      SuperRegionScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   AvgNeighbourScore 
-      AvgNeighbourScore )))) ( -  ( -  ( -  ( - 
-      SuperRegionScore   AvgNeighbourScore ) ( - 
-      SuperRegionScore   SuperRegionScore )) ( - 
-     ( -   AvgNeighbourScore   SuperRegionScore )
-     ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-         ( -   SuperRegionScore   SuperRegionScore ))
-         ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-             ( -   SuperRegionScore   AvgNeighbourScore )))))
+  enemyOrFriendly
 
 Generation: 2
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Fitness: Standardized=0.359375 Adjusted=0.735632183908046 Hits=0
 Tree 0:
- ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore ))) ( -  ( -  ( -   SuperRegionScore 
-      SuperRegionScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   AvgNeighbourScore 
-      AvgNeighbourScore )))) ( -  ( -  ( -  ( - 
-      SuperRegionScore   AvgNeighbourScore ) ( - 
-      SuperRegionScore   SuperRegionScore )) ( - 
-     ( -   AvgNeighbourScore   SuperRegionScore )
-      SuperRegionScore )) ( -  ( -  ( -   AvgNeighbourScore 
-      SuperRegionScore ) ( -   SuperRegionScore 
-      SuperRegionScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )))))
+  enemyOrFriendly
 
 Generation: 3
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Fitness: Standardized=0.5 Adjusted=0.6666666666666666 Hits=0
 Tree 0:
- ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore ))) ( -  ( -  ( -   SuperRegionScore 
-      SuperRegionScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   AvgNeighbourScore 
-      AvgNeighbourScore )))) ( -  ( -  ( -  ( - 
-      SuperRegionScore   AvgNeighbourScore ) ( - 
-      SuperRegionScore   SuperRegionScore )) ( - 
-     ( -   AvgNeighbourScore   SuperRegionScore )
-      SuperRegionScore )) ( -  ( -  ( -   AvgNeighbourScore 
-      SuperRegionScore ) ( -   SuperRegionScore 
-      SuperRegionScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )))))
+ ( /  ( 1/ ( Math.tan ( 0- ( +  ( Math.exp
+     ( -  ( *  ( -   enemyOrFriendly  SuperRegionScore )
+         ( 0-  SuperRegionScore )) ( Math.tan ( * 
+          SuperRegionScore   numSoldiers ))))  numSoldiers ))))
+     ( 1/ ( Math.cos ( Math.cos ( *  ( +  ( Math.tan
+         ( *  ( Math.sin  SuperRegionScore ) ( / 
+              enemyOrFriendly  enemyOrFriendly))) ( / 
+         ( Math.exp ( 0-  numSoldiers )) ( *  ( 0-
+          enemyOrFriendly) ( 0- ( +   numSoldiers 
+          numSoldiers ))))) ( Math.sin ( -  ( -  ( * 
+          numSoldiers   numSoldiers ) ( +   numSoldiers 
+          SuperRegionScore )) ( +  ( *   numSoldiers 
+          numSoldiers ) ( +   numSoldiers   numSoldiers )))))))))
 
 Generation: 4
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Fitness: Standardized=0.4375 Adjusted=0.6956521739130435 Hits=0
 Tree 0:
- ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore ))) ( -  ( -  ( -   SuperRegionScore 
-      SuperRegionScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   AvgNeighbourScore 
-      AvgNeighbourScore )))) ( -  ( -  ( -  ( - 
-      SuperRegionScore   AvgNeighbourScore ) ( - 
-      SuperRegionScore   SuperRegionScore )) ( - 
-     ( -   AvgNeighbourScore   SuperRegionScore )
-      SuperRegionScore )) ( -  ( -  ( -   AvgNeighbourScore 
-      SuperRegionScore ) ( -   SuperRegionScore 
-      SuperRegionScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )))))
+ ( /  ( 1/ ( Math.tan ( 0- ( +  ( Math.exp
+     ( -  ( *  ( -   enemyOrFriendly  SuperRegionScore )
+         ( 0-  SuperRegionScore )) ( Math.tan ( * 
+          SuperRegionScore   numSoldiers )))) ( Math.exp
+     ( -  ( -  ( /   enemyOrFriendly ( Math.exp
+         ( -  ( -  ( /   enemyOrFriendly  numSoldiers )
+             ( -   SuperRegionScore   enemyOrFriendly))
+             ( Math.tan ( Math.sin  enemyOrFriendly)))))
+         ( -   SuperRegionScore   enemyOrFriendly))
+         ( Math.tan ( Math.sin  enemyOrFriendly))))))))
+     ( 1/ ( Math.cos ( Math.cos ( *  ( +  ( Math.tan
+         ( *  ( Math.sin  SuperRegionScore ) ( / 
+              enemyOrFriendly  enemyOrFriendly))) ( Math.exp
+          enemyOrFriendly)) ( Math.sin ( -  ( -  ( * 
+          numSoldiers   numSoldiers ) ( +   numSoldiers 
+          SuperRegionScore )) ( +  ( *   numSoldiers 
+         ( /   enemyOrFriendly  enemyOrFriendly))
+         ( +   numSoldiers   numSoldiers )))))))))
 
 Generation: 5
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Fitness: Standardized=0.234375 Adjusted=0.810126582278481 Hits=0
 Tree 0:
- ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore )  AvgNeighbourScore ))
-     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -  ( -  ( -   SuperRegionScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   SuperRegionScore ))
-         ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-             ( -   SuperRegionScore   AvgNeighbourScore )))
-         ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-             ( -   SuperRegionScore   SuperRegionScore ))
-             ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-                 ( -   SuperRegionScore   AvgNeighbourScore )))))
+ ( /  ( 1/ ( Math.tan ( 0- ( /   enemyOrFriendly
+      enemyOrFriendly)))) ( 1/ ( Math.cos ( Math.cos
+     ( *  ( +  ( Math.tan ( *  ( Math.sin  SuperRegionScore )
+         ( /   enemyOrFriendly  enemyOrFriendly)))
+         ( /  ( Math.exp ( 0-  numSoldiers )) ( * 
+             ( 0-  enemyOrFriendly) ( 0- ( +   numSoldiers 
+              numSoldiers ))))) ( Math.sin ( -  ( -  ( * 
+          numSoldiers   numSoldiers ) ( +   numSoldiers 
+          SuperRegionScore )) ( +  ( *   numSoldiers 
+          numSoldiers ) ( +   numSoldiers   numSoldiers )))))))))
 
 Generation: 6
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Fitness: Standardized=0.5 Adjusted=0.6666666666666666 Hits=0
 Tree 0:
- ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore )  AvgNeighbourScore ))
-     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -  ( -  ( -   SuperRegionScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   SuperRegionScore ))
-         ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-             ( -   SuperRegionScore   AvgNeighbourScore )))
-         ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-             ( -   SuperRegionScore   SuperRegionScore ))
-             ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-                 ( -   SuperRegionScore   AvgNeighbourScore )))))
+ ( /  ( 1/ ( Math.tan ( 0- ( +  ( Math.exp
+     ( -  ( *  ( -   enemyOrFriendly  SuperRegionScore )
+         ( 0-  SuperRegionScore )) ( Math.tan ( * 
+          SuperRegionScore   numSoldiers ))))  numSoldiers ))))
+     ( 1/ ( Math.cos ( Math.cos ( *  ( +  ( Math.tan
+         ( *  ( Math.sin  SuperRegionScore )  numSoldiers ))
+         ( /  ( Math.exp ( 0-  numSoldiers )) ( * 
+             ( 0-  enemyOrFriendly) ( *   numSoldiers 
+              numSoldiers )))) ( Math.sin ( -  ( -  ( * 
+          numSoldiers   numSoldiers ) ( +   numSoldiers 
+          SuperRegionScore )) ( +  ( *   numSoldiers 
+          numSoldiers ) ( +   numSoldiers   numSoldiers )))))))))
 
 Generation: 7
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Fitness: Standardized=0.390625 Adjusted=0.7191011235955056 Hits=0
 Tree 0:
- ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore )  AvgNeighbourScore ))
-     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -  ( -  ( -   SuperRegionScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   SuperRegionScore ))
-         ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-             ( -   SuperRegionScore   AvgNeighbourScore )))
-         ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-             ( -   SuperRegionScore   SuperRegionScore ))
-             ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-                 ( -   SuperRegionScore   AvgNeighbourScore )))))
+ ( /  ( 1/ ( Math.tan ( 0- ( +  ( Math.exp
+     ( -  ( *  ( -   enemyOrFriendly  SuperRegionScore )
+         ( 0-  SuperRegionScore )) ( Math.tan ( * 
+          SuperRegionScore   numSoldiers )))) ( Math.exp
+     ( -  ( -  ( /   enemyOrFriendly ( Math.exp
+         ( -  ( -  ( /   enemyOrFriendly  numSoldiers )
+             ( -   SuperRegionScore   enemyOrFriendly))
+             ( Math.tan ( Math.sin  enemyOrFriendly)))))
+         ( -   SuperRegionScore   enemyOrFriendly))
+         ( Math.tan ( Math.sin  enemyOrFriendly))))))))
+     ( 1/ ( Math.cos ( Math.cos ( *  ( +  ( Math.tan
+         ( *  ( Math.sin  SuperRegionScore ) ( / 
+              enemyOrFriendly  enemyOrFriendly))) ( Math.exp
+          enemyOrFriendly)) ( Math.sin ( -  ( -   enemyOrFriendly
+         ( +   numSoldiers   SuperRegionScore )) ( + 
+         ( *  ( Math.sin  SuperRegionScore ) ( / 
+              enemyOrFriendly  enemyOrFriendly)) ( + 
+          numSoldiers   numSoldiers )))))))))
 
 Generation: 8
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Fitness: Standardized=0.296875 Adjusted=0.7710843373493976 Hits=0
 Tree 0:
- ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore )  AvgNeighbourScore ))
-     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -  ( -  ( -   SuperRegionScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   SuperRegionScore ))
-         ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-             ( -   SuperRegionScore   AvgNeighbourScore )))
-         ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-             ( -   SuperRegionScore   SuperRegionScore ))
-             ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-                 ( -   SuperRegionScore   AvgNeighbourScore )))))
+ ( /  ( 1/ ( Math.tan ( 0- ( +  ( Math.exp
+     ( -  ( /   enemyOrFriendly ( Math.exp ( - 
+         ( -  ( /   enemyOrFriendly ( -  ( -  ( / 
+              enemyOrFriendly  numSoldiers ) ( -   SuperRegionScore 
+              enemyOrFriendly)) ( Math.tan ( Math.sin
+              enemyOrFriendly)))) ( -   SuperRegionScore 
+              enemyOrFriendly)) ( Math.tan ( Math.sin
+          enemyOrFriendly))))) ( Math.tan ( *   SuperRegionScore 
+          numSoldiers ))))  numSoldiers )))) ( 1/
+     ( Math.cos ( Math.cos ( *  ( +  ( Math.tan
+         ( *  ( Math.sin  SuperRegionScore )  numSoldiers ))
+         ( /  ( Math.exp ( 0-  numSoldiers )) ( * 
+             ( 0-  enemyOrFriendly) ( *   numSoldiers 
+              numSoldiers )))) ( Math.sin ( -  ( -  ( * 
+          numSoldiers   numSoldiers ) ( +   numSoldiers 
+          SuperRegionScore )) ( +  ( *   numSoldiers 
+          numSoldiers ) ( +   numSoldiers   numSoldiers )))))))))
 
 Generation: 9
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Fitness: Standardized=0.390625 Adjusted=0.7191011235955056 Hits=0
 Tree 0:
- ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore )  AvgNeighbourScore ))
-     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -  ( -   SuperRegionScore   AvgNeighbourScore )
-         ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-             ( -   SuperRegionScore   AvgNeighbourScore )))
-         ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-             ( -   SuperRegionScore   SuperRegionScore ))
-             ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-                 ( -   SuperRegionScore   AvgNeighbourScore )))))
+ ( /  ( 1/ ( Math.tan ( 0- ( +  ( Math.exp
+     ( -  ( *  ( -   enemyOrFriendly  SuperRegionScore )
+         ( 0-  SuperRegionScore )) ( Math.tan ( * 
+          SuperRegionScore   numSoldiers )))) ( Math.exp
+     ( -  ( -  ( /   enemyOrFriendly ( Math.exp
+         ( -  ( -  ( /   enemyOrFriendly  numSoldiers )
+             ( -   SuperRegionScore   enemyOrFriendly))
+             ( Math.tan ( Math.sin  enemyOrFriendly)))))
+         ( -   SuperRegionScore   enemyOrFriendly))
+         ( Math.tan ( Math.sin  enemyOrFriendly))))))))
+     ( 1/ ( Math.cos ( Math.cos ( *  ( +  ( Math.tan
+         ( *  ( Math.sin  SuperRegionScore ) ( / 
+              enemyOrFriendly  enemyOrFriendly))) ( Math.exp
+          enemyOrFriendly)) ( Math.sin ( -  ( -   enemyOrFriendly
+         ( +   numSoldiers   SuperRegionScore )) ( + 
+         ( *  ( Math.sin  SuperRegionScore ) ( / 
+              enemyOrFriendly  enemyOrFriendly)) ( + 
+          numSoldiers   numSoldiers )))))))))
 
 Best Individual of Run:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Fitness: Standardized=0.234375 Adjusted=0.810126582278481 Hits=0
 Tree 0:
- ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore ))) ( -  ( -  ( -   SuperRegionScore 
-      SuperRegionScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   AvgNeighbourScore 
-      AvgNeighbourScore )))) ( -  ( -  ( -  ( - 
-      SuperRegionScore   AvgNeighbourScore ) ( - 
-      SuperRegionScore   SuperRegionScore )) ( - 
-     ( -   AvgNeighbourScore   SuperRegionScore )
-     ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-         ( -   SuperRegionScore   SuperRegionScore ))
-         ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-             ( -   SuperRegionScore   AvgNeighbourScore )))))
+ ( /  ( 1/ ( Math.tan ( 0- ( /   enemyOrFriendly
+      enemyOrFriendly)))) ( 1/ ( Math.cos ( Math.cos
+     ( *  ( +  ( Math.tan ( *  ( Math.sin  SuperRegionScore )
+         ( /   enemyOrFriendly  enemyOrFriendly)))
+         ( /  ( Math.exp ( 0-  numSoldiers )) ( * 
+             ( 0-  enemyOrFriendly) ( 0- ( +   numSoldiers 
+              numSoldiers ))))) ( Math.sin ( -  ( -  ( * 
+          numSoldiers   numSoldiers ) ( +   numSoldiers 
+          SuperRegionScore )) ( +  ( *   numSoldiers 
+          numSoldiers ) ( +   numSoldiers   numSoldiers )))))))))

@@ -7,6 +7,7 @@ public class GameResults {
 
     private static int winner;
     private static int score;
+    private static double landControlledRatio;
 
     private static final GameResults INSTANCE = new GameResults();
 
@@ -30,5 +31,13 @@ public class GameResults {
 
     public int getWinner(){
         return this.winner;
+    }
+
+    public double getLandControlledRatio() {
+        return this.landControlledRatio;
+    }
+
+    public static void setLandControlledRatio(double landControlledRatio) {
+        GameResults.landControlledRatio = landControlledRatio;
     }
 }

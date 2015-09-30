@@ -1,4 +1,4 @@
-package warlight2;
+package warlight2.functions;
 
 import ec.EvolutionState;
 import ec.Problem;
@@ -6,31 +6,26 @@ import ec.gp.ADFStack;
 import ec.gp.GPData;
 import ec.gp.GPIndividual;
 import ec.gp.GPNode;
+import warlight2.data_types.DoubleData;
 
 /**
- * Created by Jonatan on 17-Sep-15.
+ * Created by Jonatan on 30-Sep-15.
  */
-public class GreaterThan extends GPNode {
-
+public class Cos extends GPNode {
     public int expectedChildren() {
-        return 2;
+        return 1;
     }
 
     @Override
     public String toString() {
-        return ">";
+        return " Math.cos";
     }
 
     @Override
     public void eval(EvolutionState state, int thread, GPData gpData, ADFStack adfStack, GPIndividual gpIndividual, Problem problem) {
-        int a, b;
-        IntData rd = ((IntData) (gpData));
+        DoubleData rd = ((DoubleData) (gpData));
 
         children[0].eval(state, thread, gpData, adfStack, gpIndividual, problem);
-        a = rd.x;
-        children[1].eval(state, thread, gpData, adfStack, gpIndividual, problem);
-        b = rd.x;
-
-        rd.x = (a>b)? 1:0;
+        rd.x = Math.cos(rd.x);
     }
 }

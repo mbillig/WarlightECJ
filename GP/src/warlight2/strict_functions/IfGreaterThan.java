@@ -1,4 +1,4 @@
-package warlight2;
+package warlight2.strict_functions;
 
 import ec.EvolutionState;
 import ec.Problem;
@@ -6,18 +6,20 @@ import ec.gp.ADFStack;
 import ec.gp.GPData;
 import ec.gp.GPIndividual;
 import ec.gp.GPNode;
+import warlight2.data_types.IntData;
 
 /**
  * Created by Jonatan on 17-Sep-15.
  */
-public class IfLesserThan extends GPNode {
+public class IfGreaterThan extends GPNode {
+
     public int expectedChildren() {
         return 4;
     }
 
     @Override
     public String toString() {
-        return "if(<)";
+        return "if(>)";
     }
 
     @Override
@@ -34,6 +36,6 @@ public class IfLesserThan extends GPNode {
         children[3].eval(state, thread, gpData, adfStack, gpIndividual, problem);
         d = rd.x;
 
-        rd.x = (a < b) ? c : d;
+        rd.x = (a > b) ? c : d;
     }
 }

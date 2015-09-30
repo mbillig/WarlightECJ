@@ -1,29 +1,26 @@
-package warlight2.sense_world;
+package warlight2.attack_move;
 
 import com.theaigames.game.warlight2.GameResults;
-import ec.gp.GPIndividual;
-import ec.gp.GPNode;
-import ec.gp.koza.KozaFitness;
 import com.theaigames.game.warlight2.Warlight2;
 import ec.EvolutionState;
 import ec.Individual;
+import ec.gp.GPIndividual;
+import ec.gp.GPNode;
 import ec.gp.GPProblem;
+import ec.gp.koza.KozaFitness;
 import ec.simple.SimpleProblemForm;
 import ec.util.Parameter;
 import warlight2.data_types.DoubleData;
 
-import java.io.*;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
 
 /**
- * Created by Jonatan on 24-Sep-15.
+ * Created by Jonatan on 30-Sep-15.
  */
-public class SenseWorld extends GPProblem implements SimpleProblemForm {
-
+public class EvalMove  extends GPProblem implements SimpleProblemForm {
     public static final String P_DATA = "data";
-
-    public double AvgNeighbourScore;
-    public double SuperRegionScore;
-    public double rand;
 
     public void setup(final EvolutionState state, final Parameter base) {
         super.setup(state, base);
@@ -66,7 +63,7 @@ public class SenseWorld extends GPProblem implements SimpleProblemForm {
 
             System.out.println();
             System.out.println(tree);
-           // individual.printIndividualForHumans(evolutionState, 0);
+            // individual.printIndividualForHumans(evolutionState, 0);
             System.out.println();
 
             String[] warlightArgs = new String[]{"map.txt", "java -jar myBot.jar", "java -jar randomBot.jar"};

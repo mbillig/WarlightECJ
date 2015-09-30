@@ -1,4 +1,4 @@
-package warlight2;
+package warlight2.data_types;
 
 import ec.gp.GPData;
 
