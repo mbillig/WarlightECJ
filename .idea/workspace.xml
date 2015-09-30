@@ -6,76 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53415471-bb40-41fe-af6f-d673f2321787" name="Default" comment="Setup runnable GP">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/warlight2/functions/Cos.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/warlight2/strict_functions/Cube.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/warlight2/functions/Div.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/warlight2/attack_move/EvalMove.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/warlight2/functions/Inv.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/warlight2/functions/Log.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/warlight2/functions/Neg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/warlight2/strict_functions/Negexp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/warlight2/RandVar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/warlight2/functions/Sin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/warlight2/functions/Sqrt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/warlight2/functions/Tan.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/eval_move.params" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\MultiValuedRegression.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\Add.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\DoubleData.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\Exp.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\GreaterThan.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\IfGreaterThan.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\IfLesserThan.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\IntData.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\LesserThan.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\Modulo.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\Mul.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\MultiValuedRegression.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\Sub.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\X.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\Y.class" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\Add.java" afterPath="$PROJECT_DIR$/GP/src/warlight2/functions/Add.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\DoubleData.java" afterPath="$PROJECT_DIR$/GP/src/warlight2/data_types/DoubleData.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\Exp.java" afterPath="$PROJECT_DIR$/GP/src/warlight2/functions/Exp.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\GreaterThan.java" afterPath="$PROJECT_DIR$/GP/src/warlight2/strict_functions/GreaterThan.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\IfGreaterThan.java" afterPath="$PROJECT_DIR$/GP/src/warlight2/strict_functions/IfGreaterThan.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\IfLesserThan.java" afterPath="$PROJECT_DIR$/GP/src/warlight2/strict_functions/IfLesserThan.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\IntData.java" afterPath="$PROJECT_DIR$/GP/src/warlight2/data_types/IntData.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\LesserThan.java" afterPath="$PROJECT_DIR$/GP/src/warlight2/strict_functions/LesserThan.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\Modulo.java" afterPath="$PROJECT_DIR$/GP/src/warlight2/strict_functions/Modulo.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\Mul.java" afterPath="$PROJECT_DIR$/GP/src/warlight2/functions/Mul.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\Sub.java" afterPath="$PROJECT_DIR$/GP/src/warlight2/functions/Sub.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\X.java" afterPath="$PROJECT_DIR$/GP/src/warlight2/attack_move/EnemyOrFriendly.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\Y.java" afterPath="$PROJECT_DIR$/GP/src/warlight2/attack_move/NumSoldiers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GP/warlight2/sense_world/AvgNeighbourScore.class" afterPath="$PROJECT_DIR$/out/production/GP/warlight2/sense_world/AvgNeighbourScore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/myBot/bot/BotStarter.class" afterPath="$PROJECT_DIR$/out/production/myBot/bot/BotStarter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/warlight2/com/theaigames/game/warlight2/GameResults.class" afterPath="$PROJECT_DIR$/out/production/warlight2/com/theaigames/game/warlight2/GameResults.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/warlight2/com/theaigames/game/warlight2/MapCreator.class" afterPath="$PROJECT_DIR$/out/production/warlight2/com/theaigames/game/warlight2/MapCreator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/warlight2/com/theaigames/game/warlight2/Processor.class" afterPath="$PROJECT_DIR$/out/production/warlight2/com/theaigames/game/warlight2/Processor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GP/warlight2/sense_world/SenseWorld.class" afterPath="$PROJECT_DIR$/out/production/GP/warlight2/sense_world/SenseWorld.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GP/warlight2/sense_world/SuperRegionScore.class" afterPath="$PROJECT_DIR$/out/production/GP/warlight2/sense_world/SuperRegionScore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/warlight2/com/theaigames/game/warlight2/Warlight2.class" afterPath="$PROJECT_DIR$/out/production/warlight2/com/theaigames/game/warlight2/Warlight2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GP/WarlightRunner.class" afterPath="$PROJECT_DIR$/out/production/GP/WarlightRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myBot.jar" afterPath="$PROJECT_DIR$/myBot.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GP/src/warlight2/sense_world/AvgNeighbourScore.java" afterPath="$PROJECT_DIR$/GP/src/warlight2/sense_world/AvgNeighbourScore.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myBot/src/bot/BotStarter.java" afterPath="$PROJECT_DIR$/myBot/src/bot/BotStarter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/GameResults.java" afterPath="$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/GameResults.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/MapCreator.java" afterPath="$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/MapCreator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/Processor.java" afterPath="$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/Processor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GP/src/warlight2/sense_world/SenseWorld.java" afterPath="$PROJECT_DIR$/GP/src/warlight2/sense_world/SenseWorld.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GP/src/warlight2/sense_world/SuperRegionScore.java" afterPath="$PROJECT_DIR$/GP/src/warlight2/sense_world/SuperRegionScore.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/Warlight2.java" afterPath="$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/Warlight2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GP/src/WarlightRunner.java" afterPath="$PROJECT_DIR$/GP/src/WarlightRunner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GP/src/general.params" afterPath="$PROJECT_DIR$/GP/src/general.params" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GP/general.params" afterPath="$PROJECT_DIR$/out/production/GP/general.params" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GP/src/out.stat" afterPath="$PROJECT_DIR$/GP/src/out.stat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GP/src/sense_world.params" afterPath="$PROJECT_DIR$/GP/src/sense_world.params" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GP/sense_world.params" afterPath="$PROJECT_DIR$/out/production/GP/sense_world.params" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myBot/src/bot/sense_world.txt" afterPath="$PROJECT_DIR$/myBot/src/bot/sense_world.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/myBot/bot/sense_world.txt" afterPath="$PROJECT_DIR$/out/production/myBot/bot/sense_world.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GP/src/warlight2.params" afterPath="$PROJECT_DIR$/GP/src/warlight2.params" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GP/warlight2.params" afterPath="$PROJECT_DIR$/out/production/GP/warlight2.params" />
+    <list default="true" id="53415471-bb40-41fe-af6f-d673f2321787" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ecj.iws" />
@@ -128,8 +59,8 @@
           <file leaf-file-name="general.params" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/GP/src/general.params">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.2597147">
-                  <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
+                <state vertical-scroll-proportion="0.8278406">
+                  <caret line="138" column="71" selection-start-line="138" selection-start-column="71" selection-end-line="138" selection-end-column="71" />
                   <folding />
                 </state>
               </provider>
@@ -852,15 +783,22 @@
       <option name="number" value="Default" />
       <updated>1442315157926</updated>
     </task>
+    <task id="LOCAL-00001" summary="Setup runnable GP">
+      <created>1443621351973</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1443621351973</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1477" y="-2716" width="4832" height="2732" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14822376" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14822376" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8021903" sideWeight="0.50225806" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1435,8 +1373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GP/src/general.params">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2597147">
-          <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.8278406">
+          <caret line="138" column="71" selection-start-line="138" selection-start-column="71" selection-end-line="138" selection-end-column="71" />
           <folding />
         </state>
       </provider>
