@@ -40,7 +40,7 @@ gp.fs.0.func.13.nc = nc0
 pop.subpop.0.size  =        20
 generations =				10
 
-evalthreads =               1
+evalthreads =               2
 
 #stats
 stat = statistics.TabularStats
@@ -49,5 +49,5 @@ stat.do-time = true
 
 
 
-eval.problem = warlight2.attack_move.EvalMove
+eval.problem = warlight2.WarlightProblem
 eval.problem.data = warlight2.data_types.DoubleData

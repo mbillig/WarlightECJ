@@ -1,4 +1,4 @@
-package warlight2.sense_world;
+package warlight2;
 
 import com.theaigames.game.warlight2.GameResults;
 import ec.gp.GPIndividual;
@@ -17,7 +17,7 @@ import java.io.*;
 /**
  * Created by Jonatan on 24-Sep-15.
  */
-public class SenseWorld extends GPProblem implements SimpleProblemForm {
+public class WarlightProblem extends GPProblem implements SimpleProblemForm {
 
     public static final String P_DATA = "data";
 
@@ -47,43 +47,22 @@ public class SenseWorld extends GPProblem implements SimpleProblemForm {
         if (!individual.evaluated) {
             DoubleData input = (DoubleData) (this.input);
 
-            String tree = getTree(((GPIndividual) individual).trees[0].child);
-            // System.out.println(tree);
+            String tree = getTree(((GPIndividual) individual).trees[0].child).replace(" ", "");
 
-            PrintWriter printer;
-            try {
-                printer = new PrintWriter("myBot\\src\\bot\\sense_world.txt", "UTF-8");
-                printer.write(tree);
-                printer.close();
-/*                for (String word : individual.toString().split(" ")) {
-                    printer.write(word);
-                }*/
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            } catch (UnsupportedEncodingException e) {
-                e.printStackTrace();
-            }
-
-            System.out.println();
-            System.out.println(tree);
-           // individual.printIndividualForHumans(evolutionState, 0);
-            System.out.println();
-
-            String[] warlightArgs = new String[]{"map.txt", "java -jar myBot.jar", "java -jar randomBot.jar"};
+            //System.out.println();
+            //individual.printIndividualForHumans(evolutionState, 0);
+            //System.out.println();
 
             try {
+                String[] warlightArgs = new String[]{"map.txt", "java -classpath out\\production\\myBot bot.BotStarter " + tree, "java -jar randomBot.jar"};
                 Warlight2.main(warlightArgs);
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            //Connect to warlight and calculate fitness
-/*            double fitness =(double) (GameResults.getInstance().getWinner()
-                    + (GameResults.getInstance().getScore() / 160));*/
 
             double fitness = 1 - GameResults.getInstance().getLandControlledRatio();
-            System.out.println("winner = " + GameResults.getInstance().getWinner());
-            System.out.println("Score = " + GameResults.getInstance().getScore());
-            System.out.println("LandControlledRatio = " + GameResults.getInstance().getLandControlledRatio());
+            //System.out.println("winner = " + GameResults.getInstance().getWinner());
+            //System.out.println("Score = " + GameResults.getInstance().getScore());
             System.out.println("Fitness = " + fitness);
 
             KozaFitness f = ((KozaFitness) individual.fitness);

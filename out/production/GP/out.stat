@@ -1,0 +1,32 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.40625 Adjusted=0.7111111111111111 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ Math.tan}}\chunk{\begin{bundle}{\gpbox{ Math.sqrt}}\chunk{\gpbox{ enemyOrFriendly}}\end{bundle}}\end{bundle}
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.4375 Adjusted=0.6956521739130435 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ Math.sin}}\chunk{\gpbox{ numSoldiers }}\end{bundle}
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.546875 Adjusted=0.6464646464646465 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ Math.sin}}\chunk{\begin{bundle}{\gpbox{ Math.sin}}\chunk{\gpbox{ numSoldiers }}\end{bundle}}\end{bundle}
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.484375 Adjusted=0.6736842105263158 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ 1/}}\chunk{\begin{bundle}{\gpbox{ Math.sqrt}}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\begin{bundle}{\gpbox{ / }}\chunk{\begin{bundle}{\gpbox{ Math.sin}}\chunk{\begin{bundle}{\gpbox{ Math.tan}}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\begin{bundle}{\gpbox{ * }}\chunk{\gpbox{ numSoldiers }}\chunk{\gpbox{ enemyOrFriendly}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\gpbox{ enemyOrFriendly}}\chunk{\begin{bundle}{\gpbox{ * }}\chunk{\begin{bundle}{\gpbox{ Math.cos}}\chunk{\gpbox{ SuperRegionScore }}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\gpbox{ enemyOrFriendly}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ Math.sqrt}}\chunk{\gpbox{ SuperRegionScore }}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}

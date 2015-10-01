@@ -12,7 +12,7 @@ eval                                    =       ec.simple.SimpleEvaluator
 stat                                    =       ec.simple.SimpleStatistics
 
 generations                             =       1000
-quit-on-run-complete                    =       true
+quit-on-run-complete                    =       false
 
 #==========Population=============
 pop                                     =       ec.Population
@@ -87,6 +87,8 @@ breed.elite.0                           = 		0
 #==========Seed===================
 seed.0                                  =       time
 seed.1                                  =       time
+seed.2                                  =       time
+seed.3                                  =       time
 
 #==========Checkpoints============
 checkpoint                              =		    false

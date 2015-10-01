@@ -143,7 +143,7 @@ public class MapCreator {
 	 * @return : the maximum number of rounds for this game
 	 */
 	public static int determineMaxRounds(Map map) {
-		return 60;
+		return 50;
 		//return (int) Math.max(60, map.getRegions().size() * 2.5); // minimum of 60, otherwise 2.5 times the number of regions
 	}
 	

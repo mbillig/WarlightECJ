@@ -5,8 +5,8 @@ gp.fs.0 = ec.gp.GPFunctionSet
 gps.fs.0.name = f0
 
 #functions
-gp.fs.0.size = 12
-gp.fs.0.func.0 = warlight2.sense_world.AvgNeighbourScore
+gp.fs.0.size = 14
+gp.fs.0.func.0 = warlight2.attack_move.EnemyOrFriendly
 gp.fs.0.func.0.nc = nc0
 gp.fs.0.func.1 = warlight2.sense_world.SuperRegionScore
 gp.fs.0.func.1.nc = nc0
@@ -34,11 +34,14 @@ gp.fs.0.func.11 = warlight2.functions.Tan
 gp.fs.0.func.11.nc = nc1
 gp.fs.0.func.12 = warlight2.functions.Exp
 gp.fs.0.func.12.nc = nc1
+gp.fs.0.func.13 = warlight2.attack_move.NumSoldiers
+gp.fs.0.func.13.nc = nc0
 
 pop.subpop.0.size  =        20
 generations =				10
 
-evalthreads =               1
+evalthreads =               2
+eval =					ec.coevolve.CompetitiveEvaluator
 
 #stats
 stat = statistics.TabularStats

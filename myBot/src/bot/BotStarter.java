@@ -34,6 +34,8 @@ import javax.script.ScriptException;
 
 public class BotStarter implements Bot {
 
+    public static String argExpression = "";
+
     ScriptEngineManager engineManager =
             new ScriptEngineManager();
     ScriptEngine engine =
@@ -104,7 +106,7 @@ public class BotStarter implements Bot {
         return region.getArmies();
     }
 
-    public String getDummyExpression(){
+    public String getDummyExpression() {
         return "Math.sqrt (0-SuperRegionScore)";
     }
 
@@ -121,11 +123,25 @@ public class BotStarter implements Bot {
             e.printStackTrace();
         }
         return expression;
-        //return "Math.tan( 0-( 0-( Math.sqrt(( Math.sqrt( 0-( SuperRegionScore )) /  Math.sin( SuperRegionScore ))))))";
-        // return "SuperRegionScore - Math.cos (SuperRegionScore)";
-        // return "Math.sqrt (0-SuperRegionScore)
+
+        //return "Math.sin(enemyOrFriendly)";
     }
 
+    public void printString(String output){
+        PrintWriter printer;
+        try {
+            printer = new PrintWriter("botOutput.txt", "UTF-8");
+            printer.write(output);
+            printer.close();
+/*                for (String word : individual.toString().split(" ")) {
+                    printer.write(word);
+                }*/
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+    }
     @Override
     /**
      * This method is called for at first part of each round. This example puts two armies on random regions
@@ -151,12 +167,12 @@ public class BotStarter implements Bot {
         int availableUnits = state.getStartingArmies();
         int firstArmy, secondArmy = 0;
 
-        if(availableUnits%2==0){
-            firstArmy = availableUnits/2;
-            secondArmy = availableUnits/2;
-        } else{
-            firstArmy = (availableUnits+1)/2;
-            secondArmy = (availableUnits-1)/2;
+        if (availableUnits % 2 == 0) {
+            firstArmy = availableUnits / 2;
+            secondArmy = availableUnits / 2;
+        } else {
+            firstArmy = (availableUnits + 1) / 2;
+            secondArmy = (availableUnits - 1) / 2;
         }
 
         //place first half of units
@@ -175,7 +191,7 @@ public class BotStarter implements Bot {
 
         ArrayList<AttackTransferMove> attackTransferMoves = new ArrayList<AttackTransferMove>();
         String myName = state.getMyPlayerName();
-        String expression = getExpression();
+        String expression = argExpression;
         int maxmoves = 10;
 
         try {
@@ -190,7 +206,7 @@ public class BotStarter implements Bot {
                                 + getAvgNeighbourScore(possibleToRegion, state) + ","
                                 + getSuperRegionScore(possibleToRegion, state) + ","
                                 + getNumSoldiers(possibleToRegion, state) + "," +
-                                + getEnemyOrFriendly(possibleToRegion, state) + ")"));
+                                +getEnemyOrFriendly(possibleToRegion, state) + ")"));
                     }
                     attackTransferMoves.add(new AttackTransferMove(myName, fromRegion, getMaxFromHashMap(scoredRegions).getKey(), fromRegion.getArmies() - 1));
                     maxmoves--;
@@ -202,7 +218,10 @@ public class BotStarter implements Bot {
         return attackTransferMoves;
     }
 
+
     public static void main(String[] args) {
+        argExpression = args[0];
+
         BotParser parser = new BotParser(new BotStarter());
         parser.run();
     }

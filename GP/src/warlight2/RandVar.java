@@ -7,7 +7,6 @@ import ec.gp.GPData;
 import ec.gp.GPIndividual;
 import ec.gp.GPNode;
 import warlight2.data_types.DoubleData;
-import warlight2.sense_world.SenseWorld;
 
 /**
  * Created by Jonatan on 30-Sep-15.
@@ -25,6 +24,6 @@ public class RandVar extends GPNode {
     @Override
     public void eval(EvolutionState state, int thread, GPData gpData, ADFStack adfStack, GPIndividual gpIndividual, Problem problem) {
         DoubleData rd = ((DoubleData) (gpData));
-        rd.x = ((SenseWorld)problem).rand;
+        rd.x = ((WarlightProblem)problem).rand;
     }
 }

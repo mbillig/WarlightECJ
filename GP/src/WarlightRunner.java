@@ -10,18 +10,9 @@ import java.io.IOException;
 public class WarlightRunner {
     public static void main(String[] args) throws Exception {
         String[] senseWorld = new String[]{"-file", "GP\\src\\sense_world.params"};
-        String[] eval_move = new String[]{"-file", "GP\\src\\eval_move.params"};
-
-        JarCompiler JC = new JarCompiler();
-
-        try {
-            JC.run("out\\production\\mybot", "myBot.jar");
-        } catch (IOException ioe) {
-            System.out.println("io exception");
-            ioe.printStackTrace();
-        }
+        String[] eval_move = new String[]{"-file", "GP\\src\\eval_move.params", "-p", "gp.tree.print-style=latex"};
+        String[] eval_moveFPS = new String[]{"-file", "GP\\src\\eval_moveFPS.params", "-p", "gp.tree.print-style=latex"};
 
         Evolve.main(eval_move);
-        //Evolve.main(senseWorld);
     }
 }

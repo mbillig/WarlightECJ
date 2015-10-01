@@ -47,5 +47,5 @@ stat.do-time = true
 
 
 
-eval.problem = warlight2.sense_world.SenseWorld
+eval.problem = warlight2.WarlightProblem
 eval.problem.data = warlight2.data_types.DoubleData

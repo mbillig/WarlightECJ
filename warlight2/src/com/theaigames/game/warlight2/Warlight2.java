@@ -50,6 +50,7 @@ public class Warlight2 implements Logic {
     public static int winner = 0;
     public static int score = 0;
     public static double regionsControlledRatio = 0.0;
+    public static double reinforcementSize = 0.0;
 
     private String playerName1, playerName2;
     private final String mapFile;
@@ -96,7 +97,7 @@ public class Warlight2 implements Logic {
         this.maxRounds = MapCreator.determineMaxRounds(map);
 
         // start the processor
-        System.out.println("Starting game...");
+        //System.out.println("Starting game...");
         this.processor = new Processor(map, player1, player2);
 
         sendSettings(player1);
@@ -207,6 +208,7 @@ public class Warlight2 implements Logic {
                 ownedByBot++;
         }
         regionsControlledRatio = ownedByBot / this.processor.getMap().size();
+        reinforcementSize = this.player1.getArmiesPerTurn();
         score = this.processor.getRoundNr() - 1;
         //System.exit(0);
     }
@@ -264,7 +266,7 @@ public class Warlight2 implements Logic {
      */
     public void saveGame() {
 
-        Player winner = this.processor.getWinner();
+/*        Player winner = this.processor.getWinner();
         int score = this.processor.getRoundNr() - 1;
 
         if (winner != null) {
@@ -272,7 +274,7 @@ public class Warlight2 implements Logic {
         } else {
             System.out.println("winner: draw");
             System.out.println("Score: " + score);
-        }
+        }*/
 
         //System.out.println(getPlayedGame(winner, "player1"));
         // do stuff here if you want to save results
@@ -304,12 +306,13 @@ public class Warlight2 implements Logic {
         boolean running = true;
         while (running) {
             if (gameDone) {
-                System.out.println("Done");
+                //System.out.println("Done");
                 running = false;
                 GameResults GR = GameResults.getInstance();
                 GR.setScore(score);
                 GR.setWinner(winner);
                 GR.setLandControlledRatio(regionsControlledRatio);
+                GR.setReinforcementSize(reinforcementSize);
             }
         }
     }
