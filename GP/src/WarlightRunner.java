@@ -12,7 +12,7 @@ public class WarlightRunner {
         String[] senseWorld = new String[]{"-file", "GP\\src\\sense_world.params"};
         String[] eval_move = new String[]{"-file", "GP\\src\\eval_move.params", "-p", "gp.tree.print-style=latex"};
         String[] eval_moveFPS = new String[]{"-file", "GP\\src\\eval_moveFPS.params", "-p", "gp.tree.print-style=latex"};
-
+        String[] eval_move_competitive = new String[]{"-file", "GP\\src\\eval_move_competitive.params", "-p", "gp.tree.print-style=latex"};
         Evolve.main(eval_move);
     }
 }

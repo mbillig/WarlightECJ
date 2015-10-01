@@ -10,14 +10,14 @@ import ec.gp.GPNode;
 /**
  * Created by Jonatan on 30-Sep-15.
  */
-public class NumSoldiers extends GPNode {
+public class NumFromSoldiers extends GPNode {
     public int expectedChildren() {
         return 0;
     }
 
     @Override
     public String toString() {
-        return " numSoldiers ";
+        return "numFromSoldiers";
     }
 
     @Override

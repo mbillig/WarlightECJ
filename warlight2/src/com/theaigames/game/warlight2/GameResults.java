@@ -7,7 +7,8 @@ public class GameResults {
 
     private volatile static int winner;
     private volatile static int score;
-    private volatile static double landControlledRatio;
+    private volatile static double landControlledRatio1;
+    private volatile static double landControlledRatio2;
     public volatile static double reinforcementSize;
 
 
@@ -37,13 +38,22 @@ public class GameResults {
         return this.winner;
     }
 
-    public static void setLandControlledRatio(double landControlledRatio) {
-        GameResults.landControlledRatio = landControlledRatio;
+    public static void setLandControlledRatioPlayer1(double landControlledRatio1) {
+        GameResults.landControlledRatio1 = landControlledRatio1;
     }
 
-    public double getLandControlledRatio() {
-        return this.landControlledRatio;
+    public double setLandControlledRatioPlayer1() {
+        return this.landControlledRatio1;
     }
+
+    public static void setLandControlledRatioPlayer2(double landControlledRatio2) {
+        GameResults.landControlledRatio2 = landControlledRatio2;
+    }
+
+    public double setLandControlledRatioPlayer2() {
+        return this.landControlledRatio2;
+    }
+
 
     public static void setReinforcementSize(double reinforcementSize) {
         GameResults.reinforcementSize = reinforcementSize;

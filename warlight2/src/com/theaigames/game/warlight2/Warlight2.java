@@ -49,7 +49,8 @@ public class Warlight2 implements Logic {
     public static boolean gameDone = false;
     public static int winner = 0;
     public static int score = 0;
-    public static double regionsControlledRatio = 0.0;
+    public static double regionsControlledRatio0 = 0.0;
+    public static double regionsControlledRatio1 = 0.0;
     public static double reinforcementSize = 0.0;
 
     private String playerName1, playerName2;
@@ -202,12 +203,20 @@ public class Warlight2 implements Logic {
         else
             winner = 2;
 
-        double ownedByBot = 0;
+        double ownedByBot0 = 0;
         for (Region region : this.processor.getMap()) {
             if (region.ownedByPlayer("player1"))
-                ownedByBot++;
+                ownedByBot0++;
         }
-        regionsControlledRatio = ownedByBot / this.processor.getMap().size();
+        regionsControlledRatio0 = ownedByBot0 / this.processor.getMap().size();
+
+        double ownedByBot1 = 0;
+        for (Region region : this.processor.getMap()) {
+            if (region.ownedByPlayer("player2"))
+                ownedByBot1++;
+        }
+        regionsControlledRatio1 = ownedByBot1 / this.processor.getMap().size();
+
         reinforcementSize = this.player1.getArmiesPerTurn();
         score = this.processor.getRoundNr() - 1;
         //System.exit(0);
@@ -311,7 +320,8 @@ public class Warlight2 implements Logic {
                 GameResults GR = GameResults.getInstance();
                 GR.setScore(score);
                 GR.setWinner(winner);
-                GR.setLandControlledRatio(regionsControlledRatio);
+                GR.setLandControlledRatioPlayer1(regionsControlledRatio0);
+                GR.setLandControlledRatioPlayer2(regionsControlledRatio1);
                 GR.setReinforcementSize(reinforcementSize);
             }
         }

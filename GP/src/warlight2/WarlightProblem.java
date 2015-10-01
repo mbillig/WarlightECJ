@@ -60,10 +60,12 @@ public class WarlightProblem extends GPProblem implements SimpleProblemForm {
                 e.printStackTrace();
             }
 
-            double fitness = 1 - GameResults.getInstance().getLandControlledRatio();
+            double fitness = 1 - GameResults.getInstance().setLandControlledRatioPlayer1();
             //System.out.println("winner = " + GameResults.getInstance().getWinner());
             //System.out.println("Score = " + GameResults.getInstance().getScore());
+            System.out.println(tree);
             System.out.println("Fitness = " + fitness);
+            System.out.println("");
 
             KozaFitness f = ((KozaFitness) individual.fitness);
             f.setStandardizedFitness(evolutionState, fitness);
