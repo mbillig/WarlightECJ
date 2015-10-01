@@ -5,30 +5,56 @@ gp.fs.0 = ec.gp.GPFunctionSet
 gps.fs.0.name = f0
 
 #functions
-gp.fs.0.size = 7
+gp.fs.0.size = 11
 
-gp.fs.0.func.0 = warlight2.X
-gp.fs.0.func.0.nc = nc0
-gp.fs.0.func.1 = warlight2.Y
-gp.fs.0.func.1.nc = nc0
-gp.fs.0.func.2 = warlight2.GreaterThan
+gp.fs.0.func.0 = bt.composite.Sequence
+gp.fs.0.func.0.nc = nc2
+gp.fs.0.func.1 = bt.composite.Parallel
+gp.fs.0.func.1.nc = nc2
+gp.fs.0.func.2 = bt.composite.Selector
 gp.fs.0.func.2.nc = nc2
-gp.fs.0.func.3 = warlight2.Sub
-gp.fs.0.func.3.nc = nc2
-gp.fs.0.func.4 = warlight2.Mul
-gp.fs.0.func.4.nc = nc2
-gp.fs.0.func.5 = warlight2.Add
-gp.fs.0.func.5.nc = nc2
-gp.fs.0.func.6 = warlight2.LesserThan
-gp.fs.0.func.6.nc = nc2
+gp.fs.0.func.3 = bt.decorator.Failer
+gp.fs.0.func.3.nc = nc1
+gp.fs.0.func.4 = bt.decorator.Inverter
+gp.fs.0.func.4.nc = nc1
+gp.fs.0.func.5 = bt.decorator.Succeeder
+gp.fs.0.func.5.nc = nc1
+gp.fs.0.func.6 = bt.decorator.UntilFail
+gp.fs.0.func.6.nc = nc1
+gp.fs.0.func.7 = bt.decorator.UntilSucceed
+gp.fs.0.func.7.nc = nc1
+gp.fs.0.func.8 = warlight2.bt_test.Right
+gp.fs.0.func.8.nc = nc0
+gp.fs.0.func.9 = warlight2.bt_test.Wrong
+gp.fs.0.func.9.nc = nc0
+gp.fs.0.func.10 = warlight2.bt_test.Random
+gp.fs.0.func.10.nc = nc0
+
+gp.fs.0.func.11 = bt.composite.Sequence
+gp.fs.0.func.11.nc = nc3
+gp.fs.0.func.12 = bt.composite.Sequence
+gp.fs.0.func.12.nc = nc4
+
+gp.fs.0.func.13 = bt.composite.Parallel
+gp.fs.0.func.13.nc = nc3
+gp.fs.0.func.14 = bt.composite.Parallel
+gp.fs.0.func.14.nc = nc4
+
+gp.fs.0.func.15 = bt.composite.Selector
+gp.fs.0.func.15.nc = nc3
+gp.fs.0.func.16 = bt.composite.Selector
+gp.fs.0.func.16.nc = nc4
 
 
-generations =				1000
+pop.subpop.0.size =         10
+generations =				10
+
+evalthreads =               1
 
 #stats
 stat = statistics.TabularStats
 stat.do-size = true
 stat.do-time = true
 
-eval.problem = warlight2.MultiValuedRegression
-eval.problem.data = warlight2.IntData
+eval.problem = warlight2.bt_test.BtTest
+eval.problem.data = bt.utils.BooleanData

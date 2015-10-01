@@ -1,0 +1,149 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.08568506992117242 Adjusted=0.9210774171119497 Hits=0
+Tree 0:
+ (until_fail (until_fail (failer (inverter
+     (until_succeed (until_fail true))))))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02571655531170236 Adjusted=0.9749282048939071 Hits=0
+Tree 0:
+ (until_succeed (parallel (inverter (failer
+     (inverter (until_succeed (until_fail true)))))
+     (until_succeed (until_succeed (failer (until_succeed
+         true))))))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.13420484309073344 Adjusted=0.8816749514796444 Hits=0
+Tree 0:
+ (succeeder (succeeder (parallel (parallel
+     (sequence (succeeder (until_fail (parallel
+         (until_succeed false) (until_succeed true))))
+         (succeeder (until_fail (parallel (sequence
+             random random) false)))) (selector (until_succeed
+     (failer (inverter (sequence false true))))
+     (selector (parallel (failer (inverter random))
+         (failer (parallel true true))) (until_fail
+         (selector (inverter true) (until_succeed
+             (until_succeed (failer (until_succeed true)))))))))
+     (succeeder (failer (inverter (parallel (parallel
+         (parallel random false) (until_fail true))
+         (until_fail (failer random)))))))))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.07024753018051888 Adjusted=0.9343632868102296 Hits=0
+Tree 0:
+ (succeeder (succeeder (parallel (parallel
+     (sequence (succeeder (until_fail (parallel
+         (until_succeed false) (until_succeed true))))
+         (succeeder (until_fail (parallel (inverter
+             (inverter (succeeder (failer false)))) false))))
+     (selector (until_succeed (failer (inverter
+         (sequence false true)))) (selector (parallel
+         (failer (inverter random)) (failer (parallel
+         true true))) (until_fail (selector (inverter
+         true) (until_succeed (until_succeed (failer
+         (until_succeed true))))))))) (succeeder (failer
+     (inverter (parallel (parallel (parallel random
+         false) (until_fail true)) (until_fail (failer
+         random)))))))))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.06544388507054377 Adjusted=0.9385759438037315 Hits=0
+Tree 0:
+ (succeeder (succeeder (parallel (parallel
+     (sequence (succeeder (until_fail (parallel
+         (until_succeed false) (until_succeed true))))
+         (succeeder (until_fail (parallel (inverter
+             (inverter (succeeder (failer false)))) false))))
+     (selector (until_succeed (failer (inverter
+         (sequence false true)))) (selector (parallel
+         (failer (inverter random)) (inverter (parallel
+         (parallel (parallel random false) (until_fail
+             true)) (until_fail (failer random))))) (until_fail
+         (selector (inverter true) (until_succeed
+             (until_succeed (failer (until_succeed true)))))))))
+     (succeeder (failer (inverter (parallel (parallel
+         (parallel random false) (until_fail true))
+         (until_fail (failer random)))))))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2279481319658987 Adjusted=0.8143666446228781 Hits=0
+Tree 0:
+ (succeeder (until_succeed (failer (inverter
+     (sequence false true)))))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.034956419248226234 Adjusted=0.9662242596904536 Hits=0
+Tree 0:
+ (succeeder (until_succeed (failer (until_succeed
+     true))))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.05439292162623577 Adjusted=0.9484130436475776 Hits=0
+Tree 0:
+ (until_succeed (parallel (inverter (selector
+     (inverter true) (until_succeed (until_succeed
+     (failer (until_succeed true)))))) (until_succeed
+     (inverter (inverter (until_succeed (parallel
+         (until_succeed (failer (failer (parallel
+             true true)))) (until_succeed (until_succeed
+         (failer (until_succeed true)))))))))))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.36895447431189565 Adjusted=0.7304844819639817 Hits=0
+Tree 0:
+ (until_succeed (parallel (inverter (selector
+     (inverter true) (until_succeed (until_succeed
+     (failer (until_succeed true)))))) (until_succeed
+     (inverter (inverter (until_succeed (parallel
+         (until_succeed (failer (failer (parallel
+             (succeeder (until_succeed true)) true))))
+         (until_succeed (until_succeed (failer (until_succeed
+             true)))))))))))
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.08472601571968486 Adjusted=0.921891782356237 Hits=0
+Tree 0:
+ (until_succeed (until_succeed (failer (until_succeed
+     true))))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02571655531170236 Adjusted=0.9749282048939071 Hits=0
+Tree 0:
+ (until_succeed (parallel (inverter (failer
+     (inverter (until_succeed (until_fail true)))))
+     (until_succeed (until_succeed (failer (until_succeed
+         true))))))

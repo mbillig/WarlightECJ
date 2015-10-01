@@ -1,1 +1,1 @@
-( AvgNeighbourScore  -  SuperRegionScore )
+ Math.exp( Math.cos( enemyOrFriendly))

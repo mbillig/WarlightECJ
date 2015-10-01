@@ -3,250 +3,235 @@ Generation: 0
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Fitness: Standardized=0.15953396727030755 Adjusted=0.8624154429508684 Hits=0
 Tree 0:
- ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore ))) ( -  ( -  ( -   SuperRegionScore 
-      SuperRegionScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   AvgNeighbourScore 
-      AvgNeighbourScore )))) ( -  ( -  ( -  ( - 
-      SuperRegionScore   AvgNeighbourScore ) ( - 
-      SuperRegionScore   SuperRegionScore )) ( - 
-     ( -   AvgNeighbourScore   SuperRegionScore )
-     ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-         ( -   SuperRegionScore   SuperRegionScore ))
-         ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-             ( -   SuperRegionScore   AvgNeighbourScore )))))
+ (until_succeed(sequence[[failer(selector[[true, until_fail(until_succeed(true))]]), succeeder(until_succeed(failer(until_succeed(random))))]])
+     (sequence[[failer(selector[[true, until_fail(until_succeed(true))]]), succeeder(until_succeed(failer(until_succeed(random))))]]
+         (failer(selector[[true, until_fail(until_succeed(true))]])
+             (selector[[true, until_fail(until_succeed(true))]]
+                 true (until_fail(until_succeed(true)) (until_succeed(true)
+                 true)))) (succeeder(until_succeed(failer(until_succeed(random))))
+         (until_succeed(failer(until_succeed(random)))
+             (failer(until_succeed(random)) (until_succeed(random)
+                 random))))))
 
 Generation: 1
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Fitness: Standardized=0.049438928284971095 Adjusted=0.9528901330487466 Hits=0
 Tree 0:
- ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore ))) ( -  ( -  ( -   SuperRegionScore 
-      SuperRegionScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   AvgNeighbourScore 
-      AvgNeighbourScore )))) ( -  ( -  ( -  ( - 
-      SuperRegionScore   AvgNeighbourScore ) ( - 
-      SuperRegionScore   SuperRegionScore )) ( - 
-     ( -   AvgNeighbourScore   SuperRegionScore )
-     ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-         ( -   SuperRegionScore   SuperRegionScore ))
-         ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-             ( -   SuperRegionScore   AvgNeighbourScore )))))
+ (until_fail(selector[[inverter(failer(inverter(until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]])))), inverter(parallel[[until_fail(succeeder(random)), parallel[[parallel[[random, false]], until_succeed(false)]]]])]])
+     (selector[[inverter(failer(inverter(until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]])))), inverter(parallel[[until_fail(succeeder(random)), parallel[[parallel[[random, false]], until_succeed(false)]]]])]]
+         (inverter(failer(inverter(until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]]))))
+             (failer(inverter(until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]])))
+                 (inverter(until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]]))
+                     (until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]])
+                         (parallel[[failer(succeeder(random)), failer(inverter(false))]]
+                             (failer(succeeder(random)) (succeeder(random)
+                                 random)) (failer(inverter(false)) (inverter(false)
+                             false))))))) (inverter(parallel[[until_fail(succeeder(random)), parallel[[parallel[[random, false]], until_succeed(false)]]]])
+         (parallel[[until_fail(succeeder(random)), parallel[[parallel[[random, false]], until_succeed(false)]]]]
+             (until_fail(succeeder(random)) (succeeder(random)
+                 random)) (parallel[[parallel[[random, false]], until_succeed(false)]]
+             (parallel[[random, false]] random false)
+             (until_succeed(false) false))))))
 
 Generation: 2
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Fitness: Standardized=0.006444804274976956 Adjusted=0.9935964652531346 Hits=0
 Tree 0:
- ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore ))) ( -  ( -  ( -   SuperRegionScore 
-      SuperRegionScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   AvgNeighbourScore 
-      AvgNeighbourScore )))) ( -  ( -  ( -  ( - 
-      SuperRegionScore   AvgNeighbourScore ) ( - 
-      SuperRegionScore   SuperRegionScore )) ( - 
-     ( -   AvgNeighbourScore   SuperRegionScore )
-      SuperRegionScore )) ( -  ( -  ( -   AvgNeighbourScore 
-      SuperRegionScore ) ( -   SuperRegionScore 
-      SuperRegionScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )))))
+ (until_fail(selector[[inverter(failer(inverter(until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]])))), inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))]])
+     (selector[[inverter(failer(inverter(until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]])))), inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))]]
+         (inverter(failer(inverter(until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]]))))
+             (failer(inverter(until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]])))
+                 (inverter(until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]]))
+                     (until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]])
+                         (parallel[[failer(succeeder(random)), failer(inverter(false))]]
+                             (failer(succeeder(random)) (succeeder(random)
+                                 random)) (failer(inverter(false)) (inverter(false)
+                             false))))))) (inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))
+         (until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]])
+             (parallel[[until_fail(succeeder(random)), failer(inverter(false))]]
+                 (until_fail(succeeder(random)) (succeeder(random)
+                     random)) (failer(inverter(false)) (inverter(false)
+                 false)))))))
 
 Generation: 3
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Fitness: Standardized=0.006444804274976956 Adjusted=0.9935964652531346 Hits=0
 Tree 0:
- ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore ))) ( -  ( -  ( -   SuperRegionScore 
-      SuperRegionScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   AvgNeighbourScore 
-      AvgNeighbourScore )))) ( -  ( -  ( -  ( - 
-      SuperRegionScore   AvgNeighbourScore ) ( - 
-      SuperRegionScore   SuperRegionScore )) ( - 
-     ( -   AvgNeighbourScore   SuperRegionScore )
-      SuperRegionScore )) ( -  ( -  ( -   AvgNeighbourScore 
-      SuperRegionScore ) ( -   SuperRegionScore 
-      SuperRegionScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )))))
+ (until_fail(selector[[inverter(failer(inverter(until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]])))), inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))]])
+     (selector[[inverter(failer(inverter(until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]])))), inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))]]
+         (inverter(failer(inverter(until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]]))))
+             (failer(inverter(until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]])))
+                 (inverter(until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]]))
+                     (until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]])
+                         (parallel[[failer(succeeder(random)), failer(inverter(false))]]
+                             (failer(succeeder(random)) (succeeder(random)
+                                 random)) (failer(inverter(false)) (inverter(false)
+                             false))))))) (inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))
+         (until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]])
+             (parallel[[until_fail(succeeder(random)), failer(inverter(false))]]
+                 (until_fail(succeeder(random)) (succeeder(random)
+                     random)) (failer(inverter(false)) (inverter(false)
+                 false)))))))
 
 Generation: 4
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Fitness: Standardized=0.07057997639293412 Adjusted=0.934073139840765 Hits=0
 Tree 0:
- ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore ))) ( -  ( -  ( -   SuperRegionScore 
-      SuperRegionScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   AvgNeighbourScore 
-      AvgNeighbourScore )))) ( -  ( -  ( -  ( - 
-      SuperRegionScore   AvgNeighbourScore ) ( - 
-      SuperRegionScore   SuperRegionScore )) ( - 
-     ( -   AvgNeighbourScore   SuperRegionScore )
-      SuperRegionScore )) ( -  ( -  ( -   AvgNeighbourScore 
-      SuperRegionScore ) ( -   SuperRegionScore 
-      SuperRegionScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )))))
+ (until_fail(selector[[inverter(failer(inverter(inverter(until_fail(failer(succeeder(random))))))), inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))]])
+     (selector[[inverter(failer(inverter(inverter(until_fail(failer(succeeder(random))))))), inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))]]
+         (inverter(failer(inverter(inverter(until_fail(failer(succeeder(random)))))))
+             (failer(inverter(inverter(until_fail(failer(succeeder(random))))))
+                 (inverter(inverter(until_fail(failer(succeeder(random)))))
+                     (inverter(until_fail(failer(succeeder(random))))
+                         (until_fail(failer(succeeder(random))) (failer(succeeder(random))
+                             (succeeder(random) random))))))) (inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))
+         (until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]])
+             (parallel[[until_fail(succeeder(random)), failer(inverter(false))]]
+                 (until_fail(succeeder(random)) (succeeder(random)
+                     random)) (failer(inverter(false)) (inverter(false)
+                 false)))))))
 
 Generation: 5
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Fitness: Standardized=0.136859835818542 Adjusted=0.8796159108567657 Hits=0
 Tree 0:
- ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore )  AvgNeighbourScore ))
-     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -  ( -  ( -   SuperRegionScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   SuperRegionScore ))
-         ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-             ( -   SuperRegionScore   AvgNeighbourScore )))
-         ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-             ( -   SuperRegionScore   SuperRegionScore ))
-             ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-                 ( -   SuperRegionScore   AvgNeighbourScore )))))
+ (until_fail(selector[[inverter(failer(succeeder(random))), inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))]])
+     (selector[[inverter(failer(succeeder(random))), inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))]]
+         (inverter(failer(succeeder(random))) (failer(succeeder(random))
+             (succeeder(random) random))) (inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))
+         (until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]])
+             (parallel[[until_fail(succeeder(random)), failer(inverter(false))]]
+                 (until_fail(succeeder(random)) (succeeder(random)
+                     random)) (failer(inverter(false)) (inverter(false)
+                 false)))))))
 
 Generation: 6
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Fitness: Standardized=0.0877423396700504 Adjusted=0.9193353642033778 Hits=0
 Tree 0:
- ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore )  AvgNeighbourScore ))
-     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -  ( -  ( -   SuperRegionScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   SuperRegionScore ))
-         ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-             ( -   SuperRegionScore   AvgNeighbourScore )))
-         ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-             ( -   SuperRegionScore   SuperRegionScore ))
-             ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-                 ( -   SuperRegionScore   AvgNeighbourScore )))))
+ (until_succeed(inverter(until_fail(parallel[[failer(succeeder(selector[[inverter(failer(succeeder(random))), inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))]])), failer(parallel[[false, random]])]])))
+     (inverter(until_fail(parallel[[failer(succeeder(selector[[inverter(failer(succeeder(random))), inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))]])), failer(parallel[[false, random]])]]))
+         (until_fail(parallel[[failer(succeeder(selector[[inverter(failer(succeeder(random))), inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))]])), failer(parallel[[false, random]])]])
+             (parallel[[failer(succeeder(selector[[inverter(failer(succeeder(random))), inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))]])), failer(parallel[[false, random]])]]
+                 (failer(succeeder(selector[[inverter(failer(succeeder(random))), inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))]]))
+                     (succeeder(selector[[inverter(failer(succeeder(random))), inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))]])
+                         (selector[[inverter(failer(succeeder(random))), inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))]]
+                             (inverter(failer(succeeder(random))) (failer(succeeder(random))
+                                 (succeeder(random) random))) (inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))
+                             (until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]])
+                                 (parallel[[until_fail(succeeder(random)), failer(inverter(false))]]
+                                     (until_fail(succeeder(random)) (succeeder(random)
+                                         random)) (failer(inverter(false)) (inverter(false)
+                                     false)))))))) (failer(parallel[[false, random]])
+                 (parallel[[false, random]] false random))))))
 
 Generation: 7
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Fitness: Standardized=0.14427206724296304 Adjusted=0.8739180380496608 Hits=0
 Tree 0:
- ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore )  AvgNeighbourScore ))
-     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -  ( -  ( -   SuperRegionScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   SuperRegionScore ))
-         ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-             ( -   SuperRegionScore   AvgNeighbourScore )))
-         ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-             ( -   SuperRegionScore   SuperRegionScore ))
-             ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-                 ( -   SuperRegionScore   AvgNeighbourScore )))))
+ (until_succeed(sequence[[succeeder(random), parallel[[until_fail(until_fail(selector[[inverter(failer(succeeder(random))), inverter(until_fail(parallel[[until_fail(inverter(false)), failer(inverter(false))]]))]])), sequence[[failer(random), inverter(false)]]]]]])
+     (sequence[[succeeder(random), parallel[[until_fail(until_fail(selector[[inverter(failer(succeeder(random))), inverter(until_fail(parallel[[until_fail(inverter(false)), failer(inverter(false))]]))]])), sequence[[failer(random), inverter(false)]]]]]]
+         (succeeder(random) random) (parallel[[until_fail(until_fail(selector[[inverter(failer(succeeder(random))), inverter(until_fail(parallel[[until_fail(inverter(false)), failer(inverter(false))]]))]])), sequence[[failer(random), inverter(false)]]]]
+         (until_fail(until_fail(selector[[inverter(failer(succeeder(random))), inverter(until_fail(parallel[[until_fail(inverter(false)), failer(inverter(false))]]))]]))
+             (until_fail(selector[[inverter(failer(succeeder(random))), inverter(until_fail(parallel[[until_fail(inverter(false)), failer(inverter(false))]]))]])
+                 (selector[[inverter(failer(succeeder(random))), inverter(until_fail(parallel[[until_fail(inverter(false)), failer(inverter(false))]]))]]
+                     (inverter(failer(succeeder(random))) (failer(succeeder(random))
+                         (succeeder(random) random))) (inverter(until_fail(parallel[[until_fail(inverter(false)), failer(inverter(false))]]))
+                     (until_fail(parallel[[until_fail(inverter(false)), failer(inverter(false))]])
+                         (parallel[[until_fail(inverter(false)), failer(inverter(false))]]
+                             (until_fail(inverter(false)) (inverter(false)
+                                 false)) (failer(inverter(false)) (inverter(false)
+                             false)))))))) (sequence[[failer(random), inverter(false)]]
+         (failer(random) random) (inverter(false)
+         false)))))
 
 Generation: 8
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Fitness: Standardized=0.10020323208067283 Adjusted=0.908922979719691 Hits=0
 Tree 0:
- ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore )  AvgNeighbourScore ))
-     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -  ( -  ( -   SuperRegionScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   SuperRegionScore ))
-         ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-             ( -   SuperRegionScore   AvgNeighbourScore )))
-         ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-             ( -   SuperRegionScore   SuperRegionScore ))
-             ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-                 ( -   SuperRegionScore   AvgNeighbourScore )))))
+ (until_succeed(sequence[[random, parallel[[until_fail(random), selector[[inverter(failer(sequence[[random, parallel[[until_fail(random), selector[[inverter(failer(inverter(inverter(until_fail(failer(succeeder(random))))))), sequence[[failer(random), inverter(false)]]]]]]]])), sequence[[until_fail(failer(succeeder(random))), inverter(false)]]]]]]]])
+     (sequence[[random, parallel[[until_fail(random), selector[[inverter(failer(sequence[[random, parallel[[until_fail(random), selector[[inverter(failer(inverter(inverter(until_fail(failer(succeeder(random))))))), sequence[[failer(random), inverter(false)]]]]]]]])), sequence[[until_fail(failer(succeeder(random))), inverter(false)]]]]]]]]
+         random (parallel[[until_fail(random), selector[[inverter(failer(sequence[[random, parallel[[until_fail(random), selector[[inverter(failer(inverter(inverter(until_fail(failer(succeeder(random))))))), sequence[[failer(random), inverter(false)]]]]]]]])), sequence[[until_fail(failer(succeeder(random))), inverter(false)]]]]]]
+         (until_fail(random) random) (selector[[inverter(failer(sequence[[random, parallel[[until_fail(random), selector[[inverter(failer(inverter(inverter(until_fail(failer(succeeder(random))))))), sequence[[failer(random), inverter(false)]]]]]]]])), sequence[[until_fail(failer(succeeder(random))), inverter(false)]]]]
+         (inverter(failer(sequence[[random, parallel[[until_fail(random), selector[[inverter(failer(inverter(inverter(until_fail(failer(succeeder(random))))))), sequence[[failer(random), inverter(false)]]]]]]]]))
+             (failer(sequence[[random, parallel[[until_fail(random), selector[[inverter(failer(inverter(inverter(until_fail(failer(succeeder(random))))))), sequence[[failer(random), inverter(false)]]]]]]]])
+                 (sequence[[random, parallel[[until_fail(random), selector[[inverter(failer(inverter(inverter(until_fail(failer(succeeder(random))))))), sequence[[failer(random), inverter(false)]]]]]]]]
+                     random (parallel[[until_fail(random), selector[[inverter(failer(inverter(inverter(until_fail(failer(succeeder(random))))))), sequence[[failer(random), inverter(false)]]]]]]
+                     (until_fail(random) random) (selector[[inverter(failer(inverter(inverter(until_fail(failer(succeeder(random))))))), sequence[[failer(random), inverter(false)]]]]
+                     (inverter(failer(inverter(inverter(until_fail(failer(succeeder(random)))))))
+                         (failer(inverter(inverter(until_fail(failer(succeeder(random))))))
+                             (inverter(inverter(until_fail(failer(succeeder(random)))))
+                                 (inverter(until_fail(failer(succeeder(random))))
+                                     (until_fail(failer(succeeder(random))) (failer(succeeder(random))
+                                         (succeeder(random) random))))))) (sequence[[failer(random), inverter(false)]]
+                     (failer(random) random) (inverter(false)
+                     false))))))) (sequence[[until_fail(failer(succeeder(random))), inverter(false)]]
+         (until_fail(failer(succeeder(random))) (failer(succeeder(random))
+             (succeeder(random) random))) (inverter(false)
+         false))))))
 
 Generation: 9
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Fitness: Standardized=0.10020323208067283 Adjusted=0.908922979719691 Hits=0
 Tree 0:
- ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore )  AvgNeighbourScore ))
-     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-         ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -  ( -   SuperRegionScore   AvgNeighbourScore )
-         ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-             ( -   SuperRegionScore   AvgNeighbourScore )))
-         ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-             ( -   SuperRegionScore   SuperRegionScore ))
-             ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-                 ( -   SuperRegionScore   AvgNeighbourScore )))))
+ (until_succeed(sequence[[random, parallel[[until_fail(random), selector[[inverter(failer(sequence[[random, parallel[[until_fail(random), selector[[inverter(failer(inverter(inverter(until_fail(failer(succeeder(random))))))), sequence[[failer(random), inverter(false)]]]]]]]])), sequence[[until_fail(failer(succeeder(random))), inverter(false)]]]]]]]])
+     (sequence[[random, parallel[[until_fail(random), selector[[inverter(failer(sequence[[random, parallel[[until_fail(random), selector[[inverter(failer(inverter(inverter(until_fail(failer(succeeder(random))))))), sequence[[failer(random), inverter(false)]]]]]]]])), sequence[[until_fail(failer(succeeder(random))), inverter(false)]]]]]]]]
+         random (parallel[[until_fail(random), selector[[inverter(failer(sequence[[random, parallel[[until_fail(random), selector[[inverter(failer(inverter(inverter(until_fail(failer(succeeder(random))))))), sequence[[failer(random), inverter(false)]]]]]]]])), sequence[[until_fail(failer(succeeder(random))), inverter(false)]]]]]]
+         (until_fail(random) random) (selector[[inverter(failer(sequence[[random, parallel[[until_fail(random), selector[[inverter(failer(inverter(inverter(until_fail(failer(succeeder(random))))))), sequence[[failer(random), inverter(false)]]]]]]]])), sequence[[until_fail(failer(succeeder(random))), inverter(false)]]]]
+         (inverter(failer(sequence[[random, parallel[[until_fail(random), selector[[inverter(failer(inverter(inverter(until_fail(failer(succeeder(random))))))), sequence[[failer(random), inverter(false)]]]]]]]]))
+             (failer(sequence[[random, parallel[[until_fail(random), selector[[inverter(failer(inverter(inverter(until_fail(failer(succeeder(random))))))), sequence[[failer(random), inverter(false)]]]]]]]])
+                 (sequence[[random, parallel[[until_fail(random), selector[[inverter(failer(inverter(inverter(until_fail(failer(succeeder(random))))))), sequence[[failer(random), inverter(false)]]]]]]]]
+                     random (parallel[[until_fail(random), selector[[inverter(failer(inverter(inverter(until_fail(failer(succeeder(random))))))), sequence[[failer(random), inverter(false)]]]]]]
+                     (until_fail(random) random) (selector[[inverter(failer(inverter(inverter(until_fail(failer(succeeder(random))))))), sequence[[failer(random), inverter(false)]]]]
+                     (inverter(failer(inverter(inverter(until_fail(failer(succeeder(random)))))))
+                         (failer(inverter(inverter(until_fail(failer(succeeder(random))))))
+                             (inverter(inverter(until_fail(failer(succeeder(random)))))
+                                 (inverter(until_fail(failer(succeeder(random))))
+                                     (until_fail(failer(succeeder(random))) (failer(succeeder(random))
+                                         (succeeder(random) random))))))) (sequence[[failer(random), inverter(false)]]
+                     (failer(random) random) (inverter(false)
+                     false))))))) (sequence[[until_fail(failer(succeeder(random))), inverter(false)]]
+         (until_fail(failer(succeeder(random))) (failer(succeeder(random))
+             (succeeder(random) random))) (inverter(false)
+         false))))))
 
 Best Individual of Run:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0 Adjusted=0.5 Hits=0
+Fitness: Standardized=0.006444804274976956 Adjusted=0.9935964652531346 Hits=0
 Tree 0:
- ( -  ( -  ( -  ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore ))) ( -  ( -  ( -   SuperRegionScore 
-      SuperRegionScore ) ( -   SuperRegionScore 
-      AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
-      AvgNeighbourScore ) ( -   AvgNeighbourScore 
-      AvgNeighbourScore )))) ( -  ( -  ( -  ( - 
-      SuperRegionScore   AvgNeighbourScore ) ( - 
-      SuperRegionScore   SuperRegionScore )) ( - 
-     ( -   AvgNeighbourScore   SuperRegionScore )
-     ( -   SuperRegionScore   AvgNeighbourScore )))
-     ( -  ( -  ( -   AvgNeighbourScore   SuperRegionScore )
-         ( -   SuperRegionScore   SuperRegionScore ))
-         ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
-             ( -   SuperRegionScore   AvgNeighbourScore )))))
+ (until_fail(selector[[inverter(failer(inverter(until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]])))), inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))]])
+     (selector[[inverter(failer(inverter(until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]])))), inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))]]
+         (inverter(failer(inverter(until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]]))))
+             (failer(inverter(until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]])))
+                 (inverter(until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]]))
+                     (until_fail(parallel[[failer(succeeder(random)), failer(inverter(false))]])
+                         (parallel[[failer(succeeder(random)), failer(inverter(false))]]
+                             (failer(succeeder(random)) (succeeder(random)
+                                 random)) (failer(inverter(false)) (inverter(false)
+                             false))))))) (inverter(until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]]))
+         (until_fail(parallel[[until_fail(succeeder(random)), failer(inverter(false))]])
+             (parallel[[until_fail(succeeder(random)), failer(inverter(false))]]
+                 (until_fail(succeeder(random)) (succeeder(random)
+                     random)) (failer(inverter(false)) (inverter(false)
+                 false)))))))

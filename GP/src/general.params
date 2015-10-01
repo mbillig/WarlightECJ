@@ -59,7 +59,7 @@ gp.koza.mutate.build.0                  =       ec.gp.koza.GrowBuilder
 gp.koza.mutate.maxdepth                 =       20
 gp.koza.mutate.tries                    =       1
 
-select.tournament.size                  =       7
+select.tournament.size                  =       3
 
 gp.koza.grow.min-depth                  =       5
 gp.koza.grow.max-depth                  =       5
@@ -82,10 +82,11 @@ breedthreads                            =       1
 pop.subpop.0.species.fitness            =       ec.gp.koza.KozaFitness
 
 #==========Breeder================
-breed.elite.0                           = 			2
+breed.elite.0                           = 		0
 
 #==========Seed===================
 seed.0                                  =       time
+seed.1                                  =       time
 
 #==========Checkpoints============
 checkpoint                              =		    false
@@ -111,7 +112,7 @@ gp.tc.0.returns                         =       nil
 gp.tc.0.init                            =       ec.gp.koza.HalfBuilder
 
 gp.koza.half.min-depth                  =       2
-gp.koza.half.max-depth                  =       6
+gp.koza.half.max-depth                  =       10
 gp.koza.half.growp                      =       0.5
 
 #==========Node Constraints=====
@@ -172,6 +173,11 @@ gp.nc.6.child.2                         =       nil
 gp.nc.6.child.3                         =       nil
 gp.nc.6.child.4                         =       nil
 gp.nc.6.child.5                         =       nil
+
+gp.nc.7                                 =       ec.gp.GPNodeConstraints
+gp.nc.7.name                            =       nc7
+gp.nc.7.returns                         =       nil
+
 
 #==========ADFs=================
 gp.problem.stack                        =       ec.gp.ADFStack

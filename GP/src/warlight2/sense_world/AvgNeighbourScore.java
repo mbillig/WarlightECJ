@@ -6,8 +6,7 @@ import ec.gp.ADFStack;
 import ec.gp.GPData;
 import ec.gp.GPIndividual;
 import ec.gp.GPNode;
-import warlight2.IntData;
-import warlight2.MultiValuedRegression;
+import warlight2.data_types.DoubleData;
 
 /**
  * Created by Jonatan on 24-Sep-15.
@@ -29,7 +28,5 @@ public class AvgNeighbourScore extends GPNode {
 
     @Override
     public void eval(EvolutionState state, int thread, GPData gpData, ADFStack adfStack, GPIndividual gpIndividual, Problem problem) {
-        IntData rd = ((IntData) (gpData));
-        rd.x = ((SenseWorld)problem).AvgNeighbourScore;
     }
 }

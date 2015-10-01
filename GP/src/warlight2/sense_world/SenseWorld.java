@@ -3,21 +3,15 @@ package warlight2.sense_world;
 import com.theaigames.game.warlight2.GameResults;
 import ec.gp.GPIndividual;
 import ec.gp.GPNode;
-import ec.gp.GPTree;
 import ec.gp.koza.KozaFitness;
-import ec.simple.SimpleFitness;
-import warlight2.JarCompiler;
 import com.theaigames.game.warlight2.Warlight2;
 import ec.EvolutionState;
 import ec.Individual;
 import ec.gp.GPProblem;
 import ec.simple.SimpleProblemForm;
 import ec.util.Parameter;
-import warlight2.DoubleData;
+import warlight2.data_types.DoubleData;
 
-import javax.script.ScriptEngine;
-import javax.script.ScriptEngineManager;
-import javax.script.ScriptException;
 import java.io.*;
 
 /**
@@ -27,8 +21,9 @@ public class SenseWorld extends GPProblem implements SimpleProblemForm {
 
     public static final String P_DATA = "data";
 
-    public int AvgNeighbourScore;
-    public int SuperRegionScore;
+    public double AvgNeighbourScore;
+    public double SuperRegionScore;
+    public double rand;
 
     public void setup(final EvolutionState state, final Parameter base) {
         super.setup(state, base);
@@ -39,12 +34,13 @@ public class SenseWorld extends GPProblem implements SimpleProblemForm {
     }
 
     public String getTree(GPNode node) {
-        if (node.children.length != 0)
+        if (node.children.length == 2)
             return "(" + getTree(node.children[0]) + node.toString() + getTree(node.children[1]) + ")";
+        else if(node.children.length == 1)
+            return node.toString() + "(" + getTree(node.children[0]) + ")";
         else
             return node.toString();
     }
-
     @Override
     public void evaluate(EvolutionState evolutionState, Individual individual, int i, int i1) {
 
@@ -68,16 +64,9 @@ public class SenseWorld extends GPProblem implements SimpleProblemForm {
                 e.printStackTrace();
             }
 
-            JarCompiler JC = new JarCompiler();
-
-            try {
-                JC.run("out\\production\\mybot", "myBot.jar");
-            } catch (IOException ioe) {
-                System.out.println("io exception");
-                ioe.printStackTrace();
-            }
             System.out.println();
-            individual.printIndividualForHumans(evolutionState, 0);
+            System.out.println(tree);
+           // individual.printIndividualForHumans(evolutionState, 0);
             System.out.println();
 
             String[] warlightArgs = new String[]{"map.txt", "java -jar myBot.jar", "java -jar randomBot.jar"};
@@ -88,10 +77,13 @@ public class SenseWorld extends GPProblem implements SimpleProblemForm {
                 e.printStackTrace();
             }
             //Connect to warlight and calculate fitness
-            double fitness =(double) (GameResults.getInstance().getWinner()
-                    + (GameResults.getInstance().getScore() / 160));
+/*            double fitness =(double) (GameResults.getInstance().getWinner()
+                    + (GameResults.getInstance().getScore() / 160));*/
+
+            double fitness = 1 - GameResults.getInstance().getLandControlledRatio();
             System.out.println("winner = " + GameResults.getInstance().getWinner());
             System.out.println("Score = " + GameResults.getInstance().getScore());
+            System.out.println("LandControlledRatio = " + GameResults.getInstance().getLandControlledRatio());
             System.out.println("Fitness = " + fitness);
 
             KozaFitness f = ((KozaFitness) individual.fitness);
