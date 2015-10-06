@@ -1,0 +1,51 @@
+parent.0 = general.params
+
+gp.fs.size = 1
+gp.fs.0 = ec.gp.GPFunctionSet
+gps.fs.0.name = f0
+
+#functions
+gp.fs.0.size = 12
+gp.fs.0.func.0 = warlight2.sense_world.AvgNeighbourScore
+gp.fs.0.func.0.nc = nc0
+gp.fs.0.func.1 = warlight2.sense_world.SuperRegionScore
+gp.fs.0.func.1.nc = nc0
+gp.fs.0.func.2 = functions.Sub
+gp.fs.0.func.2.nc = nc2
+gp.fs.0.func.3 = functions.Mul
+gp.fs.0.func.3.nc = nc2
+gp.fs.0.func.4 = functions.Add
+gp.fs.0.func.4.nc = nc2
+gp.fs.0.func.5 = functions.Inv
+gp.fs.0.func.5.nc = nc1
+gp.fs.0.func.6 = functions.Log
+gp.fs.0.func.6.nc = nc1
+gp.fs.0.func.6 = functions.Neg
+gp.fs.0.func.6.nc = nc1
+gp.fs.0.func.7 = functions.Sqrt
+gp.fs.0.func.7.nc = nc1
+gp.fs.0.func.8 = functions.Div
+gp.fs.0.func.8.nc = nc2
+gp.fs.0.func.9 = functions.Sin
+gp.fs.0.func.9.nc = nc1
+gp.fs.0.func.10 = functions.Cos
+gp.fs.0.func.10.nc = nc1
+gp.fs.0.func.11 = functions.Tan
+gp.fs.0.func.11.nc = nc1
+gp.fs.0.func.12 = functions.Exp
+gp.fs.0.func.12.nc = nc1
+
+pop.subpop.0.size  =        20
+generations =				10
+
+evalthreads =               1
+
+#stats
+stat = statistics.TabularStats
+stat.do-size = true
+stat.do-time = true
+
+
+
+eval.problem = warlight2.WarlightProblem
+eval.problem.data = data_types.DoubleData

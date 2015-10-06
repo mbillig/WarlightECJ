@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GP/GP.iml" filepath="$PROJECT_DIR$/GP/GP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/myBot/myBot.iml" filepath="$PROJECT_DIR$/myBot/myBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/texasbot/texasbot.iml" filepath="$PROJECT_DIR$/texasbot/texasbot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/texasholdem/texasholdem.iml" filepath="$PROJECT_DIR$/texasholdem/texasholdem.iml" />
       <module fileurl="file://$PROJECT_DIR$/warlight2/warlight2.iml" filepath="$PROJECT_DIR$/warlight2/warlight2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/warlightBot/warlightBot.iml" filepath="$PROJECT_DIR$/warlightBot/warlightBot.iml" />
     </modules>
   </component>
 </project>

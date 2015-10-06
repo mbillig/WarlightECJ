@@ -58,7 +58,7 @@ public class Warlight2 implements Logic {
 
     private Processor processor;
     private Player player1, player2;
-    private int maxRounds;
+    private static int maxRounds;
 
     private String secretKey, accessKey;
 
@@ -95,7 +95,7 @@ public class Warlight2 implements Logic {
         // get map string from database and setup the map
         initMap = MapCreator.createMap(getMapString());
         map = MapCreator.setupMap(initMap, SIZE_WASTELANDS);
-        this.maxRounds = MapCreator.determineMaxRounds(map);
+        //this.maxRounds = MapCreator.determineMaxRounds(map);
 
         // start the processor
         //System.out.println("Starting game...");
@@ -299,6 +299,7 @@ public class Warlight2 implements Logic {
         String mapFile = args[0];
         String bot1Cmd = args[1];
         String bot2Cmd = args[2];
+        maxRounds = Integer.parseInt(args[3]);
 
         // Construct engine
         Engine engine = new Engine();

@@ -1,0 +1,39 @@
+parent.0 = general.params
+
+gp.fs.size = 1
+gp.fs.0 = ec.gp.GPFunctionSet
+gps.fs.0.name = f0
+
+#functions
+gp.fs.0.size = 9
+gp.fs.0.func.0 = functions.Sub
+gp.fs.0.func.0.nc = nc2
+gp.fs.0.func.1 = functions.Mul
+gp.fs.0.func.1.nc = nc2
+gp.fs.0.func.2 = functions.Add
+gp.fs.0.func.2.nc = nc2
+gp.fs.0.func.3 = texasholdem.moves.CardHeight
+gp.fs.0.func.3.nc = nc0
+gp.fs.0.func.4 = texasholdem.moves.MyStack
+gp.fs.0.func.4.nc = nc0
+gp.fs.0.func.5 = texasholdem.moves.BetCost
+gp.fs.0.func.5.nc = nc0
+gp.fs.0.func.6 = texasholdem.moves.PotSize
+gp.fs.0.func.6.nc = nc0
+gp.fs.0.func.7 = texasholdem.moves.OpponentStack
+gp.fs.0.func.7.nc = nc0
+gp.fs.0.func.8 = texasholdem.moves.HandEval
+gp.fs.0.func.8.nc = nc0
+
+pop.subpop.0.size  =        20
+generations =				10
+
+evalthreads =               2
+
+#stats
+stat = statistics.TabularStats
+stat.do-size = true
+stat.do-time = true
+
+eval.problem = texasholdem.TexasProblem
+eval.problem.data = data_types.DoubleData

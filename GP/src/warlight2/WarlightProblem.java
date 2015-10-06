@@ -10,9 +10,7 @@ import ec.Individual;
 import ec.gp.GPProblem;
 import ec.simple.SimpleProblemForm;
 import ec.util.Parameter;
-import warlight2.data_types.DoubleData;
-
-import java.io.*;
+import data_types.DoubleData;
 
 /**
  * Created by Jonatan on 24-Sep-15.
@@ -20,10 +18,6 @@ import java.io.*;
 public class WarlightProblem extends GPProblem implements SimpleProblemForm {
 
     public static final String P_DATA = "data";
-
-    public double AvgNeighbourScore;
-    public double SuperRegionScore;
-    public double rand;
 
     public void setup(final EvolutionState state, final Parameter base) {
         super.setup(state, base);
@@ -54,17 +48,26 @@ public class WarlightProblem extends GPProblem implements SimpleProblemForm {
             //System.out.println();
 
             try {
-                String[] warlightArgs = new String[]{"map.txt", "java -classpath out\\production\\myBot bot.BotStarter " + tree, "java -jar randomBot.jar"};
+                String[] warlightArgs = new String[]{"map2.txt", "java -classpath out\\production\\myBot bot.BotStarter " + tree, "java -jar randomWarlightBot.jar", "100"};
                 Warlight2.main(warlightArgs);
             } catch (Exception e) {
                 e.printStackTrace();
             }
 
-            double fitness = 1 - GameResults.getInstance().setLandControlledRatioPlayer1();
-            //System.out.println("winner = " + GameResults.getInstance().getWinner());
+            double gameScore = GameResults.getInstance().getScore();
+            double scoreRatio = 1- (gameScore/100);
+            double landControlRatio = GameResults.getInstance().getLandControlledRatioPlayer1();
+            double fitness = 1;
+
+            if(GameResults.getInstance().getWinner() == 0 || GameResults.getInstance().getWinner() == 1)
+                fitness = 1- (scoreRatio + landControlRatio)/2;
             //System.out.println("Score = " + GameResults.getInstance().getScore());
+
             System.out.println(tree);
+            System.out.println("Gamescore " + scoreRatio);
+            System.out.println("landControlRatio " + landControlRatio);
             System.out.println("Fitness = " + fitness);
+            System.out.println("winner = " + GameResults.getInstance().getWinner());
             System.out.println("");
 
             KozaFitness f = ((KozaFitness) individual.fitness);

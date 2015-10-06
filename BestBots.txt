@@ -1,3 +1,0 @@
-        //return "Math.tan( 0-( 0-( Math.sqrt(( Math.sqrt( 0-( SuperRegionScore )) /  Math.sin( SuperRegionScore ))))))";
-        // return "SuperRegionScore - Math.cos (SuperRegionScore)";
-        // return "Math.sqrt (0-SuperRegionScore)

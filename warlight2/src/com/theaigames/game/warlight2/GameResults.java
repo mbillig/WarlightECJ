@@ -42,7 +42,7 @@ public class GameResults {
         GameResults.landControlledRatio1 = landControlledRatio1;
     }
 
-    public double setLandControlledRatioPlayer1() {
+    public double getLandControlledRatioPlayer1() {
         return this.landControlledRatio1;
     }
 
@@ -50,7 +50,7 @@ public class GameResults {
         GameResults.landControlledRatio2 = landControlledRatio2;
     }
 
-    public double setLandControlledRatioPlayer2() {
+    public double getLandControlledRatioPlayer2() {
         return this.landControlledRatio2;
     }
 

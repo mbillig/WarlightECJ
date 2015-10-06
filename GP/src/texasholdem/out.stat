@@ -1,0 +1,16 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09999999999999998 Adjusted=0.9090909090909091 Hits=9
+Tree 0:
+\gpbox{potsize}
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09999999999999998 Adjusted=0.9090909090909091 Hits=9
+Tree 0:
+\begin{bundle}{\gpbox{ - }}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ * }}\chunk{\gpbox{opponentstack}}\chunk{\gpbox{height}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\gpbox{mystack}}\chunk{\gpbox{mystack}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ * }}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\gpbox{potsize}}\chunk{\gpbox{potsize}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\gpbox{betcost}}\chunk{\gpbox{mystack}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\gpbox{opponentstack}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\gpbox{mystack}}\chunk{\gpbox{opponentstack}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\gpbox{potsize}}\chunk{\gpbox{potsize}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}

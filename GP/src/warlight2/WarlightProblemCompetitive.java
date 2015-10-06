@@ -65,15 +65,28 @@ public class WarlightProblemCompetitive extends Problem implements GroupedProble
         String tree1 = getTree(((GPIndividual) individuals[1]).trees[0].child).replace(" ", "");
 
         try {
-            String[] warlightArgs = new String[]{"map.txt", "java -classpath out\\production\\myBot bot.BotStarter " + tree0, "java -classpath out\\production\\myBot bot.BotStarter " + tree1};
+            String[] warlightArgs = new String[]{"map.txt", "java -classpath out\\production\\myBot bot.BotStarter " + tree0, "java -classpath out\\production\\myBot bot.BotStarter " + tree1, "100"};
             Warlight2.main(warlightArgs);
         } catch (Exception e) {
             e.printStackTrace();
         }
 
+        double gameScore = GameResults.getInstance().getScore();
+        double scoreRatio = 1- (gameScore/100);
+        double landControlRatio0 = GameResults.getInstance().getLandControlledRatioPlayer1();
+        double landControlRatio1 = GameResults.getInstance().getLandControlledRatioPlayer2();
+        double fitness0 = 1;
+        double fitness1 = 1;
 
-        double fitness0 = 1 - GameResults.getInstance().setLandControlledRatioPlayer1();
-        double fitness1 = 1 - GameResults.getInstance().setLandControlledRatioPlayer2();
+        if(GameResults.getInstance().getWinner() == 0) {
+            fitness0 = 1 - (scoreRatio + landControlRatio0) / 2;
+            fitness1 = 1 - (scoreRatio + landControlRatio1) / 2;
+        } else if(GameResults.getInstance().getWinner() == 1){
+            fitness0 = 1 - (scoreRatio + landControlRatio0) / 2;
+        } else{
+            fitness1 = 1 - (scoreRatio + landControlRatio1) / 2;
+        }
+
         double score = fitness0 - fitness1;
 
         if (updateFitness[0]) {

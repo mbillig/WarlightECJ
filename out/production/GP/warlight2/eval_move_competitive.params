@@ -1,0 +1,72 @@
+parent.0 = general.params
+
+gp.fs.size = 1
+gp.fs.0 = ec.gp.GPFunctionSet
+gps.fs.0.name = f0
+
+#functions
+gp.fs.0.size = 14
+gp.fs.0.func.0 = warlight2.attack_move.Allegiance
+gp.fs.0.func.0.nc = nc0
+gp.fs.0.func.1 = warlight2.sense_world.SuperRegionScore
+gp.fs.0.func.1.nc = nc0
+gp.fs.0.func.2 = functions.Sub
+gp.fs.0.func.2.nc = nc2
+gp.fs.0.func.3 = functions.Mul
+gp.fs.0.func.3.nc = nc2
+gp.fs.0.func.4 = functions.Add
+gp.fs.0.func.4.nc = nc2
+gp.fs.0.func.5 = functions.Inv
+gp.fs.0.func.5.nc = nc1
+gp.fs.0.func.6 = functions.Neg
+gp.fs.0.func.6.nc = nc1
+gp.fs.0.func.7 = functions.Sqrt
+gp.fs.0.func.7.nc = nc1
+gp.fs.0.func.8 = functions.Div
+gp.fs.0.func.8.nc = nc2
+gp.fs.0.func.9 = functions.Exp
+gp.fs.0.func.9.nc = nc1
+gp.fs.0.func.10 = warlight2.attack_move.NumFromSoldiers
+gp.fs.0.func.10.nc = nc0
+gp.fs.0.func.11 = warlight2.attack_move.NumToSoldiers
+gp.fs.0.func.11.nc = nc0
+gp.fs.0.func.12 = warlight2.attack_move.SuperRegionAllegianceScore
+gp.fs.0.func.12.nc = nc0
+gp.fs.0.func.13 = warlight2.attack_move.RegionNeighbourAllegianceScore
+gp.fs.0.func.13.nc = nc0
+
+
+pop.subpop.0.size  =        30
+generations =				10
+
+evalthreads =               2
+eval =					ec.coevolve.CompetitiveEvaluator
+eval.style =				single-elim-tournament
+
+# for single elimination tournament
+#eval.style =				single-elim-tournament
+
+# for round robin
+#eval.style =				round-robin
+
+# for random one way tournament
+#eval.style =				rand-1-way
+#eval.group-size =			7
+
+# for random two way tournament
+#eval.style =				rand-2-way
+#eval.group-size =			7
+
+pop.subpop.0.species.fitness =		ec.simple.SimpleFitness
+select.tournament.size = 2
+
+#stats
+stat = statistics.TabularStats
+stat.do-size = true
+stat.do-time = true
+stat.child.0.hist-size =		1
+stat.child.0.file =			compete.stat
+
+eval.problem = warlight2.WarlightProblemCompetitive
+eval.problem.data = data_types.DoubleData
+eval.problem.hist-size =		1

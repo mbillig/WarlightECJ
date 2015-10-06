@@ -6,16 +6,11 @@ import ec.gp.ADFStack;
 import ec.gp.GPData;
 import ec.gp.GPIndividual;
 import ec.gp.GPNode;
-import warlight2.data_types.DoubleData;
 
 /**
  * Created by Jonatan on 24-Sep-15.
  */
 public class AvgNeighbourScore extends GPNode {
-
-    //isWasteland
-    //isEnemy
-    //isFriendly
 
     public int expectedChildren() {
         return 0;

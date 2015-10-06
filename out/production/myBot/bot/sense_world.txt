@@ -1,1 +1,0 @@
- Math.tan(( Math.sin( Math.sin( numSoldiers )) + ( Math.exp( Math.cos( enemyOrFriendly)) * ( 0-( SuperRegionScore ) -  Math.cos( SuperRegionScore )))))
