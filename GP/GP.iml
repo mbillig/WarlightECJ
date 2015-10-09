@@ -8,6 +8,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="ecj.23" level="project" />
     <orderEntry type="module" module-name="warlight2" exported="" />
+    <orderEntry type="module" module-name="BT" />
+    <orderEntry type="module" module-name="myBot" />
   </component>
 </module>
 

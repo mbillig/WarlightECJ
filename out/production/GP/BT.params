@@ -5,49 +5,55 @@ gp.fs.0 = ec.gp.GPFunctionSet
 gps.fs.0.name = f0
 
 #functions
-gp.fs.0.size = 11
+gp.fs.0.size = 12
 
 gp.fs.0.func.0 = bt.composite.Sequence
-gp.fs.0.func.0.nc = nc2
+gp.fs.0.func.0.nc = nc3
 gp.fs.0.func.1 = bt.composite.Parallel
 gp.fs.0.func.1.nc = nc2
 gp.fs.0.func.2 = bt.composite.Selector
-gp.fs.0.func.2.nc = nc2
-gp.fs.0.func.3 = bt.decorator.Failer
+gp.fs.0.func.2.nc = nc3
+gp.fs.0.func.3 = bt.decorator.Inverter
 gp.fs.0.func.3.nc = nc1
-gp.fs.0.func.4 = bt.decorator.Inverter
+gp.fs.0.func.4 = bt.decorator.Succeeder
 gp.fs.0.func.4.nc = nc1
-gp.fs.0.func.5 = bt.decorator.Succeeder
-gp.fs.0.func.5.nc = nc1
-gp.fs.0.func.6 = bt.decorator.UntilFail
-gp.fs.0.func.6.nc = nc1
-gp.fs.0.func.7 = bt.decorator.UntilSucceed
-gp.fs.0.func.7.nc = nc1
-gp.fs.0.func.8 = warlight2.bt_test.Right
+
+gp.fs.0.func.5 = warlight2.bt_attack_move.actions.MaxAttack
+gp.fs.0.func.5.nc = nc0
+gp.fs.0.func.6 = warlight2.bt_attack_move.actions.MinSuperiorAttack
+gp.fs.0.func.6.nc = nc0
+gp.fs.0.func.7 = warlight2.bt_attack_move.actions.RandomAttack
+gp.fs.0.func.7.nc = nc0
+
+gp.fs.0.func.8 = warlight2.bt_attack_move.conditions.FocalPartOfCompleteSuper
 gp.fs.0.func.8.nc = nc0
-gp.fs.0.func.9 = warlight2.bt_test.Wrong
+gp.fs.0.func.9 = warlight2.bt_attack_move.conditions.FocalStronger
 gp.fs.0.func.9.nc = nc0
-gp.fs.0.func.10 = warlight2.bt_test.Random
+gp.fs.0.func.10 = warlight2.bt_attack_move.conditions.IsFriendly
 gp.fs.0.func.10.nc = nc0
+gp.fs.0.func.11 = warlight2.bt_attack_move.conditions.PartOfSameSuper
+gp.fs.0.func.11.nc = nc0
 
-gp.fs.0.func.11 = bt.composite.Sequence
-gp.fs.0.func.11.nc = nc3
-gp.fs.0.func.12 = bt.composite.Sequence
-gp.fs.0.func.12.nc = nc4
+gp.fs.0.func.12 = bt.decorator.UntilFail
+gp.fs.0.func.12.nc = nc1
+gp.fs.0.func.13 = bt.decorator.UntilSucceed
+gp.fs.0.func.13.nc = nc1
+gp.fs.0.func.14 = bt.decorator.Failer
+gp.fs.0.func.14.nc = nc1
+gp.fs.0.func.15 = warlight2.bt_attack_move.conditions.WillCompleteSuper
+gp.fs.0.func.15.nc = nc0
+gp.fs.0.func.16 = warlight2.bt_attack_move.conditions.IsEnemy
+gp.fs.0.func.16.nc = nc0
+gp.fs.0.func.17 = warlight2.bt_attack_move.conditions.IsNeutral
+gp.fs.0.func.17.nc = nc0
+gp.fs.0.func.18 = warlight2.bt_attack_move.conditions.OnlyFriendlyNeighbors
+gp.fs.0.func.18.nc = nc0
+gp.fs.0.func.19 = warlight2.bt_attack_move.actions.RandomSuperiorAttack
+gp.fs.0.func.19.nc = nc0
 
-gp.fs.0.func.13 = bt.composite.Parallel
-gp.fs.0.func.13.nc = nc3
-gp.fs.0.func.14 = bt.composite.Parallel
-gp.fs.0.func.14.nc = nc4
 
-gp.fs.0.func.15 = bt.composite.Selector
-gp.fs.0.func.15.nc = nc3
-gp.fs.0.func.16 = bt.composite.Selector
-gp.fs.0.func.16.nc = nc4
-
-
-pop.subpop.0.size =         10
-generations =				10
+pop.subpop.0.size =         20
+generations =				50
 
 evalthreads =               1
 

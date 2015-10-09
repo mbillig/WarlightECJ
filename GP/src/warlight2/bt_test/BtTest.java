@@ -1,6 +1,7 @@
 package warlight2.bt_test;
 
 import bt.utils.BooleanData;
+import com.theaigames.game.warlight2.GameResults;
 import com.theaigames.game.warlight2.Warlight2;
 import ec.EvolutionState;
 import ec.Individual;
@@ -26,7 +27,7 @@ public class BtTest extends GPProblem implements SimpleProblemForm {
             String tree = (((GPIndividual)individual).trees[0].child).toString();
             PrintWriter printer;
             try {
-                printer =  new PrintWriter("mybot\\src\\bot\\bt_test.txt", "UTF-8");
+                printer = new PrintWriter("mybot\\src\\bot\\bt_test.txt", "UTF-8");
                 printer.write(tree);
                 printer.close();
             } catch (FileNotFoundException e) {
@@ -35,17 +36,30 @@ public class BtTest extends GPProblem implements SimpleProblemForm {
                 e.printStackTrace();
             }
 
+            //tree = "selector[inverter(selector[isFriendly,inverter(focalStronger),randomSuperiorAttack]),inverter(selector[inverter(isFriendly),focalStronger,maxAttack]), succeeder(isFriendly)]";
+
             System.out.println("\n"+tree+"\n");
 
-            /*
-            String[] warlightArgs = new String[] {"map.txt", "java -jar myBot.jar", "java -jar randomBot,jar"};
+
+            String[] warlightArgs = new String[] {"map.txt", "java -classpath out\\production\\myBot bot.BotStarterBt "+tree, "java -jar randomBot.jar"};
 
             try {
                 Warlight2.main(warlightArgs);
             } catch (Exception e) {e.printStackTrace();}
-            */
 
-            double fitness = Math.random();
+            int winner = GameResults.getInstance().getWinner();
+            int rounds = GameResults.getInstance().getScore();
+            double landControlled = GameResults.getInstance().getLandControlledRatio();
+
+            double roundRatio = 1 - (rounds/60);
+
+            double winBonus = roundRatio*0.5;
+            double areaBonus = landControlled*0.5;
+
+            double fitness = 1 - (winBonus+areaBonus);
+            if(winner == 2)
+                fitness = 1;
+
             System.out.println("Fitness: "+fitness);
 
             KozaFitness f = (KozaFitness)individual.fitness;
@@ -53,14 +67,4 @@ public class BtTest extends GPProblem implements SimpleProblemForm {
             individual.evaluated = true;
         }
     }
-/*
-    public String getTree(GPNode node) {
-        if (node.children.length == 2)
-            return "(" +  node.toString() + getTree(node.children[0]) + getTree(node.children[1]) + ")";
-        else if(node.children.length == 1)
-            return node.toString() + "(" + getTree(node.children[0]) + ")";
-        else
-            return node.toString();
-    }
-*/
 }

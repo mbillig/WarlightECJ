@@ -1,1 +1,1 @@
-until_succeed(sequence[[random, parallel[[until_fail(random), until_succeed(inverter(inverter(failer(random))))]]]])
+inverter(maxAttack)

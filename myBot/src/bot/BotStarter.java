@@ -39,6 +39,8 @@ public class BotStarter implements Bot {
     ScriptEngine engine =
             engineManager.getEngineByName("nashorn");
 
+    public static Optional<String> expression;
+
     @Override
     /**
      * A method that returns which region the bot would like to start on, the pickable regions are stored in the BotState.
@@ -203,6 +205,9 @@ public class BotStarter implements Bot {
     }
 
     public static void main(String[] args) {
+
+        expression = Optional.of(args[0]);
+
         BotParser parser = new BotParser(new BotStarter());
         parser.run();
     }

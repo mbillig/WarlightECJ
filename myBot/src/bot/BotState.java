@@ -39,7 +39,45 @@ public class BotState {
 
 	private long totalTimebank; //total time that can be in the timebank
 	private long timePerMove; //the amount of time that is added to the timebank per requested move
-	
+
+    private Region focal;
+    private Region nonFocal;
+
+    private ArrayList<AttackTransferMove> attMoves;
+
+    public void resetAttMoves() {
+        attMoves = new ArrayList();
+    }
+    public void addAttMove(AttackTransferMove move) {
+        attMoves.add(move);
+    }
+    public ArrayList<AttackTransferMove> getAttMoves() {
+        return attMoves;
+    }
+
+    public Region getFocal() {
+        return focal;
+    }
+    public void setFocal(Region focal) {
+        this.focal = focal;
+    }
+    public Region getNonFocal() {
+        return nonFocal;
+    }
+    public void setNonFocal(Region nonFocal) {
+        this.nonFocal = nonFocal;
+    }
+
+    public int getAvailableArmies(Region region) {
+        int size = region.getArmies();
+        for(AttackTransferMove move : getAttMoves()) {
+            if(move.getFromRegion() == region)
+                size -= move.getArmies();
+        }
+        return size;
+    }
+
+
 	public BotState()
 	{
 		opponentMoves = new ArrayList<Move>();

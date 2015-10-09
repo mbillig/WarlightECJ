@@ -3,147 +3,68 @@ Generation: 0
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.08568506992117242 Adjusted=0.9210774171119497 Hits=0
+Fitness: Standardized=0.796875 Adjusted=0.5565217391304348 Hits=0
 Tree 0:
- (until_fail (until_fail (failer (inverter
-     (until_succeed (until_fail true))))))
+ (succeeder(selector[parallel[succeeder(selector[succeeder(inverter(focalPartOfCompleteSuper)), selector[parallel[partOfSameSuper, isFriendly], inverter(partOfSameSuper), succeeder(partOfSameSuper)], selector[inverter(randomAttack), succeeder(minSuperiorAttack), succeeder(focalStronger)]]), sequence[sequence[sequence[succeeder(isFriendly), inverter(partOfSameSuper), inverter(focalStronger)], succeeder(inverter(randomAttack)), inverter(succeeder(focalPartOfCompleteSuper))], inverter(parallel[sequence[minSuperiorAttack, isFriendly, maxAttack], inverter(randomAttack)]), succeeder(parallel[selector[partOfSameSuper, partOfSameSuper, randomAttack], succeeder(focalStronger)])]], inverter(sequence[inverter(parallel[sequence[randomAttack, randomAttack, partOfSameSuper], selector[isFriendly, isFriendly, focalStronger]]), succeeder(inverter(succeeder(maxAttack))), inverter(succeeder(selector[maxAttack, focalPartOfCompleteSuper, randomAttack]))]), inverter(inverter(selector[inverter(succeeder(maxAttack)), parallel[sequence[randomAttack, randomAttack, minSuperiorAttack], sequence[maxAttack, isFriendly, partOfSameSuper]], succeeder(parallel[focalStronger, isFriendly])]))])
+     (selector[parallel[succeeder(selector[succeeder(inverter(focalPartOfCompleteSuper)), selector[parallel[partOfSameSuper, isFriendly], inverter(partOfSameSuper), succeeder(partOfSameSuper)], selector[inverter(randomAttack), succeeder(minSuperiorAttack), succeeder(focalStronger)]]), sequence[sequence[sequence[succeeder(isFriendly), inverter(partOfSameSuper), inverter(focalStronger)], succeeder(inverter(randomAttack)), inverter(succeeder(focalPartOfCompleteSuper))], inverter(parallel[sequence[minSuperiorAttack, isFriendly, maxAttack], inverter(randomAttack)]), succeeder(parallel[selector[partOfSameSuper, partOfSameSuper, randomAttack], succeeder(focalStronger)])]], inverter(sequence[inverter(parallel[sequence[randomAttack, randomAttack, partOfSameSuper], selector[isFriendly, isFriendly, focalStronger]]), succeeder(inverter(succeeder(maxAttack))), inverter(succeeder(selector[maxAttack, focalPartOfCompleteSuper, randomAttack]))]), inverter(inverter(selector[inverter(succeeder(maxAttack)), parallel[sequence[randomAttack, randomAttack, minSuperiorAttack], sequence[maxAttack, isFriendly, partOfSameSuper]], succeeder(parallel[focalStronger, isFriendly])]))]
+         (parallel[succeeder(selector[succeeder(inverter(focalPartOfCompleteSuper)), selector[parallel[partOfSameSuper, isFriendly], inverter(partOfSameSuper), succeeder(partOfSameSuper)], selector[inverter(randomAttack), succeeder(minSuperiorAttack), succeeder(focalStronger)]]), sequence[sequence[sequence[succeeder(isFriendly), inverter(partOfSameSuper), inverter(focalStronger)], succeeder(inverter(randomAttack)), inverter(succeeder(focalPartOfCompleteSuper))], inverter(parallel[sequence[minSuperiorAttack, isFriendly, maxAttack], inverter(randomAttack)]), succeeder(parallel[selector[partOfSameSuper, partOfSameSuper, randomAttack], succeeder(focalStronger)])]]
+             (succeeder(selector[succeeder(inverter(focalPartOfCompleteSuper)), selector[parallel[partOfSameSuper, isFriendly], inverter(partOfSameSuper), succeeder(partOfSameSuper)], selector[inverter(randomAttack), succeeder(minSuperiorAttack), succeeder(focalStronger)]])
+                 (selector[succeeder(inverter(focalPartOfCompleteSuper)), selector[parallel[partOfSameSuper, isFriendly], inverter(partOfSameSuper), succeeder(partOfSameSuper)], selector[inverter(randomAttack), succeeder(minSuperiorAttack), succeeder(focalStronger)]]
+                     (succeeder(inverter(focalPartOfCompleteSuper))
+                         (inverter(focalPartOfCompleteSuper) focalPartOfCompleteSuper))
+                     (selector[parallel[partOfSameSuper, isFriendly], inverter(partOfSameSuper), succeeder(partOfSameSuper)]
+                         (parallel[partOfSameSuper, isFriendly] partOfSameSuper
+                             isFriendly) (inverter(partOfSameSuper) partOfSameSuper)
+                         (succeeder(partOfSameSuper) partOfSameSuper))
+                     (selector[inverter(randomAttack), succeeder(minSuperiorAttack), succeeder(focalStronger)]
+                         (inverter(randomAttack) randomAttack) (succeeder(minSuperiorAttack)
+                         minSuperiorAttack) (succeeder(focalStronger)
+                         focalStronger)))) (sequence[sequence[sequence[succeeder(isFriendly), inverter(partOfSameSuper), inverter(focalStronger)], succeeder(inverter(randomAttack)), inverter(succeeder(focalPartOfCompleteSuper))], inverter(parallel[sequence[minSuperiorAttack, isFriendly, maxAttack], inverter(randomAttack)]), succeeder(parallel[selector[partOfSameSuper, partOfSameSuper, randomAttack], succeeder(focalStronger)])]
+             (sequence[sequence[succeeder(isFriendly), inverter(partOfSameSuper), inverter(focalStronger)], succeeder(inverter(randomAttack)), inverter(succeeder(focalPartOfCompleteSuper))]
+                 (sequence[succeeder(isFriendly), inverter(partOfSameSuper), inverter(focalStronger)]
+                     (succeeder(isFriendly) isFriendly) (inverter(partOfSameSuper)
+                     partOfSameSuper) (inverter(focalStronger)
+                     focalStronger)) (succeeder(inverter(randomAttack))
+                 (inverter(randomAttack) randomAttack)) (inverter(succeeder(focalPartOfCompleteSuper))
+                 (succeeder(focalPartOfCompleteSuper) focalPartOfCompleteSuper)))
+             (inverter(parallel[sequence[minSuperiorAttack, isFriendly, maxAttack], inverter(randomAttack)])
+                 (parallel[sequence[minSuperiorAttack, isFriendly, maxAttack], inverter(randomAttack)]
+                     (sequence[minSuperiorAttack, isFriendly, maxAttack]
+                         minSuperiorAttack isFriendly maxAttack) (inverter(randomAttack)
+                     randomAttack))) (succeeder(parallel[selector[partOfSameSuper, partOfSameSuper, randomAttack], succeeder(focalStronger)])
+             (parallel[selector[partOfSameSuper, partOfSameSuper, randomAttack], succeeder(focalStronger)]
+                 (selector[partOfSameSuper, partOfSameSuper, randomAttack]
+                     partOfSameSuper partOfSameSuper randomAttack)
+                 (succeeder(focalStronger) focalStronger)))))
+         (inverter(sequence[inverter(parallel[sequence[randomAttack, randomAttack, partOfSameSuper], selector[isFriendly, isFriendly, focalStronger]]), succeeder(inverter(succeeder(maxAttack))), inverter(succeeder(selector[maxAttack, focalPartOfCompleteSuper, randomAttack]))])
+             (sequence[inverter(parallel[sequence[randomAttack, randomAttack, partOfSameSuper], selector[isFriendly, isFriendly, focalStronger]]), succeeder(inverter(succeeder(maxAttack))), inverter(succeeder(selector[maxAttack, focalPartOfCompleteSuper, randomAttack]))]
+                 (inverter(parallel[sequence[randomAttack, randomAttack, partOfSameSuper], selector[isFriendly, isFriendly, focalStronger]])
+                     (parallel[sequence[randomAttack, randomAttack, partOfSameSuper], selector[isFriendly, isFriendly, focalStronger]]
+                         (sequence[randomAttack, randomAttack, partOfSameSuper]
+                             randomAttack randomAttack partOfSameSuper)
+                         (selector[isFriendly, isFriendly, focalStronger]
+                             isFriendly isFriendly focalStronger))) (succeeder(inverter(succeeder(maxAttack)))
+                 (inverter(succeeder(maxAttack)) (succeeder(maxAttack)
+                     maxAttack))) (inverter(succeeder(selector[maxAttack, focalPartOfCompleteSuper, randomAttack]))
+                 (succeeder(selector[maxAttack, focalPartOfCompleteSuper, randomAttack])
+                     (selector[maxAttack, focalPartOfCompleteSuper, randomAttack]
+                         maxAttack focalPartOfCompleteSuper randomAttack)))))
+         (inverter(inverter(selector[inverter(succeeder(maxAttack)), parallel[sequence[randomAttack, randomAttack, minSuperiorAttack], sequence[maxAttack, isFriendly, partOfSameSuper]], succeeder(parallel[focalStronger, isFriendly])]))
+             (inverter(selector[inverter(succeeder(maxAttack)), parallel[sequence[randomAttack, randomAttack, minSuperiorAttack], sequence[maxAttack, isFriendly, partOfSameSuper]], succeeder(parallel[focalStronger, isFriendly])])
+                 (selector[inverter(succeeder(maxAttack)), parallel[sequence[randomAttack, randomAttack, minSuperiorAttack], sequence[maxAttack, isFriendly, partOfSameSuper]], succeeder(parallel[focalStronger, isFriendly])]
+                     (inverter(succeeder(maxAttack)) (succeeder(maxAttack)
+                         maxAttack)) (parallel[sequence[randomAttack, randomAttack, minSuperiorAttack], sequence[maxAttack, isFriendly, partOfSameSuper]]
+                     (sequence[randomAttack, randomAttack, minSuperiorAttack]
+                         randomAttack randomAttack minSuperiorAttack)
+                     (sequence[maxAttack, isFriendly, partOfSameSuper]
+                         maxAttack isFriendly partOfSameSuper)) (succeeder(parallel[focalStronger, isFriendly])
+                     (parallel[focalStronger, isFriendly] focalStronger
+                         isFriendly)))))))
 
 Generation: 1
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.02571655531170236 Adjusted=0.9749282048939071 Hits=0
+Fitness: Standardized=0.75 Adjusted=0.5714285714285714 Hits=0
 Tree 0:
- (until_succeed (parallel (inverter (failer
-     (inverter (until_succeed (until_fail true)))))
-     (until_succeed (until_succeed (failer (until_succeed
-         true))))))
-
-Generation: 2
-Best Individual:
-Subpopulation 0:
-Evaluated: true
-Fitness: Standardized=0.13420484309073344 Adjusted=0.8816749514796444 Hits=0
-Tree 0:
- (succeeder (succeeder (parallel (parallel
-     (sequence (succeeder (until_fail (parallel
-         (until_succeed false) (until_succeed true))))
-         (succeeder (until_fail (parallel (sequence
-             random random) false)))) (selector (until_succeed
-     (failer (inverter (sequence false true))))
-     (selector (parallel (failer (inverter random))
-         (failer (parallel true true))) (until_fail
-         (selector (inverter true) (until_succeed
-             (until_succeed (failer (until_succeed true)))))))))
-     (succeeder (failer (inverter (parallel (parallel
-         (parallel random false) (until_fail true))
-         (until_fail (failer random)))))))))
-
-Generation: 3
-Best Individual:
-Subpopulation 0:
-Evaluated: true
-Fitness: Standardized=0.07024753018051888 Adjusted=0.9343632868102296 Hits=0
-Tree 0:
- (succeeder (succeeder (parallel (parallel
-     (sequence (succeeder (until_fail (parallel
-         (until_succeed false) (until_succeed true))))
-         (succeeder (until_fail (parallel (inverter
-             (inverter (succeeder (failer false)))) false))))
-     (selector (until_succeed (failer (inverter
-         (sequence false true)))) (selector (parallel
-         (failer (inverter random)) (failer (parallel
-         true true))) (until_fail (selector (inverter
-         true) (until_succeed (until_succeed (failer
-         (until_succeed true))))))))) (succeeder (failer
-     (inverter (parallel (parallel (parallel random
-         false) (until_fail true)) (until_fail (failer
-         random)))))))))
-
-Generation: 4
-Best Individual:
-Subpopulation 0:
-Evaluated: true
-Fitness: Standardized=0.06544388507054377 Adjusted=0.9385759438037315 Hits=0
-Tree 0:
- (succeeder (succeeder (parallel (parallel
-     (sequence (succeeder (until_fail (parallel
-         (until_succeed false) (until_succeed true))))
-         (succeeder (until_fail (parallel (inverter
-             (inverter (succeeder (failer false)))) false))))
-     (selector (until_succeed (failer (inverter
-         (sequence false true)))) (selector (parallel
-         (failer (inverter random)) (inverter (parallel
-         (parallel (parallel random false) (until_fail
-             true)) (until_fail (failer random))))) (until_fail
-         (selector (inverter true) (until_succeed
-             (until_succeed (failer (until_succeed true)))))))))
-     (succeeder (failer (inverter (parallel (parallel
-         (parallel random false) (until_fail true))
-         (until_fail (failer random)))))))))
-
-Generation: 5
-Best Individual:
-Subpopulation 0:
-Evaluated: true
-Fitness: Standardized=0.2279481319658987 Adjusted=0.8143666446228781 Hits=0
-Tree 0:
- (succeeder (until_succeed (failer (inverter
-     (sequence false true)))))
-
-Generation: 6
-Best Individual:
-Subpopulation 0:
-Evaluated: true
-Fitness: Standardized=0.034956419248226234 Adjusted=0.9662242596904536 Hits=0
-Tree 0:
- (succeeder (until_succeed (failer (until_succeed
-     true))))
-
-Generation: 7
-Best Individual:
-Subpopulation 0:
-Evaluated: true
-Fitness: Standardized=0.05439292162623577 Adjusted=0.9484130436475776 Hits=0
-Tree 0:
- (until_succeed (parallel (inverter (selector
-     (inverter true) (until_succeed (until_succeed
-     (failer (until_succeed true)))))) (until_succeed
-     (inverter (inverter (until_succeed (parallel
-         (until_succeed (failer (failer (parallel
-             true true)))) (until_succeed (until_succeed
-         (failer (until_succeed true)))))))))))
-
-Generation: 8
-Best Individual:
-Subpopulation 0:
-Evaluated: true
-Fitness: Standardized=0.36895447431189565 Adjusted=0.7304844819639817 Hits=0
-Tree 0:
- (until_succeed (parallel (inverter (selector
-     (inverter true) (until_succeed (until_succeed
-     (failer (until_succeed true)))))) (until_succeed
-     (inverter (inverter (until_succeed (parallel
-         (until_succeed (failer (failer (parallel
-             (succeeder (until_succeed true)) true))))
-         (until_succeed (until_succeed (failer (until_succeed
-             true)))))))))))
-
-Generation: 9
-Best Individual:
-Subpopulation 0:
-Evaluated: true
-Fitness: Standardized=0.08472601571968486 Adjusted=0.921891782356237 Hits=0
-Tree 0:
- (until_succeed (until_succeed (failer (until_succeed
-     true))))
-
-Best Individual of Run:
-Subpopulation 0:
-Evaluated: true
-Fitness: Standardized=0.02571655531170236 Adjusted=0.9749282048939071 Hits=0
-Tree 0:
- (until_succeed (parallel (inverter (failer
-     (inverter (until_succeed (until_fail true)))))
-     (until_succeed (until_succeed (failer (until_succeed
-         true))))))
+ (succeeder(maxAttack) maxAttack)
