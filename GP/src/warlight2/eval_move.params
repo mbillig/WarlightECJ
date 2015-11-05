@@ -5,10 +5,10 @@ gp.fs.0 = ec.gp.GPFunctionSet
 gps.fs.0.name = f0
 
 #functions
-gp.fs.0.size = 14
+gp.fs.0.size = 13
 gp.fs.0.func.0 = warlight2.attack_move.Allegiance
 gp.fs.0.func.0.nc = nc0
-gp.fs.0.func.1 = warlight2.sense_world.SuperRegionScore
+gp.fs.0.func.1 = warlight2.attack_move.SuperRegionAllegianceScore
 gp.fs.0.func.1.nc = nc0
 gp.fs.0.func.2 = functions.Sub
 gp.fs.0.func.2.nc = nc2
@@ -30,13 +30,13 @@ gp.fs.0.func.10 = warlight2.attack_move.NumFromSoldiers
 gp.fs.0.func.10.nc = nc0
 gp.fs.0.func.11 = warlight2.attack_move.NumToSoldiers
 gp.fs.0.func.11.nc = nc0
-gp.fs.0.func.12 = warlight2.attack_move.SuperRegionAllegianceScore
+gp.fs.0.func.12 = warlight2.attack_move.RegionNeighbourAllegianceScore
 gp.fs.0.func.12.nc = nc0
-gp.fs.0.func.13 = warlight2.attack_move.RegionNeighbourAllegianceScore
-gp.fs.0.func.13.nc = nc0
 
-pop.subpop.0.size  =        20
-generations =				10
+
+pop.subpop.0.size  =        50
+generations =				100
+select.tournament.size   =       5
 
 evalthreads =               2
 
@@ -45,7 +45,16 @@ stat = statistics.TabularStats
 stat.do-size = true
 stat.do-time = true
 
+#==========Selection==============
+#breed.reproduce.source.0                =       ec.select.FitProportionateSelection
+#gp.koza.xover.source.0                  =       ec.select.FitProportionateSelection
+#gp.koza.xover.source.1                  =       ec.select.FitProportionateSelection
 
+gp.koza.ns.terminals                    =       0.5
+gp.koza.ns.nonterminals                 =       0.5
+
+#==========Breeder================
+breed.elite.0                           = 		2
 
 eval.problem = warlight2.WarlightProblem
 eval.problem.data = data_types.DoubleData

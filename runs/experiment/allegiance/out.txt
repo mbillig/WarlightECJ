@@ -1,0 +1,386 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.19500000000000006 Adjusted=0.8368200836820083 Hits=0
+Tree 0:
+ ( *  ( -  ( *  ( -  ( -  allegiance ( - 
+     ( -  allegiance allegiance) ( -  allegiance
+     allegiance))) ( *  ( +  allegiance allegiance)
+     ( -  ( +  allegiance allegiance) allegiance)))
+     ( *  ( *  allegiance allegiance) ( +  ( + 
+         ( *  allegiance allegiance) ( *  allegiance
+         allegiance)) ( +  ( *  allegiance allegiance)
+         ( +  allegiance allegiance))))) allegiance)
+     ( *  allegiance ( +  ( +  ( +  ( +  ( * 
+         allegiance allegiance) ( *  allegiance allegiance))
+         ( +  ( *  allegiance allegiance) allegiance))
+         ( -  allegiance allegiance)) ( *  ( +  ( - 
+         ( *  allegiance allegiance) ( -  allegiance
+         allegiance)) ( -  ( -  allegiance allegiance)
+         ( -  allegiance allegiance))) ( *  ( -  ( * 
+         allegiance allegiance) ( +  allegiance allegiance))
+         ( *  ( +  allegiance allegiance) ( -  allegiance
+             allegiance)))))))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.19500000000000006 Adjusted=0.8368200836820083 Hits=0
+Tree 0:
+ ( *  ( -  ( *  ( -  ( -  allegiance ( - 
+     ( -  allegiance allegiance) ( -  allegiance
+     allegiance))) ( *  ( +  allegiance allegiance)
+     ( -  ( +  allegiance allegiance) allegiance)))
+     ( *  ( *  allegiance allegiance) ( +  ( + 
+         ( *  allegiance allegiance) ( *  allegiance
+         allegiance)) ( +  ( *  allegiance allegiance)
+         ( +  allegiance allegiance))))) allegiance)
+     ( *  allegiance ( +  ( +  ( +  ( +  ( * 
+         allegiance allegiance) ( *  allegiance allegiance))
+         ( +  ( *  allegiance allegiance) allegiance))
+         ( -  allegiance allegiance)) ( *  ( +  ( - 
+         ( *  allegiance allegiance) ( -  allegiance
+         allegiance)) ( -  ( -  allegiance allegiance)
+         ( -  allegiance allegiance))) ( *  ( -  ( * 
+         allegiance allegiance) ( +  allegiance allegiance))
+         ( *  ( +  allegiance allegiance) ( -  allegiance
+             allegiance)))))))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10999999999999999 Adjusted=0.900900900900901 Hits=0
+Tree 0:
+ ( *  ( -  ( *  ( -  ( -  allegiance ( - 
+     ( -  allegiance allegiance) ( -  allegiance
+     allegiance))) ( *  ( +  allegiance allegiance)
+     ( -  ( +  allegiance allegiance) allegiance)))
+     ( *  ( *  allegiance allegiance) ( +  ( + 
+         ( *  allegiance allegiance) ( *  allegiance
+         allegiance)) ( +  ( *  allegiance allegiance)
+         ( +  allegiance allegiance))))) allegiance)
+     ( *  allegiance ( +  ( +  ( +  ( +  ( * 
+         allegiance allegiance) ( *  allegiance allegiance))
+         ( +  ( *  allegiance allegiance) allegiance))
+         ( -  allegiance allegiance)) ( *  ( +  ( - 
+         ( +  allegiance allegiance) allegiance) ( - 
+         ( -  allegiance allegiance) ( -  allegiance
+         allegiance))) ( *  ( -  ( *  allegiance allegiance)
+         ( +  allegiance allegiance)) ( *  ( +  allegiance
+         allegiance) ( -  allegiance allegiance)))))))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10999999999999999 Adjusted=0.900900900900901 Hits=0
+Tree 0:
+ ( *  ( -  ( *  ( -  ( -  allegiance ( - 
+     ( -  allegiance allegiance) ( -  allegiance
+     allegiance))) ( *  ( +  allegiance allegiance)
+     ( -  ( +  allegiance allegiance) allegiance)))
+     ( *  ( *  allegiance allegiance) ( +  ( + 
+         ( *  allegiance allegiance) ( *  allegiance
+         allegiance)) ( +  ( *  allegiance allegiance)
+         ( +  allegiance allegiance))))) allegiance)
+     ( *  allegiance ( +  ( +  ( +  ( +  ( * 
+         allegiance allegiance) ( *  allegiance allegiance))
+         ( +  ( *  allegiance allegiance) allegiance))
+         ( -  allegiance allegiance)) ( *  ( +  ( - 
+         ( +  allegiance allegiance) allegiance) ( - 
+         ( -  allegiance allegiance) ( -  allegiance
+         allegiance))) ( *  ( -  ( *  allegiance allegiance)
+         ( +  allegiance allegiance)) ( *  ( +  allegiance
+         allegiance) ( -  allegiance allegiance)))))))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10999999999999999 Adjusted=0.900900900900901 Hits=0
+Tree 0:
+ ( *  ( -  ( *  ( -  ( -  allegiance ( - 
+     ( -  allegiance allegiance) ( -  allegiance
+     allegiance))) ( *  ( +  allegiance allegiance)
+     ( -  ( +  allegiance allegiance) allegiance)))
+     ( *  ( *  allegiance allegiance) ( +  ( + 
+         ( *  allegiance allegiance) ( *  allegiance
+         allegiance)) ( +  ( *  allegiance allegiance)
+         ( +  allegiance allegiance))))) allegiance)
+     ( *  allegiance ( +  ( +  ( +  ( +  ( * 
+         allegiance allegiance) ( *  allegiance allegiance))
+         ( +  ( *  allegiance allegiance) allegiance))
+         ( -  allegiance allegiance)) ( *  ( +  ( - 
+         ( +  allegiance allegiance) allegiance) ( - 
+         ( -  allegiance allegiance) ( -  allegiance
+         allegiance))) ( *  ( -  ( *  allegiance allegiance)
+         ( +  allegiance allegiance)) ( *  ( +  allegiance
+         allegiance) ( -  allegiance allegiance)))))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10999999999999999 Adjusted=0.900900900900901 Hits=0
+Tree 0:
+ ( *  ( -  ( *  ( -  ( -  allegiance ( - 
+     ( -  allegiance allegiance) ( -  allegiance
+     allegiance))) ( *  ( +  allegiance allegiance)
+     ( -  ( +  allegiance allegiance) allegiance)))
+     ( *  ( *  allegiance allegiance) ( +  ( + 
+         ( *  allegiance allegiance) ( *  allegiance
+         allegiance)) ( +  ( *  allegiance allegiance)
+         ( +  allegiance allegiance))))) allegiance)
+     ( *  allegiance ( +  ( +  ( +  ( +  ( * 
+         allegiance allegiance) ( *  allegiance allegiance))
+         ( +  ( *  allegiance allegiance) allegiance))
+         ( -  allegiance allegiance)) ( *  ( +  ( - 
+         ( +  allegiance allegiance) allegiance) ( - 
+         ( -  allegiance allegiance) ( -  allegiance
+         allegiance))) ( *  ( -  ( *  allegiance allegiance)
+         ( +  allegiance allegiance)) ( *  ( +  allegiance
+         allegiance) ( -  allegiance allegiance)))))))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10999999999999999 Adjusted=0.900900900900901 Hits=0
+Tree 0:
+ ( *  ( -  ( *  ( -  ( -  allegiance ( - 
+     ( -  allegiance allegiance) ( -  allegiance
+     allegiance))) ( *  ( +  allegiance allegiance)
+     ( -  ( +  allegiance allegiance) allegiance)))
+     ( *  ( *  allegiance allegiance) ( +  ( + 
+         ( *  allegiance allegiance) ( *  allegiance
+         allegiance)) ( +  ( *  allegiance allegiance)
+         ( +  allegiance allegiance))))) allegiance)
+     ( *  allegiance ( +  ( +  ( +  ( +  ( * 
+         allegiance allegiance) ( *  allegiance allegiance))
+         ( +  ( *  allegiance allegiance) allegiance))
+         ( -  allegiance allegiance)) ( *  ( +  ( - 
+         ( +  allegiance allegiance) allegiance) ( - 
+         ( -  allegiance allegiance) ( -  allegiance
+         allegiance))) ( *  ( -  ( *  allegiance allegiance)
+         ( +  allegiance allegiance)) ( *  ( +  allegiance
+         allegiance) ( -  allegiance allegiance)))))))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10999999999999999 Adjusted=0.900900900900901 Hits=0
+Tree 0:
+ ( *  ( -  ( *  ( -  ( -  allegiance ( - 
+     ( -  allegiance allegiance) ( -  allegiance
+     allegiance))) ( *  ( +  allegiance allegiance)
+     ( -  ( +  allegiance allegiance) allegiance)))
+     ( *  ( *  allegiance allegiance) ( +  ( + 
+         ( *  allegiance allegiance) ( *  allegiance
+         allegiance)) ( +  ( *  allegiance allegiance)
+         ( +  allegiance allegiance))))) allegiance)
+     ( *  allegiance ( +  ( +  ( +  ( +  ( * 
+         allegiance allegiance) ( *  allegiance allegiance))
+         ( +  ( *  allegiance allegiance) allegiance))
+         ( -  allegiance allegiance)) ( *  ( +  ( - 
+         ( +  allegiance allegiance) allegiance) ( - 
+         ( -  allegiance allegiance) ( -  allegiance
+         allegiance))) ( *  ( -  ( *  allegiance allegiance)
+         ( +  allegiance allegiance)) ( *  ( +  allegiance
+         allegiance) ( -  allegiance allegiance)))))))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10999999999999999 Adjusted=0.900900900900901 Hits=0
+Tree 0:
+ ( *  ( -  ( *  ( -  ( -  allegiance ( - 
+     ( -  allegiance allegiance) ( -  allegiance
+     allegiance))) ( *  ( +  allegiance allegiance)
+     ( -  ( +  allegiance allegiance) allegiance)))
+     ( *  ( *  allegiance allegiance) ( +  ( + 
+         ( *  allegiance allegiance) ( *  allegiance
+         allegiance)) ( +  ( *  allegiance allegiance)
+         ( +  allegiance allegiance))))) allegiance)
+     ( *  allegiance ( +  ( +  ( +  ( +  ( * 
+         allegiance allegiance) ( *  allegiance allegiance))
+         ( +  ( *  allegiance allegiance) allegiance))
+         ( -  allegiance allegiance)) ( *  ( +  ( - 
+         ( +  allegiance allegiance) allegiance) ( - 
+         ( -  allegiance allegiance) ( -  allegiance
+         allegiance))) ( *  ( -  ( *  allegiance allegiance)
+         ( +  allegiance allegiance)) ( *  ( +  allegiance
+         allegiance) ( -  allegiance allegiance)))))))
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10999999999999999 Adjusted=0.900900900900901 Hits=0
+Tree 0:
+ ( *  ( -  ( *  ( -  ( -  allegiance ( - 
+     ( -  allegiance allegiance) ( -  allegiance
+     allegiance))) ( *  ( +  allegiance allegiance)
+     ( -  ( +  allegiance allegiance) allegiance)))
+     ( *  ( *  allegiance allegiance) ( +  ( + 
+         ( *  allegiance allegiance) ( *  allegiance
+         allegiance)) ( +  ( *  allegiance allegiance)
+         ( +  allegiance allegiance))))) allegiance)
+     ( *  allegiance ( +  ( +  ( +  ( +  ( * 
+         allegiance allegiance) ( *  allegiance allegiance))
+         ( +  ( *  allegiance allegiance) allegiance))
+         ( -  allegiance allegiance)) ( *  ( +  ( - 
+         ( +  allegiance allegiance) allegiance) ( - 
+         ( -  allegiance allegiance) ( -  allegiance
+         allegiance))) ( *  ( -  ( *  allegiance allegiance)
+         ( +  allegiance allegiance)) ( *  ( +  allegiance
+         allegiance) ( -  allegiance allegiance)))))))
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10999999999999999 Adjusted=0.900900900900901 Hits=0
+Tree 0:
+ ( *  ( -  ( *  ( -  ( -  allegiance ( - 
+     ( -  allegiance allegiance) ( -  allegiance
+     allegiance))) ( *  ( +  allegiance allegiance)
+     ( -  ( +  allegiance allegiance) allegiance)))
+     ( *  ( *  allegiance allegiance) ( +  ( + 
+         ( *  allegiance allegiance) ( *  allegiance
+         allegiance)) ( +  ( *  allegiance allegiance)
+         ( +  allegiance allegiance))))) allegiance)
+     ( *  allegiance ( +  ( +  ( +  ( +  ( * 
+         allegiance allegiance) ( *  allegiance allegiance))
+         ( +  ( *  allegiance allegiance) allegiance))
+         ( -  allegiance allegiance)) ( *  ( +  ( - 
+         ( +  allegiance allegiance) allegiance) ( - 
+         ( -  allegiance allegiance) ( -  allegiance
+         allegiance))) ( *  ( -  ( *  allegiance allegiance)
+         ( +  allegiance allegiance)) ( *  ( +  allegiance
+         allegiance) ( -  allegiance allegiance)))))))
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10999999999999999 Adjusted=0.900900900900901 Hits=0
+Tree 0:
+ ( *  ( -  ( *  ( -  ( -  allegiance ( - 
+     ( -  allegiance allegiance) ( -  allegiance
+     allegiance))) ( *  ( +  allegiance allegiance)
+     ( -  ( +  allegiance allegiance) allegiance)))
+     ( *  ( *  allegiance allegiance) ( +  ( + 
+         ( *  allegiance allegiance) ( *  allegiance
+         allegiance)) ( +  ( *  allegiance allegiance)
+         ( +  allegiance allegiance))))) allegiance)
+     ( *  allegiance ( +  ( +  ( +  ( +  ( * 
+         allegiance allegiance) ( *  allegiance allegiance))
+         ( +  ( *  allegiance allegiance) allegiance))
+         ( -  allegiance allegiance)) ( *  ( +  ( - 
+         ( +  allegiance allegiance) allegiance) ( - 
+         ( -  allegiance allegiance) ( -  allegiance
+         allegiance))) ( *  ( -  ( *  allegiance allegiance)
+         ( +  allegiance allegiance)) ( *  ( +  allegiance
+         allegiance) ( -  allegiance allegiance)))))))
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10999999999999999 Adjusted=0.900900900900901 Hits=0
+Tree 0:
+ ( *  ( -  ( *  ( -  ( -  allegiance ( - 
+     ( -  allegiance allegiance) ( -  allegiance
+     allegiance))) ( *  ( +  allegiance allegiance)
+     ( -  ( +  allegiance allegiance) allegiance)))
+     ( *  ( *  allegiance allegiance) ( +  ( + 
+         ( *  allegiance allegiance) ( *  allegiance
+         allegiance)) ( +  ( *  allegiance allegiance)
+         ( +  allegiance allegiance))))) allegiance)
+     ( *  allegiance ( +  ( +  ( +  ( +  ( * 
+         allegiance allegiance) ( *  allegiance allegiance))
+         ( +  ( *  allegiance allegiance) allegiance))
+         ( -  allegiance allegiance)) ( *  ( +  ( - 
+         ( +  allegiance allegiance) allegiance) ( - 
+         ( -  allegiance allegiance) ( -  allegiance
+         allegiance))) ( *  ( -  ( *  allegiance allegiance)
+         ( +  allegiance allegiance)) ( *  ( +  allegiance
+         allegiance) ( -  allegiance allegiance)))))))
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10999999999999999 Adjusted=0.900900900900901 Hits=0
+Tree 0:
+ ( *  ( -  ( *  ( -  ( -  allegiance ( - 
+     ( -  allegiance allegiance) ( -  allegiance
+     allegiance))) ( *  ( +  allegiance allegiance)
+     ( -  ( +  allegiance allegiance) allegiance)))
+     ( *  ( *  allegiance allegiance) ( +  ( + 
+         ( *  allegiance allegiance) ( *  allegiance
+         allegiance)) ( +  ( *  allegiance allegiance)
+         ( +  allegiance allegiance))))) allegiance)
+     ( *  allegiance ( +  ( +  ( +  ( +  ( * 
+         allegiance allegiance) ( *  allegiance allegiance))
+         ( +  ( *  allegiance allegiance) allegiance))
+         ( -  allegiance allegiance)) ( *  ( +  ( - 
+         ( +  allegiance allegiance) allegiance) ( - 
+         ( -  allegiance allegiance) ( -  allegiance
+         allegiance))) ( *  ( -  ( *  allegiance allegiance)
+         ( +  allegiance allegiance)) ( *  ( +  allegiance
+         allegiance) ( -  allegiance allegiance)))))))
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10999999999999999 Adjusted=0.900900900900901 Hits=0
+Tree 0:
+ ( *  ( -  ( *  ( -  ( -  allegiance ( - 
+     ( -  allegiance allegiance) ( -  allegiance
+     allegiance))) ( *  ( +  allegiance allegiance)
+     ( -  ( +  allegiance allegiance) allegiance)))
+     ( *  ( *  allegiance allegiance) ( +  ( + 
+         ( *  allegiance allegiance) ( *  allegiance
+         allegiance)) ( +  ( *  allegiance allegiance)
+         ( +  allegiance allegiance))))) allegiance)
+     ( *  allegiance ( +  ( +  ( +  ( +  ( * 
+         allegiance allegiance) ( *  allegiance allegiance))
+         ( +  ( *  allegiance allegiance) allegiance))
+         ( -  allegiance allegiance)) ( *  ( +  ( - 
+         ( +  allegiance allegiance) allegiance) ( - 
+         ( -  allegiance allegiance) ( -  allegiance
+         allegiance))) ( *  ( -  ( *  allegiance allegiance)
+         ( +  allegiance allegiance)) ( *  ( +  allegiance
+         allegiance) ( -  allegiance allegiance)))))))
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10999999999999999 Adjusted=0.900900900900901 Hits=0
+Tree 0:
+ ( *  ( -  ( *  ( -  ( -  allegiance ( - 
+     ( -  allegiance allegiance) ( -  allegiance
+     allegiance))) ( *  ( +  allegiance allegiance)
+     ( -  ( +  allegiance allegiance) allegiance)))
+     ( *  ( *  allegiance allegiance) ( +  ( + 
+         ( *  allegiance allegiance) ( *  allegiance
+         allegiance)) ( +  ( *  allegiance allegiance)
+         ( +  allegiance allegiance))))) allegiance)
+     ( *  allegiance ( +  ( +  ( +  ( +  ( * 
+         allegiance allegiance) ( *  allegiance allegiance))
+         ( +  ( *  allegiance allegiance) allegiance))
+         ( -  allegiance allegiance)) ( *  ( +  ( - 
+         ( +  allegiance allegiance) allegiance) ( - 
+         ( -  allegiance allegiance) ( -  allegiance
+         allegiance))) ( *  ( -  ( *  allegiance allegiance)
+         ( +  allegiance allegiance)) ( *  ( +  allegiance
+         allegiance) ( -  allegiance allegiance)))))))

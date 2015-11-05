@@ -1,0 +1,652 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.29880952380952386 Adjusted=0.76993583868011 Hits=0
+Tree 0:
+ ( -  ( *  ( *  ( +  ( *  ( -  ( *  ( *  ( + 
+     superRegionAllegianceScore superRegionAllegianceScore)
+     ( +  superRegionAllegianceScore superRegionAllegianceScore))
+     ( +  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( -  superRegionAllegianceScore superRegionAllegianceScore)))
+     ( +  ( +  ( -  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         superRegionAllegianceScore)) ( -  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         superRegionAllegianceScore)))) ( +  ( + 
+     ( *  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore superRegionAllegianceScore))
+     ( *  ( *  superRegionAllegianceScore superRegionAllegianceScore)
+         ( -  superRegionAllegianceScore superRegionAllegianceScore)))
+     ( +  ( *  ( -  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         superRegionAllegianceScore)) ( +  ( -  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         superRegionAllegianceScore))))) ( *  ( + 
+     ( *  ( *  ( -  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         superRegionAllegianceScore)) ( +  ( -  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         superRegionAllegianceScore))) ( *  ( *  ( + 
+     superRegionAllegianceScore superRegionAllegianceScore)
+     ( *  superRegionAllegianceScore superRegionAllegianceScore))
+     ( +  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( -  superRegionAllegianceScore superRegionAllegianceScore))))
+     ( -  ( +  ( *  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( +  superRegionAllegianceScore
+         superRegionAllegianceScore)) ( *  ( -  superRegionAllegianceScore
+         superRegionAllegianceScore) ( +  superRegionAllegianceScore
+         superRegionAllegianceScore))) ( +  ( -  ( * 
+         superRegionAllegianceScore superRegionAllegianceScore)
+         ( *  superRegionAllegianceScore superRegionAllegianceScore))
+         ( +  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+             ( +  superRegionAllegianceScore superRegionAllegianceScore))))))
+     ( *  ( *  ( +  ( *  ( -  ( -  superRegionAllegianceScore
+         superRegionAllegianceScore) ( +  superRegionAllegianceScore
+         superRegionAllegianceScore)) ( -  ( -  superRegionAllegianceScore
+         superRegionAllegianceScore) ( +  superRegionAllegianceScore
+         superRegionAllegianceScore))) ( +  ( -  ( + 
+         superRegionAllegianceScore superRegionAllegianceScore)
+         ( *  superRegionAllegianceScore superRegionAllegianceScore))
+         ( -  ( *  superRegionAllegianceScore superRegionAllegianceScore)
+             ( -  superRegionAllegianceScore superRegionAllegianceScore))))
+         ( +  ( *  ( *  ( *  superRegionAllegianceScore
+             superRegionAllegianceScore) ( +  superRegionAllegianceScore
+             superRegionAllegianceScore)) ( *  ( -  superRegionAllegianceScore
+             superRegionAllegianceScore) ( +  superRegionAllegianceScore
+             superRegionAllegianceScore))) ( -  ( +  ( + 
+             superRegionAllegianceScore superRegionAllegianceScore)
+             ( *  superRegionAllegianceScore superRegionAllegianceScore))
+             ( +  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+                 ( -  superRegionAllegianceScore superRegionAllegianceScore)))))
+         ( *  ( +  ( -  ( +  ( *  superRegionAllegianceScore
+             superRegionAllegianceScore) ( +  superRegionAllegianceScore
+             superRegionAllegianceScore)) ( -  ( +  superRegionAllegianceScore
+             superRegionAllegianceScore) ( +  superRegionAllegianceScore
+             superRegionAllegianceScore))) ( -  ( *  ( - 
+             superRegionAllegianceScore superRegionAllegianceScore)
+             ( -  superRegionAllegianceScore superRegionAllegianceScore))
+             ( +  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+                 ( *  superRegionAllegianceScore superRegionAllegianceScore))))
+             ( +  ( *  ( +  ( *  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore)) ( *  ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore))) ( -  ( +  ( * 
+                 superRegionAllegianceScore superRegionAllegianceScore)
+                 ( +  superRegionAllegianceScore superRegionAllegianceScore))
+                 ( *  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+                     ( *  superRegionAllegianceScore superRegionAllegianceScore)))))))
+     ( *  ( *  ( -  ( +  ( +  ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         superRegionAllegianceScore)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         superRegionAllegianceScore))) ( *  ( +  ( * 
+         superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore superRegionAllegianceScore))
+         ( *  ( *  superRegionAllegianceScore superRegionAllegianceScore)
+             ( *  superRegionAllegianceScore superRegionAllegianceScore))))
+         ( -  ( *  ( -  ( +  superRegionAllegianceScore
+             superRegionAllegianceScore) ( *  superRegionAllegianceScore
+             superRegionAllegianceScore)) ( +  ( *  superRegionAllegianceScore
+             superRegionAllegianceScore) ( *  superRegionAllegianceScore
+             superRegionAllegianceScore))) ( -  ( -  ( - 
+             superRegionAllegianceScore superRegionAllegianceScore)
+             ( -  superRegionAllegianceScore superRegionAllegianceScore))
+             ( +  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+                 ( +  superRegionAllegianceScore superRegionAllegianceScore)))))
+         ( *  ( *  ( *  ( +  ( -  superRegionAllegianceScore
+             superRegionAllegianceScore) ( +  superRegionAllegianceScore
+             superRegionAllegianceScore)) ( *  ( *  superRegionAllegianceScore
+             superRegionAllegianceScore) ( -  superRegionAllegianceScore
+             superRegionAllegianceScore))) ( +  ( -  ( - 
+             superRegionAllegianceScore superRegionAllegianceScore)
+             ( -  superRegionAllegianceScore superRegionAllegianceScore))
+             ( -  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+                 ( +  superRegionAllegianceScore superRegionAllegianceScore))))
+             ( +  ( *  ( *  ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                 superRegionAllegianceScore)) ( *  ( *  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                 superRegionAllegianceScore))) ( -  ( *  ( - 
+                 superRegionAllegianceScore superRegionAllegianceScore)
+                 ( +  superRegionAllegianceScore superRegionAllegianceScore))
+                 ( *  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+                     ( -  superRegionAllegianceScore superRegionAllegianceScore))))))
+         ( -  ( +  ( *  ( *  ( *  ( *  superRegionAllegianceScore
+             superRegionAllegianceScore) ( -  superRegionAllegianceScore
+             superRegionAllegianceScore)) ( -  ( -  superRegionAllegianceScore
+             superRegionAllegianceScore) ( *  superRegionAllegianceScore
+             superRegionAllegianceScore))) ( -  ( +  ( + 
+             superRegionAllegianceScore superRegionAllegianceScore)
+             ( *  superRegionAllegianceScore superRegionAllegianceScore))
+             ( *  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+                 ( +  superRegionAllegianceScore superRegionAllegianceScore))))
+             ( *  ( *  ( -  ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore)) ( *  ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore))) ( +  ( +  ( * 
+                 superRegionAllegianceScore superRegionAllegianceScore)
+                 ( -  superRegionAllegianceScore superRegionAllegianceScore))
+                 ( +  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+                     ( +  superRegionAllegianceScore superRegionAllegianceScore)))))
+             ( -  ( *  ( +  ( +  ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore)) ( +  ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore))) ( *  ( -  ( + 
+                 superRegionAllegianceScore superRegionAllegianceScore)
+                 ( *  superRegionAllegianceScore superRegionAllegianceScore))
+                 ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+                     ( +  superRegionAllegianceScore superRegionAllegianceScore))))
+                 ( +  ( *  ( +  ( +  superRegionAllegianceScore
+                     superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                     superRegionAllegianceScore)) ( +  ( *  superRegionAllegianceScore
+                     superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                     superRegionAllegianceScore))) ( +  ( -  ( + 
+                     superRegionAllegianceScore superRegionAllegianceScore)
+                     ( -  superRegionAllegianceScore superRegionAllegianceScore))
+                     ( *  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+                         ( *  superRegionAllegianceScore superRegionAllegianceScore))))))))
+     ( *  ( *  ( -  ( -  ( *  ( -  ( -  ( -  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         superRegionAllegianceScore)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         superRegionAllegianceScore))) ( -  ( +  ( + 
+         superRegionAllegianceScore superRegionAllegianceScore)
+         ( *  superRegionAllegianceScore superRegionAllegianceScore))
+         ( +  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+             ( -  superRegionAllegianceScore superRegionAllegianceScore))))
+         ( -  ( *  ( +  ( +  superRegionAllegianceScore
+             superRegionAllegianceScore) ( -  superRegionAllegianceScore
+             superRegionAllegianceScore)) ( +  ( +  superRegionAllegianceScore
+             superRegionAllegianceScore) ( *  superRegionAllegianceScore
+             superRegionAllegianceScore))) ( +  ( +  ( - 
+             superRegionAllegianceScore superRegionAllegianceScore)
+             ( *  superRegionAllegianceScore superRegionAllegianceScore))
+             ( +  ( *  superRegionAllegianceScore superRegionAllegianceScore)
+                 ( +  superRegionAllegianceScore superRegionAllegianceScore)))))
+         ( +  ( *  ( -  ( +  ( +  superRegionAllegianceScore
+             superRegionAllegianceScore) ( -  superRegionAllegianceScore
+             superRegionAllegianceScore)) ( *  ( *  superRegionAllegianceScore
+             superRegionAllegianceScore) ( +  superRegionAllegianceScore
+             superRegionAllegianceScore))) ( +  ( +  ( * 
+             superRegionAllegianceScore superRegionAllegianceScore)
+             ( -  superRegionAllegianceScore superRegionAllegianceScore))
+             ( *  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+                 ( +  superRegionAllegianceScore superRegionAllegianceScore))))
+             ( -  ( *  ( +  ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore)) ( -  ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                 superRegionAllegianceScore))) ( -  ( *  ( - 
+                 superRegionAllegianceScore superRegionAllegianceScore)
+                 ( *  superRegionAllegianceScore superRegionAllegianceScore))
+                 ( *  ( *  superRegionAllegianceScore superRegionAllegianceScore)
+                     ( +  superRegionAllegianceScore superRegionAllegianceScore))))))
+         ( -  ( -  ( +  ( *  ( -  ( *  superRegionAllegianceScore
+             superRegionAllegianceScore) ( +  superRegionAllegianceScore
+             superRegionAllegianceScore)) ( +  ( +  superRegionAllegianceScore
+             superRegionAllegianceScore) ( -  superRegionAllegianceScore
+             superRegionAllegianceScore))) ( -  ( *  ( * 
+             superRegionAllegianceScore superRegionAllegianceScore)
+             ( *  superRegionAllegianceScore superRegionAllegianceScore))
+             ( +  ( *  superRegionAllegianceScore superRegionAllegianceScore)
+                 ( -  superRegionAllegianceScore superRegionAllegianceScore))))
+             ( -  ( *  ( +  ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore)) ( +  ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                 superRegionAllegianceScore))) ( *  ( *  ( + 
+                 superRegionAllegianceScore superRegionAllegianceScore)
+                 ( -  superRegionAllegianceScore superRegionAllegianceScore))
+                 ( +  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+                     ( *  superRegionAllegianceScore superRegionAllegianceScore)))))
+             ( -  ( -  ( +  ( +  ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore)) ( -  ( *  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore))) ( +  ( *  ( + 
+                 superRegionAllegianceScore superRegionAllegianceScore)
+                 ( +  superRegionAllegianceScore superRegionAllegianceScore))
+                 ( *  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+                     ( +  superRegionAllegianceScore superRegionAllegianceScore))))
+                 ( +  ( +  ( *  ( -  superRegionAllegianceScore
+                     superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                     superRegionAllegianceScore)) ( -  ( +  superRegionAllegianceScore
+                     superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                     superRegionAllegianceScore))) ( -  ( -  ( * 
+                     superRegionAllegianceScore superRegionAllegianceScore)
+                     ( +  superRegionAllegianceScore superRegionAllegianceScore))
+                     ( *  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+                         ( -  superRegionAllegianceScore superRegionAllegianceScore)))))))
+         ( +  ( +  ( -  ( -  ( -  ( *  ( +  superRegionAllegianceScore
+             superRegionAllegianceScore) ( -  superRegionAllegianceScore
+             superRegionAllegianceScore)) ( +  ( +  superRegionAllegianceScore
+             superRegionAllegianceScore) ( -  superRegionAllegianceScore
+             superRegionAllegianceScore))) ( -  ( -  ( + 
+             superRegionAllegianceScore superRegionAllegianceScore)
+             ( +  superRegionAllegianceScore superRegionAllegianceScore))
+             ( -  ( *  superRegionAllegianceScore superRegionAllegianceScore)
+                 ( *  superRegionAllegianceScore superRegionAllegianceScore))))
+             ( +  ( +  ( -  ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore)) ( *  ( *  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                 superRegionAllegianceScore))) ( -  ( *  ( - 
+                 superRegionAllegianceScore superRegionAllegianceScore)
+                 ( +  superRegionAllegianceScore superRegionAllegianceScore))
+                 ( *  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+                     ( +  superRegionAllegianceScore superRegionAllegianceScore)))))
+             ( -  ( +  ( -  ( *  ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore)) ( *  ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore))) ( -  ( -  ( + 
+                 superRegionAllegianceScore superRegionAllegianceScore)
+                 ( -  superRegionAllegianceScore superRegionAllegianceScore))
+                 ( -  ( *  superRegionAllegianceScore superRegionAllegianceScore)
+                     ( *  superRegionAllegianceScore superRegionAllegianceScore))))
+                 ( +  ( -  ( +  ( -  superRegionAllegianceScore
+                     superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                     superRegionAllegianceScore)) ( *  ( +  superRegionAllegianceScore
+                     superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                     superRegionAllegianceScore))) ( -  ( +  ( - 
+                     superRegionAllegianceScore superRegionAllegianceScore)
+                     ( +  superRegionAllegianceScore superRegionAllegianceScore))
+                     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+                         ( -  superRegionAllegianceScore superRegionAllegianceScore))))))
+             ( *  ( -  ( +  ( *  ( -  ( *  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore)) ( *  ( *  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore))) ( *  ( -  ( * 
+                 superRegionAllegianceScore superRegionAllegianceScore)
+                 ( *  superRegionAllegianceScore superRegionAllegianceScore))
+                 ( +  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+                     ( -  superRegionAllegianceScore superRegionAllegianceScore))))
+                 ( +  ( +  ( +  ( *  superRegionAllegianceScore
+                     superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                     superRegionAllegianceScore)) ( -  ( +  superRegionAllegianceScore
+                     superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                     superRegionAllegianceScore))) ( -  ( +  ( * 
+                     superRegionAllegianceScore superRegionAllegianceScore)
+                     ( -  superRegionAllegianceScore superRegionAllegianceScore))
+                     ( +  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+                         ( -  superRegionAllegianceScore superRegionAllegianceScore)))))
+                 ( *  ( +  ( +  ( *  ( -  superRegionAllegianceScore
+                     superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                     superRegionAllegianceScore)) ( +  ( -  superRegionAllegianceScore
+                     superRegionAllegianceScore) ( -  superRegionAllegianceScore
+                     superRegionAllegianceScore))) ( -  ( -  ( + 
+                     superRegionAllegianceScore superRegionAllegianceScore)
+                     ( -  superRegionAllegianceScore superRegionAllegianceScore))
+                     ( -  ( *  superRegionAllegianceScore superRegionAllegianceScore)
+                         ( -  superRegionAllegianceScore superRegionAllegianceScore))))
+                     ( -  ( +  ( *  ( +  superRegionAllegianceScore
+                         superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                         superRegionAllegianceScore)) ( *  ( *  superRegionAllegianceScore
+                         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                         superRegionAllegianceScore))) ( *  ( *  ( - 
+                         superRegionAllegianceScore superRegionAllegianceScore)
+                         ( *  superRegionAllegianceScore superRegionAllegianceScore))
+                         ( -  ( *  superRegionAllegianceScore superRegionAllegianceScore)
+                             ( -  superRegionAllegianceScore superRegionAllegianceScore)))))))))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.20999999999999996 Adjusted=0.8264462809917356 Hits=0
+Tree 0:
+ ( -  ( *  ( *  ( +  ( *  ( -  ( *  ( *  ( + 
+     superRegionAllegianceScore superRegionAllegianceScore)
+     ( +  superRegionAllegianceScore superRegionAllegianceScore))
+     ( +  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( -  superRegionAllegianceScore superRegionAllegianceScore)))
+     ( +  ( +  ( -  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         superRegionAllegianceScore)) ( -  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         superRegionAllegianceScore)))) ( +  ( + 
+     ( *  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore superRegionAllegianceScore))
+     ( *  ( *  superRegionAllegianceScore superRegionAllegianceScore)
+         ( -  superRegionAllegianceScore superRegionAllegianceScore)))
+     ( +  ( *  ( -  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         superRegionAllegianceScore)) ( +  ( -  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         superRegionAllegianceScore))))) ( *  ( + 
+     ( *  ( *  ( -  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         superRegionAllegianceScore)) ( +  ( -  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         superRegionAllegianceScore))) ( *  ( *  ( + 
+     superRegionAllegianceScore superRegionAllegianceScore)
+     ( *  superRegionAllegianceScore superRegionAllegianceScore))
+     ( +  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( -  superRegionAllegianceScore superRegionAllegianceScore))))
+     ( -  ( +  ( *  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( +  superRegionAllegianceScore
+         superRegionAllegianceScore)) ( *  ( -  superRegionAllegianceScore
+         superRegionAllegianceScore) ( +  superRegionAllegianceScore
+         superRegionAllegianceScore))) ( +  ( -  ( * 
+         superRegionAllegianceScore superRegionAllegianceScore)
+         ( *  superRegionAllegianceScore superRegionAllegianceScore))
+         ( +  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+             ( +  superRegionAllegianceScore superRegionAllegianceScore))))))
+     ( *  ( *  ( +  ( *  ( -  ( -  superRegionAllegianceScore
+         superRegionAllegianceScore) ( +  superRegionAllegianceScore
+         superRegionAllegianceScore)) ( -  ( -  superRegionAllegianceScore
+         superRegionAllegianceScore) ( +  superRegionAllegianceScore
+         superRegionAllegianceScore))) ( +  ( -  ( + 
+         superRegionAllegianceScore superRegionAllegianceScore)
+         ( *  superRegionAllegianceScore superRegionAllegianceScore))
+         ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+             ( -  superRegionAllegianceScore superRegionAllegianceScore))))
+         ( +  ( *  ( *  ( *  superRegionAllegianceScore
+             superRegionAllegianceScore) ( +  superRegionAllegianceScore
+             superRegionAllegianceScore)) ( *  ( -  superRegionAllegianceScore
+             superRegionAllegianceScore) ( +  superRegionAllegianceScore
+             superRegionAllegianceScore))) ( -  ( +  ( + 
+             superRegionAllegianceScore superRegionAllegianceScore)
+             ( *  superRegionAllegianceScore superRegionAllegianceScore))
+             ( +  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+                 ( -  superRegionAllegianceScore superRegionAllegianceScore)))))
+         ( *  ( +  ( -  ( +  ( *  superRegionAllegianceScore
+             superRegionAllegianceScore) ( +  superRegionAllegianceScore
+             superRegionAllegianceScore)) ( -  ( +  superRegionAllegianceScore
+             superRegionAllegianceScore) ( +  superRegionAllegianceScore
+             superRegionAllegianceScore))) ( -  ( *  ( - 
+             superRegionAllegianceScore superRegionAllegianceScore)
+             ( -  superRegionAllegianceScore superRegionAllegianceScore))
+             ( +  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+                 ( *  superRegionAllegianceScore superRegionAllegianceScore))))
+             ( +  ( *  ( +  ( *  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore)) ( *  ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore))) ( -  ( +  ( * 
+                 superRegionAllegianceScore superRegionAllegianceScore)
+                 ( +  superRegionAllegianceScore superRegionAllegianceScore))
+                 ( *  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+                     ( *  superRegionAllegianceScore superRegionAllegianceScore)))))))
+     ( *  ( *  ( -  ( +  ( +  ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         superRegionAllegianceScore)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         superRegionAllegianceScore))) ( *  ( +  ( * 
+         superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore superRegionAllegianceScore))
+         ( *  ( *  superRegionAllegianceScore superRegionAllegianceScore)
+             ( *  superRegionAllegianceScore superRegionAllegianceScore))))
+         ( -  ( *  ( -  ( +  superRegionAllegianceScore
+             superRegionAllegianceScore) ( *  superRegionAllegianceScore
+             superRegionAllegianceScore)) ( +  ( *  superRegionAllegianceScore
+             superRegionAllegianceScore) ( *  superRegionAllegianceScore
+             superRegionAllegianceScore))) ( -  ( -  ( - 
+             superRegionAllegianceScore superRegionAllegianceScore)
+             ( -  superRegionAllegianceScore superRegionAllegianceScore))
+             ( +  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+                 ( +  superRegionAllegianceScore superRegionAllegianceScore)))))
+         ( *  ( *  ( *  ( +  ( -  superRegionAllegianceScore
+             superRegionAllegianceScore) ( +  superRegionAllegianceScore
+             superRegionAllegianceScore)) ( *  ( *  superRegionAllegianceScore
+             superRegionAllegianceScore) ( -  superRegionAllegianceScore
+             superRegionAllegianceScore))) ( +  ( -  ( - 
+             superRegionAllegianceScore superRegionAllegianceScore)
+             ( -  superRegionAllegianceScore superRegionAllegianceScore))
+             ( -  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+                 ( +  superRegionAllegianceScore superRegionAllegianceScore))))
+             ( +  ( *  ( *  ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                 superRegionAllegianceScore)) ( *  ( *  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                 superRegionAllegianceScore))) ( -  ( *  ( - 
+                 superRegionAllegianceScore superRegionAllegianceScore)
+                 ( +  superRegionAllegianceScore superRegionAllegianceScore))
+                 ( *  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+                     ( -  superRegionAllegianceScore superRegionAllegianceScore))))))
+         ( -  ( +  ( *  ( *  ( *  ( *  superRegionAllegianceScore
+             superRegionAllegianceScore) ( -  superRegionAllegianceScore
+             superRegionAllegianceScore)) ( -  ( -  superRegionAllegianceScore
+             superRegionAllegianceScore) ( *  superRegionAllegianceScore
+             superRegionAllegianceScore))) ( -  ( +  ( + 
+             superRegionAllegianceScore superRegionAllegianceScore)
+             ( *  superRegionAllegianceScore superRegionAllegianceScore))
+             ( *  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+                 ( +  superRegionAllegianceScore superRegionAllegianceScore))))
+             ( *  ( *  ( -  ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore)) ( *  ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore))) ( +  ( +  ( * 
+                 superRegionAllegianceScore superRegionAllegianceScore)
+                 ( -  superRegionAllegianceScore superRegionAllegianceScore))
+                 ( +  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+                     ( +  superRegionAllegianceScore superRegionAllegianceScore)))))
+             ( -  ( *  ( +  ( +  ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore)) ( +  ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore))) ( *  ( -  ( + 
+                 superRegionAllegianceScore superRegionAllegianceScore)
+                 ( *  superRegionAllegianceScore superRegionAllegianceScore))
+                 ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+                     ( +  superRegionAllegianceScore superRegionAllegianceScore))))
+                 ( +  ( *  ( +  ( +  superRegionAllegianceScore
+                     superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                     superRegionAllegianceScore)) ( +  ( *  superRegionAllegianceScore
+                     superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                     superRegionAllegianceScore))) ( +  ( -  ( + 
+                     superRegionAllegianceScore superRegionAllegianceScore)
+                     ( -  superRegionAllegianceScore superRegionAllegianceScore))
+                     ( *  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+                         ( *  superRegionAllegianceScore superRegionAllegianceScore))))))))
+     ( *  ( *  ( -  ( -  ( *  ( -  ( -  ( -  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         superRegionAllegianceScore)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         superRegionAllegianceScore))) ( -  ( +  ( + 
+         superRegionAllegianceScore superRegionAllegianceScore)
+         ( *  superRegionAllegianceScore superRegionAllegianceScore))
+         ( +  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+             ( -  superRegionAllegianceScore superRegionAllegianceScore))))
+         ( -  ( *  ( +  ( +  superRegionAllegianceScore
+             superRegionAllegianceScore) ( -  superRegionAllegianceScore
+             superRegionAllegianceScore)) ( +  ( +  superRegionAllegianceScore
+             superRegionAllegianceScore) ( *  superRegionAllegianceScore
+             superRegionAllegianceScore))) ( +  ( +  ( - 
+             superRegionAllegianceScore superRegionAllegianceScore)
+             ( *  superRegionAllegianceScore superRegionAllegianceScore))
+             ( +  ( *  superRegionAllegianceScore superRegionAllegianceScore)
+                 ( +  superRegionAllegianceScore superRegionAllegianceScore)))))
+         ( +  ( *  ( -  ( +  ( +  superRegionAllegianceScore
+             superRegionAllegianceScore) ( -  superRegionAllegianceScore
+             superRegionAllegianceScore)) ( *  ( *  superRegionAllegianceScore
+             superRegionAllegianceScore) ( +  superRegionAllegianceScore
+             superRegionAllegianceScore))) ( +  ( +  ( * 
+             superRegionAllegianceScore superRegionAllegianceScore)
+             ( -  superRegionAllegianceScore superRegionAllegianceScore))
+             ( *  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+                 ( +  superRegionAllegianceScore superRegionAllegianceScore))))
+             ( -  ( *  ( +  ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore)) ( -  ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                 superRegionAllegianceScore))) ( -  ( *  ( - 
+                 superRegionAllegianceScore superRegionAllegianceScore)
+                 ( *  superRegionAllegianceScore superRegionAllegianceScore))
+                 ( *  ( *  superRegionAllegianceScore superRegionAllegianceScore)
+                     ( +  superRegionAllegianceScore superRegionAllegianceScore))))))
+         ( -  ( -  ( +  ( *  ( -  ( *  superRegionAllegianceScore
+             superRegionAllegianceScore) ( +  superRegionAllegianceScore
+             superRegionAllegianceScore)) ( +  ( +  superRegionAllegianceScore
+             superRegionAllegianceScore) ( -  superRegionAllegianceScore
+             superRegionAllegianceScore))) ( -  ( *  ( * 
+             superRegionAllegianceScore superRegionAllegianceScore)
+             ( *  superRegionAllegianceScore superRegionAllegianceScore))
+             ( +  ( *  superRegionAllegianceScore superRegionAllegianceScore)
+                 ( -  superRegionAllegianceScore superRegionAllegianceScore))))
+             ( -  ( *  ( +  ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore)) ( +  ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                 superRegionAllegianceScore))) ( *  ( *  ( + 
+                 superRegionAllegianceScore superRegionAllegianceScore)
+                 ( -  superRegionAllegianceScore superRegionAllegianceScore))
+                 ( +  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+                     ( *  superRegionAllegianceScore superRegionAllegianceScore)))))
+             ( -  ( -  ( +  ( +  ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore)) ( -  ( *  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore))) ( +  ( *  ( + 
+                 superRegionAllegianceScore superRegionAllegianceScore)
+                 ( +  superRegionAllegianceScore superRegionAllegianceScore))
+                 ( *  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+                     ( +  superRegionAllegianceScore superRegionAllegianceScore))))
+                 ( +  ( +  ( *  ( -  superRegionAllegianceScore
+                     superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                     superRegionAllegianceScore)) ( -  ( +  superRegionAllegianceScore
+                     superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                     superRegionAllegianceScore))) ( -  ( -  ( * 
+                     superRegionAllegianceScore superRegionAllegianceScore)
+                     ( +  superRegionAllegianceScore superRegionAllegianceScore))
+                     ( *  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+                         ( -  superRegionAllegianceScore superRegionAllegianceScore)))))))
+         ( +  ( +  ( -  ( -  ( -  ( *  ( +  superRegionAllegianceScore
+             superRegionAllegianceScore) ( -  superRegionAllegianceScore
+             superRegionAllegianceScore)) ( +  ( +  superRegionAllegianceScore
+             superRegionAllegianceScore) ( -  superRegionAllegianceScore
+             superRegionAllegianceScore))) ( -  ( -  ( + 
+             superRegionAllegianceScore superRegionAllegianceScore)
+             ( +  superRegionAllegianceScore superRegionAllegianceScore))
+             ( -  ( *  superRegionAllegianceScore superRegionAllegianceScore)
+                 ( *  superRegionAllegianceScore superRegionAllegianceScore))))
+             ( +  ( +  ( -  ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore)) ( *  ( *  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                 superRegionAllegianceScore))) ( -  ( *  ( - 
+                 superRegionAllegianceScore superRegionAllegianceScore)
+                 ( +  superRegionAllegianceScore superRegionAllegianceScore))
+                 ( *  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+                     ( +  superRegionAllegianceScore superRegionAllegianceScore)))))
+             ( -  ( +  ( -  ( *  ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore)) ( *  ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore))) ( -  ( -  ( + 
+                 superRegionAllegianceScore superRegionAllegianceScore)
+                 ( -  superRegionAllegianceScore superRegionAllegianceScore))
+                 ( -  ( *  superRegionAllegianceScore superRegionAllegianceScore)
+                     ( *  superRegionAllegianceScore superRegionAllegianceScore))))
+                 ( +  ( -  ( +  ( -  superRegionAllegianceScore
+                     superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                     superRegionAllegianceScore)) ( *  ( +  superRegionAllegianceScore
+                     superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                     superRegionAllegianceScore))) ( -  ( +  ( - 
+                     superRegionAllegianceScore superRegionAllegianceScore)
+                     ( +  superRegionAllegianceScore superRegionAllegianceScore))
+                     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+                         ( -  superRegionAllegianceScore superRegionAllegianceScore))))))
+             ( *  ( -  ( +  ( *  ( -  ( *  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                 superRegionAllegianceScore)) ( *  ( *  superRegionAllegianceScore
+                 superRegionAllegianceScore) ( -  superRegionAllegianceScore
+                 superRegionAllegianceScore))) ( *  ( -  ( * 
+                 superRegionAllegianceScore superRegionAllegianceScore)
+                 ( *  superRegionAllegianceScore superRegionAllegianceScore))
+                 ( +  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+                     ( -  superRegionAllegianceScore superRegionAllegianceScore))))
+                 ( +  ( +  ( +  ( *  superRegionAllegianceScore
+                     superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                     superRegionAllegianceScore)) ( -  ( +  superRegionAllegianceScore
+                     superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                     superRegionAllegianceScore))) ( -  ( +  ( * 
+                     superRegionAllegianceScore superRegionAllegianceScore)
+                     ( -  superRegionAllegianceScore superRegionAllegianceScore))
+                     ( +  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+                         ( -  superRegionAllegianceScore superRegionAllegianceScore)))))
+                 ( *  ( +  ( +  ( *  ( -  superRegionAllegianceScore
+                     superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                     superRegionAllegianceScore)) ( +  ( -  superRegionAllegianceScore
+                     superRegionAllegianceScore) ( -  superRegionAllegianceScore
+                     superRegionAllegianceScore))) ( -  ( -  ( + 
+                     superRegionAllegianceScore superRegionAllegianceScore)
+                     ( -  superRegionAllegianceScore superRegionAllegianceScore))
+                     ( -  ( *  superRegionAllegianceScore superRegionAllegianceScore)
+                         ( -  superRegionAllegianceScore superRegionAllegianceScore))))
+                     ( -  ( +  ( *  ( +  superRegionAllegianceScore
+                         superRegionAllegianceScore) ( +  superRegionAllegianceScore
+                         superRegionAllegianceScore)) ( *  ( *  superRegionAllegianceScore
+                         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+                         superRegionAllegianceScore))) ( *  ( *  ( - 
+                         superRegionAllegianceScore superRegionAllegianceScore)
+                         ( *  superRegionAllegianceScore superRegionAllegianceScore))
+                         ( -  ( *  superRegionAllegianceScore superRegionAllegianceScore)
+                             ( -  superRegionAllegianceScore superRegionAllegianceScore)))))))))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.20380952380952388 Adjusted=0.8306962025316456 Hits=0
+Tree 0:
+ ( +  ( +  ( +  ( -  superRegionAllegianceScore
+     superRegionAllegianceScore) superRegionAllegianceScore)
+     ( +  ( +  ( -  superRegionAllegianceScore
+         superRegionAllegianceScore) ( +  superRegionAllegianceScore
+         superRegionAllegianceScore)) superRegionAllegianceScore))
+     ( +  superRegionAllegianceScore ( +  ( - 
+         superRegionAllegianceScore superRegionAllegianceScore)
+         ( -  superRegionAllegianceScore superRegionAllegianceScore))))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.20380952380952388 Adjusted=0.8306962025316456 Hits=0
+Tree 0:
+ ( +  ( +  ( +  ( -  superRegionAllegianceScore
+     superRegionAllegianceScore) superRegionAllegianceScore)
+     ( +  ( +  ( -  superRegionAllegianceScore
+         superRegionAllegianceScore) ( +  superRegionAllegianceScore
+         superRegionAllegianceScore)) superRegionAllegianceScore))
+     ( +  superRegionAllegianceScore ( +  ( - 
+         superRegionAllegianceScore superRegionAllegianceScore)
+         ( -  superRegionAllegianceScore superRegionAllegianceScore))))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.20380952380952388 Adjusted=0.8306962025316456 Hits=0
+Tree 0:
+ ( +  ( +  ( +  ( -  superRegionAllegianceScore
+     superRegionAllegianceScore) superRegionAllegianceScore)
+     ( +  ( +  ( -  superRegionAllegianceScore
+         superRegionAllegianceScore) ( +  superRegionAllegianceScore
+         superRegionAllegianceScore)) superRegionAllegianceScore))
+     ( +  superRegionAllegianceScore ( +  ( - 
+         superRegionAllegianceScore superRegionAllegianceScore)
+         ( -  superRegionAllegianceScore superRegionAllegianceScore))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.20380952380952388 Adjusted=0.8306962025316456 Hits=0
+Tree 0:
+ ( +  ( +  ( +  ( -  superRegionAllegianceScore
+     superRegionAllegianceScore) superRegionAllegianceScore)
+     ( +  ( +  ( -  superRegionAllegianceScore
+         superRegionAllegianceScore) ( +  superRegionAllegianceScore
+         superRegionAllegianceScore)) superRegionAllegianceScore))
+     ( +  superRegionAllegianceScore ( +  ( - 
+         superRegionAllegianceScore superRegionAllegianceScore)
+         ( -  superRegionAllegianceScore superRegionAllegianceScore))))

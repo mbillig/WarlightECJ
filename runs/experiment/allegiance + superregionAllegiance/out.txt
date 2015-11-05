@@ -1,0 +1,597 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.235 Adjusted=0.8097165991902835 Hits=0
+Tree 0:
+ ( +  ( -  ( -  ( -  superRegionAllegianceScore
+     superRegionAllegianceScore) ( +  allegiance
+     superRegionAllegianceScore)) ( *  ( -  superRegionAllegianceScore
+     superRegionAllegianceScore) ( *  superRegionAllegianceScore
+     superRegionAllegianceScore))) ( +  ( *  ( * 
+     allegiance superRegionAllegianceScore) ( + 
+     allegiance allegiance)) ( -  ( -  superRegionAllegianceScore
+     allegiance) ( *  allegiance allegiance))))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.16500000000000004 Adjusted=0.8583690987124464 Hits=0
+Tree 0:
+ ( +  ( -  ( +  ( *  ( *  ( +  allegiance
+     superRegionAllegianceScore) ( -  superRegionAllegianceScore
+     superRegionAllegianceScore)) ( +  ( +  superRegionAllegianceScore
+     allegiance) ( +  superRegionAllegianceScore
+     superRegionAllegianceScore))) ( +  ( -  ( * 
+     superRegionAllegianceScore allegiance) ( * 
+     superRegionAllegianceScore superRegionAllegianceScore))
+     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( *  superRegionAllegianceScore superRegionAllegianceScore))))
+     ( -  ( +  ( *  ( -  superRegionAllegianceScore
+         allegiance) ( -  superRegionAllegianceScore
+         superRegionAllegianceScore)) ( -  ( +  allegiance
+         allegiance) ( -  allegiance superRegionAllegianceScore)))
+         ( *  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+             ( *  superRegionAllegianceScore superRegionAllegianceScore))))
+     ( +  ( +  ( *  ( *  ( *  allegiance superRegionAllegianceScore)
+         ( *  allegiance allegiance)) ( +  ( *  allegiance
+         allegiance) ( *  allegiance allegiance)))
+         ( *  ( *  ( *  superRegionAllegianceScore
+             superRegionAllegianceScore) ( *  superRegionAllegianceScore
+             allegiance)) ( +  ( +  superRegionAllegianceScore
+             superRegionAllegianceScore) ( -  allegiance
+             superRegionAllegianceScore)))) ( -  ( - 
+         ( *  ( +  allegiance superRegionAllegianceScore)
+             ( -  allegiance superRegionAllegianceScore))
+         ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+             ( +  superRegionAllegianceScore allegiance)))
+         ( -  ( +  ( -  allegiance superRegionAllegianceScore)
+             ( +  allegiance allegiance)) ( +  ( -  allegiance
+             superRegionAllegianceScore) ( -  superRegionAllegianceScore
+             allegiance))))))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.16500000000000004 Adjusted=0.8583690987124464 Hits=0
+Tree 0:
+ ( +  ( -  ( +  ( *  ( *  ( +  allegiance
+     superRegionAllegianceScore) ( -  superRegionAllegianceScore
+     superRegionAllegianceScore)) ( +  ( +  superRegionAllegianceScore
+     allegiance) ( +  superRegionAllegianceScore
+     superRegionAllegianceScore))) ( +  ( -  ( * 
+     superRegionAllegianceScore allegiance) ( * 
+     superRegionAllegianceScore superRegionAllegianceScore))
+     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( *  superRegionAllegianceScore superRegionAllegianceScore))))
+     ( -  ( +  ( *  ( -  superRegionAllegianceScore
+         allegiance) ( -  superRegionAllegianceScore
+         superRegionAllegianceScore)) ( -  ( +  allegiance
+         allegiance) ( -  allegiance superRegionAllegianceScore)))
+         ( *  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+             ( *  superRegionAllegianceScore superRegionAllegianceScore))))
+     ( +  ( +  ( *  ( *  ( *  allegiance superRegionAllegianceScore)
+         ( *  allegiance allegiance)) ( +  ( *  allegiance
+         allegiance) ( *  allegiance allegiance)))
+         ( *  ( *  ( *  superRegionAllegianceScore
+             superRegionAllegianceScore) ( *  superRegionAllegianceScore
+             allegiance)) ( +  ( +  superRegionAllegianceScore
+             superRegionAllegianceScore) ( -  allegiance
+             superRegionAllegianceScore)))) ( -  ( - 
+         ( *  ( +  allegiance superRegionAllegianceScore)
+             ( -  allegiance superRegionAllegianceScore))
+         ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+             ( +  superRegionAllegianceScore allegiance)))
+         ( -  ( +  ( -  allegiance superRegionAllegianceScore)
+             ( +  allegiance allegiance)) ( +  ( -  allegiance
+             superRegionAllegianceScore) ( -  superRegionAllegianceScore
+             allegiance))))))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11499999999999999 Adjusted=0.8968609865470852 Hits=0
+Tree 0:
+ ( +  ( +  ( *  allegiance superRegionAllegianceScore)
+     ( -  allegiance allegiance)) ( +  ( +  ( * 
+     ( *  ( *  allegiance superRegionAllegianceScore)
+         ( *  allegiance allegiance)) ( +  ( *  allegiance
+     allegiance) ( *  allegiance allegiance)))
+     ( *  ( *  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         allegiance)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  allegiance
+         superRegionAllegianceScore)))) ( -  ( - 
+     ( *  ( +  allegiance superRegionAllegianceScore)
+         ( -  allegiance superRegionAllegianceScore))
+     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore allegiance)))
+     ( -  ( +  ( -  allegiance superRegionAllegianceScore)
+         ( +  allegiance allegiance)) ( +  ( -  allegiance
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         allegiance))))))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11499999999999999 Adjusted=0.8968609865470852 Hits=0
+Tree 0:
+ ( +  ( +  ( *  allegiance superRegionAllegianceScore)
+     ( -  allegiance allegiance)) ( +  ( +  ( * 
+     ( *  ( *  allegiance superRegionAllegianceScore)
+         ( *  allegiance allegiance)) ( +  ( *  allegiance
+     allegiance) ( *  allegiance allegiance)))
+     ( *  ( *  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         allegiance)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  allegiance
+         superRegionAllegianceScore)))) ( -  ( - 
+     ( *  ( +  allegiance superRegionAllegianceScore)
+         ( -  allegiance superRegionAllegianceScore))
+     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore allegiance)))
+     ( -  ( +  ( -  allegiance superRegionAllegianceScore)
+         ( +  allegiance allegiance)) ( +  ( -  allegiance
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         allegiance))))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11499999999999999 Adjusted=0.8968609865470852 Hits=0
+Tree 0:
+ ( +  ( +  ( *  allegiance superRegionAllegianceScore)
+     ( -  allegiance allegiance)) ( +  ( +  ( * 
+     ( *  ( *  allegiance superRegionAllegianceScore)
+         ( *  allegiance allegiance)) ( +  ( *  allegiance
+     allegiance) ( *  allegiance allegiance)))
+     ( *  ( *  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         allegiance)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  allegiance
+         superRegionAllegianceScore)))) ( -  ( - 
+     ( *  ( +  allegiance superRegionAllegianceScore)
+         ( -  allegiance superRegionAllegianceScore))
+     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore allegiance)))
+     ( -  ( +  ( -  allegiance superRegionAllegianceScore)
+         ( +  allegiance allegiance)) ( +  ( -  allegiance
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         allegiance))))))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11499999999999999 Adjusted=0.8968609865470852 Hits=0
+Tree 0:
+ ( +  ( +  ( *  allegiance superRegionAllegianceScore)
+     ( -  allegiance allegiance)) ( +  ( +  ( * 
+     ( *  ( *  allegiance superRegionAllegianceScore)
+         ( *  allegiance allegiance)) ( +  ( *  allegiance
+     allegiance) ( *  allegiance allegiance)))
+     ( *  ( *  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         allegiance)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  allegiance
+         superRegionAllegianceScore)))) ( -  ( - 
+     ( *  ( +  allegiance superRegionAllegianceScore)
+         ( -  allegiance superRegionAllegianceScore))
+     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore allegiance)))
+     ( -  ( +  ( -  allegiance superRegionAllegianceScore)
+         ( +  allegiance allegiance)) ( +  ( -  allegiance
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         allegiance))))))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11499999999999999 Adjusted=0.8968609865470852 Hits=0
+Tree 0:
+ ( +  ( +  ( *  allegiance superRegionAllegianceScore)
+     ( -  allegiance allegiance)) ( +  ( +  ( * 
+     ( *  ( *  allegiance superRegionAllegianceScore)
+         ( *  allegiance allegiance)) ( +  ( *  allegiance
+     allegiance) ( *  allegiance allegiance)))
+     ( *  ( *  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         allegiance)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  allegiance
+         superRegionAllegianceScore)))) ( -  ( - 
+     ( *  ( +  allegiance superRegionAllegianceScore)
+         ( -  allegiance superRegionAllegianceScore))
+     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore allegiance)))
+     ( -  ( +  ( -  allegiance superRegionAllegianceScore)
+         ( +  allegiance allegiance)) ( +  ( -  allegiance
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         allegiance))))))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11499999999999999 Adjusted=0.8968609865470852 Hits=0
+Tree 0:
+ ( +  ( +  ( *  allegiance superRegionAllegianceScore)
+     ( -  allegiance allegiance)) ( +  ( +  ( * 
+     ( *  ( *  allegiance superRegionAllegianceScore)
+         ( *  allegiance allegiance)) ( +  ( *  allegiance
+     allegiance) ( *  allegiance allegiance)))
+     ( *  ( *  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         allegiance)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  allegiance
+         superRegionAllegianceScore)))) ( -  ( - 
+     ( *  ( +  allegiance superRegionAllegianceScore)
+         ( -  allegiance superRegionAllegianceScore))
+     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore allegiance)))
+     ( -  ( +  ( -  allegiance superRegionAllegianceScore)
+         ( +  allegiance allegiance)) ( +  ( -  allegiance
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         allegiance))))))
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11499999999999999 Adjusted=0.8968609865470852 Hits=0
+Tree 0:
+ ( +  ( +  ( *  allegiance superRegionAllegianceScore)
+     ( -  allegiance allegiance)) ( +  ( +  ( * 
+     ( *  ( *  allegiance superRegionAllegianceScore)
+         ( *  allegiance allegiance)) ( +  ( *  allegiance
+     allegiance) ( *  allegiance allegiance)))
+     ( *  ( *  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         allegiance)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  allegiance
+         superRegionAllegianceScore)))) ( -  ( - 
+     ( *  ( +  allegiance superRegionAllegianceScore)
+         ( -  allegiance superRegionAllegianceScore))
+     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore allegiance)))
+     ( -  ( +  ( -  allegiance superRegionAllegianceScore)
+         ( +  allegiance allegiance)) ( +  ( -  allegiance
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         allegiance))))))
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11499999999999999 Adjusted=0.8968609865470852 Hits=0
+Tree 0:
+ ( +  ( +  ( *  allegiance superRegionAllegianceScore)
+     ( -  allegiance allegiance)) ( +  ( +  ( * 
+     ( *  ( *  allegiance superRegionAllegianceScore)
+         ( *  allegiance allegiance)) ( +  ( *  allegiance
+     allegiance) ( *  allegiance allegiance)))
+     ( *  ( *  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         allegiance)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  allegiance
+         superRegionAllegianceScore)))) ( -  ( - 
+     ( *  ( +  allegiance superRegionAllegianceScore)
+         ( -  allegiance superRegionAllegianceScore))
+     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore allegiance)))
+     ( -  ( +  ( -  allegiance superRegionAllegianceScore)
+         ( +  allegiance allegiance)) ( +  ( -  allegiance
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         allegiance))))))
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11499999999999999 Adjusted=0.8968609865470852 Hits=0
+Tree 0:
+ ( +  ( +  ( *  allegiance superRegionAllegianceScore)
+     ( -  allegiance allegiance)) ( +  ( +  ( * 
+     ( *  ( *  allegiance superRegionAllegianceScore)
+         ( *  allegiance allegiance)) ( +  ( *  allegiance
+     allegiance) ( *  allegiance allegiance)))
+     ( *  ( *  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         allegiance)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  allegiance
+         superRegionAllegianceScore)))) ( -  ( - 
+     ( *  ( +  allegiance superRegionAllegianceScore)
+         ( -  allegiance superRegionAllegianceScore))
+     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore allegiance)))
+     ( -  ( +  ( -  allegiance superRegionAllegianceScore)
+         ( +  allegiance allegiance)) ( +  ( -  allegiance
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         allegiance))))))
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11499999999999999 Adjusted=0.8968609865470852 Hits=0
+Tree 0:
+ ( +  ( +  ( *  allegiance superRegionAllegianceScore)
+     ( -  allegiance allegiance)) ( +  ( +  ( * 
+     ( *  ( *  allegiance superRegionAllegianceScore)
+         ( *  allegiance allegiance)) ( +  ( *  allegiance
+     allegiance) ( *  allegiance allegiance)))
+     ( *  ( *  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         allegiance)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  allegiance
+         superRegionAllegianceScore)))) ( -  ( - 
+     ( *  ( +  allegiance superRegionAllegianceScore)
+         ( -  allegiance superRegionAllegianceScore))
+     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore allegiance)))
+     ( -  ( +  ( -  allegiance superRegionAllegianceScore)
+         ( +  allegiance allegiance)) ( +  ( -  allegiance
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         allegiance))))))
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11499999999999999 Adjusted=0.8968609865470852 Hits=0
+Tree 0:
+ ( +  ( +  ( *  allegiance ( *  allegiance
+     superRegionAllegianceScore)) ( -  allegiance
+     allegiance)) ( +  ( +  ( *  ( *  ( *  allegiance
+     superRegionAllegianceScore) ( *  allegiance
+     allegiance)) ( +  superRegionAllegianceScore
+     superRegionAllegianceScore)) ( *  ( *  ( * 
+     superRegionAllegianceScore superRegionAllegianceScore)
+     ( *  superRegionAllegianceScore allegiance))
+     ( +  ( +  superRegionAllegianceScore superRegionAllegianceScore)
+         allegiance))) ( -  ( -  ( *  ( +  allegiance
+     ( +  ( *  ( *  ( *  allegiance superRegionAllegianceScore)
+         ( *  allegiance allegiance)) ( +  ( *  allegiance
+         allegiance) ( *  allegiance allegiance)))
+         ( *  ( *  ( *  superRegionAllegianceScore
+             superRegionAllegianceScore) ( *  superRegionAllegianceScore
+             allegiance)) ( +  ( +  superRegionAllegianceScore
+             superRegionAllegianceScore) ( -  allegiance
+             superRegionAllegianceScore))))) ( -  allegiance
+     superRegionAllegianceScore)) ( -  ( -  superRegionAllegianceScore
+     superRegionAllegianceScore) ( +  superRegionAllegianceScore
+     allegiance))) ( -  ( +  ( -  allegiance superRegionAllegianceScore)
+     ( +  allegiance allegiance)) ( +  ( -  allegiance
+     superRegionAllegianceScore) ( -  superRegionAllegianceScore
+     allegiance))))))
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11499999999999999 Adjusted=0.8968609865470852 Hits=0
+Tree 0:
+ ( +  ( +  ( *  allegiance superRegionAllegianceScore)
+     ( -  allegiance allegiance)) ( +  ( +  ( * 
+     ( *  ( *  allegiance superRegionAllegianceScore)
+         ( *  allegiance allegiance)) ( +  ( *  allegiance
+     allegiance) ( *  allegiance allegiance)))
+     ( *  ( *  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         allegiance)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  allegiance
+         superRegionAllegianceScore)))) ( -  ( - 
+     ( *  ( +  allegiance superRegionAllegianceScore)
+         ( -  allegiance superRegionAllegianceScore))
+     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore allegiance)))
+     ( -  ( +  ( -  allegiance superRegionAllegianceScore)
+         ( +  allegiance allegiance)) ( +  ( -  allegiance
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         allegiance))))))
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11499999999999999 Adjusted=0.8968609865470852 Hits=0
+Tree 0:
+ ( +  ( +  ( *  allegiance superRegionAllegianceScore)
+     ( -  allegiance allegiance)) ( +  ( +  ( * 
+     ( *  ( *  allegiance superRegionAllegianceScore)
+         ( *  allegiance allegiance)) ( +  ( *  allegiance
+     allegiance) ( *  allegiance allegiance)))
+     ( *  ( *  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         allegiance)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  allegiance
+         superRegionAllegianceScore)))) ( -  ( - 
+     ( *  ( +  allegiance superRegionAllegianceScore)
+         ( -  allegiance superRegionAllegianceScore))
+     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore allegiance)))
+     ( -  ( +  ( -  allegiance superRegionAllegianceScore)
+         ( +  allegiance allegiance)) ( +  ( -  allegiance
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         allegiance))))))
+
+Generation: 16
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11499999999999999 Adjusted=0.8968609865470852 Hits=0
+Tree 0:
+ ( +  ( +  ( *  allegiance superRegionAllegianceScore)
+     ( -  allegiance allegiance)) ( +  ( +  ( * 
+     ( *  ( *  allegiance superRegionAllegianceScore)
+         ( *  allegiance allegiance)) ( +  ( *  allegiance
+     allegiance) ( *  allegiance allegiance)))
+     ( *  ( *  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         allegiance)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  allegiance
+         superRegionAllegianceScore)))) ( -  ( - 
+     ( *  ( +  allegiance superRegionAllegianceScore)
+         ( -  allegiance superRegionAllegianceScore))
+     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore allegiance)))
+     ( -  ( +  ( -  allegiance superRegionAllegianceScore)
+         ( +  allegiance allegiance)) ( +  ( -  allegiance
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         allegiance))))))
+
+Generation: 17
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11499999999999999 Adjusted=0.8968609865470852 Hits=0
+Tree 0:
+ ( +  ( +  ( *  allegiance superRegionAllegianceScore)
+     ( -  allegiance allegiance)) ( +  ( +  ( * 
+     ( *  ( *  allegiance superRegionAllegianceScore)
+         ( *  allegiance allegiance)) ( +  ( *  allegiance
+     allegiance) ( *  allegiance allegiance)))
+     ( *  ( *  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         allegiance)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  allegiance
+         superRegionAllegianceScore)))) ( -  ( - 
+     ( *  ( +  allegiance superRegionAllegianceScore)
+         ( -  allegiance superRegionAllegianceScore))
+     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore allegiance)))
+     ( -  ( +  ( -  allegiance superRegionAllegianceScore)
+         ( +  allegiance allegiance)) ( +  ( -  allegiance
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         allegiance))))))
+
+Generation: 18
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11499999999999999 Adjusted=0.8968609865470852 Hits=0
+Tree 0:
+ ( +  ( +  ( *  allegiance superRegionAllegianceScore)
+     ( -  allegiance allegiance)) ( +  ( +  ( * 
+     ( *  ( *  allegiance superRegionAllegianceScore)
+         ( *  allegiance allegiance)) ( +  ( *  allegiance
+     allegiance) ( *  allegiance allegiance)))
+     ( *  ( *  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         allegiance)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  allegiance
+         superRegionAllegianceScore)))) ( -  ( - 
+     ( *  ( +  allegiance superRegionAllegianceScore)
+         ( -  allegiance superRegionAllegianceScore))
+     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore allegiance)))
+     ( -  ( +  ( -  allegiance superRegionAllegianceScore)
+         ( +  allegiance allegiance)) ( +  ( -  allegiance
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         allegiance))))))
+
+Generation: 19
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11499999999999999 Adjusted=0.8968609865470852 Hits=0
+Tree 0:
+ ( +  ( +  ( *  allegiance superRegionAllegianceScore)
+     ( -  allegiance allegiance)) ( +  ( +  ( * 
+     ( *  ( *  allegiance superRegionAllegianceScore)
+         ( *  allegiance allegiance)) ( +  ( *  allegiance
+     allegiance) ( *  allegiance allegiance)))
+     ( *  ( *  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         allegiance)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  allegiance
+         superRegionAllegianceScore)))) ( -  ( - 
+     ( *  ( +  allegiance superRegionAllegianceScore)
+         ( -  allegiance superRegionAllegianceScore))
+     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore allegiance)))
+     ( -  ( +  ( -  allegiance superRegionAllegianceScore)
+         ( +  allegiance allegiance)) ( +  ( -  allegiance
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         allegiance))))))
+
+Generation: 20
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11499999999999999 Adjusted=0.8968609865470852 Hits=0
+Tree 0:
+ ( +  ( +  ( *  allegiance superRegionAllegianceScore)
+     ( -  allegiance allegiance)) ( +  ( +  ( * 
+     ( *  ( *  allegiance superRegionAllegianceScore)
+         ( *  allegiance allegiance)) ( +  ( *  allegiance
+     allegiance) ( *  allegiance allegiance)))
+     ( *  ( *  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         allegiance)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  allegiance
+         superRegionAllegianceScore)))) ( -  ( - 
+     ( *  ( +  allegiance superRegionAllegianceScore)
+         ( -  allegiance superRegionAllegianceScore))
+     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore allegiance)))
+     ( -  ( +  ( -  allegiance superRegionAllegianceScore)
+         ( +  allegiance allegiance)) ( +  ( -  allegiance
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         allegiance))))))
+
+Generation: 21
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11499999999999999 Adjusted=0.8968609865470852 Hits=0
+Tree 0:
+ ( +  ( +  ( *  allegiance superRegionAllegianceScore)
+     ( -  allegiance allegiance)) ( +  ( +  ( * 
+     ( *  ( *  allegiance superRegionAllegianceScore)
+         ( *  allegiance allegiance)) ( +  ( *  allegiance
+     allegiance) ( *  allegiance allegiance)))
+     ( *  ( *  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         allegiance)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  allegiance
+         superRegionAllegianceScore)))) ( -  ( - 
+     ( *  ( +  allegiance superRegionAllegianceScore)
+         ( -  allegiance superRegionAllegianceScore))
+     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore allegiance)))
+     ( -  ( +  ( -  allegiance superRegionAllegianceScore)
+         ( +  allegiance allegiance)) ( +  ( -  allegiance
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         allegiance))))))
+
+Generation: 22
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11499999999999999 Adjusted=0.8968609865470852 Hits=0
+Tree 0:
+ ( +  ( +  ( *  allegiance superRegionAllegianceScore)
+     ( -  allegiance allegiance)) ( +  ( +  ( * 
+     ( *  ( *  allegiance superRegionAllegianceScore)
+         ( *  allegiance allegiance)) ( +  ( *  allegiance
+     allegiance) ( *  allegiance allegiance)))
+     ( *  ( *  ( *  superRegionAllegianceScore
+         superRegionAllegianceScore) ( *  superRegionAllegianceScore
+         allegiance)) ( +  ( +  superRegionAllegianceScore
+         superRegionAllegianceScore) ( -  allegiance
+         superRegionAllegianceScore)))) ( -  ( - 
+     ( *  ( +  allegiance superRegionAllegianceScore)
+         ( -  allegiance superRegionAllegianceScore))
+     ( -  ( -  superRegionAllegianceScore superRegionAllegianceScore)
+         ( +  superRegionAllegianceScore allegiance)))
+     ( -  ( +  ( -  allegiance superRegionAllegianceScore)
+         ( +  allegiance allegiance)) ( +  ( -  allegiance
+         superRegionAllegianceScore) ( -  superRegionAllegianceScore
+         allegiance))))))

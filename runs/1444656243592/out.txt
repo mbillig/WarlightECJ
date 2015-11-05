@@ -1,0 +1,87 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.6190476190476191 Adjusted=0.6176470588235294 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\gpbox{ SuperRegionScore }}\end{bundle}}\end{bundle}
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.5476190476190477 Adjusted=0.6461538461538461 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\gpbox{ SuperRegionScore }}\end{bundle}}\end{bundle}
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.4738095238095239 Adjusted=0.678513731825525 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\gpbox{ SuperRegionScore }}\end{bundle}}\end{bundle}
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.4738095238095239 Adjusted=0.678513731825525 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\gpbox{ SuperRegionScore }}\end{bundle}}\end{bundle}
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.4738095238095239 Adjusted=0.678513731825525 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\gpbox{ SuperRegionScore }}\end{bundle}}\end{bundle}
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.4738095238095239 Adjusted=0.678513731825525 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\gpbox{ SuperRegionScore }}\end{bundle}}\end{bundle}
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.4571428571428572 Adjusted=0.6862745098039215 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\gpbox{ SuperRegionScore }}\end{bundle}}\end{bundle}
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.4571428571428572 Adjusted=0.6862745098039215 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\gpbox{ SuperRegionScore }}\end{bundle}}\end{bundle}
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.4476190476190476 Adjusted=0.6907894736842105 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\gpbox{ SuperRegionScore }}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.4476190476190476 Adjusted=0.6907894736842105 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\gpbox{ SuperRegionScore }}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.4476190476190476 Adjusted=0.6907894736842105 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\gpbox{ SuperRegionScore }}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}

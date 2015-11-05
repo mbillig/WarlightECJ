@@ -1,0 +1,23 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.47 Adjusted=0.6802721088435374 Hits=0
+Tree 0:
+\gpbox{superRegionAllegianceScore}
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.29880952380952386 Adjusted=0.76993583868011 Hits=0
+Tree 0:
+\gpbox{superRegionAllegianceScore}
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.29880952380952386 Adjusted=0.76993583868011 Hits=0
+Tree 0:
+\gpbox{superRegionAllegianceScore}

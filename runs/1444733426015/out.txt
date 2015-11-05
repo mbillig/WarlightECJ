@@ -1,0 +1,87 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.38125 Adjusted=0.7239819004524887 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ Math.sqrt}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.38125 Adjusted=0.7239819004524887 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ Math.sqrt}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.28125 Adjusted=0.7804878048780488 Hits=0
+Tree 0:
+\gpbox{superRegionAllegianceScore}
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.26249999999999996 Adjusted=0.7920792079207921 Hits=0
+Tree 0:
+\gpbox{superRegionAllegianceScore}
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.26249999999999996 Adjusted=0.7920792079207921 Hits=0
+Tree 0:
+\gpbox{superRegionAllegianceScore}
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.23124999999999996 Adjusted=0.8121827411167513 Hits=0
+Tree 0:
+\gpbox{superRegionAllegianceScore}
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.23124999999999996 Adjusted=0.8121827411167513 Hits=0
+Tree 0:
+\gpbox{superRegionAllegianceScore}
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.23124999999999996 Adjusted=0.8121827411167513 Hits=0
+Tree 0:
+\gpbox{superRegionAllegianceScore}
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.23124999999999996 Adjusted=0.8121827411167513 Hits=0
+Tree 0:
+\gpbox{superRegionAllegianceScore}
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.23124999999999996 Adjusted=0.8121827411167513 Hits=0
+Tree 0:
+\gpbox{superRegionAllegianceScore}
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.23124999999999996 Adjusted=0.8121827411167513 Hits=0
+Tree 0:
+\gpbox{superRegionAllegianceScore}

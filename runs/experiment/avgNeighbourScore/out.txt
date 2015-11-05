@@ -1,0 +1,351 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9523809523809523 Adjusted=0.5121951219512195 Hits=0
+Tree 0:
+ ( *  ( *   AvgNeighbourScore  ( +   AvgNeighbourScore 
+      AvgNeighbourScore )) ( +  ( *   AvgNeighbourScore 
+      AvgNeighbourScore ) ( *   AvgNeighbourScore 
+      AvgNeighbourScore )))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9523809523809523 Adjusted=0.5121951219512195 Hits=0
+Tree 0:
+ ( *  ( *  ( +  ( -  ( -  ( -  ( +  ( -  ( * 
+      AvgNeighbourScore   AvgNeighbourScore )
+     ( -   AvgNeighbourScore   AvgNeighbourScore ))
+     ( +  ( *   AvgNeighbourScore   AvgNeighbourScore )
+         ( +   AvgNeighbourScore   AvgNeighbourScore )))
+     ( -  ( *  ( *   AvgNeighbourScore   AvgNeighbourScore )
+         ( *   AvgNeighbourScore   AvgNeighbourScore ))
+         ( -  ( +   AvgNeighbourScore   AvgNeighbourScore )
+             ( -   AvgNeighbourScore   AvgNeighbourScore ))))
+     ( *  ( *  ( *  ( +   AvgNeighbourScore   AvgNeighbourScore )
+         ( *   AvgNeighbourScore   AvgNeighbourScore ))
+         ( -  ( *   AvgNeighbourScore   AvgNeighbourScore )
+             ( -   AvgNeighbourScore   AvgNeighbourScore )))
+         ( -  ( *  ( *   AvgNeighbourScore   AvgNeighbourScore )
+             ( *   AvgNeighbourScore   AvgNeighbourScore ))
+             ( *  ( -   AvgNeighbourScore   AvgNeighbourScore )
+                 ( -   AvgNeighbourScore   AvgNeighbourScore )))))
+     ( *  ( +  ( +  ( +  ( -   AvgNeighbourScore 
+          AvgNeighbourScore ) ( *   AvgNeighbourScore 
+          AvgNeighbourScore )) ( +  ( +   AvgNeighbourScore 
+          AvgNeighbourScore ) ( +   AvgNeighbourScore 
+          AvgNeighbourScore ))) ( +  ( *  ( *   AvgNeighbourScore 
+          AvgNeighbourScore ) ( -   AvgNeighbourScore 
+          AvgNeighbourScore )) ( *  ( -   AvgNeighbourScore 
+          AvgNeighbourScore ) ( *   AvgNeighbourScore 
+          AvgNeighbourScore )))) ( +  ( *  ( +  ( * 
+          AvgNeighbourScore   AvgNeighbourScore )
+         ( -   AvgNeighbourScore   AvgNeighbourScore ))
+         ( -  ( +   AvgNeighbourScore   AvgNeighbourScore )
+             ( +   AvgNeighbourScore   AvgNeighbourScore )))
+         ( *  ( +  ( +   AvgNeighbourScore   AvgNeighbourScore )
+             ( +   AvgNeighbourScore   AvgNeighbourScore ))
+             ( *  ( -   AvgNeighbourScore   AvgNeighbourScore )
+                 ( +   AvgNeighbourScore   AvgNeighbourScore ))))))
+     ( *  ( +  ( *  ( -  ( -  ( *   AvgNeighbourScore 
+          AvgNeighbourScore ) ( *   AvgNeighbourScore 
+          AvgNeighbourScore )) ( *  ( -   AvgNeighbourScore 
+          AvgNeighbourScore ) ( +   AvgNeighbourScore 
+          AvgNeighbourScore ))) ( +  ( +  ( +   AvgNeighbourScore 
+          AvgNeighbourScore ) ( *   AvgNeighbourScore 
+          AvgNeighbourScore )) ( -  ( +   AvgNeighbourScore 
+          AvgNeighbourScore ) ( +   AvgNeighbourScore 
+          AvgNeighbourScore )))) ( *  ( *  ( +  ( * 
+          AvgNeighbourScore   AvgNeighbourScore )
+         ( *   AvgNeighbourScore   AvgNeighbourScore ))
+         ( +  ( -   AvgNeighbourScore   AvgNeighbourScore )
+             ( *   AvgNeighbourScore   AvgNeighbourScore )))
+         ( *  ( +  ( +   AvgNeighbourScore   AvgNeighbourScore )
+             ( +   AvgNeighbourScore   AvgNeighbourScore ))
+             ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+                 ( *   AvgNeighbourScore   AvgNeighbourScore )))))
+         ( *  ( *  ( *  ( -  ( -   AvgNeighbourScore 
+              AvgNeighbourScore ) ( +   AvgNeighbourScore 
+              AvgNeighbourScore )) ( +  ( -   AvgNeighbourScore 
+              AvgNeighbourScore ) ( +   AvgNeighbourScore 
+              AvgNeighbourScore ))) ( -  ( *  ( +   AvgNeighbourScore 
+              AvgNeighbourScore ) ( *   AvgNeighbourScore 
+              AvgNeighbourScore )) ( -  ( +   AvgNeighbourScore 
+              AvgNeighbourScore ) ( +   AvgNeighbourScore 
+              AvgNeighbourScore )))) ( -  ( *  ( -  ( * 
+              AvgNeighbourScore   AvgNeighbourScore )
+             ( *   AvgNeighbourScore   AvgNeighbourScore ))
+             ( +  ( *   AvgNeighbourScore   AvgNeighbourScore )
+                 ( +   AvgNeighbourScore   AvgNeighbourScore )))
+             ( *  ( *  ( +   AvgNeighbourScore   AvgNeighbourScore )
+                 ( -   AvgNeighbourScore   AvgNeighbourScore ))
+                 ( *  ( -   AvgNeighbourScore   AvgNeighbourScore )
+                     ( +   AvgNeighbourScore   AvgNeighbourScore )))))))
+     ( +  ( -  ( *  ( +  ( *  ( *  ( +   AvgNeighbourScore 
+          AvgNeighbourScore ) ( +   AvgNeighbourScore 
+          AvgNeighbourScore )) ( +  ( -   AvgNeighbourScore 
+          AvgNeighbourScore ) ( +   AvgNeighbourScore 
+          AvgNeighbourScore ))) ( -  ( *  ( +   AvgNeighbourScore 
+          AvgNeighbourScore ) ( *   AvgNeighbourScore 
+          AvgNeighbourScore )) ( +  ( *   AvgNeighbourScore 
+          AvgNeighbourScore ) ( *   AvgNeighbourScore 
+          AvgNeighbourScore )))) ( -  ( -  ( *  ( - 
+          AvgNeighbourScore   AvgNeighbourScore )
+         ( +   AvgNeighbourScore   AvgNeighbourScore ))
+         ( +  ( +   AvgNeighbourScore   AvgNeighbourScore )
+             ( *   AvgNeighbourScore   AvgNeighbourScore )))
+         ( *  ( +  ( +   AvgNeighbourScore   AvgNeighbourScore )
+             ( +   AvgNeighbourScore   AvgNeighbourScore ))
+             ( +  ( +   AvgNeighbourScore   AvgNeighbourScore )
+                 ( +   AvgNeighbourScore   AvgNeighbourScore )))))
+         ( *  ( +  ( *  ( -  ( *   AvgNeighbourScore 
+              AvgNeighbourScore ) ( +   AvgNeighbourScore 
+              AvgNeighbourScore )) ( +  ( -   AvgNeighbourScore 
+              AvgNeighbourScore ) ( *   AvgNeighbourScore 
+              AvgNeighbourScore ))) ( -  ( *  ( +   AvgNeighbourScore 
+              AvgNeighbourScore ) ( -   AvgNeighbourScore 
+              AvgNeighbourScore )) ( +  ( *   AvgNeighbourScore 
+              AvgNeighbourScore ) ( *   AvgNeighbourScore 
+              AvgNeighbourScore )))) ( *  ( -  ( *  ( - 
+              AvgNeighbourScore   AvgNeighbourScore )
+             ( *   AvgNeighbourScore   AvgNeighbourScore ))
+             ( +  ( +   AvgNeighbourScore   AvgNeighbourScore )
+                 ( +   AvgNeighbourScore   AvgNeighbourScore )))
+             ( -  ( +  ( +   AvgNeighbourScore   AvgNeighbourScore )
+                 ( *   AvgNeighbourScore   AvgNeighbourScore ))
+                 ( +  ( *   AvgNeighbourScore   AvgNeighbourScore )
+                     ( -   AvgNeighbourScore   AvgNeighbourScore ))))))
+         ( -  ( -  ( -  ( *  ( -  ( +   AvgNeighbourScore 
+              AvgNeighbourScore ) ( *   AvgNeighbourScore 
+              AvgNeighbourScore )) ( +  ( +   AvgNeighbourScore 
+              AvgNeighbourScore ) ( *   AvgNeighbourScore 
+              AvgNeighbourScore ))) ( *  ( -  ( -   AvgNeighbourScore 
+              AvgNeighbourScore ) ( -   AvgNeighbourScore 
+              AvgNeighbourScore )) ( +  ( -   AvgNeighbourScore 
+              AvgNeighbourScore ) ( +   AvgNeighbourScore 
+              AvgNeighbourScore )))) ( +  ( -  ( +  ( + 
+              AvgNeighbourScore   AvgNeighbourScore )
+             ( *   AvgNeighbourScore   AvgNeighbourScore ))
+             ( +  ( +   AvgNeighbourScore   AvgNeighbourScore )
+                 ( +   AvgNeighbourScore   AvgNeighbourScore )))
+             ( *  ( +  ( -   AvgNeighbourScore   AvgNeighbourScore )
+                 ( *   AvgNeighbourScore   AvgNeighbourScore ))
+                 ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+                     ( -   AvgNeighbourScore   AvgNeighbourScore )))))
+             ( -  ( -  ( -  ( -  ( *   AvgNeighbourScore 
+                  AvgNeighbourScore ) ( +   AvgNeighbourScore 
+                  AvgNeighbourScore )) ( *  ( -   AvgNeighbourScore 
+                  AvgNeighbourScore ) ( +   AvgNeighbourScore 
+                  AvgNeighbourScore ))) ( +  ( *  ( +   AvgNeighbourScore 
+                  AvgNeighbourScore ) ( +   AvgNeighbourScore 
+                  AvgNeighbourScore )) ( -  ( *   AvgNeighbourScore 
+                  AvgNeighbourScore ) ( *   AvgNeighbourScore 
+                  AvgNeighbourScore )))) ( +  ( *  ( -  ( * 
+                  AvgNeighbourScore   AvgNeighbourScore )
+                 ( *   AvgNeighbourScore   AvgNeighbourScore ))
+                 ( *  ( +   AvgNeighbourScore   AvgNeighbourScore )
+                     ( *   AvgNeighbourScore   AvgNeighbourScore )))
+                 ( -  ( *  ( *   AvgNeighbourScore   AvgNeighbourScore )
+                     ( +   AvgNeighbourScore   AvgNeighbourScore ))
+                     ( *  ( *   AvgNeighbourScore   AvgNeighbourScore )
+                         ( +   AvgNeighbourScore   AvgNeighbourScore ))))))))
+     ( -  ( -  ( *  ( +  ( -  ( +  ( *  ( -   AvgNeighbourScore 
+          AvgNeighbourScore ) ( -   AvgNeighbourScore 
+          AvgNeighbourScore )) ( +  ( +   AvgNeighbourScore 
+          AvgNeighbourScore ) ( *   AvgNeighbourScore 
+          AvgNeighbourScore ))) ( *  ( +  ( +   AvgNeighbourScore 
+          AvgNeighbourScore ) ( +   AvgNeighbourScore 
+          AvgNeighbourScore )) ( *  ( +   AvgNeighbourScore 
+          AvgNeighbourScore ) ( -   AvgNeighbourScore 
+          AvgNeighbourScore )))) ( -  ( -  ( *  ( + 
+          AvgNeighbourScore   AvgNeighbourScore )
+         ( +   AvgNeighbourScore   AvgNeighbourScore ))
+         ( +  ( +   AvgNeighbourScore   AvgNeighbourScore )
+             ( *   AvgNeighbourScore   AvgNeighbourScore )))
+         ( -  ( -  ( *   AvgNeighbourScore   AvgNeighbourScore )
+             ( *   AvgNeighbourScore   AvgNeighbourScore ))
+             ( -  ( *   AvgNeighbourScore   AvgNeighbourScore )
+                 ( -   AvgNeighbourScore   AvgNeighbourScore )))))
+         ( *  ( -  ( +  ( +  ( -   AvgNeighbourScore 
+              AvgNeighbourScore ) ( +   AvgNeighbourScore 
+              AvgNeighbourScore )) ( +  ( -   AvgNeighbourScore 
+              AvgNeighbourScore ) ( -   AvgNeighbourScore 
+              AvgNeighbourScore ))) ( *  ( *  ( -   AvgNeighbourScore 
+              AvgNeighbourScore ) ( *   AvgNeighbourScore 
+              AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
+              AvgNeighbourScore ) ( *   AvgNeighbourScore 
+              AvgNeighbourScore )))) ( +  ( -  ( *  ( + 
+              AvgNeighbourScore   AvgNeighbourScore )
+             ( *   AvgNeighbourScore   AvgNeighbourScore ))
+             ( +  ( *   AvgNeighbourScore   AvgNeighbourScore )
+                 ( -   AvgNeighbourScore   AvgNeighbourScore )))
+             ( *  ( -  ( *   AvgNeighbourScore   AvgNeighbourScore )
+                 ( +   AvgNeighbourScore   AvgNeighbourScore ))
+                 ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+                     ( -   AvgNeighbourScore   AvgNeighbourScore ))))))
+         ( +  ( *  ( *  ( *  ( +  ( +   AvgNeighbourScore 
+              AvgNeighbourScore ) ( *   AvgNeighbourScore 
+              AvgNeighbourScore )) ( +  ( *   AvgNeighbourScore 
+              AvgNeighbourScore ) ( +   AvgNeighbourScore 
+              AvgNeighbourScore ))) ( +  ( *  ( +   AvgNeighbourScore 
+              AvgNeighbourScore ) ( *   AvgNeighbourScore 
+              AvgNeighbourScore )) ( *  ( -   AvgNeighbourScore 
+              AvgNeighbourScore ) ( *   AvgNeighbourScore 
+              AvgNeighbourScore )))) ( *  ( *  ( -  ( - 
+              AvgNeighbourScore   AvgNeighbourScore )
+             ( *   AvgNeighbourScore   AvgNeighbourScore ))
+             ( *  ( -   AvgNeighbourScore   AvgNeighbourScore )
+                 ( *   AvgNeighbourScore   AvgNeighbourScore )))
+             ( +  ( *  ( -   AvgNeighbourScore   AvgNeighbourScore )
+                 ( +   AvgNeighbourScore   AvgNeighbourScore ))
+                 ( -  ( +   AvgNeighbourScore   AvgNeighbourScore )
+                     ( *   AvgNeighbourScore   AvgNeighbourScore )))))
+             ( *  ( -  ( +  ( -  ( -   AvgNeighbourScore 
+                  AvgNeighbourScore ) ( -   AvgNeighbourScore 
+                  AvgNeighbourScore )) ( +  ( +   AvgNeighbourScore 
+                  AvgNeighbourScore ) ( *   AvgNeighbourScore 
+                  AvgNeighbourScore ))) ( -  ( -  ( -   AvgNeighbourScore 
+                  AvgNeighbourScore ) ( +   AvgNeighbourScore 
+                  AvgNeighbourScore )) ( -  ( -   AvgNeighbourScore 
+                  AvgNeighbourScore ) ( +   AvgNeighbourScore 
+                  AvgNeighbourScore )))) ( +  ( *  ( *  ( - 
+                  AvgNeighbourScore   AvgNeighbourScore )
+                 ( -   AvgNeighbourScore   AvgNeighbourScore ))
+                 ( *  ( *   AvgNeighbourScore   AvgNeighbourScore )
+                     ( *   AvgNeighbourScore   AvgNeighbourScore )))
+                 ( -  ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+                     ( +   AvgNeighbourScore   AvgNeighbourScore ))
+                     ( +  ( *   AvgNeighbourScore   AvgNeighbourScore )
+                         ( +   AvgNeighbourScore   AvgNeighbourScore )))))))
+         ( -  ( *  ( -  ( -  ( +  ( +  ( +   AvgNeighbourScore 
+              AvgNeighbourScore ) ( *   AvgNeighbourScore 
+              AvgNeighbourScore )) ( -  ( *   AvgNeighbourScore 
+              AvgNeighbourScore ) ( +   AvgNeighbourScore 
+              AvgNeighbourScore ))) ( -  ( *  ( *   AvgNeighbourScore 
+              AvgNeighbourScore ) ( *   AvgNeighbourScore 
+              AvgNeighbourScore )) ( +  ( +   AvgNeighbourScore 
+              AvgNeighbourScore ) ( *   AvgNeighbourScore 
+              AvgNeighbourScore )))) ( -  ( -  ( +  ( * 
+              AvgNeighbourScore   AvgNeighbourScore )
+             ( +   AvgNeighbourScore   AvgNeighbourScore ))
+             ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+                 ( +   AvgNeighbourScore   AvgNeighbourScore )))
+             ( *  ( *  ( *   AvgNeighbourScore   AvgNeighbourScore )
+                 ( *   AvgNeighbourScore   AvgNeighbourScore ))
+                 ( -  ( +   AvgNeighbourScore   AvgNeighbourScore )
+                     ( -   AvgNeighbourScore   AvgNeighbourScore )))))
+             ( -  ( -  ( +  ( +  ( -   AvgNeighbourScore 
+                  AvgNeighbourScore ) ( -   AvgNeighbourScore 
+                  AvgNeighbourScore )) ( +  ( +   AvgNeighbourScore 
+                  AvgNeighbourScore ) ( *   AvgNeighbourScore 
+                  AvgNeighbourScore ))) ( +  ( +  ( *   AvgNeighbourScore 
+                  AvgNeighbourScore ) ( *   AvgNeighbourScore 
+                  AvgNeighbourScore )) ( +  ( +   AvgNeighbourScore 
+                  AvgNeighbourScore ) ( -   AvgNeighbourScore 
+                  AvgNeighbourScore )))) ( +  ( -  ( *  ( + 
+                  AvgNeighbourScore   AvgNeighbourScore )
+                 ( *   AvgNeighbourScore   AvgNeighbourScore ))
+                 ( +  ( +   AvgNeighbourScore   AvgNeighbourScore )
+                     ( -   AvgNeighbourScore   AvgNeighbourScore )))
+                 ( *  ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+                     ( *   AvgNeighbourScore   AvgNeighbourScore ))
+                     ( -  ( +   AvgNeighbourScore   AvgNeighbourScore )
+                         ( -   AvgNeighbourScore   AvgNeighbourScore ))))))
+             ( +  ( *  ( *  ( -  ( +  ( +   AvgNeighbourScore 
+                  AvgNeighbourScore ) ( +   AvgNeighbourScore 
+                  AvgNeighbourScore )) ( +  ( +   AvgNeighbourScore 
+                  AvgNeighbourScore ) ( +   AvgNeighbourScore 
+                  AvgNeighbourScore ))) ( *  ( *  ( -   AvgNeighbourScore 
+                  AvgNeighbourScore ) ( *   AvgNeighbourScore 
+                  AvgNeighbourScore )) ( -  ( *   AvgNeighbourScore 
+                  AvgNeighbourScore ) ( *   AvgNeighbourScore 
+                  AvgNeighbourScore )))) ( -  ( *  ( *  ( + 
+                  AvgNeighbourScore   AvgNeighbourScore )
+                 ( +   AvgNeighbourScore   AvgNeighbourScore ))
+                 ( +  ( -   AvgNeighbourScore   AvgNeighbourScore )
+                     ( *   AvgNeighbourScore   AvgNeighbourScore )))
+                 ( *  ( *  ( -   AvgNeighbourScore   AvgNeighbourScore )
+                     ( *   AvgNeighbourScore   AvgNeighbourScore ))
+                     ( +  ( -   AvgNeighbourScore   AvgNeighbourScore )
+                         ( +   AvgNeighbourScore   AvgNeighbourScore )))))
+                 ( +  ( -  ( -  ( +  ( *   AvgNeighbourScore 
+                      AvgNeighbourScore ) ( *   AvgNeighbourScore 
+                      AvgNeighbourScore )) ( +  ( *   AvgNeighbourScore 
+                      AvgNeighbourScore ) ( -   AvgNeighbourScore 
+                      AvgNeighbourScore ))) ( +  ( *  ( -   AvgNeighbourScore 
+                      AvgNeighbourScore ) ( *   AvgNeighbourScore 
+                      AvgNeighbourScore )) ( *  ( *   AvgNeighbourScore 
+                      AvgNeighbourScore ) ( *   AvgNeighbourScore 
+                      AvgNeighbourScore )))) ( *  ( *  ( +  ( + 
+                      AvgNeighbourScore   AvgNeighbourScore )
+                     ( +   AvgNeighbourScore   AvgNeighbourScore ))
+                     ( *  ( +   AvgNeighbourScore   AvgNeighbourScore )
+                         ( -   AvgNeighbourScore   AvgNeighbourScore )))
+                     ( -  ( +  ( *   AvgNeighbourScore   AvgNeighbourScore )
+                         ( -   AvgNeighbourScore   AvgNeighbourScore ))
+                         ( -  ( +   AvgNeighbourScore   AvgNeighbourScore )
+                             ( -   AvgNeighbourScore   AvgNeighbourScore )))))))))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9523809523809523 Adjusted=0.5121951219512195 Hits=0
+Tree 0:
+ ( +  ( *  ( *   AvgNeighbourScore  ( +   AvgNeighbourScore 
+     ( *   AvgNeighbourScore  ( *  ( -  ( *  ( - 
+          AvgNeighbourScore   AvgNeighbourScore )
+         ( +   AvgNeighbourScore   AvgNeighbourScore ))
+         ( *  ( -   AvgNeighbourScore   AvgNeighbourScore )
+             ( +   AvgNeighbourScore   AvgNeighbourScore )))
+          AvgNeighbourScore ))))  AvgNeighbourScore )
+     ( *  ( +   AvgNeighbourScore  ( *  ( *  ( + 
+         ( -  ( +  ( *   AvgNeighbourScore   AvgNeighbourScore )
+              AvgNeighbourScore ) ( +  ( +   AvgNeighbourScore 
+              AvgNeighbourScore ) ( -   AvgNeighbourScore 
+              AvgNeighbourScore ))) ( *   AvgNeighbourScore 
+         ( -  ( *   AvgNeighbourScore   AvgNeighbourScore )
+              AvgNeighbourScore )))  AvgNeighbourScore )
+         ( +  ( +   AvgNeighbourScore  ( *   AvgNeighbourScore 
+             ( *  ( *   AvgNeighbourScore   AvgNeighbourScore )
+                 ( +   AvgNeighbourScore   AvgNeighbourScore ))))
+             ( -  ( *  ( *   AvgNeighbourScore   AvgNeighbourScore )
+                 ( +  ( +   AvgNeighbourScore   AvgNeighbourScore )
+                      AvgNeighbourScore )) ( -   AvgNeighbourScore 
+                  AvgNeighbourScore ))))) ( *  ( *   AvgNeighbourScore 
+         ( +  ( -  ( *  ( *  ( -   AvgNeighbourScore 
+              AvgNeighbourScore ) ( *   AvgNeighbourScore 
+              AvgNeighbourScore ))  AvgNeighbourScore )
+             ( *  ( -   AvgNeighbourScore  ( -   AvgNeighbourScore 
+                  AvgNeighbourScore )) ( -  ( *   AvgNeighbourScore 
+                  AvgNeighbourScore ) ( -   AvgNeighbourScore 
+                  AvgNeighbourScore )))) ( *   AvgNeighbourScore 
+              AvgNeighbourScore ))) ( +  ( -  ( -  ( * 
+         ( -  ( -   AvgNeighbourScore   AvgNeighbourScore )
+             ( *   AvgNeighbourScore   AvgNeighbourScore ))
+         ( -  ( +   AvgNeighbourScore   AvgNeighbourScore )
+              AvgNeighbourScore )) ( -  ( -  ( +   AvgNeighbourScore 
+          AvgNeighbourScore ) ( -   AvgNeighbourScore 
+          AvgNeighbourScore )) ( *  ( +   AvgNeighbourScore 
+          AvgNeighbourScore ) ( *   AvgNeighbourScore 
+          AvgNeighbourScore )))) ( +   AvgNeighbourScore 
+         ( +   AvgNeighbourScore   AvgNeighbourScore )))
+         ( +   AvgNeighbourScore  ( -  ( *  ( +   AvgNeighbourScore 
+             ( -   AvgNeighbourScore   AvgNeighbourScore ))
+             ( *  ( -   AvgNeighbourScore   AvgNeighbourScore )
+                 ( *   AvgNeighbourScore   AvgNeighbourScore )))
+             ( -  ( +  ( -   AvgNeighbourScore   AvgNeighbourScore )
+                 ( +   AvgNeighbourScore   AvgNeighbourScore ))
+                 ( +   AvgNeighbourScore  ( *   AvgNeighbourScore 
+                      AvgNeighbourScore )))))))))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.9523809523809523 Adjusted=0.5121951219512195 Hits=0
+Tree 0:
+ ( -   AvgNeighbourScore   AvgNeighbourScore )

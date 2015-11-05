@@ -1,0 +1,87 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.6904761904761905 Adjusted=0.5915492957746479 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ Math.sqrt}}\chunk{\begin{bundle}{\gpbox{ * }}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\begin{bundle}{\gpbox{ / }}\chunk{\begin{bundle}{\gpbox{ Math.sqrt}}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\begin{bundle}{\gpbox{ Math.sqrt}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ / }}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ Math.sqrt}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\begin{bundle}{\gpbox{ / }}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ Math.sqrt}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\begin{bundle}{\gpbox{ * }}\chunk{\gpbox{superRegionAllegianceScore}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ Math.sqrt}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ * }}\chunk{\begin{bundle}{\gpbox{ * }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ * }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ / }}\chunk{\begin{bundle}{\gpbox{ * }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ Math.sqrt}}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.5071428571428571 Adjusted=0.6635071090047393 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ - }}\chunk{\gpbox{superRegionAllegianceScore}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\begin{bundle}{\gpbox{ / }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\begin{bundle}{\gpbox{ * }}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\gpbox{superRegionAllegianceScore}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.5071428571428571 Adjusted=0.6635071090047393 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ - }}\chunk{\gpbox{superRegionAllegianceScore}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\begin{bundle}{\gpbox{ / }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\begin{bundle}{\gpbox{ * }}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\gpbox{superRegionAllegianceScore}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.5071428571428571 Adjusted=0.6635071090047393 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ - }}\chunk{\gpbox{superRegionAllegianceScore}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\begin{bundle}{\gpbox{ / }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\begin{bundle}{\gpbox{ * }}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\gpbox{superRegionAllegianceScore}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.5071428571428571 Adjusted=0.6635071090047393 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ - }}\chunk{\gpbox{superRegionAllegianceScore}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\begin{bundle}{\gpbox{ / }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\begin{bundle}{\gpbox{ * }}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\gpbox{superRegionAllegianceScore}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.5071428571428571 Adjusted=0.6635071090047393 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ - }}\chunk{\gpbox{superRegionAllegianceScore}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\begin{bundle}{\gpbox{ / }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\begin{bundle}{\gpbox{ * }}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\gpbox{superRegionAllegianceScore}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.5071428571428571 Adjusted=0.6635071090047393 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ - }}\chunk{\gpbox{superRegionAllegianceScore}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\begin{bundle}{\gpbox{ / }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{allegiance}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\end{bundle}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\begin{bundle}{\gpbox{ * }}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\gpbox{superRegionAllegianceScore}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.480952380952381 Adjusted=0.67524115755627 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ - }}\chunk{\gpbox{superRegionAllegianceScore}}\chunk{\begin{bundle}{\gpbox{ / }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.480952380952381 Adjusted=0.67524115755627 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ - }}\chunk{\gpbox{superRegionAllegianceScore}}\chunk{\begin{bundle}{\gpbox{ / }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.43333333333333335 Adjusted=0.6976744186046512 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ - }}\chunk{\gpbox{superRegionAllegianceScore}}\chunk{\begin{bundle}{\gpbox{ / }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.43333333333333335 Adjusted=0.6976744186046512 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ - }}\chunk{\gpbox{superRegionAllegianceScore}}\chunk{\begin{bundle}{\gpbox{ / }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}

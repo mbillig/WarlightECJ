@@ -1,0 +1,87 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.6190476190476191 Adjusted=0.6176470588235294 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.6190476190476191 Adjusted=0.6176470588235294 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.6190476190476191 Adjusted=0.6176470588235294 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ - }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{allegiance}}\end{bundle}
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.5952380952380952 Adjusted=0.626865671641791 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.3833333333333333 Adjusted=0.7228915662650602 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.3833333333333333 Adjusted=0.7228915662650602 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.3833333333333333 Adjusted=0.7228915662650602 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.3833333333333333 Adjusted=0.7228915662650602 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.3833333333333333 Adjusted=0.7228915662650602 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.3833333333333333 Adjusted=0.7228915662650602 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.3833333333333333 Adjusted=0.7228915662650602 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ 0-}}\chunk{\gpbox{allegiance}}\end{bundle}

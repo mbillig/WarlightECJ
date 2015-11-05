@@ -1,0 +1,63 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.28 Adjusted=0.78125 Hits=0
+Tree 0:
+ ( *  allegiance ( +  numToSoldiers ( -  ( - 
+     ( *  numToSoldiers ( -  allegiance numToSoldiers))
+     allegiance) ( *  ( *  numToSoldiers ( + 
+     numToSoldiers ( -  allegiance numToSoldiers)))
+     ( *  ( +  numToSoldiers ( *  numToSoldiers
+         allegiance)) ( -  numToSoldiers numToSoldiers))))))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.28 Adjusted=0.78125 Hits=0
+Tree 0:
+ ( *  allegiance ( +  numToSoldiers ( -  ( - 
+     ( *  numToSoldiers ( -  allegiance numToSoldiers))
+     allegiance) ( *  ( *  numToSoldiers ( + 
+     numToSoldiers ( -  allegiance numToSoldiers)))
+     ( *  ( +  numToSoldiers ( *  numToSoldiers
+         allegiance)) ( -  numToSoldiers numToSoldiers))))))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.28 Adjusted=0.78125 Hits=0
+Tree 0:
+ ( *  allegiance ( +  numToSoldiers ( -  ( - 
+     ( *  numToSoldiers ( -  allegiance numToSoldiers))
+     allegiance) ( *  ( *  numToSoldiers ( + 
+     numToSoldiers ( -  allegiance numToSoldiers)))
+     ( *  ( +  numToSoldiers ( *  numToSoldiers
+         allegiance)) ( -  numToSoldiers numToSoldiers))))))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.265 Adjusted=0.7905138339920947 Hits=0
+Tree 0:
+ ( *  allegiance ( +  numToSoldiers ( -  ( - 
+     ( *  numToSoldiers ( -  allegiance numToSoldiers))
+     allegiance) ( *  ( -  numToSoldiers numToSoldiers)
+     ( *  ( +  numToSoldiers ( *  numToSoldiers
+         allegiance)) ( -  numToSoldiers numToSoldiers))))))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.265 Adjusted=0.7905138339920947 Hits=0
+Tree 0:
+ ( *  allegiance ( +  numToSoldiers ( -  ( - 
+     ( *  numToSoldiers ( -  allegiance numToSoldiers))
+     allegiance) ( *  ( -  numToSoldiers numToSoldiers)
+     ( *  ( +  numToSoldiers ( *  numToSoldiers
+         allegiance)) ( -  numToSoldiers numToSoldiers))))))

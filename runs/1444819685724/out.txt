@@ -1,0 +1,16 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.109375 Adjusted=0.9014084507042254 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ Math.sqrt}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\begin{bundle}{\gpbox{ / }}\chunk{\begin{bundle}{\gpbox{ / }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{regionNeighbourAllegianceScore}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ / }}\chunk{\gpbox{regionNeighbourAllegianceScore}}\chunk{\gpbox{numFromSoldiers}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.109375 Adjusted=0.9014084507042254 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ Math.sqrt}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\begin{bundle}{\gpbox{ / }}\chunk{\begin{bundle}{\gpbox{ / }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{regionNeighbourAllegianceScore}}\end{bundle}}\chunk{\begin{bundle}{\gpbox{ / }}\chunk{\gpbox{regionNeighbourAllegianceScore}}\chunk{\gpbox{numFromSoldiers}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}}\end{bundle}

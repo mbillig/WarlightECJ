@@ -1,0 +1,72 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.19500000000000006 Adjusted=0.8368200836820083 Hits=0
+Tree 0:
+ ( +  ( +  numFromSoldiers numFromSoldiers)
+     ( +  numFromSoldiers numFromSoldiers))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.19500000000000006 Adjusted=0.8368200836820083 Hits=0
+Tree 0:
+ ( +  ( +  numFromSoldiers numFromSoldiers)
+     ( +  numFromSoldiers numFromSoldiers))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.19500000000000006 Adjusted=0.8368200836820083 Hits=0
+Tree 0:
+ ( +  ( +  numFromSoldiers numFromSoldiers)
+     ( +  numFromSoldiers numFromSoldiers))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.19500000000000006 Adjusted=0.8368200836820083 Hits=0
+Tree 0:
+ ( +  ( +  numFromSoldiers numFromSoldiers)
+     ( +  numFromSoldiers numFromSoldiers))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.19500000000000006 Adjusted=0.8368200836820083 Hits=0
+Tree 0:
+ ( +  ( +  numFromSoldiers numFromSoldiers)
+     ( +  numFromSoldiers numFromSoldiers))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.19500000000000006 Adjusted=0.8368200836820083 Hits=0
+Tree 0:
+ ( +  ( +  numFromSoldiers numFromSoldiers)
+     ( +  numFromSoldiers numFromSoldiers))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.19500000000000006 Adjusted=0.8368200836820083 Hits=0
+Tree 0:
+ ( +  ( +  numFromSoldiers numFromSoldiers)
+     ( +  numFromSoldiers numFromSoldiers))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.19500000000000006 Adjusted=0.8368200836820083 Hits=0
+Tree 0:
+ ( +  ( +  numFromSoldiers numFromSoldiers)
+     ( +  numFromSoldiers numFromSoldiers))

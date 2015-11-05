@@ -1,0 +1,8 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10312500000000002 Adjusted=0.906515580736544 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\gpbox{numToSoldiers}}\end{bundle}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}

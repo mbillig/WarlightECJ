@@ -1,0 +1,48 @@
+Average fitness: 0.6511458333333333 Average size: 17.7
+ Generation 0
+0 Math.exp(regionNeighbourAllegianceScore) 0.6666666666666667
+1 (superRegionAllegianceScore+allegiance) 0.9047619047619048
+2 (0-(((Math.exp(0-(numToSoldiers))*(1/(allegiance)/(regionNeighbourAllegianceScore/numToSoldiers)))+1/((0-(superRegionAllegianceScore)*(numToSoldiers-superRegionAllegianceScore)))))+0-((Math.sqrt(((numToSoldiers/numToSoldiers)-1/(allegiance)))*(Math.sqrt(Math.exp(regionNeighbourAllegianceScore))*1/((numFromSoldiers-numToSoldiers)))))) 0.5476190476190477
+3 ((Math.exp(1/(regionNeighbourAllegianceScore))+0-(0-(regionNeighbourAllegianceScore)))/(0-(1/(regionNeighbourAllegianceScore))*((allegiance/superRegionAllegianceScore)+(allegiance*superRegionAllegianceScore)))) 0.8095238095238095
+4 (((1/(((0-(regionNeighbourAllegianceScore)/Math.exp(numFromSoldiers))+0-(0-(numToSoldiers))))+(Math.sqrt(Math.sqrt((superRegionAllegianceScore/numToSoldiers)))/1/(1/((regionNeighbourAllegianceScore/regionNeighbourAllegianceScore)))))*(((((superRegionAllegianceScore-numToSoldiers)/(numToSoldiers+superRegionAllegianceScore))+(Math.exp(numToSoldiers)+(numFromSoldiers+numFromSoldiers)))*((Math.exp(regionNeighbourAllegianceScore)+Math.exp(numToSoldiers))+Math.sqrt((regionNeighbourAllegianceScore-numToSoldiers))))*Math.exp((Math.exp((allegiance-allegiance))*(Math.sqrt(allegiance)*1/(allegiance))))))*Math.exp((((((allegiance+allegiance)*Math.exp(allegiance))*(Math.sqrt(allegiance)/(superRegionAllegianceScore+allegiance)))*Math.sqrt(((numFromSoldiers+numFromSoldiers)*Math.sqrt(numFromSoldiers))))+Math.sqrt((0-(1/(regionNeighbourAllegianceScore))*(Math.sqrt(numFromSoldiers)*Math.sqrt(regionNeighbourAllegianceScore))))))) 0.421875
+5 ((allegiance/0-(allegiance))-1/((Math.sqrt(allegiance)-superRegionAllegianceScore))) 0.6428571428571428
+6 Math.exp((numFromSoldiers-allegiance)) 0.09999999999999998
+7 1/(((allegiance-numToSoldiers)+0-(numFromSoldiers))) 0.9523809523809523
+8 0-((((Math.sqrt((allegiance/numFromSoldiers))*(1/(numToSoldiers)-(superRegionAllegianceScore+superRegionAllegianceScore)))/((Math.exp(regionNeighbourAllegianceScore)/Math.sqrt(regionNeighbourAllegianceScore))-1/(Math.sqrt(allegiance))))/Math.exp(1/((Math.sqrt(allegiance)+(allegiance*allegiance)))))) 0.5238095238095238
+9 Math.exp(Math.exp(((1/(Math.exp((allegiance/superRegionAllegianceScore)))+0-(((regionNeighbourAllegianceScore-superRegionAllegianceScore)/1/(allegiance))))+((Math.sqrt((superRegionAllegianceScore*numToSoldiers))*Math.exp(Math.exp(allegiance)))-(((numFromSoldiers-numFromSoldiers)/(numFromSoldiers-regionNeighbourAllegianceScore))*Math.exp((regionNeighbourAllegianceScore+numToSoldiers))))))) 0.6666666666666667
+10 Math.sqrt((1/(Math.sqrt(allegiance))-((numToSoldiers+allegiance)+Math.exp(allegiance)))) 0.7857142857142857
+11 (((1/(1/(Math.exp(regionNeighbourAllegianceScore)))-1/(0-((regionNeighbourAllegianceScore+numToSoldiers))))/(Math.exp(Math.sqrt(0-(numToSoldiers)))/(((numFromSoldiers-allegiance)-(regionNeighbourAllegianceScore-allegiance))+0-(Math.sqrt(allegiance)))))*(1/(Math.exp(Math.exp(Math.sqrt(allegiance))))*(Math.sqrt((1/(numFromSoldiers)*(allegiance+numToSoldiers)))/(1/((numToSoldiers+numToSoldiers))+1/((numFromSoldiers-regionNeighbourAllegianceScore)))))) 0.31562500000000004
+12 Math.exp(1/(Math.sqrt(Math.exp((Math.sqrt((numFromSoldiers/numToSoldiers))-Math.exp(0-(superRegionAllegianceScore))))))) 0.9523809523809523
+13 Math.exp(1/(regionNeighbourAllegianceScore)) 0.6190476190476191
+14 ((numToSoldiers-numFromSoldiers)/0-(numFromSoldiers)) 0.33005952380952386
+15 ((numFromSoldiers+Math.sqrt(numToSoldiers))*allegiance) 0.9523809523809523
+16 1/(allegiance) 0.9523809523809523
+17 ((allegiance-Math.sqrt((regionNeighbourAllegianceScore*(numFromSoldiers*numFromSoldiers))))/(Math.sqrt(allegiance)+numFromSoldiers)) 0.21250000000000002
+18 (regionNeighbourAllegianceScore+numToSoldiers) 0.9523809523809523
+19 (regionNeighbourAllegianceScore-numToSoldiers) 0.7142857142857143
+Average fitness: 0.5955208333333334 Average size: 17.3
+ Generation 1
+0 ((1/(regionNeighbourAllegianceScore)-numFromSoldiers)/0-(numFromSoldiers)) 0.321875
+1 Math.exp(numToSoldiers) 0.8809523809523809
+2 numFromSoldiers 0.6190476190476191
+3 Math.exp((Math.exp(regionNeighbourAllegianceScore)-allegiance)) 0.125
+4 ((numToSoldiers+Math.sqrt(numToSoldiers))*allegiance) 0.9047619047619048
+5 ((numFromSoldiers-numFromSoldiers)/0-(numFromSoldiers)) 0.428125
+6 ((allegiance/0-(allegiance))-1/((Math.sqrt((regionNeighbourAllegianceScore-numToSoldiers))-superRegionAllegianceScore))) 0.17812499999999998
+7 allegiance 0.9523809523809523
+8 (0-(((Math.exp(0-(numToSoldiers))*(1/(allegiance)/(regionNeighbourAllegianceScore/numToSoldiers)))+1/((0-(superRegionAllegianceScore)*(numToSoldiers-superRegionAllegianceScore)))))+0-((Math.sqrt(((numToSoldiers/numToSoldiers)-1/(allegiance)))*(Math.sqrt(Math.exp(regionNeighbourAllegianceScore))*1/((numFromSoldiers-(1/((numToSoldiers+numToSoldiers))+1/((numFromSoldiers-regionNeighbourAllegianceScore))))))))) 0.5476190476190477
+9 (((1/(1/(Math.exp(regionNeighbourAllegianceScore)))-1/(0-((regionNeighbourAllegianceScore+numToSoldiers))))/(Math.exp(Math.sqrt(0-(numToSoldiers)))/(((numFromSoldiers-allegiance)-(regionNeighbourAllegianceScore-allegiance))+0-(Math.sqrt(allegiance)))))*(1/(Math.exp(Math.exp(Math.sqrt(allegiance))))*(Math.sqrt((1/(numFromSoldiers)*(allegiance+numToSoldiers)))/numToSoldiers))) 0.6904761904761905
+10 (((1/(((0-(regionNeighbourAllegianceScore)/Math.exp(numFromSoldiers))+0-(0-(numToSoldiers))))+(Math.sqrt(Math.sqrt((superRegionAllegianceScore/numToSoldiers)))/1/(1/((regionNeighbourAllegianceScore/regionNeighbourAllegianceScore)))))*((((allegiance/(numToSoldiers+superRegionAllegianceScore))+(Math.exp(numToSoldiers)+(numFromSoldiers+numFromSoldiers)))*((Math.exp(regionNeighbourAllegianceScore)+Math.exp(numToSoldiers))+Math.sqrt((regionNeighbourAllegianceScore-numToSoldiers))))*Math.exp((Math.exp((allegiance-allegiance))*(Math.sqrt(allegiance)*1/(allegiance))))))*Math.exp((((((allegiance+allegiance)*Math.exp(allegiance))*(Math.sqrt(allegiance)/(superRegionAllegianceScore+allegiance)))*Math.sqrt(((numFromSoldiers+numFromSoldiers)*Math.sqrt(numFromSoldiers))))+Math.sqrt((0-(1/(regionNeighbourAllegianceScore))*(Math.sqrt(numFromSoldiers)*Math.sqrt(regionNeighbourAllegianceScore))))))) 0.6666666666666667
+11 1/((superRegionAllegianceScore-numToSoldiers)) 0.9047619047619048
+12 (0-(((Math.exp(0-(numToSoldiers))*(1/(allegiance)/(regionNeighbourAllegianceScore/numToSoldiers)))+1/((0-(superRegionAllegianceScore)*(numToSoldiers-superRegionAllegianceScore)))))+0-((Math.sqrt(((numToSoldiers/((allegiance-numToSoldiers)+0-(numFromSoldiers)))-1/(allegiance)))*(Math.sqrt(Math.exp(regionNeighbourAllegianceScore))*1/((numFromSoldiers-numToSoldiers)))))) 0.5952380952380952
+13 1/(numToSoldiers) 0.8333333333333334
+14 (((1/(1/(Math.exp(regionNeighbourAllegianceScore)))-1/(0-((regionNeighbourAllegianceScore+numToSoldiers))))/(Math.exp(Math.sqrt(0-(numToSoldiers)))/(((numFromSoldiers-allegiance)-(regionNeighbourAllegianceScore-allegiance))+0-(Math.sqrt(allegiance)))))*(1/(Math.exp(Math.exp(Math.sqrt(allegiance))))*(Math.sqrt((1/(numFromSoldiers)*(allegiance+numToSoldiers)))/(1/((numToSoldiers+numToSoldiers))+Math.exp(1/(regionNeighbourAllegianceScore)))))) 0.40937500000000004
+15 1/((numFromSoldiers-regionNeighbourAllegianceScore)) 0.9523809523809523
+16 allegiance 0.9523809523809523
+17 Math.sqrt((1/(Math.sqrt(allegiance))-((numToSoldiers+Math.exp(1/(regionNeighbourAllegianceScore)))+Math.exp(allegiance)))) 0.18125000000000002
+18 ((numToSoldiers-numFromSoldiers)/0-(numFromSoldiers)) 0.6666666666666667
+19 Math.exp((numFromSoldiers-allegiance)) 0.09999999999999998
+Average fitness: 0.5491145833333333 Average size: 17.6
+ Generation 2
+0 Math.exp((Math.exp(regionNeighbourAllegianceScore)-1/(allegiance))) 0.43437499999999996
+1 (0-(((Math.exp(0-(numToSoldiers))*(1/(allegiance)/(regionNeighbourAllegianceScore/numToSoldiers)))+1/((0-(superRegionAllegianceScore)*(numToSoldiers-superRegionAllegianceScore)))))+0-((Math.sqrt(((numToSoldiers/numToSoldiers)-allegiance))*(Math.sqrt(Math.exp(regionNeighbo

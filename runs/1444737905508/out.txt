@@ -1,0 +1,48 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09999999999999998 Adjusted=0.9090909090909091 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\gpbox{numFromSoldiers}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09999999999999998 Adjusted=0.9090909090909091 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\gpbox{numFromSoldiers}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09999999999999998 Adjusted=0.9090909090909091 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\gpbox{numToSoldiers}}\end{bundle}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09999999999999998 Adjusted=0.9090909090909091 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\gpbox{numToSoldiers}}\end{bundle}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09999999999999998 Adjusted=0.9090909090909091 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\gpbox{numToSoldiers}}\end{bundle}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09999999999999998 Adjusted=0.9090909090909091 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ - }}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\gpbox{numToSoldiers}}\end{bundle}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}

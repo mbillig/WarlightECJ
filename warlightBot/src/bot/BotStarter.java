@@ -23,9 +23,17 @@ package bot;
 import java.io.*;
 import java.util.*;
 
+import basicAlgorithms.DistanceCalculator;
+import debug.Debug;
+import evaluation.FogRemover;
+import evaluation.OpponentDeploymentGuesser;
+import evaluation.RegionValueCalculator;
+import evaluation.SuperRegionValueCalculator;
 import map.Region;
 import move.AttackTransferMove;
 import move.PlaceArmiesMove;
+import strategy.MovesCalculator;
+import strategy.StartingRegionsChooser;
 
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
@@ -36,11 +44,6 @@ public class BotStarter implements Bot {
 
     public static String argExpression = "";
 
-    ScriptEngineManager engineManager =
-            new ScriptEngineManager();
-    ScriptEngine engine =
-            engineManager.getEngineByName("nashorn");
-
     @Override
     /**
      * A method that returns which region the bot would like to start on, the pickable regions are stored in the BotState.
@@ -49,52 +52,53 @@ public class BotStarter implements Bot {
      */
     public Region getStartingRegion(BotState state, Long timeOut) {
 
-        HashMap<Region, Double> scoredRegions = new HashMap<>();
+        return StartingRegionsChooser.getStartingRegion(state);
+/*        HashMap<Region, Double> scoredRegions = new HashMap<>();
 
         String expression = "Math.sqrt((0-(((AvgNeighbourScore-numFromSoldiers)/1/(AvgNeighbourScore)))-(0-(Math.sqrt(numFromSoldiers))/1/((superRegionAllegianceScore-superRegionAllegianceScore)))))";
         try {
             engine.eval("function tree(AvgNeighbourScore, SuperRegionScore, numFromSoldiers, superRegionAllegianceScore, regionNeighbourAllegianceScore) { return " + expression + "}");
-            for (Region region : state.getPickableStartingRegions()){
-                    scoredRegions.put(region, (Double) engine.eval("tree("
-                            + getAvgNeighbourScore(region, state) + ","
-                            + getSuperRegionScore(region, state) + ","
-                            + getNumSoldiers(region, state) + ","
-                            + getSuperRegionAllegianceScore(region, state) + ","
-                            + getRegionNeighbourAllegianceScore(region, state) + ");"));
+            for (Region region : state.getPickableStartingRegions()) {
+                scoredRegions.put(region, (Double) engine.eval("tree("
+                        + getAvgNeighbourScore(region, state) + ","
+                        + getSuperRegionScore(region, state) + ","
+                        + getNumSoldiers(region, state) + ","
+                        + getSuperRegionAllegianceScore(region, state) + ","
+                        + getRegionNeighbourAllegianceScore(region, state) + ");"));
             }
         } catch (ScriptException e) {
             e.printStackTrace();
         }
 
-        return getMaxFromHashMap(scoredRegions).getKey();
+        return getMaxFromHashMap(scoredRegions).getKey();*/
     }
 
     public double getSuperRegionScore(Region region, BotState state) {
-        return region.getSuperRegion().getArmiesReward()/region.getSuperRegion().getSubRegions().size();
+        return region.getSuperRegion().getArmiesReward() / region.getSuperRegion().getSubRegions().size();
         //return (region.getSuperRegion().getSubRegions().size() - region.getSuperRegion().getArmiesReward());
         //return region.getSuperRegion().getArmiesReward();
     }
 
     public double getSuperRegionAllegianceScore(Region region, BotState state) {
         double total = 0.0;
-        for(Region subRegion: region.getSuperRegion().getSubRegions()){
-            if(subRegion.ownedByPlayer(state.getMyPlayerName()))
+        for (Region subRegion : region.getSuperRegion().getSubRegions()) {
+            if (subRegion.ownedByPlayer(state.getMyPlayerName()))
                 total -= 1;
             else if (subRegion.ownedByPlayer(state.getOpponentPlayerName()))
                 total += 1;
         }
-        return total/ region.getSuperRegion().getSubRegions().size();
+        return total / region.getSuperRegion().getSubRegions().size();
     }
 
-    public double getRegionNeighbourAllegianceScore (Region region, BotState state) {
+    public double getRegionNeighbourAllegianceScore(Region region, BotState state) {
         double total = 0.0;
-        for(Region neighbour: region.getNeighbors()){
-            if(neighbour.ownedByPlayer(state.getMyPlayerName()))
+        for (Region neighbour : region.getNeighbors()) {
+            if (neighbour.ownedByPlayer(state.getMyPlayerName()))
                 total -= 1;
             else if (neighbour.ownedByPlayer(state.getOpponentPlayerName()))
                 total += 1;
         }
-        return total/ region.getNeighbors().size();
+        return total / region.getNeighbors().size();
     }
 
     public double getAvgNeighbourScore(Region region, BotState state) {
@@ -133,7 +137,7 @@ public class BotStarter implements Bot {
         return region.getArmies();
     }
 
-    public void printString(String output){
+    public void printString(String output) {
         PrintWriter printer;
         try {
             printer = new PrintWriter("botOutput.txt", "UTF-8");
@@ -148,15 +152,29 @@ public class BotStarter implements Bot {
             e.printStackTrace();
         }
     }
+
     @Override
     /**
      * This method is called for at first part of each round. This example puts two armies on random regions
      * until he has no more armies left to place.
      * @return The list of PlaceArmiesMoves for one round
      */
-    public ArrayList<PlaceArmiesMove> getPlaceArmiesMoves(BotState state, Long timeOut) {
+    public List<PlaceArmiesMove> getPlaceArmiesMoves(BotState state, Long timeOut) {
 
-        HashMap<Region, Double> scoredRegions = new HashMap<>();
+        HistoryTracker.botState = state;
+        Debug.printDebugOutputBeginTurn();
+        OpponentDeploymentGuesser.guessOpponentDeployment();
+        FogRemover.removeFog();
+        HistoryTracker.botState.workingMap = HistoryTracker.botState.getVisibleMap().getMapCopy();
+        DistanceCalculator.calculateDistanceToBorder();
+        SuperRegionValueCalculator.calculateSuperRegionValues();
+        RegionValueCalculator.calculateRegionValues();
+        MovesCalculator.calculateMoves(argExpression);
+        Debug.printDebugOutput();
+        HistoryTracker.botState.lastVisibleMap = HistoryTracker.botState.getVisibleMap().getMapCopy();
+        return MovesCalculator.getCalculatedMoves().getPlaceArmiesMoves();
+
+/*        HashMap<Region, Double> scoredRegions = new HashMap<>();
         ArrayList<PlaceArmiesMove> placeArmiesMoves = new ArrayList<PlaceArmiesMove>();
         String myName = state.getMyPlayerName();
 
@@ -193,25 +211,27 @@ public class BotStarter implements Bot {
         //place second half
         placeArmiesMoves.add(new PlaceArmiesMove(myName, getMaxFromHashMap(scoredRegions).getKey(), secondArmy));
 
-        return placeArmiesMoves;
+        return placeArmiesMoves;*/
     }
 
     @Override
     /**
 
      */
-    public ArrayList<AttackTransferMove> getAttackTransferMoves(BotState state, Long timeOut) {
+    public List<AttackTransferMove> getAttackTransferMoves(BotState state, Long timeOut) {
+        return MovesCalculator.getCalculatedMoves().attackTransferMoves;
 
-        ArrayList<AttackTransferMove> attackTransferMoves = new ArrayList<AttackTransferMove>();
+
+        /*List<AttackTransferMove> attackTransferMoves = new ArrayList<AttackTransferMove>();
         String myName = state.getMyPlayerName();
-        String expression = "((0-(allegiance)+(1/(0-(superRegionAllegianceScore))/(1/(SuperRegionScore)*Math.sqrt(numFromSoldiers))))+superRegionAllegianceScore)";
+        String expression = argExpression;//"((0-(allegiance)+(1/(0-(superRegionAllegianceScore))/(1/(SuperRegionScore)*Math.sqrt(numFromSoldiers))))+superRegionAllegianceScore)";
+       // String expression = "0-(Math.exp((numFromSoldiers+allegiance)))";
         int maxmoves = 10;
 
         try {
             engine.eval("function tree(SuperRegionScore, numFromSoldiers, numToSoldiers, superRegionAllegianceScore, regionNeighbourAllegianceScore,  allegiance) { return " + expression + "}");
-
             for (Region fromRegion : state.getVisibleMap().getRegions()) {
-                if (fromRegion.ownedByPlayer(myName) && fromRegion.getArmies() > 5) {
+                if (fromRegion.ownedByPlayer(myName) && fromRegion.getArmies() > 6) {
                     HashMap<Region, Double> scoredRegions = new HashMap<>();
 
                     for (Region possibleToRegion : fromRegion.getNeighbors()) {
@@ -229,12 +249,12 @@ public class BotStarter implements Bot {
         } catch (ScriptException e) {
             e.printStackTrace();
         }
-        return attackTransferMoves;
+        return attackTransferMoves;*/
     }
 
 
     public static void main(String[] args) {
-        argExpression = args[0];
+        argExpression = args[0];//"(numToSoldiers*(((((((numFromSoldiers+superRegionAllegianceScore)+((allegiance/numFromSoldiers)+allegiance))*Math.exp(Math.exp(allegiance)))*(allegiance*numToSoldiers))+((((((((((numFromSoldiers+superRegionAllegianceScore)+(((regionNeighbourAllegianceScore*Math.exp(numFromSoldiers))/numFromSoldiers)+allegiance))*Math.exp(Math.exp(allegiance)))*(allegiance*numToSoldiers))+(regionNeighbourAllegianceScore+allegiance))*Math.exp(Math.exp(allegiance)))+1/(0-(allegiance)))*Math.exp(numFromSoldiers))/numFromSoldiers)+allegiance))*Math.exp(Math.exp(allegiance)))+allegiance))";
 
         BotParser parser = new BotParser(new BotStarter());
         parser.run();

@@ -1,0 +1,87 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12693452380952386 Adjusted=0.887363000132048 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ 0-}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\gpbox{numFromSoldiers}}\end{bundle}}\end{bundle}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}}\end{bundle}
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12693452380952386 Adjusted=0.887363000132048 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ 0-}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\gpbox{numFromSoldiers}}\end{bundle}}\end{bundle}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}}\end{bundle}
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09375 Adjusted=0.9142857142857143 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ 0-}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\begin{bundle}{\gpbox{ 0-}}\chunk{\begin{bundle}{\gpbox{ 1/}}\chunk{\gpbox{numFromSoldiers}}\end{bundle}}\end{bundle}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}}\end{bundle}
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.08750000000000002 Adjusted=0.9195402298850576 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ 0-}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\gpbox{numFromSoldiers}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}}\end{bundle}
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.08750000000000002 Adjusted=0.9195402298850576 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ 0-}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\gpbox{numFromSoldiers}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}}\end{bundle}
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.08750000000000002 Adjusted=0.9195402298850576 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ 0-}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\gpbox{numFromSoldiers}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}}\end{bundle}
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.08750000000000002 Adjusted=0.9195402298850576 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ 0-}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\gpbox{numFromSoldiers}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}}\end{bundle}
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.08750000000000002 Adjusted=0.9195402298850576 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ 0-}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\gpbox{numFromSoldiers}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}}\end{bundle}
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.08750000000000002 Adjusted=0.9195402298850576 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ 0-}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\gpbox{numFromSoldiers}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}}\end{bundle}
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.08750000000000002 Adjusted=0.9195402298850576 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ 0-}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\gpbox{numFromSoldiers}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}}\end{bundle}
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.08750000000000002 Adjusted=0.9195402298850576 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ 0-}}\chunk{\begin{bundle}{\gpbox{ Math.exp}}\chunk{\begin{bundle}{\gpbox{ + }}\chunk{\gpbox{numFromSoldiers}}\chunk{\gpbox{allegiance}}\end{bundle}}\end{bundle}}\end{bundle}

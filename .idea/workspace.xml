@@ -2,137 +2,50 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="texasbot:jar" />
+      <artifact name="myBot:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53415471-bb40-41fe-af6f-d673f2321787" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/texasholdem/moves/BetCost.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/texasholdem/moves/Call.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/texasholdem/moves/CardHeight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/texasholdem/moves/Check.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/texasholdem/moves/CurRound.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/texasholdem/EvalIndividual.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/texasholdem/moves/HandEval.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/warlightBot/src/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/texasholdem/moves/OpponentStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/texasholdem/moves/PotSize.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/texasholdem/moves/Raise.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/texasholdem/TexasProblem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/texasholdem/com/theaigames/game/texasHoldem/TexasResults.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/texasholdem/TexasRunner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/warlight2/general.params" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/warlight2/reinforce.params" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/texasholdem/texas.params" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\BestBots.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\GPRunner.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\out.stat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\Stored_runs\1oct15-52.stat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\.idea\artifacts\myBot_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\.idea\uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\myBot.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\src\bot\sense_world.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\GPRunner.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\WarlightRunner.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\eval_move.params" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\eval_moveADF.params" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\eval_moveFPS.params" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\eval_move_competitive.params" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\general.params" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\out.stat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\sense_world.params" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\RandVar.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\data_types\DoubleData.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\data_types\IntData.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\functions\Add.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\functions\Cos.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\functions\Div.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\functions\Exp.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\functions\Inv.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\functions\Log.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\functions\Mul.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\functions\Neg.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\functions\Sin.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\functions\Sqrt.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\functions\Sub.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\functions\Tan.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\strict_functions\Cube.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\strict_functions\GreaterThan.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\strict_functions\IfGreaterThan.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\strict_functions\IfLesserThan.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\strict_functions\LesserThan.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\strict_functions\Modulo.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\GP\warlight2\strict_functions\Negexp.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out\production\myBot\bot\sense_world.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\randomBot.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\texasbot\META-INF\MANIFEST.MF" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\WarlightRunner.java" afterPath="$PROJECT_DIR$/GP/src/warlight2/WarlightRunner.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\eval_move.params" afterPath="$PROJECT_DIR$/GP/src/warlight2/eval_move.params" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\eval_moveADF.params" afterPath="$PROJECT_DIR$/GP/src/warlight2/eval_moveADF.params" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\eval_moveFPS.params" afterPath="$PROJECT_DIR$/GP/src/warlight2/eval_moveFPS.params" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\eval_move_competitive.params" afterPath="$PROJECT_DIR$/GP/src/warlight2/eval_move_competitive.params" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\general.params" afterPath="$PROJECT_DIR$/GP/src/texasholdem/general.params" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\sense_world.params" afterPath="$PROJECT_DIR$/GP/src/warlight2/sense_world.params" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\RandVar.java" afterPath="$PROJECT_DIR$/GP/src/texasholdem/moves/MyStack.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\data_types\DoubleData.java" afterPath="$PROJECT_DIR$/GP/src/data_types/DoubleData.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\data_types\IntData.java" afterPath="$PROJECT_DIR$/GP/src/data_types/IntData.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\functions\Add.java" afterPath="$PROJECT_DIR$/GP/src/functions/Add.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\functions\Cos.java" afterPath="$PROJECT_DIR$/GP/src/functions/Cos.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\functions\Div.java" afterPath="$PROJECT_DIR$/GP/src/functions/Div.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\functions\Exp.java" afterPath="$PROJECT_DIR$/GP/src/functions/Exp.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\functions\Inv.java" afterPath="$PROJECT_DIR$/GP/src/functions/Inv.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\functions\Log.java" afterPath="$PROJECT_DIR$/GP/src/functions/Log.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\functions\Mul.java" afterPath="$PROJECT_DIR$/GP/src/functions/Mul.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\functions\Neg.java" afterPath="$PROJECT_DIR$/GP/src/functions/Neg.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\functions\Sin.java" afterPath="$PROJECT_DIR$/GP/src/functions/Sin.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\functions\Sqrt.java" afterPath="$PROJECT_DIR$/GP/src/functions/Sqrt.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\functions\Sub.java" afterPath="$PROJECT_DIR$/GP/src/functions/Sub.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\functions\Tan.java" afterPath="$PROJECT_DIR$/GP/src/functions/Tan.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\strict_functions\Cube.java" afterPath="$PROJECT_DIR$/GP/src/strict_functions/Cube.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\strict_functions\GreaterThan.java" afterPath="$PROJECT_DIR$/GP/src/strict_functions/GreaterThan.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\strict_functions\IfGreaterThan.java" afterPath="$PROJECT_DIR$/GP/src/strict_functions/IfGreaterThan.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\strict_functions\IfLesserThan.java" afterPath="$PROJECT_DIR$/GP/src/strict_functions/IfLesserThan.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\strict_functions\LesserThan.java" afterPath="$PROJECT_DIR$/GP/src/strict_functions/LesserThan.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\strict_functions\Modulo.java" afterPath="$PROJECT_DIR$/GP/src/strict_functions/Modulo.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2\strict_functions\Negexp.java" afterPath="$PROJECT_DIR$/GP/src/strict_functions/Negexp.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\pom.xml" afterPath="$PROJECT_DIR$/warlightBot/pom.xml" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\src\bot\Bot.java" afterPath="$PROJECT_DIR$/warlightBot/src/bot/Bot.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\src\bot\BotParser.java" afterPath="$PROJECT_DIR$/warlightBot/src/bot/BotParser.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\src\bot\BotStarter.java" afterPath="$PROJECT_DIR$/warlightBot/src/bot/BotStarter.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\src\bot\BotState.java" afterPath="$PROJECT_DIR$/warlightBot/src/bot/BotState.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\src\map\Map.java" afterPath="$PROJECT_DIR$/warlightBot/src/map/Map.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\src\map\Region.java" afterPath="$PROJECT_DIR$/warlightBot/src/map/Region.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\src\map\SuperRegion.java" afterPath="$PROJECT_DIR$/warlightBot/src/map/SuperRegion.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\src\move\AttackTransferMove.java" afterPath="$PROJECT_DIR$/warlightBot/src/move/AttackTransferMove.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\src\move\Move.java" afterPath="$PROJECT_DIR$/warlightBot/src/move/Move.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\src\move\PlaceArmiesMove.java" afterPath="$PROJECT_DIR$/warlightBot/src/move/PlaceArmiesMove.java" />
-      <change type="MOVED" beforePath="C:\Users\Jonatan\workspace\ecj\myBot\src\src.zip" afterPath="$PROJECT_DIR$/warlightBot/src/src.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GP/warlight2/sense_world/AvgNeighbourScore.class" afterPath="$PROJECT_DIR$/out/production/GP/warlight2/sense_world/AvgNeighbourScore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/myBot/bot/BotStarter.class" afterPath="$PROJECT_DIR$/out/production/myBot/bot/BotStarter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/warlight2/com/theaigames/game/warlight2/GameResults.class" afterPath="$PROJECT_DIR$/out/production/warlight2/com/theaigames/game/warlight2/GameResults.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/warlight2/com/theaigames/game/warlight2/MapCreator.class" afterPath="$PROJECT_DIR$/out/production/warlight2/com/theaigames/game/warlight2/MapCreator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GP/warlight2/sense_world/SuperRegionScore.class" afterPath="$PROJECT_DIR$/out/production/GP/warlight2/sense_world/SuperRegionScore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/warlight2/com/theaigames/game/warlight2/Warlight2.class" afterPath="$PROJECT_DIR$/out/production/warlight2/com/theaigames/game/warlight2/Warlight2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/myBot/src.zip" afterPath="$PROJECT_DIR$/out/production/myBot/src.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GP/src/warlight2/sense_world/AvgNeighbourScore.java" afterPath="$PROJECT_DIR$/GP/src/warlight2/sense_world/AvgNeighbourScore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/warlightBot/src/bot/HistoryTracker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/visualisation/PopFitVsSizeChart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/statistics/ResultsSingleton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/warlightBot/src/evaluation/SuperRegionValueCalculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/visualisation/TerminalVsFitChart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/warlightBot/src/evaluation/WorkingMapUpdater.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/terminals/X.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/terminals/Y.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/warlight2/attack_strength.params" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GP/src/warlight2/experiment.params" />
+      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\.idea\libraries\myBot2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\libs\bsh-core-2.0b4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jonatan\workspace\ecj\out.stat" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GP/statistics/TabularStats.class" afterPath="$PROJECT_DIR$/out/production/GP/statistics/TabularStats.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/warlightBot/src.zip" afterPath="$PROJECT_DIR$/out/production/warlightBot/src.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warlightBot/src/src.zip" afterPath="$PROJECT_DIR$/warlightBot/src/src.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warlightBot/src/move/AttackTransferMove.java" afterPath="$PROJECT_DIR$/warlightBot/src/move/AttackTransferMove.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warlightBot/src/bot/Bot.java" afterPath="$PROJECT_DIR$/warlightBot/src/bot/Bot.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warlightBot/src/bot/BotParser.java" afterPath="$PROJECT_DIR$/warlightBot/src/bot/BotParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warlightBot/src/bot/BotStarter.java" afterPath="$PROJECT_DIR$/warlightBot/src/bot/BotStarter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warlightBot/src/bot/BotState.java" afterPath="$PROJECT_DIR$/warlightBot/src/bot/BotState.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GP/GP.iml" afterPath="$PROJECT_DIR$/GP/GP.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/GameResults.java" afterPath="$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/GameResults.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/MapCreator.java" afterPath="$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/MapCreator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GP/src/warlight2/sense_world/SuperRegionScore.java" afterPath="$PROJECT_DIR$/GP/src/warlight2/sense_world/SuperRegionScore.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/Warlight2.java" afterPath="$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/Warlight2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warlightBot/src/map/Map.java" afterPath="$PROJECT_DIR$/warlightBot/src/map/Map.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warlightBot/src/move/Move.java" afterPath="$PROJECT_DIR$/warlightBot/src/move/Move.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warlightBot/src/move/PlaceArmiesMove.java" afterPath="$PROJECT_DIR$/warlightBot/src/move/PlaceArmiesMove.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warlightBot/src/map/Region.java" afterPath="$PROJECT_DIR$/warlightBot/src/map/Region.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warlightBot/src/map/SuperRegion.java" afterPath="$PROJECT_DIR$/warlightBot/src/map/SuperRegion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GP/src/statistics/TabularStats.java" afterPath="$PROJECT_DIR$/GP/src/statistics/TabularStats.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GP/src/warlight2/WarlightProblem.java" afterPath="$PROJECT_DIR$/GP/src/warlight2/WarlightProblem.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GP/src/warlight2/WarlightProblemCompetitive.java" afterPath="$PROJECT_DIR$/GP/src/warlight2/WarlightProblemCompetitive.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/myBot_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/myBot_jar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/warlight2/warlight2.iml" afterPath="$PROJECT_DIR$/warlight2/warlight2.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GP/src/warlight2/WarlightRunner.java" afterPath="$PROJECT_DIR$/GP/src/warlight2/WarlightRunner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GP/src/warlight2/eval_move.params" afterPath="$PROJECT_DIR$/GP/src/warlight2/eval_move.params" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GP/warlight2/eval_move.params" afterPath="$PROJECT_DIR$/out/production/GP/warlight2/eval_move.params" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GP/src/warlight2/eval_move_competitive.params" afterPath="$PROJECT_DIR$/GP/src/warlight2/eval_move_competitive.params" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GP/warlight2/eval_move_competitive.params" afterPath="$PROJECT_DIR$/out/production/GP/warlight2/eval_move_competitive.params" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GP/src/warlight2/general.params" afterPath="$PROJECT_DIR$/GP/src/warlight2/general.params" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GP/warlight2/general.params" afterPath="$PROJECT_DIR$/out/production/GP/warlight2/general.params" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GP/src/warlight2/out.stat" afterPath="$PROJECT_DIR$/GP/src/warlight2/out.stat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GP/warlight2/out.stat" afterPath="$PROJECT_DIR$/out/production/GP/warlight2/out.stat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ecj.iws" />
@@ -159,14 +72,44 @@
     <favorites_list name="ecj" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.38880128">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="BotStarter.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/texasbot/com/bot/BotStarter.java">
+          <file leaf-file-name="BotState.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/warlightBot/src/bot/BotState.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7622047">
-                  <caret line="53" column="63" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Bot.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/warlightBot/src/bot/Bot.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="WarlightProblem.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GP/src/warlight2/WarlightProblem.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="71" column="37" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BotParser.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/warlightBot/src/bot/BotParser.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -174,14 +117,49 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TexasProblem.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GP/src/texasholdem/TexasProblem.java">
+          <file leaf-file-name="BotStarter.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/warlightBot/src/bot/BotStarter.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="51" column="150" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="150" />
+                  <caret line="44" column="44" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+                  <folding>
+                    <element signature="e#5406#5407#0" expanded="true" />
+                    <element signature="e#5447#5448#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MovesCalculator.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/warlightBot/src/strategy/MovesCalculator.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="157" column="56" selection-start-line="157" selection-start-column="32" selection-end-line="157" selection-end-column="56" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#757#758#0" expanded="true" />
+                    <element signature="e#786#787#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SuperRegionValueCalculator.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/warlightBot/src/evaluation/SuperRegionValueCalculator.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.41226575">
+                  <caret line="27" column="62" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="62" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="StartingRegionsChooser.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/warlightBot/src/strategy/StartingRegionsChooser.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -190,47 +168,45 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="EvalIndividual.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/GP/src/texasholdem/EvalIndividual.java">
+          <file leaf-file-name="SuperRegion.java" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/Downloads/norman/AdvancedStarterbot-master/src/map/SuperRegion.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.22519685">
-                  <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
                   <folding>
-                    <element signature="imports" expanded="true" />
+                    <element signature="imports" expanded="false" />
+                    <element signature="e#609#610#0" expanded="false" />
+                    <element signature="e#637#638#0" expanded="false" />
+                    <element signature="e#691#692#0" expanded="false" />
+                    <element signature="e#734#735#0" expanded="false" />
+                    <element signature="e#1138#1139#0" expanded="false" />
+                    <element signature="e#1154#1155#0" expanded="false" />
+                    <element signature="e#1299#1300#0" expanded="false" />
+                    <element signature="e#1325#1326#0" expanded="false" />
+                    <element signature="e#1451#1452#0" expanded="false" />
+                    <element signature="e#1475#1476#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Evolve.java" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/ecj/ecj/ec/Evolve.java">
+          <file leaf-file-name="BotStarter.java" pinned="false" current-in-tab="true">
+            <entry file="file://$USER_HOME$/Downloads/norman/AdvancedStarterbot-master/src/bot/BotStarter.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="687" column="70" selection-start-line="687" selection-start-column="70" selection-end-line="687" selection-end-column="70" />
-                  <folding>
-                    <element signature="e#0#37963#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TexasRunner.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GP/src/texasholdem/TexasRunner.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="9" column="120" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="120" />
+                <state vertical-scroll-proportion="0.59965926">
+                  <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Warlight2.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/Warlight2.java">
+          <file leaf-file-name="RegionValueCalculator.java" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/Downloads/norman/AdvancedStarterbot-master/src/evaluation/RegionValueCalculator.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="210" column="79" selection-start-line="210" selection-start-column="79" selection-end-line="210" selection-end-column="79" />
+                  <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
                   <folding>
-                    <element signature="e#0#10742#0" expanded="true" />
+                    <element signature="imports" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -243,6 +219,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Singleton" />
         <option value="Class" />
       </list>
     </option>
@@ -258,35 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GP/src/warlight2/attack_move/NumSoldiers.java" />
-        <option value="$PROJECT_DIR$/GP/src/warlight2/attack_move/EnemyOrFriendly.java" />
-        <option value="$PROJECT_DIR$/GP/src/eval_move2.params" />
-        <option value="$PROJECT_DIR$/GP/src/warlight2/functions/Sub.java" />
-        <option value="$PROJECT_DIR$/GP/src/eval_moveFPS.params" />
-        <option value="$PROJECT_DIR$/GP/src/warlight2/attack_move/EvalMove.java" />
-        <option value="$PROJECT_DIR$/warlight2/src/com/theaigames/engine/Engine.java" />
-        <option value="$PROJECT_DIR$/GP/src/general.params" />
-        <option value="$PROJECT_DIR$/GP/src/warlight2/MyBotCompiler.java" />
-        <option value="$PROJECT_DIR$/GP/src/warlight2/attack_move/Allegiance.java" />
-        <option value="$PROJECT_DIR$/GP/src/warlight2/attack_move/NumFromSoldiers.java" />
-        <option value="$PROJECT_DIR$/GP/src/warlight2/attack_move/NumToSoldiers.java" />
-        <option value="$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/map/Region.java" />
-        <option value="$PROJECT_DIR$/GP/src/warlight2/attack_move/RegionNeighbourAllegianceScore.java" />
-        <option value="$PROJECT_DIR$/GP/src/warlight2/attack_move/SuperRegionAllegianceScore.java" />
-        <option value="$PROJECT_DIR$/GP/src/eval_move.params" />
-        <option value="$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/Player.java" />
-        <option value="$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/MapCreator.java" />
-        <option value="$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/GameResults.java" />
-        <option value="$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/Warlight2.java" />
-        <option value="$PROJECT_DIR$/GP/src/reinforce.params" />
-        <option value="$PROJECT_DIR$/GP/src/warlight2/WarlightProblemCompetitive.java" />
-        <option value="$PROJECT_DIR$/myBot/src/bot/BotStarter.java" />
-        <option value="$PROJECT_DIR$/GP/src/eval_move_competitive.params" />
-        <option value="$PROJECT_DIR$/GP/src/WarlightRunner.java" />
-        <option value="$PROJECT_DIR$/GP/src/GPRunner.java" />
-        <option value="$PROJECT_DIR$/GP/src/warlight2/eval_move.params" />
-        <option value="$PROJECT_DIR$/GP/src/warlight2/WarlightProblem.java" />
-        <option value="$PROJECT_DIR$/GP/src/texasholdem/TexasRunner.java" />
         <option value="$PROJECT_DIR$/texasbot/com/stevebrecher/HandEval.java" />
         <option value="$PROJECT_DIR$/texasbot/com/bot/BotState.java" />
         <option value="$PROJECT_DIR$/GP/src/warlight2/sense_world/AvgNeighbourScore.java" />
@@ -309,6 +257,35 @@
         <option value="$PROJECT_DIR$/GP/src/monalisa.java" />
         <option value="$PROJECT_DIR$/texasbot/com/bot/BotStarter.java" />
         <option value="$PROJECT_DIR$/GP/src/texasholdem/EvalIndividual.java" />
+        <option value="$PROJECT_DIR$/GP/src/visualisation/ef.java" />
+        <option value="$PROJECT_DIR$/GP/src/visualisation/chart.jsp" />
+        <option value="$PROJECT_DIR$/GP/src/visualisation/PopulationFitnessChart.java" />
+        <option value="$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/GameResults.java" />
+        <option value="$PROJECT_DIR$/GP/src/warlight2/general.params" />
+        <option value="$PROJECT_DIR$/GP/src/statistics/ResultsSingleton.java" />
+        <option value="$PROJECT_DIR$/GP/src/warlight2/experiment.params" />
+        <option value="$PROJECT_DIR$/GP/src/statistics/TabularStats.java" />
+        <option value="$PROJECT_DIR$/GP/src/warlight2/eval_move_competitive.params" />
+        <option value="$PROJECT_DIR$/GP/src/warlight2/WarlightProblemCompetitive.java" />
+        <option value="$PROJECT_DIR$/GP/src/visualisation/TerminalVsFitChart.java" />
+        <option value="$PROJECT_DIR$/GP/src/visualisation/PopFitVsSizeChart.java" />
+        <option value="$PROJECT_DIR$/GP/src/terminals/Y.java" />
+        <option value="$PROJECT_DIR$/GP/src/terminals/Constant.java" />
+        <option value="$PROJECT_DIR$/GP/src/terminals/X.java" />
+        <option value="$PROJECT_DIR$/GP/src/warlight2/attack_strength.params" />
+        <option value="$PROJECT_DIR$/GP/src/warlight2/WarlightRunner.java" />
+        <option value="$PROJECT_DIR$/GP/src/warlight2/eval_move.params" />
+        <option value="$PROJECT_DIR$/warlightBot/src/bot/HistoryTracker.java" />
+        <option value="$PROJECT_DIR$/warlightBot/src/map/SuperRegion.java" />
+        <option value="$PROJECT_DIR$/warlightBot/src/map/Map.java" />
+        <option value="$PROJECT_DIR$/warlightBot/src/evaluation/SuperRegionValueCalculator.java" />
+        <option value="$PROJECT_DIR$/warlightBot/src/bot/BotState.java" />
+        <option value="$PROJECT_DIR$/warlightBot/src/bot/BotParser.java" />
+        <option value="$PROJECT_DIR$/warlightBot/src/bot/OldBotStarter.java" />
+        <option value="$PROJECT_DIR$/warlightBot/src/bot/OldBotParser.java" />
+        <option value="$PROJECT_DIR$/GP/src/warlight2/WarlightProblem.java" />
+        <option value="$PROJECT_DIR$/warlightBot/src/bot/BotStarter.java" />
+        <option value="$PROJECT_DIR$/warlightBot/src/strategy/MovesCalculator.java" />
       </list>
     </option>
   </component>
@@ -417,16 +394,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="warlightBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="warlightBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="warlightBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="evaluation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/texasbot" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/warlightBot/src/META-INF" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="OverrideImplement.combined" value="true" />
@@ -434,16 +453,16 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2" />
       <recent name="C:\Users\Jonatan\workspace\ecj\GP\src\texasholdem" />
       <recent name="C:\Users\Jonatan\workspace\ecj\GP\src" />
       <recent name="C:\Users\Jonatan\workspace\ecj\GP\src\visualisation" />
-      <recent name="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jonatan\workspace\ecj\GP\src\warlight2" />
@@ -452,11 +471,12 @@
       <recent name="C:\Users\Jonatan\workspace\ecj\GP\src\params" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="terminals" />
       <recent name="warlight2.attack_move" />
       <recent name="warlight2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EvalIndividual">
+  <component name="RunManager" selected="Application.WarlightRunner">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -692,34 +712,60 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1477" y="-2716" width="4832" height="2732" extended-state="6" />
+    <frame x="1477" y="-2716" width="4832" height="2732" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14781544" sideWeight="0.49914894" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14781544" sideWeight="0.49659574" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20049" sideWeight="0.51" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2592895" sideWeight="0.5193617" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20049" sideWeight="0.49" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2592895" sideWeight="0.4806383" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296011" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1906383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952225" sideWeight="0.4974468" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1606383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4079216" sideWeight="0.49914894" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4079216" sideWeight="0.49829787" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985657" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952225" sideWeight="0.4974468" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14781544" sideWeight="0.49914894" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20783994" sideWeight="0.5108511" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20783994" sideWeight="0.48914894" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985657" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296011" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1906383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952225" sideWeight="0.4974468" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4079216" sideWeight="0.49914894" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -758,7 +804,7 @@
           <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="51" />
+      <option name="time" value="52" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -767,83 +813,249 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/ecj/ecj/ec/display/chart/BarChartStatistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35892388">
-          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#1284#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GP/src/warlight2/reinforce.params">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/io/PrintWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="33" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GP/src/warlight2/WarlightProblemCompetitive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GP/src/warlight2/sense_world.params">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74488187">
-          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-          <folding />
+          <caret line="471" column="16" selection-start-line="471" selection-start-column="16" selection-end-line="471" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GP/src/warlight2/eval_move_competitive.params">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18582678">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-          <folding />
+        <state vertical-scroll-proportion="0.203125">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/warlight2/src/com/theaigames/engine/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32913387">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/texasholdem/com/theaigames/engine/Engine.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/io/DataOutput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GP/src/warlight2/WarlightProblemCompetitive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4559659">
+          <caret line="121" column="41" selection-start-line="121" selection-start-column="41" selection-end-line="121" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GP/src/statistics/ResultsSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GP/src/statistics/TabularStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="203" column="24" selection-start-line="203" selection-start-column="24" selection-end-line="203" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GP/src/visualisation/TerminalVsFitChart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="96" column="9" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GP/src/visualisation/PopFitVsSizeChart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="107" selection-start-line="39" selection-start-column="107" selection-end-line="39" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GP/src/warlight2/general.params">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GP/src/functions/Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/ecj/ecj/ec/app/tutorial4/X.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="39" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GP/src/terminals/Y.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/texasholdem/com/theaigames/game/texasHoldem/IncorrectPlayerCountException.java">
+    <entry file="jar://$PROJECT_DIR$/libs/ecj.23.jar!/ec/gp/ERC.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12979351">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.11653914">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GP/src/terminals/X.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#428#429#0" expanded="false" />
+            <element signature="e#456#457#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GP/src/warlight2/eval_move.params">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GP/src/warlight2/attack_strength.params">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37478706">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GP/src/warlight2/WarlightRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.318569">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GP/src/texasholdem/general.params">
+    <entry file="file://$USER_HOME$/ecj/ecj/ec/app/tutorial4/MultiValuedRegression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7495741">
+          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#2093#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/norman/AdvancedStarterbot-master/src/bot/HistoryTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16865417">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warlightBot/src/map/SuperRegion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.91288996">
+          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#609#610#0" expanded="false" />
+            <element signature="e#637#638#0" expanded="false" />
+            <element signature="e#691#692#0" expanded="false" />
+            <element signature="e#734#735#0" expanded="false" />
+            <element signature="e#1138#1139#0" expanded="false" />
+            <element signature="e#1154#1155#0" expanded="false" />
+            <element signature="e#1299#1300#0" expanded="false" />
+            <element signature="e#1325#1326#0" expanded="false" />
+            <element signature="e#1451#1452#0" expanded="false" />
+            <element signature="e#1475#1476#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/norman/AdvancedStarterbot-master/src/map/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="52" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warlightBot/src/map/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5247019">
+          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2215#2216#0" expanded="true" />
+            <element signature="e#2236#2237#0" expanded="true" />
+            <element signature="e#2354#2355#0" expanded="true" />
+            <element signature="e#2380#2381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warlightBot/src/bot/HistoryTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/norman/AdvancedStarterbot-master/src/evaluation/SuperRegionValueCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5229983">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/norman/AdvancedStarterbot-master/src/map/SuperRegion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#609#610#0" expanded="false" />
+            <element signature="e#637#638#0" expanded="false" />
+            <element signature="e#691#692#0" expanded="false" />
+            <element signature="e#734#735#0" expanded="false" />
+            <element signature="e#1138#1139#0" expanded="false" />
+            <element signature="e#1154#1155#0" expanded="false" />
+            <element signature="e#1299#1300#0" expanded="false" />
+            <element signature="e#1325#1326#0" expanded="false" />
+            <element signature="e#1451#1452#0" expanded="false" />
+            <element signature="e#1475#1476#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/norman/AdvancedStarterbot-master/src/evaluation/RegionValueCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warlightBot/src/map/Region.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07495741">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/norman/AdvancedStarterbot-master/src/move/Moves.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -851,224 +1063,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/texasbot/com/bot/BotState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3160105">
-          <caret line="141" column="68" selection-start-line="141" selection-start-column="68" selection-end-line="141" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/texasbot/com/bot/BotParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19055118">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/texasbot/com/poker/CardHeight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08661418">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/texasbot/com/poker/CardSuit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08661418">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/texasbot/com/poker/Hand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06929134">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/texasbot/com/poker/HandHoldem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08661418">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GP/src/warlight2/eval_move.params">
+    <entry file="file://$PROJECT_DIR$/warlightBot/src/strategy/TransferMovesChooser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GP/src/warlight2/sense_world/AvgNeighbourScore.java">
+    <entry file="file://$PROJECT_DIR$/warlightBot/src/evaluation/RegionValueCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.121259846">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        <state vertical-scroll-proportion="-2.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GP/src/texasholdem/moves/Call.java">
+    <entry file="file://$PROJECT_DIR$/warlightBot/src/evaluation/OpponentDeploymentGuesser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GP/src/texasholdem/moves/Raise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27716535">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/Processor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9653543">
-          <caret line="194" column="9" selection-start-line="194" selection-start-column="9" selection-end-line="194" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.07495741">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/GameResults.java">
+    <entry file="file://$PROJECT_DIR$/warlightBot/src/evaluation/WorkingMapUpdater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.07495741">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/texasholdem/com/theaigames/game/texasHoldem/TexasHoldem.java">
+    <entry file="file://$USER_HOME$/Downloads/norman/AdvancedStarterbot-master/src/debug/Debug.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42834646">
-          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/texasholdem/com/theaigames/game/texasHoldem/TexasResults.java">
+    <entry file="file://$USER_HOME$/Downloads/norman/AdvancedStarterbot-master/src/bot/Bot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46771654">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/texasbot/com/poker/Card.java">
+    <entry file="file://$PROJECT_DIR$/warlightBot/src/strategy/MovesScheduler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
-          <folding>
-            <element signature="e#2269#2270#0" expanded="true" />
-            <element signature="e#2289#2290#0" expanded="true" />
-          </folding>
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/Enum.java">
+    <entry file="file://$PROJECT_DIR$/warlightBot/src/move/Move.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
-          <folding>
-            <element signature="e#2979#2980#0" expanded="true" />
-            <element signature="e#3009#3010#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.037478704">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/warlightBot/src/bot/BotStarter.java">
+    <entry file="file://$PROJECT_DIR$/warlightBot/src/evaluation/FogRemover.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="230" column="9" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="9" />
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warlightBot/src/move/Moves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14991482">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warlightBot/src/debug/Debug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warlightBot/src/bot/Bot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warlightBot/src/bot/BotState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warlightBot/src/bot/BotParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#8357#8377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GP/src/texasholdem/moves/Check.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GP/src/texasholdem/moves/CardHeight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GP/src/texasholdem/moves/BetCost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GP/src/texasholdem/moves/PotSize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GP/src/texasholdem/moves/OpponentStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GP/src/texasholdem/moves/MyStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1076,166 +1180,55 @@
     <entry file="file://$PROJECT_DIR$/GP/src/warlight2/WarlightProblem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="54" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
+          <caret line="71" column="37" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/texasholdem/com/stevebrecher/HandEval.java">
+    <entry file="file://$PROJECT_DIR$/warlightBot/src/strategy/StartingRegionsChooser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="113" column="19" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/texasholdem/com/theaigames/game/texasHoldem/match/MatchInfo.java">
+    <entry file="file://$PROJECT_DIR$/warlightBot/src/bot/BotStarter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <caret line="44" column="44" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+          <folding>
+            <element signature="e#5406#5407#0" expanded="true" />
+            <element signature="e#5447#5448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/norman/AdvancedStarterbot-master/src/bot/BotStarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59965926">
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/texasholdem/com/theaigames/game/texasHoldem/table/hand/HandInfo.java">
+    <entry file="file://$PROJECT_DIR$/warlightBot/src/strategy/MovesCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/texasholdem/com/theaigames/game/texasHoldem/table/hand/HandInfoType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GP/src/texasholdem/moves/CurRound.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
+          <caret line="157" column="56" selection-start-line="157" selection-start-column="32" selection-end-line="157" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/texasholdem/com/theaigames/game/texasHoldem/table/hand/HandResultInfo.java">
+    <entry file="file://$PROJECT_DIR$/warlightBot/src/evaluation/SuperRegionValueCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.41226575">
+          <caret line="27" column="62" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="62" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GP/src/texasholdem/moves/HandEval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/texasbot/com/stevebrecher/HandEval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.287879">
-          <caret line="149" column="64" selection-start-line="149" selection-start-column="64" selection-end-line="149" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GP/src/texasholdem/texas.params">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GP/src/texasholdem/TexasProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="150" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="150" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/warlight2/src/com/theaigames/game/warlight2/Warlight2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="210" column="79" selection-start-line="210" selection-start-column="79" selection-end-line="210" selection-end-column="79" />
-          <folding>
-            <element signature="e#0#10742#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GP/src/texasholdem/TexasRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="120" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="120" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/ecj/ecj/ec/app/mona/Mona.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#2615#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/ecj/ecj/ec/app/mona/Picture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9536#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/ecj/ecj/ec/Evolve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="687" column="70" selection-start-line="687" selection-start-column="70" selection-end-line="687" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#37963#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GP/src/texasholdem/EvalIndividual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22519685">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/texasbot/com/bot/BotStarter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7622047">
-          <caret line="53" column="63" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1245,7 +1238,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>myBot:jar</last-edited>
+          <last-edited>texasbot:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1293,7 +1286,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>texasbot</last-edited>
+          <last-edited>warlightBot</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1318,7 +1311,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>java-json</last-edited>
+          <last-edited>jfreechart-1.0.19</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

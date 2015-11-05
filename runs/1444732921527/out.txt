@@ -1,0 +1,87 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.5952380952380952 Adjusted=0.626865671641791 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ * }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.5476190476190477 Adjusted=0.6461538461538461 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ * }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.43333333333333335 Adjusted=0.6976744186046512 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ * }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.43333333333333335 Adjusted=0.6976744186046512 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ * }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.43333333333333335 Adjusted=0.6976744186046512 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ * }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.43333333333333335 Adjusted=0.6976744186046512 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ * }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.4 Adjusted=0.7142857142857143 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ * }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.4 Adjusted=0.7142857142857143 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ * }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.39761904761904754 Adjusted=0.7155025553662692 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ * }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.39761904761904754 Adjusted=0.7155025553662692 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ * }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.39761904761904754 Adjusted=0.7155025553662692 Hits=0
+Tree 0:
+\begin{bundle}{\gpbox{ * }}\chunk{\gpbox{allegiance}}\chunk{\gpbox{superRegionAllegianceScore}}\end{bundle}

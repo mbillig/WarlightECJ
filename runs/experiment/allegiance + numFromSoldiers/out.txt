@@ -1,0 +1,1090 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2288095238095238 Adjusted=0.8137957760124007 Hits=0
+Tree 0:
+ ( -  numFromSoldiers allegiance)
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.21499999999999997 Adjusted=0.8230452674897121 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) ( +  ( +  numFromSoldiers
+     allegiance) ( *  allegiance numFromSoldiers))))
+     ( *  ( -  ( *  ( *  numFromSoldiers allegiance)
+         ( +  allegiance allegiance)) ( +  ( +  allegiance
+         allegiance) ( +  allegiance allegiance)))
+         ( -  ( -  ( +  numFromSoldiers numFromSoldiers)
+             ( +  allegiance allegiance)) ( *  ( *  numFromSoldiers
+             allegiance) ( -  allegiance numFromSoldiers)))))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.17500000000000004 Adjusted=0.851063829787234 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) ( + 
+         allegiance allegiance)) ( +  ( +  allegiance
+     allegiance) ( +  allegiance allegiance)))
+     ( -  ( -  ( +  numFromSoldiers numFromSoldiers)
+         ( +  allegiance allegiance)) ( *  ( *  numFromSoldiers
+         allegiance) ( -  allegiance numFromSoldiers)))))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12 Adjusted=0.8928571428571428 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) ( + 
+         allegiance allegiance)) ( +  ( +  ( *  ( * 
+     numFromSoldiers allegiance) ( -  allegiance
+     numFromSoldiers)) allegiance) ( +  allegiance
+     allegiance))) ( -  ( -  ( +  numFromSoldiers
+     numFromSoldiers) ( +  allegiance allegiance))
+     ( *  ( *  numFromSoldiers allegiance) ( - 
+         allegiance numFromSoldiers)))))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12 Adjusted=0.8928571428571428 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) ( + 
+         allegiance allegiance)) ( +  ( +  ( *  ( * 
+     numFromSoldiers allegiance) ( -  allegiance
+     numFromSoldiers)) allegiance) ( +  allegiance
+     allegiance))) ( -  ( -  ( +  numFromSoldiers
+     numFromSoldiers) ( +  allegiance allegiance))
+     ( *  ( *  numFromSoldiers allegiance) ( - 
+         allegiance numFromSoldiers)))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12 Adjusted=0.8928571428571428 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) ( + 
+         allegiance allegiance)) ( +  ( +  ( *  ( * 
+     numFromSoldiers allegiance) ( -  allegiance
+     numFromSoldiers)) allegiance) ( +  allegiance
+     allegiance))) ( -  ( -  ( +  numFromSoldiers
+     numFromSoldiers) ( +  allegiance allegiance))
+     ( *  ( *  numFromSoldiers allegiance) ( - 
+         allegiance numFromSoldiers)))))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12 Adjusted=0.8928571428571428 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) ( + 
+         allegiance allegiance)) ( +  ( +  ( *  ( * 
+     numFromSoldiers allegiance) ( -  allegiance
+     numFromSoldiers)) allegiance) ( +  allegiance
+     allegiance))) ( -  ( -  ( +  numFromSoldiers
+     numFromSoldiers) ( +  allegiance allegiance))
+     ( *  ( *  numFromSoldiers allegiance) ( - 
+         allegiance numFromSoldiers)))))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12 Adjusted=0.8928571428571428 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) ( + 
+         allegiance allegiance)) ( +  ( +  ( *  ( * 
+     numFromSoldiers allegiance) ( -  allegiance
+     numFromSoldiers)) allegiance) ( +  allegiance
+     allegiance))) ( -  ( -  ( +  numFromSoldiers
+     numFromSoldiers) ( +  allegiance allegiance))
+     ( *  ( *  numFromSoldiers allegiance) ( - 
+         allegiance numFromSoldiers)))))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12 Adjusted=0.8928571428571428 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) numFromSoldiers)
+     ( +  ( +  ( *  ( *  numFromSoldiers allegiance)
+         ( -  allegiance numFromSoldiers)) allegiance)
+         ( +  allegiance allegiance))) ( -  ( -  ( + 
+     numFromSoldiers ( +  allegiance numFromSoldiers))
+     ( +  allegiance allegiance)) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))))
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12 Adjusted=0.8928571428571428 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) numFromSoldiers)
+     ( +  ( +  ( *  ( *  numFromSoldiers allegiance)
+         ( -  allegiance numFromSoldiers)) allegiance)
+         ( +  allegiance allegiance))) ( -  ( -  ( + 
+     numFromSoldiers ( +  allegiance numFromSoldiers))
+     ( +  allegiance allegiance)) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))))
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12 Adjusted=0.8928571428571428 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) numFromSoldiers)
+     ( +  ( +  ( *  ( *  numFromSoldiers allegiance)
+         ( -  allegiance numFromSoldiers)) allegiance)
+         ( +  allegiance allegiance))) ( -  ( -  ( + 
+     numFromSoldiers ( +  allegiance numFromSoldiers))
+     ( +  allegiance allegiance)) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))))
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12 Adjusted=0.8928571428571428 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) numFromSoldiers)
+     ( +  ( +  ( *  ( *  numFromSoldiers allegiance)
+         ( -  allegiance numFromSoldiers)) allegiance)
+         ( +  allegiance allegiance))) ( -  ( -  ( + 
+     numFromSoldiers ( +  allegiance numFromSoldiers))
+     ( +  allegiance allegiance)) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))))
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12 Adjusted=0.8928571428571428 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) numFromSoldiers)
+     ( +  ( +  ( *  ( *  numFromSoldiers allegiance)
+         ( -  allegiance numFromSoldiers)) allegiance)
+         ( +  allegiance allegiance))) ( -  ( -  ( + 
+     numFromSoldiers ( +  allegiance numFromSoldiers))
+     ( +  allegiance allegiance)) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))))
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12 Adjusted=0.8928571428571428 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) numFromSoldiers)
+     ( +  ( +  ( *  ( *  numFromSoldiers allegiance)
+         ( -  allegiance numFromSoldiers)) allegiance)
+         ( +  allegiance allegiance))) ( -  ( -  ( + 
+     numFromSoldiers ( +  allegiance numFromSoldiers))
+     ( +  allegiance allegiance)) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))))
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12 Adjusted=0.8928571428571428 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) numFromSoldiers)
+     ( +  ( +  ( *  ( *  numFromSoldiers allegiance)
+         ( -  allegiance numFromSoldiers)) allegiance)
+         ( +  allegiance allegiance))) ( -  ( -  ( + 
+     numFromSoldiers ( +  allegiance numFromSoldiers))
+     ( +  allegiance allegiance)) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))))
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12 Adjusted=0.8928571428571428 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) numFromSoldiers)
+     ( +  ( +  ( *  ( *  numFromSoldiers allegiance)
+         ( -  allegiance numFromSoldiers)) allegiance)
+         ( +  allegiance allegiance))) ( -  ( -  ( + 
+     numFromSoldiers ( +  allegiance numFromSoldiers))
+     ( +  allegiance allegiance)) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))))
+
+Generation: 16
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12 Adjusted=0.8928571428571428 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) numFromSoldiers)
+     ( +  ( +  ( *  ( *  numFromSoldiers allegiance)
+         ( -  allegiance numFromSoldiers)) allegiance)
+         ( +  allegiance allegiance))) ( -  ( -  ( + 
+     numFromSoldiers ( +  allegiance numFromSoldiers))
+     ( +  allegiance allegiance)) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))))
+
+Generation: 17
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12 Adjusted=0.8928571428571428 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) numFromSoldiers)
+     ( +  ( +  ( *  ( *  numFromSoldiers allegiance)
+         ( -  allegiance numFromSoldiers)) allegiance)
+         ( +  allegiance allegiance))) ( -  ( -  ( + 
+     numFromSoldiers ( +  allegiance numFromSoldiers))
+     ( +  allegiance allegiance)) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))))
+
+Generation: 18
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12 Adjusted=0.8928571428571428 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) numFromSoldiers)
+     ( +  ( +  ( *  ( *  numFromSoldiers allegiance)
+         ( -  allegiance numFromSoldiers)) allegiance)
+         ( +  allegiance allegiance))) ( -  ( -  ( + 
+     numFromSoldiers ( +  allegiance numFromSoldiers))
+     ( +  allegiance allegiance)) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))))
+
+Generation: 19
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12 Adjusted=0.8928571428571428 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) numFromSoldiers)
+     ( +  ( +  ( *  ( *  numFromSoldiers allegiance)
+         ( -  allegiance numFromSoldiers)) allegiance)
+         ( +  allegiance allegiance))) ( -  ( -  ( + 
+     numFromSoldiers ( +  allegiance numFromSoldiers))
+     ( +  allegiance allegiance)) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))))
+
+Generation: 20
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12 Adjusted=0.8928571428571428 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) numFromSoldiers)
+     ( +  ( +  ( *  ( *  numFromSoldiers allegiance)
+         ( -  allegiance numFromSoldiers)) allegiance)
+         ( +  allegiance allegiance))) ( -  ( -  ( + 
+     numFromSoldiers ( +  allegiance numFromSoldiers))
+     ( +  allegiance allegiance)) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))))
+
+Generation: 21
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12 Adjusted=0.8928571428571428 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) numFromSoldiers)
+     ( +  ( +  ( *  ( *  numFromSoldiers allegiance)
+         ( -  allegiance numFromSoldiers)) allegiance)
+         ( +  allegiance allegiance))) ( -  ( -  ( + 
+     numFromSoldiers ( +  allegiance numFromSoldiers))
+     ( +  allegiance allegiance)) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))))
+
+Generation: 22
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12 Adjusted=0.8928571428571428 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) numFromSoldiers)
+     ( +  ( +  ( *  ( *  numFromSoldiers allegiance)
+         ( -  allegiance numFromSoldiers)) allegiance)
+         ( +  allegiance allegiance))) ( -  ( -  ( + 
+     numFromSoldiers ( +  allegiance numFromSoldiers))
+     ( +  allegiance allegiance)) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))))
+
+Generation: 23
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12 Adjusted=0.8928571428571428 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) numFromSoldiers)
+     ( +  ( +  ( *  ( *  numFromSoldiers allegiance)
+         ( -  allegiance numFromSoldiers)) allegiance)
+         ( +  allegiance allegiance))) ( -  ( -  ( + 
+     numFromSoldiers ( +  allegiance numFromSoldiers))
+     ( +  allegiance allegiance)) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))))
+
+Generation: 24
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12 Adjusted=0.8928571428571428 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  numFromSoldiers allegiance))) ( -  ( * 
+     ( *  allegiance allegiance) ( +  allegiance
+     numFromSoldiers)) allegiance)) ( *  ( - 
+     ( *  ( *  numFromSoldiers allegiance) numFromSoldiers)
+     ( +  ( +  ( *  ( *  numFromSoldiers allegiance)
+         ( -  allegiance numFromSoldiers)) allegiance)
+         ( +  allegiance allegiance))) ( -  ( -  ( + 
+     numFromSoldiers ( +  allegiance numFromSoldiers))
+     ( +  allegiance allegiance)) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))))
+
+Generation: 25
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10999999999999999 Adjusted=0.900900900900901 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  ( *  ( *  ( *  numFromSoldiers numFromSoldiers)
+             ( +  allegiance numFromSoldiers)) ( *  ( + 
+             numFromSoldiers ( +  allegiance numFromSoldiers))
+             ( -  numFromSoldiers allegiance))) ( -  ( * 
+             ( *  allegiance ( *  numFromSoldiers allegiance))
+             ( *  ( *  ( *  numFromSoldiers numFromSoldiers)
+                 ( +  allegiance numFromSoldiers)) ( *  ( * 
+                 numFromSoldiers numFromSoldiers) ( -  numFromSoldiers
+                 allegiance)))) allegiance)))) ( -  ( *  ( * 
+     allegiance allegiance) ( *  numFromSoldiers
+     allegiance)) allegiance)) ( *  ( *  allegiance
+     allegiance) ( -  ( -  ( +  numFromSoldiers
+     ( *  ( *  numFromSoldiers allegiance) allegiance))
+     ( +  allegiance allegiance)) ( *  allegiance
+     ( -  allegiance numFromSoldiers)))))
+
+Generation: 26
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10999999999999999 Adjusted=0.900900900900901 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  ( *  ( *  ( *  numFromSoldiers numFromSoldiers)
+             ( +  allegiance numFromSoldiers)) ( *  ( + 
+             numFromSoldiers ( +  allegiance numFromSoldiers))
+             ( -  numFromSoldiers allegiance))) ( -  ( * 
+             ( *  allegiance ( *  numFromSoldiers allegiance))
+             ( *  ( *  ( *  numFromSoldiers numFromSoldiers)
+                 ( +  allegiance numFromSoldiers)) ( *  ( * 
+                 numFromSoldiers numFromSoldiers) ( -  numFromSoldiers
+                 allegiance)))) allegiance)))) ( -  ( *  ( * 
+     allegiance allegiance) ( *  numFromSoldiers
+     allegiance)) allegiance)) ( *  ( *  allegiance
+     allegiance) ( -  ( -  ( +  numFromSoldiers
+     ( *  ( *  numFromSoldiers allegiance) allegiance))
+     ( +  allegiance allegiance)) ( *  allegiance
+     ( -  allegiance numFromSoldiers)))))
+
+Generation: 27
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10999999999999999 Adjusted=0.900900900900901 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  ( *  ( *  ( *  numFromSoldiers numFromSoldiers)
+             ( +  allegiance numFromSoldiers)) ( *  ( + 
+             numFromSoldiers ( +  allegiance numFromSoldiers))
+             ( -  numFromSoldiers allegiance))) ( -  ( * 
+             ( *  allegiance ( *  numFromSoldiers allegiance))
+             ( *  ( *  ( *  numFromSoldiers numFromSoldiers)
+                 ( +  allegiance numFromSoldiers)) ( *  ( * 
+                 numFromSoldiers numFromSoldiers) ( -  numFromSoldiers
+                 allegiance)))) allegiance)))) ( -  ( *  ( * 
+     allegiance allegiance) ( *  numFromSoldiers
+     allegiance)) allegiance)) ( *  ( *  allegiance
+     allegiance) ( -  ( -  ( +  numFromSoldiers
+     ( *  ( *  numFromSoldiers allegiance) allegiance))
+     ( +  allegiance allegiance)) ( *  allegiance
+     ( -  allegiance numFromSoldiers)))))
+
+Generation: 28
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10999999999999999 Adjusted=0.900900900900901 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  ( *  ( *  ( *  numFromSoldiers numFromSoldiers)
+             ( +  allegiance numFromSoldiers)) ( *  ( + 
+             numFromSoldiers ( +  allegiance numFromSoldiers))
+             ( -  numFromSoldiers allegiance))) ( -  ( * 
+             ( *  allegiance ( *  numFromSoldiers allegiance))
+             ( *  ( *  ( *  numFromSoldiers numFromSoldiers)
+                 ( +  allegiance numFromSoldiers)) ( *  ( * 
+                 numFromSoldiers numFromSoldiers) ( -  numFromSoldiers
+                 allegiance)))) allegiance)))) ( -  ( *  ( * 
+     allegiance allegiance) ( *  numFromSoldiers
+     allegiance)) allegiance)) ( *  ( *  allegiance
+     allegiance) ( -  ( -  ( +  numFromSoldiers
+     ( *  ( *  numFromSoldiers allegiance) allegiance))
+     ( +  allegiance allegiance)) ( *  allegiance
+     ( -  allegiance numFromSoldiers)))))
+
+Generation: 29
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10999999999999999 Adjusted=0.900900900900901 Hits=0
+Tree 0:
+ ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+     numFromSoldiers) ( +  allegiance numFromSoldiers))
+     ( *  ( *  numFromSoldiers numFromSoldiers)
+         ( -  ( *  ( *  ( *  numFromSoldiers numFromSoldiers)
+             ( +  allegiance numFromSoldiers)) ( *  ( + 
+             numFromSoldiers ( +  allegiance numFromSoldiers))
+             ( -  numFromSoldiers allegiance))) ( -  ( * 
+             ( *  allegiance ( *  numFromSoldiers allegiance))
+             ( *  ( *  ( *  numFromSoldiers numFromSoldiers)
+                 ( +  allegiance numFromSoldiers)) ( *  ( * 
+                 numFromSoldiers numFromSoldiers) ( -  numFromSoldiers
+                 allegiance)))) allegiance)))) ( -  ( *  ( * 
+     allegiance allegiance) ( *  numFromSoldiers
+     allegiance)) allegiance)) ( *  ( *  allegiance
+     allegiance) ( -  ( -  ( +  numFromSoldiers
+     ( *  ( *  numFromSoldiers allegiance) allegiance))
+     ( +  allegiance allegiance)) ( *  allegiance
+     ( -  allegiance numFromSoldiers)))))
+
+Generation: 30
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09499999999999997 Adjusted=0.9132420091324202 Hits=0
+Tree 0:
+ ( -  ( -  ( -  ( *  allegiance ( *  ( * 
+     numFromSoldiers numFromSoldiers) ( -  numFromSoldiers
+     allegiance))) ( -  ( *  ( *  ( *  allegiance
+     allegiance) ( +  allegiance numFromSoldiers))
+     ( -  ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+         numFromSoldiers) ( +  allegiance numFromSoldiers))
+         ( *  ( *  numFromSoldiers numFromSoldiers)
+             ( -  numFromSoldiers allegiance))) ( -  ( * 
+         ( *  ( *  allegiance allegiance) ( +  allegiance
+             numFromSoldiers)) ( *  ( *  numFromSoldiers
+         numFromSoldiers) ( +  allegiance numFromSoldiers)))
+         allegiance)) ( *  numFromSoldiers numFromSoldiers))
+         ( *  ( -  ( *  ( *  ( *  numFromSoldiers
+             allegiance) allegiance) numFromSoldiers)
+             ( *  numFromSoldiers allegiance)) ( -  ( - 
+             ( *  ( *  numFromSoldiers numFromSoldiers)
+                 ( -  numFromSoldiers allegiance)) ( +  allegiance
+             allegiance)) ( -  ( *  ( *  allegiance allegiance)
+             ( +  allegiance numFromSoldiers)) allegiance)))))
+     allegiance)) ( *  ( -  ( *  ( *  numFromSoldiers
+     allegiance) numFromSoldiers) ( +  ( +  ( * 
+     numFromSoldiers ( -  allegiance numFromSoldiers))
+     allegiance) ( +  ( *  numFromSoldiers numFromSoldiers)
+     allegiance))) ( -  ( -  ( -  ( +  numFromSoldiers
+     ( +  allegiance numFromSoldiers)) ( *  numFromSoldiers
+     numFromSoldiers)) ( +  allegiance allegiance))
+     ( *  ( *  numFromSoldiers allegiance) ( - 
+         allegiance numFromSoldiers))))) ( *  ( - 
+     ( *  ( *  ( *  numFromSoldiers allegiance)
+         allegiance) numFromSoldiers) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))
+     ( -  ( -  ( +  numFromSoldiers ( +  ( - 
+         allegiance numFromSoldiers) numFromSoldiers))
+         ( +  allegiance allegiance)) ( -  ( *  ( * 
+         allegiance allegiance) ( +  allegiance numFromSoldiers))
+         allegiance))))
+
+Generation: 31
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09499999999999997 Adjusted=0.9132420091324202 Hits=0
+Tree 0:
+ ( -  ( -  ( -  ( *  allegiance ( *  ( * 
+     numFromSoldiers numFromSoldiers) ( -  numFromSoldiers
+     allegiance))) ( -  ( *  ( *  ( *  allegiance
+     allegiance) ( +  allegiance numFromSoldiers))
+     ( -  ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+         numFromSoldiers) ( +  allegiance numFromSoldiers))
+         ( *  ( *  numFromSoldiers numFromSoldiers)
+             ( -  numFromSoldiers allegiance))) ( -  ( * 
+         ( *  ( *  allegiance allegiance) ( +  allegiance
+             numFromSoldiers)) ( *  ( *  numFromSoldiers
+         numFromSoldiers) ( +  allegiance numFromSoldiers)))
+         allegiance)) ( *  numFromSoldiers numFromSoldiers))
+         ( *  ( -  ( *  ( *  ( *  numFromSoldiers
+             allegiance) allegiance) numFromSoldiers)
+             ( *  numFromSoldiers allegiance)) ( -  ( - 
+             ( *  ( *  numFromSoldiers numFromSoldiers)
+                 ( -  numFromSoldiers allegiance)) ( +  allegiance
+             allegiance)) ( -  ( *  ( *  allegiance allegiance)
+             ( +  allegiance numFromSoldiers)) allegiance)))))
+     allegiance)) ( *  ( -  ( *  ( *  numFromSoldiers
+     allegiance) numFromSoldiers) ( +  ( +  ( * 
+     numFromSoldiers ( -  allegiance numFromSoldiers))
+     allegiance) ( +  ( *  numFromSoldiers numFromSoldiers)
+     allegiance))) ( -  ( -  ( -  ( +  numFromSoldiers
+     ( +  allegiance numFromSoldiers)) ( *  numFromSoldiers
+     numFromSoldiers)) ( +  allegiance allegiance))
+     ( *  ( *  numFromSoldiers allegiance) ( - 
+         allegiance numFromSoldiers))))) ( *  ( - 
+     ( *  ( *  ( *  numFromSoldiers allegiance)
+         allegiance) numFromSoldiers) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))
+     ( -  ( -  ( +  numFromSoldiers ( +  ( - 
+         allegiance numFromSoldiers) numFromSoldiers))
+         ( +  allegiance allegiance)) ( -  ( *  ( * 
+         allegiance allegiance) ( +  allegiance numFromSoldiers))
+         allegiance))))
+
+Generation: 32
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09499999999999997 Adjusted=0.9132420091324202 Hits=0
+Tree 0:
+ ( -  ( -  ( -  ( *  allegiance ( *  ( * 
+     numFromSoldiers numFromSoldiers) ( -  numFromSoldiers
+     allegiance))) ( -  ( *  ( *  ( *  allegiance
+     allegiance) ( +  allegiance numFromSoldiers))
+     ( -  ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+         numFromSoldiers) ( +  allegiance numFromSoldiers))
+         ( *  ( *  numFromSoldiers numFromSoldiers)
+             ( -  numFromSoldiers allegiance))) ( -  ( * 
+         ( *  ( *  allegiance allegiance) ( +  allegiance
+             numFromSoldiers)) ( *  ( *  numFromSoldiers
+         numFromSoldiers) ( +  allegiance numFromSoldiers)))
+         allegiance)) ( *  numFromSoldiers numFromSoldiers))
+         ( *  ( -  ( *  ( *  ( *  numFromSoldiers
+             allegiance) allegiance) numFromSoldiers)
+             ( *  numFromSoldiers allegiance)) ( -  ( - 
+             ( *  ( *  numFromSoldiers numFromSoldiers)
+                 ( -  numFromSoldiers allegiance)) ( +  allegiance
+             allegiance)) ( -  ( *  ( *  allegiance allegiance)
+             ( +  allegiance numFromSoldiers)) allegiance)))))
+     allegiance)) ( *  ( -  ( *  ( *  numFromSoldiers
+     allegiance) numFromSoldiers) ( +  ( +  ( * 
+     numFromSoldiers ( -  allegiance numFromSoldiers))
+     allegiance) ( +  ( *  numFromSoldiers numFromSoldiers)
+     allegiance))) ( -  ( -  ( -  ( +  numFromSoldiers
+     ( +  allegiance numFromSoldiers)) ( *  numFromSoldiers
+     numFromSoldiers)) ( +  allegiance allegiance))
+     ( *  ( *  numFromSoldiers allegiance) ( - 
+         allegiance numFromSoldiers))))) ( *  ( - 
+     ( *  ( *  ( *  numFromSoldiers allegiance)
+         allegiance) numFromSoldiers) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))
+     ( -  ( -  ( +  numFromSoldiers ( +  ( - 
+         allegiance numFromSoldiers) numFromSoldiers))
+         ( +  allegiance allegiance)) ( -  ( *  ( * 
+         allegiance allegiance) ( +  allegiance numFromSoldiers))
+         allegiance))))
+
+Generation: 33
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09499999999999997 Adjusted=0.9132420091324202 Hits=0
+Tree 0:
+ ( -  ( -  ( -  ( *  allegiance ( *  ( * 
+     numFromSoldiers numFromSoldiers) ( -  numFromSoldiers
+     allegiance))) ( -  ( *  ( *  ( *  allegiance
+     allegiance) ( +  allegiance numFromSoldiers))
+     ( -  ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+         numFromSoldiers) ( +  allegiance numFromSoldiers))
+         ( *  ( *  numFromSoldiers numFromSoldiers)
+             ( -  numFromSoldiers allegiance))) ( -  ( * 
+         ( *  ( *  allegiance allegiance) ( +  allegiance
+             numFromSoldiers)) ( *  ( *  numFromSoldiers
+         numFromSoldiers) ( +  allegiance numFromSoldiers)))
+         allegiance)) ( *  numFromSoldiers numFromSoldiers))
+         ( *  ( -  ( *  ( *  ( *  numFromSoldiers
+             allegiance) allegiance) numFromSoldiers)
+             ( *  numFromSoldiers allegiance)) ( -  ( - 
+             ( *  ( *  numFromSoldiers numFromSoldiers)
+                 ( -  numFromSoldiers allegiance)) ( +  allegiance
+             allegiance)) ( -  ( *  ( *  allegiance allegiance)
+             ( +  allegiance numFromSoldiers)) allegiance)))))
+     allegiance)) ( *  ( -  ( *  ( *  numFromSoldiers
+     allegiance) numFromSoldiers) ( +  ( +  ( * 
+     numFromSoldiers ( -  allegiance numFromSoldiers))
+     allegiance) ( +  ( *  numFromSoldiers numFromSoldiers)
+     allegiance))) ( -  ( -  ( -  ( +  numFromSoldiers
+     ( +  allegiance numFromSoldiers)) ( *  numFromSoldiers
+     numFromSoldiers)) ( +  allegiance allegiance))
+     ( *  ( *  numFromSoldiers allegiance) ( - 
+         allegiance numFromSoldiers))))) ( *  ( - 
+     ( *  ( *  ( *  numFromSoldiers allegiance)
+         allegiance) numFromSoldiers) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))
+     ( -  ( -  ( +  numFromSoldiers ( +  ( - 
+         allegiance numFromSoldiers) numFromSoldiers))
+         ( +  allegiance allegiance)) ( -  ( *  ( * 
+         allegiance allegiance) ( +  allegiance numFromSoldiers))
+         allegiance))))
+
+Generation: 34
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09499999999999997 Adjusted=0.9132420091324202 Hits=0
+Tree 0:
+ ( -  ( -  ( -  ( *  allegiance ( *  ( * 
+     numFromSoldiers numFromSoldiers) ( -  numFromSoldiers
+     allegiance))) ( -  ( *  ( *  ( *  allegiance
+     allegiance) ( +  allegiance numFromSoldiers))
+     ( -  ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+         numFromSoldiers) ( +  allegiance numFromSoldiers))
+         ( *  ( *  numFromSoldiers numFromSoldiers)
+             ( -  numFromSoldiers allegiance))) ( -  ( * 
+         ( *  ( *  allegiance allegiance) ( +  allegiance
+             numFromSoldiers)) ( *  ( *  numFromSoldiers
+         numFromSoldiers) ( +  allegiance numFromSoldiers)))
+         allegiance)) ( *  numFromSoldiers numFromSoldiers))
+         ( *  ( -  ( *  ( *  ( *  numFromSoldiers
+             allegiance) allegiance) numFromSoldiers)
+             ( *  numFromSoldiers allegiance)) ( -  ( - 
+             ( *  ( *  numFromSoldiers numFromSoldiers)
+                 ( -  numFromSoldiers allegiance)) ( +  allegiance
+             allegiance)) ( -  ( *  ( *  allegiance allegiance)
+             ( +  allegiance numFromSoldiers)) allegiance)))))
+     allegiance)) ( *  ( -  ( *  ( *  numFromSoldiers
+     allegiance) numFromSoldiers) ( +  ( +  ( * 
+     numFromSoldiers ( -  allegiance numFromSoldiers))
+     allegiance) ( +  ( *  numFromSoldiers numFromSoldiers)
+     allegiance))) ( -  ( -  ( -  ( +  numFromSoldiers
+     ( +  allegiance numFromSoldiers)) ( *  numFromSoldiers
+     numFromSoldiers)) ( +  allegiance allegiance))
+     ( *  ( *  numFromSoldiers allegiance) ( - 
+         allegiance numFromSoldiers))))) ( *  ( - 
+     ( *  ( *  ( *  numFromSoldiers allegiance)
+         allegiance) numFromSoldiers) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))
+     ( -  ( -  ( +  numFromSoldiers ( +  ( - 
+         allegiance numFromSoldiers) numFromSoldiers))
+         ( +  allegiance allegiance)) ( -  ( *  ( * 
+         allegiance allegiance) ( +  allegiance numFromSoldiers))
+         allegiance))))
+
+Generation: 35
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09499999999999997 Adjusted=0.9132420091324202 Hits=0
+Tree 0:
+ ( -  ( -  ( -  ( *  allegiance ( *  ( * 
+     numFromSoldiers numFromSoldiers) ( -  numFromSoldiers
+     allegiance))) ( -  ( *  ( *  ( *  allegiance
+     allegiance) ( +  allegiance numFromSoldiers))
+     ( -  ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+         numFromSoldiers) ( +  allegiance numFromSoldiers))
+         ( *  ( *  numFromSoldiers numFromSoldiers)
+             ( -  numFromSoldiers allegiance))) ( -  ( * 
+         ( *  ( *  allegiance allegiance) ( +  allegiance
+             numFromSoldiers)) ( *  ( *  numFromSoldiers
+         numFromSoldiers) ( +  allegiance numFromSoldiers)))
+         allegiance)) ( *  numFromSoldiers numFromSoldiers))
+         ( *  ( -  ( *  ( *  ( *  numFromSoldiers
+             allegiance) allegiance) numFromSoldiers)
+             ( *  numFromSoldiers allegiance)) ( -  ( - 
+             ( *  ( *  numFromSoldiers numFromSoldiers)
+                 ( -  numFromSoldiers allegiance)) ( +  allegiance
+             allegiance)) ( -  ( *  ( *  allegiance allegiance)
+             ( +  allegiance numFromSoldiers)) allegiance)))))
+     allegiance)) ( *  ( -  ( *  ( *  numFromSoldiers
+     allegiance) numFromSoldiers) ( +  ( +  ( * 
+     numFromSoldiers ( -  allegiance numFromSoldiers))
+     allegiance) ( +  ( *  numFromSoldiers numFromSoldiers)
+     allegiance))) ( -  ( -  ( -  ( +  numFromSoldiers
+     ( +  allegiance numFromSoldiers)) ( *  numFromSoldiers
+     numFromSoldiers)) ( +  allegiance allegiance))
+     ( *  ( *  numFromSoldiers allegiance) ( - 
+         allegiance numFromSoldiers))))) ( *  ( - 
+     ( *  ( *  ( *  numFromSoldiers allegiance)
+         allegiance) numFromSoldiers) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))
+     ( -  ( -  ( +  numFromSoldiers ( +  ( - 
+         allegiance numFromSoldiers) numFromSoldiers))
+         ( +  allegiance allegiance)) ( -  ( *  ( * 
+         allegiance allegiance) ( +  allegiance numFromSoldiers))
+         allegiance))))
+
+Generation: 36
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09499999999999997 Adjusted=0.9132420091324202 Hits=0
+Tree 0:
+ ( -  ( -  ( -  ( *  allegiance ( *  ( * 
+     numFromSoldiers numFromSoldiers) ( -  numFromSoldiers
+     allegiance))) ( -  ( *  ( *  ( *  allegiance
+     allegiance) ( +  allegiance numFromSoldiers))
+     ( -  ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+         numFromSoldiers) ( +  allegiance numFromSoldiers))
+         ( *  ( *  numFromSoldiers numFromSoldiers)
+             ( -  numFromSoldiers allegiance))) ( -  ( * 
+         ( *  ( *  allegiance allegiance) ( +  allegiance
+             numFromSoldiers)) ( *  ( *  numFromSoldiers
+         numFromSoldiers) ( +  allegiance numFromSoldiers)))
+         allegiance)) ( *  numFromSoldiers numFromSoldiers))
+         ( *  ( -  ( *  ( *  ( *  numFromSoldiers
+             allegiance) allegiance) numFromSoldiers)
+             ( *  numFromSoldiers allegiance)) ( -  ( - 
+             ( *  ( *  numFromSoldiers numFromSoldiers)
+                 ( -  numFromSoldiers allegiance)) ( +  allegiance
+             allegiance)) ( -  ( *  ( *  allegiance allegiance)
+             ( +  allegiance numFromSoldiers)) allegiance)))))
+     allegiance)) ( *  ( -  ( *  ( *  numFromSoldiers
+     allegiance) numFromSoldiers) ( +  ( +  ( * 
+     numFromSoldiers ( -  allegiance numFromSoldiers))
+     allegiance) ( +  ( *  numFromSoldiers numFromSoldiers)
+     allegiance))) ( -  ( -  ( -  ( +  numFromSoldiers
+     ( +  allegiance numFromSoldiers)) ( *  numFromSoldiers
+     numFromSoldiers)) ( +  allegiance allegiance))
+     ( *  ( *  numFromSoldiers allegiance) ( - 
+         allegiance numFromSoldiers))))) ( *  ( - 
+     ( *  ( *  ( *  numFromSoldiers allegiance)
+         allegiance) numFromSoldiers) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))
+     ( -  ( -  ( +  numFromSoldiers ( +  ( - 
+         allegiance numFromSoldiers) numFromSoldiers))
+         ( +  allegiance allegiance)) ( -  ( *  ( * 
+         allegiance allegiance) ( +  allegiance numFromSoldiers))
+         allegiance))))
+
+Generation: 37
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09499999999999997 Adjusted=0.9132420091324202 Hits=0
+Tree 0:
+ ( -  ( -  ( -  ( *  allegiance ( *  ( * 
+     numFromSoldiers numFromSoldiers) ( -  numFromSoldiers
+     allegiance))) ( -  ( *  ( *  ( *  allegiance
+     allegiance) ( +  allegiance numFromSoldiers))
+     ( -  ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+         numFromSoldiers) ( +  allegiance numFromSoldiers))
+         ( *  ( *  numFromSoldiers numFromSoldiers)
+             ( -  numFromSoldiers allegiance))) ( -  ( * 
+         ( *  ( *  allegiance allegiance) ( +  allegiance
+             numFromSoldiers)) ( *  ( *  numFromSoldiers
+         numFromSoldiers) ( +  allegiance numFromSoldiers)))
+         allegiance)) ( *  numFromSoldiers numFromSoldiers))
+         ( *  ( -  ( *  ( *  ( *  numFromSoldiers
+             allegiance) allegiance) numFromSoldiers)
+             ( *  numFromSoldiers allegiance)) ( -  ( - 
+             ( *  ( *  numFromSoldiers numFromSoldiers)
+                 ( -  numFromSoldiers allegiance)) ( +  allegiance
+             allegiance)) ( -  ( *  ( *  allegiance allegiance)
+             ( +  allegiance numFromSoldiers)) allegiance)))))
+     allegiance)) ( *  ( -  ( *  ( *  numFromSoldiers
+     allegiance) numFromSoldiers) ( +  ( +  ( * 
+     numFromSoldiers ( -  allegiance numFromSoldiers))
+     allegiance) ( +  ( *  numFromSoldiers numFromSoldiers)
+     allegiance))) ( -  ( -  ( -  ( +  numFromSoldiers
+     ( +  allegiance numFromSoldiers)) ( *  numFromSoldiers
+     numFromSoldiers)) ( +  allegiance allegiance))
+     ( *  ( *  numFromSoldiers allegiance) ( - 
+         allegiance numFromSoldiers))))) ( *  ( - 
+     ( *  ( *  ( *  numFromSoldiers allegiance)
+         allegiance) numFromSoldiers) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))
+     ( -  ( -  ( +  numFromSoldiers ( +  ( - 
+         allegiance numFromSoldiers) numFromSoldiers))
+         ( +  allegiance allegiance)) ( -  ( *  ( * 
+         allegiance allegiance) ( +  allegiance numFromSoldiers))
+         allegiance))))
+
+Generation: 38
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09499999999999997 Adjusted=0.9132420091324202 Hits=0
+Tree 0:
+ ( -  ( -  ( -  ( *  allegiance ( *  ( * 
+     numFromSoldiers numFromSoldiers) ( -  numFromSoldiers
+     allegiance))) ( -  ( *  ( *  ( *  allegiance
+     allegiance) ( +  allegiance numFromSoldiers))
+     ( -  ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+         numFromSoldiers) ( +  allegiance numFromSoldiers))
+         ( *  ( *  numFromSoldiers numFromSoldiers)
+             ( -  numFromSoldiers allegiance))) ( -  ( * 
+         ( *  ( *  allegiance allegiance) ( +  allegiance
+             numFromSoldiers)) ( *  ( *  numFromSoldiers
+         numFromSoldiers) ( +  allegiance numFromSoldiers)))
+         allegiance)) ( *  numFromSoldiers numFromSoldiers))
+         ( *  ( -  ( *  ( *  ( *  numFromSoldiers
+             allegiance) allegiance) numFromSoldiers)
+             ( *  numFromSoldiers allegiance)) ( -  ( - 
+             ( *  ( *  numFromSoldiers numFromSoldiers)
+                 ( -  numFromSoldiers allegiance)) ( +  allegiance
+             allegiance)) ( -  ( *  ( *  allegiance allegiance)
+             ( +  allegiance numFromSoldiers)) allegiance)))))
+     allegiance)) ( *  ( -  ( *  ( *  numFromSoldiers
+     allegiance) numFromSoldiers) ( +  ( +  ( * 
+     numFromSoldiers ( -  allegiance numFromSoldiers))
+     allegiance) ( +  ( *  numFromSoldiers numFromSoldiers)
+     allegiance))) ( -  ( -  ( -  ( +  numFromSoldiers
+     ( +  allegiance numFromSoldiers)) ( *  numFromSoldiers
+     numFromSoldiers)) ( +  allegiance allegiance))
+     ( *  ( *  numFromSoldiers allegiance) ( - 
+         allegiance numFromSoldiers))))) ( *  ( - 
+     ( *  ( *  ( *  numFromSoldiers allegiance)
+         allegiance) numFromSoldiers) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))
+     ( -  ( -  ( +  numFromSoldiers ( +  ( - 
+         allegiance numFromSoldiers) numFromSoldiers))
+         ( +  allegiance allegiance)) ( -  ( *  ( * 
+         allegiance allegiance) ( +  allegiance numFromSoldiers))
+         allegiance))))
+
+Generation: 39
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09499999999999997 Adjusted=0.9132420091324202 Hits=0
+Tree 0:
+ ( -  ( -  ( -  ( *  allegiance ( *  ( * 
+     numFromSoldiers numFromSoldiers) ( -  numFromSoldiers
+     allegiance))) ( -  ( *  ( *  ( *  allegiance
+     allegiance) ( +  allegiance numFromSoldiers))
+     ( -  ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+         numFromSoldiers) ( +  allegiance numFromSoldiers))
+         ( *  ( *  numFromSoldiers numFromSoldiers)
+             ( -  numFromSoldiers allegiance))) ( -  ( * 
+         ( *  ( *  allegiance allegiance) ( +  allegiance
+             numFromSoldiers)) ( *  ( *  numFromSoldiers
+         numFromSoldiers) ( +  allegiance numFromSoldiers)))
+         allegiance)) ( *  numFromSoldiers numFromSoldiers))
+         ( *  ( -  ( *  ( *  ( *  numFromSoldiers
+             allegiance) allegiance) numFromSoldiers)
+             ( *  numFromSoldiers allegiance)) ( -  ( - 
+             ( *  ( *  numFromSoldiers numFromSoldiers)
+                 ( -  numFromSoldiers allegiance)) ( +  allegiance
+             allegiance)) ( -  ( *  ( *  allegiance allegiance)
+             ( +  allegiance numFromSoldiers)) allegiance)))))
+     allegiance)) ( *  ( -  ( *  ( *  numFromSoldiers
+     allegiance) numFromSoldiers) ( +  ( +  ( * 
+     numFromSoldiers ( -  allegiance numFromSoldiers))
+     allegiance) ( +  ( *  numFromSoldiers numFromSoldiers)
+     allegiance))) ( -  ( -  ( -  ( +  numFromSoldiers
+     ( +  allegiance numFromSoldiers)) ( *  numFromSoldiers
+     numFromSoldiers)) ( +  allegiance allegiance))
+     ( *  ( *  numFromSoldiers allegiance) ( - 
+         allegiance numFromSoldiers))))) ( *  ( - 
+     ( *  ( *  ( *  numFromSoldiers allegiance)
+         allegiance) numFromSoldiers) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))
+     ( -  ( -  ( +  numFromSoldiers ( +  ( - 
+         allegiance numFromSoldiers) numFromSoldiers))
+         ( +  allegiance allegiance)) ( -  ( *  ( * 
+         allegiance allegiance) ( +  allegiance numFromSoldiers))
+         allegiance))))
+
+Generation: 40
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09499999999999997 Adjusted=0.9132420091324202 Hits=0
+Tree 0:
+ ( -  ( -  ( -  ( *  allegiance ( *  ( * 
+     numFromSoldiers numFromSoldiers) ( -  numFromSoldiers
+     allegiance))) ( -  ( *  ( *  ( *  allegiance
+     allegiance) ( +  allegiance numFromSoldiers))
+     ( -  ( -  ( -  ( *  ( *  ( *  numFromSoldiers
+         numFromSoldiers) ( +  allegiance numFromSoldiers))
+         ( *  ( *  numFromSoldiers numFromSoldiers)
+             ( -  numFromSoldiers allegiance))) ( -  ( * 
+         ( *  ( *  allegiance allegiance) ( +  allegiance
+             numFromSoldiers)) ( *  ( *  numFromSoldiers
+         numFromSoldiers) ( +  allegiance numFromSoldiers)))
+         allegiance)) ( *  numFromSoldiers numFromSoldiers))
+         ( *  ( -  ( *  ( *  ( *  numFromSoldiers
+             allegiance) allegiance) numFromSoldiers)
+             ( *  numFromSoldiers allegiance)) ( -  ( - 
+             ( *  ( *  numFromSoldiers numFromSoldiers)
+                 ( -  numFromSoldiers allegiance)) ( +  allegiance
+             allegiance)) ( -  ( *  ( *  allegiance allegiance)
+             ( +  allegiance numFromSoldiers)) allegiance)))))
+     allegiance)) ( *  ( -  ( *  ( *  numFromSoldiers
+     allegiance) numFromSoldiers) ( +  ( +  ( * 
+     numFromSoldiers ( -  allegiance numFromSoldiers))
+     allegiance) ( +  ( *  numFromSoldiers numFromSoldiers)
+     allegiance))) ( -  ( -  ( -  ( +  numFromSoldiers
+     ( +  allegiance numFromSoldiers)) ( *  numFromSoldiers
+     numFromSoldiers)) ( +  allegiance allegiance))
+     ( *  ( *  numFromSoldiers allegiance) ( - 
+         allegiance numFromSoldiers))))) ( *  ( - 
+     ( *  ( *  ( *  numFromSoldiers allegiance)
+         allegiance) numFromSoldiers) ( *  ( *  numFromSoldiers
+     allegiance) ( -  allegiance numFromSoldiers)))
+     ( -  ( -  ( +  numFromSoldiers ( +  ( - 
+         allegiance numFromSoldiers) numFromSoldiers))
+         ( +  allegiance allegiance)) ( -  ( *  ( * 
+         allegiance allegiance) ( +  allegiance numFromSoldiers))
+         allegiance))))

@@ -65,7 +65,7 @@ public class WarlightProblemCompetitive extends Problem implements GroupedProble
         String tree1 = getTree(((GPIndividual) individuals[1]).trees[0].child).replace(" ", "");
 
         try {
-            String[] warlightArgs = new String[]{"map.txt", "java -classpath out\\production\\myBot bot.BotStarter " + tree0, "java -classpath out\\production\\myBot bot.BotStarter " + tree1, "100"};
+            String[] warlightArgs = new String[]{"map2.txt", "java -classpath out\\production\\myBot bot.BotStarter " + tree0, "java -classpath out\\production\\myBot bot.BotStarter " + tree1, "50"};
             Warlight2.main(warlightArgs);
         } catch (Exception e) {
             e.printStackTrace();

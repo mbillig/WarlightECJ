@@ -5,7 +5,7 @@ gp.fs.0 = ec.gp.GPFunctionSet
 gps.fs.0.name = f0
 
 #functions
-gp.fs.0.size = 14
+gp.fs.0.size = 10
 gp.fs.0.func.0 = warlight2.attack_move.Allegiance
 gp.fs.0.func.0.nc = nc0
 gp.fs.0.func.1 = warlight2.sense_world.SuperRegionScore
@@ -26,17 +26,9 @@ gp.fs.0.func.8 = functions.Div
 gp.fs.0.func.8.nc = nc2
 gp.fs.0.func.9 = functions.Exp
 gp.fs.0.func.9.nc = nc1
-gp.fs.0.func.10 = warlight2.attack_move.NumFromSoldiers
-gp.fs.0.func.10.nc = nc0
-gp.fs.0.func.11 = warlight2.attack_move.NumToSoldiers
-gp.fs.0.func.11.nc = nc0
-gp.fs.0.func.12 = warlight2.attack_move.SuperRegionAllegianceScore
-gp.fs.0.func.12.nc = nc0
-gp.fs.0.func.13 = warlight2.attack_move.RegionNeighbourAllegianceScore
-gp.fs.0.func.13.nc = nc0
 
 
-pop.subpop.0.size  =        30
+pop.subpop.0.size  =        50
 generations =				10
 
 evalthreads =               2

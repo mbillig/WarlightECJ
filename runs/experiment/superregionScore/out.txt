@@ -1,0 +1,193 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7380952380952381 Adjusted=0.5753424657534246 Hits=0
+Tree 0:
+ ( -  ( *   SuperRegionScore   SuperRegionScore )
+     ( *   SuperRegionScore   SuperRegionScore ))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.5476190476190477 Adjusted=0.6461538461538461 Hits=0
+Tree 0:
+ ( -  ( *   SuperRegionScore   SuperRegionScore )
+     ( *   SuperRegionScore   SuperRegionScore ))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.14380952380952383 Adjusted=0.8742714404662781 Hits=0
+Tree 0:
+ ( -  ( +  ( +  ( *  ( -  ( +   SuperRegionScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      SuperRegionScore )) ( *  ( -   SuperRegionScore 
+      SuperRegionScore ) ( *   SuperRegionScore 
+      SuperRegionScore ))) ( +  ( *  ( *   SuperRegionScore 
+      SuperRegionScore ) ( *   SuperRegionScore 
+      SuperRegionScore )) ( -  ( -   SuperRegionScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      SuperRegionScore )))) ( -  ( *  ( *  ( - 
+      SuperRegionScore   SuperRegionScore ) ( - 
+      SuperRegionScore   SuperRegionScore )) ( + 
+     ( -   SuperRegionScore   SuperRegionScore )
+     ( -   SuperRegionScore   SuperRegionScore )))
+     ( +  ( *  ( *   SuperRegionScore   SuperRegionScore )
+         ( -   SuperRegionScore   SuperRegionScore ))
+         ( *  ( +   SuperRegionScore   SuperRegionScore )
+             ( -   SuperRegionScore   SuperRegionScore )))))
+     ( *   SuperRegionScore   SuperRegionScore ))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.14380952380952383 Adjusted=0.8742714404662781 Hits=0
+Tree 0:
+ ( -  ( +  ( +  ( *  ( -  ( +   SuperRegionScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      SuperRegionScore )) ( *  ( -   SuperRegionScore 
+      SuperRegionScore ) ( *   SuperRegionScore 
+      SuperRegionScore ))) ( +  ( *  ( *   SuperRegionScore 
+      SuperRegionScore ) ( *   SuperRegionScore 
+      SuperRegionScore )) ( -  ( -   SuperRegionScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      SuperRegionScore )))) ( -  ( *  ( *  ( - 
+      SuperRegionScore   SuperRegionScore ) ( - 
+      SuperRegionScore   SuperRegionScore )) ( + 
+     ( -   SuperRegionScore   SuperRegionScore )
+     ( -   SuperRegionScore   SuperRegionScore )))
+     ( +  ( *  ( *   SuperRegionScore   SuperRegionScore )
+         ( -   SuperRegionScore   SuperRegionScore ))
+         ( *  ( +   SuperRegionScore   SuperRegionScore )
+             ( -   SuperRegionScore   SuperRegionScore )))))
+     ( *   SuperRegionScore   SuperRegionScore ))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.14380952380952383 Adjusted=0.8742714404662781 Hits=0
+Tree 0:
+ ( -  ( +  ( +  ( *  ( -  ( +   SuperRegionScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      SuperRegionScore )) ( *  ( -   SuperRegionScore 
+      SuperRegionScore ) ( *   SuperRegionScore 
+      SuperRegionScore ))) ( +  ( *  ( *   SuperRegionScore 
+      SuperRegionScore ) ( *   SuperRegionScore 
+      SuperRegionScore )) ( -  ( -   SuperRegionScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      SuperRegionScore )))) ( -  ( *  ( *  ( - 
+      SuperRegionScore   SuperRegionScore ) ( - 
+      SuperRegionScore   SuperRegionScore )) ( + 
+     ( -   SuperRegionScore   SuperRegionScore )
+     ( -   SuperRegionScore   SuperRegionScore )))
+     ( +  ( *  ( *   SuperRegionScore   SuperRegionScore )
+         ( -   SuperRegionScore   SuperRegionScore ))
+         ( *  ( +   SuperRegionScore   SuperRegionScore )
+             ( -   SuperRegionScore   SuperRegionScore )))))
+     ( *   SuperRegionScore   SuperRegionScore ))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.14380952380952383 Adjusted=0.8742714404662781 Hits=0
+Tree 0:
+ ( -  ( +  ( +  ( *  ( -  ( +   SuperRegionScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      SuperRegionScore )) ( *  ( -   SuperRegionScore 
+      SuperRegionScore ) ( *   SuperRegionScore 
+      SuperRegionScore ))) ( +  ( *  ( *   SuperRegionScore 
+      SuperRegionScore ) ( *   SuperRegionScore 
+      SuperRegionScore )) ( -  ( -   SuperRegionScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      SuperRegionScore )))) ( -  ( *  ( *  ( - 
+      SuperRegionScore   SuperRegionScore ) ( - 
+      SuperRegionScore   SuperRegionScore )) ( + 
+     ( -   SuperRegionScore   SuperRegionScore )
+     ( -   SuperRegionScore   SuperRegionScore )))
+     ( +  ( *  ( *   SuperRegionScore   SuperRegionScore )
+         ( -   SuperRegionScore   SuperRegionScore ))
+         ( *  ( +   SuperRegionScore   SuperRegionScore )
+             ( -   SuperRegionScore   SuperRegionScore )))))
+     ( *   SuperRegionScore   SuperRegionScore ))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.14380952380952383 Adjusted=0.8742714404662781 Hits=0
+Tree 0:
+ ( -  ( +  ( +  ( *  ( -  ( +   SuperRegionScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      SuperRegionScore )) ( *  ( -   SuperRegionScore 
+      SuperRegionScore ) ( *   SuperRegionScore 
+      SuperRegionScore ))) ( +  ( *  ( *   SuperRegionScore 
+      SuperRegionScore ) ( *   SuperRegionScore 
+      SuperRegionScore )) ( -  ( -   SuperRegionScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      SuperRegionScore )))) ( -  ( *  ( *  ( - 
+      SuperRegionScore   SuperRegionScore ) ( - 
+      SuperRegionScore   SuperRegionScore )) ( + 
+     ( -   SuperRegionScore   SuperRegionScore )
+     ( -   SuperRegionScore   SuperRegionScore )))
+     ( +  ( *  ( *   SuperRegionScore   SuperRegionScore )
+         ( -   SuperRegionScore   SuperRegionScore ))
+         ( *  ( +   SuperRegionScore   SuperRegionScore )
+             ( -   SuperRegionScore   SuperRegionScore )))))
+     ( *   SuperRegionScore   SuperRegionScore ))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.14380952380952383 Adjusted=0.8742714404662781 Hits=0
+Tree 0:
+ ( -  ( +  ( +  ( *  ( -  ( +   SuperRegionScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      SuperRegionScore )) ( *  ( -   SuperRegionScore 
+      SuperRegionScore ) ( *   SuperRegionScore 
+      SuperRegionScore ))) ( +  ( *  ( *   SuperRegionScore 
+      SuperRegionScore ) ( *   SuperRegionScore 
+      SuperRegionScore )) ( -  ( -   SuperRegionScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      SuperRegionScore )))) ( -  ( *  ( *  ( - 
+      SuperRegionScore   SuperRegionScore ) ( - 
+      SuperRegionScore   SuperRegionScore )) ( + 
+     ( -   SuperRegionScore   SuperRegionScore )
+     ( -   SuperRegionScore   SuperRegionScore )))
+     ( +  ( *  ( *   SuperRegionScore   SuperRegionScore )
+         ( -   SuperRegionScore   SuperRegionScore ))
+         ( *  ( +   SuperRegionScore   SuperRegionScore )
+             ( -   SuperRegionScore   SuperRegionScore )))))
+     ( *   SuperRegionScore   SuperRegionScore ))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.14380952380952383 Adjusted=0.8742714404662781 Hits=0
+Tree 0:
+ ( -  ( +  ( +  ( *  ( -  ( +   SuperRegionScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      SuperRegionScore )) ( *  ( -   SuperRegionScore 
+      SuperRegionScore ) ( *   SuperRegionScore 
+      SuperRegionScore ))) ( +  ( *  ( *   SuperRegionScore 
+      SuperRegionScore ) ( *   SuperRegionScore 
+      SuperRegionScore )) ( -  ( -   SuperRegionScore 
+      SuperRegionScore ) ( -   SuperRegionScore 
+      SuperRegionScore )))) ( -  ( *  ( *  ( - 
+      SuperRegionScore   SuperRegionScore ) ( - 
+      SuperRegionScore   SuperRegionScore )) ( + 
+     ( -   SuperRegionScore   SuperRegionScore )
+     ( -   SuperRegionScore   SuperRegionScore )))
+     ( +  ( *  ( *   SuperRegionScore   SuperRegionScore )
+         ( -   SuperRegionScore   SuperRegionScore ))
+         ( *  ( +   SuperRegionScore   SuperRegionScore )
+             ( -   SuperRegionScore   SuperRegionScore )))))
+     ( *   SuperRegionScore   SuperRegionScore ))

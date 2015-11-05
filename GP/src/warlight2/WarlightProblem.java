@@ -1,6 +1,7 @@
 package warlight2;
 
 import com.theaigames.game.warlight2.GameResults;
+import data_types.IntData;
 import ec.gp.GPIndividual;
 import ec.gp.GPNode;
 import ec.gp.koza.KozaFitness;
@@ -19,6 +20,9 @@ public class WarlightProblem extends GPProblem implements SimpleProblemForm {
 
     public static final String P_DATA = "data";
 
+    public int X;
+    public int Y;
+
     public void setup(final EvolutionState state, final Parameter base) {
         super.setup(state, base);
 
@@ -30,11 +34,12 @@ public class WarlightProblem extends GPProblem implements SimpleProblemForm {
     public String getTree(GPNode node) {
         if (node.children.length == 2)
             return "(" + getTree(node.children[0]) + node.toString() + getTree(node.children[1]) + ")";
-        else if(node.children.length == 1)
+        else if (node.children.length == 1)
             return node.toString() + "(" + getTree(node.children[0]) + ")";
         else
             return node.toString();
     }
+
     @Override
     public void evaluate(EvolutionState evolutionState, Individual individual, int i, int i1) {
 
@@ -47,20 +52,21 @@ public class WarlightProblem extends GPProblem implements SimpleProblemForm {
             //individual.printIndividualForHumans(evolutionState, 0);
             //System.out.println();
 
+
             try {
-                String[] warlightArgs = new String[]{"map2.txt", "java -classpath out\\production\\myBot bot.BotStarter " + tree, "java -jar randomWarlightBot.jar", "100"};
+                String[] warlightArgs = new String[]{"map2.txt", "java -classpath out\\production\\warlightBot bot.BotStarter " + tree, "java -jar randomWarlightBot.jar", "160"};
                 Warlight2.main(warlightArgs);
             } catch (Exception e) {
                 e.printStackTrace();
             }
 
             double gameScore = GameResults.getInstance().getScore();
-            double scoreRatio = 1- (gameScore/100);
+            double scoreRatio = 1 - (gameScore / 160);
             double landControlRatio = GameResults.getInstance().getLandControlledRatioPlayer1();
             double fitness = 1;
 
-            if(GameResults.getInstance().getWinner() == 0 || GameResults.getInstance().getWinner() == 1)
-                fitness = 1- (scoreRatio + landControlRatio)/2;
+            if (GameResults.getInstance().getWinner() == 0 || GameResults.getInstance().getWinner() == 1)
+                fitness = 1 - (scoreRatio + landControlRatio) / 2;
             //System.out.println("Score = " + GameResults.getInstance().getScore());
 
             System.out.println(tree);

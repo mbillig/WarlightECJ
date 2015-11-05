@@ -1,0 +1,120 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.33499999999999996 Adjusted=0.7490636704119851 Hits=0
+Tree 0:
+ ( *  ( *  ( *  ( +  ( +  ( *  numToSoldiers
+     numToSoldiers) ( -  numToSoldiers numToSoldiers))
+     ( *  ( +  numToSoldiers numToSoldiers) ( - 
+         numToSoldiers numToSoldiers))) ( *  ( * 
+     ( +  numToSoldiers numToSoldiers) ( -  numToSoldiers
+     numToSoldiers)) ( +  ( -  numToSoldiers numToSoldiers)
+     ( -  numToSoldiers numToSoldiers)))) ( - 
+     ( +  ( -  ( -  numToSoldiers numToSoldiers)
+         ( -  numToSoldiers numToSoldiers)) ( +  ( - 
+         numToSoldiers numToSoldiers) ( -  numToSoldiers
+         numToSoldiers))) ( *  ( -  ( *  numToSoldiers
+     numToSoldiers) ( +  numToSoldiers numToSoldiers))
+     ( *  ( -  numToSoldiers numToSoldiers) ( + 
+         numToSoldiers numToSoldiers))))) ( *  ( * 
+     ( -  ( *  ( *  numToSoldiers numToSoldiers)
+         ( *  numToSoldiers numToSoldiers)) ( *  ( + 
+         numToSoldiers numToSoldiers) ( *  numToSoldiers
+         numToSoldiers))) ( -  ( *  ( +  numToSoldiers
+     numToSoldiers) ( -  numToSoldiers numToSoldiers))
+     ( -  ( *  numToSoldiers numToSoldiers) ( * 
+         numToSoldiers numToSoldiers)))) ( -  ( - 
+     ( -  ( -  numToSoldiers numToSoldiers) ( * 
+         numToSoldiers numToSoldiers)) ( *  ( -  numToSoldiers
+     numToSoldiers) ( +  numToSoldiers numToSoldiers)))
+     ( +  ( -  ( *  numToSoldiers numToSoldiers)
+         ( -  numToSoldiers numToSoldiers)) ( +  ( + 
+         numToSoldiers numToSoldiers) ( -  numToSoldiers
+         numToSoldiers))))))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.29380952380952385 Adjusted=0.7729112992270888 Hits=0
+Tree 0:
+ ( +  ( *  ( -  numToSoldiers numToSoldiers)
+     ( -  numToSoldiers numToSoldiers)) ( *  ( * 
+     ( +  numToSoldiers numToSoldiers) ( -  numToSoldiers
+     numToSoldiers)) ( -  numToSoldiers numToSoldiers)))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.29380952380952385 Adjusted=0.7729112992270888 Hits=0
+Tree 0:
+ ( +  ( *  ( -  numToSoldiers numToSoldiers)
+     ( -  numToSoldiers numToSoldiers)) ( *  ( * 
+     ( +  numToSoldiers numToSoldiers) ( -  numToSoldiers
+     numToSoldiers)) ( -  numToSoldiers numToSoldiers)))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.29380952380952385 Adjusted=0.7729112992270888 Hits=0
+Tree 0:
+ ( +  ( *  ( -  numToSoldiers numToSoldiers)
+     ( -  numToSoldiers numToSoldiers)) ( *  ( * 
+     ( +  numToSoldiers numToSoldiers) ( -  numToSoldiers
+     numToSoldiers)) ( -  numToSoldiers numToSoldiers)))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.18880952380952387 Adjusted=0.8411776487081914 Hits=0
+Tree 0:
+ ( +  ( *  ( -  numToSoldiers numToSoldiers)
+     ( -  numToSoldiers ( *  ( -  numToSoldiers
+         numToSoldiers) ( +  numToSoldiers numToSoldiers))))
+     ( *  ( *  ( +  numToSoldiers numToSoldiers)
+         ( -  numToSoldiers numToSoldiers)) ( -  numToSoldiers
+         numToSoldiers)))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.18880952380952387 Adjusted=0.8411776487081914 Hits=0
+Tree 0:
+ ( +  ( *  ( -  numToSoldiers numToSoldiers)
+     ( -  numToSoldiers ( *  ( -  numToSoldiers
+         numToSoldiers) ( +  numToSoldiers numToSoldiers))))
+     ( *  ( *  ( +  numToSoldiers numToSoldiers)
+         ( -  numToSoldiers numToSoldiers)) ( -  numToSoldiers
+         numToSoldiers)))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.18880952380952387 Adjusted=0.8411776487081914 Hits=0
+Tree 0:
+ ( +  ( *  ( -  numToSoldiers numToSoldiers)
+     ( -  numToSoldiers ( *  ( -  numToSoldiers
+         numToSoldiers) ( +  numToSoldiers numToSoldiers))))
+     ( *  ( *  ( +  numToSoldiers numToSoldiers)
+         ( -  numToSoldiers numToSoldiers)) ( -  numToSoldiers
+         numToSoldiers)))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.18880952380952387 Adjusted=0.8411776487081914 Hits=0
+Tree 0:
+ ( +  ( *  ( -  numToSoldiers numToSoldiers)
+     ( -  numToSoldiers ( *  ( -  numToSoldiers
+         numToSoldiers) ( +  numToSoldiers numToSoldiers))))
+     ( *  ( *  ( +  numToSoldiers numToSoldiers)
+         ( -  numToSoldiers numToSoldiers)) ( -  numToSoldiers
+         numToSoldiers)))
