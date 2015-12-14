@@ -1,0 +1,8 @@
+okt 15, 2015 3:00:39 PM bot.BotStarterBt getAttackTransferMoves
+INFO: 0
+okt 15, 2015 3:00:39 PM bot.BotStarterBt getAttackTransferMoves
+INFO: selector[inverter(selector[isFriendly,inverter(focalStronger),randomSuperiorAttack]),inverter(selector[inverter(isFriendly),focalStronger,maxAttack]),succeeder(isFriendly)]
+okt 15, 2015 3:00:39 PM bot.BotStarterBt getAttackTransferMoves
+INFO: 0.1
+okt 15, 2015 3:00:39 PM bot.BotStarterBt getAttackTransferMoves
+INFO: 0.3

@@ -52,8 +52,8 @@ gp.fs.0.func.19 = warlight2.bt_attack_move.actions.RandomSuperiorAttack
 gp.fs.0.func.19.nc = nc0
 
 
-pop.subpop.0.size =         20
-generations =				50
+pop.subpop.0.size =         1
+generations =				1
 
 evalthreads =               1
 

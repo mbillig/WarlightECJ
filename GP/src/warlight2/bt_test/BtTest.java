@@ -25,6 +25,7 @@ public class BtTest extends GPProblem implements SimpleProblemForm {
         if(!individual.evaluated) {
             BooleanData input = (BooleanData)this.input;
             String tree = (((GPIndividual)individual).trees[0].child).toString();
+            tree = "selector[inverter(selector[isFriendly,inverter(focalStronger),randomSuperiorAttack]),inverter(selector[inverter(isFriendly),focalStronger,maxAttack]),succeeder(isFriendly)]";
             PrintWriter printer;
             try {
                 printer = new PrintWriter("mybot\\src\\bot\\bt_test.txt", "UTF-8");
@@ -36,7 +37,6 @@ public class BtTest extends GPProblem implements SimpleProblemForm {
                 e.printStackTrace();
             }
 
-            //tree = "selector[inverter(selector[isFriendly,inverter(focalStronger),randomSuperiorAttack]),inverter(selector[inverter(isFriendly),focalStronger,maxAttack]), succeeder(isFriendly)]";
 
             System.out.println("\n"+tree+"\n");
 
@@ -46,6 +46,7 @@ public class BtTest extends GPProblem implements SimpleProblemForm {
             try {
                 Warlight2.main(warlightArgs);
             } catch (Exception e) {e.printStackTrace();}
+
 
             int winner = GameResults.getInstance().getWinner();
             int rounds = GameResults.getInstance().getScore();

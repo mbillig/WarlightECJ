@@ -22,6 +22,7 @@ package bot;
 
 import java.io.*;
 import java.util.*;
+import java.util.logging.*;
 
 import map.Region;
 import move.AttackTransferMove;
@@ -40,6 +41,16 @@ public class BotStarter implements Bot {
             engineManager.getEngineByName("nashorn");
 
     public static Optional<String> expression;
+
+    public final static Logger LOGGER = Logger.getLogger(BotStarter.class.getName());
+    static {
+        try {
+            Handler handler = new FileHandler("C:\\work\\Master\\WarlightECJ\\botlogTestererer.log", true);
+            handler.setFormatter(new SimpleFormatter());
+            LOGGER.addHandler(handler);
+        } catch (IOException e) {e.printStackTrace();}
+        LOGGER.log(Level.SEVERE, "YO");
+    }
 
     @Override
     /**
@@ -208,7 +219,7 @@ public class BotStarter implements Bot {
 
         expression = Optional.of(args[0]);
 
-        BotParser parser = new BotParser(new BotStarter());
+        BotParser parser = new BotParser(new BotStarterBt());
         parser.run();
     }
 

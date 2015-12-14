@@ -3,68 +3,381 @@ Generation: 0
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.796875 Adjusted=0.5565217391304348 Hits=0
+Fitness: Standardized=0.9921875 Adjusted=0.5019607843137255 Hits=0
 Tree 0:
- (succeeder(selector[parallel[succeeder(selector[succeeder(inverter(focalPartOfCompleteSuper)), selector[parallel[partOfSameSuper, isFriendly], inverter(partOfSameSuper), succeeder(partOfSameSuper)], selector[inverter(randomAttack), succeeder(minSuperiorAttack), succeeder(focalStronger)]]), sequence[sequence[sequence[succeeder(isFriendly), inverter(partOfSameSuper), inverter(focalStronger)], succeeder(inverter(randomAttack)), inverter(succeeder(focalPartOfCompleteSuper))], inverter(parallel[sequence[minSuperiorAttack, isFriendly, maxAttack], inverter(randomAttack)]), succeeder(parallel[selector[partOfSameSuper, partOfSameSuper, randomAttack], succeeder(focalStronger)])]], inverter(sequence[inverter(parallel[sequence[randomAttack, randomAttack, partOfSameSuper], selector[isFriendly, isFriendly, focalStronger]]), succeeder(inverter(succeeder(maxAttack))), inverter(succeeder(selector[maxAttack, focalPartOfCompleteSuper, randomAttack]))]), inverter(inverter(selector[inverter(succeeder(maxAttack)), parallel[sequence[randomAttack, randomAttack, minSuperiorAttack], sequence[maxAttack, isFriendly, partOfSameSuper]], succeeder(parallel[focalStronger, isFriendly])]))])
-     (selector[parallel[succeeder(selector[succeeder(inverter(focalPartOfCompleteSuper)), selector[parallel[partOfSameSuper, isFriendly], inverter(partOfSameSuper), succeeder(partOfSameSuper)], selector[inverter(randomAttack), succeeder(minSuperiorAttack), succeeder(focalStronger)]]), sequence[sequence[sequence[succeeder(isFriendly), inverter(partOfSameSuper), inverter(focalStronger)], succeeder(inverter(randomAttack)), inverter(succeeder(focalPartOfCompleteSuper))], inverter(parallel[sequence[minSuperiorAttack, isFriendly, maxAttack], inverter(randomAttack)]), succeeder(parallel[selector[partOfSameSuper, partOfSameSuper, randomAttack], succeeder(focalStronger)])]], inverter(sequence[inverter(parallel[sequence[randomAttack, randomAttack, partOfSameSuper], selector[isFriendly, isFriendly, focalStronger]]), succeeder(inverter(succeeder(maxAttack))), inverter(succeeder(selector[maxAttack, focalPartOfCompleteSuper, randomAttack]))]), inverter(inverter(selector[inverter(succeeder(maxAttack)), parallel[sequence[randomAttack, randomAttack, minSuperiorAttack], sequence[maxAttack, isFriendly, partOfSameSuper]], succeeder(parallel[focalStronger, isFriendly])]))]
-         (parallel[succeeder(selector[succeeder(inverter(focalPartOfCompleteSuper)), selector[parallel[partOfSameSuper, isFriendly], inverter(partOfSameSuper), succeeder(partOfSameSuper)], selector[inverter(randomAttack), succeeder(minSuperiorAttack), succeeder(focalStronger)]]), sequence[sequence[sequence[succeeder(isFriendly), inverter(partOfSameSuper), inverter(focalStronger)], succeeder(inverter(randomAttack)), inverter(succeeder(focalPartOfCompleteSuper))], inverter(parallel[sequence[minSuperiorAttack, isFriendly, maxAttack], inverter(randomAttack)]), succeeder(parallel[selector[partOfSameSuper, partOfSameSuper, randomAttack], succeeder(focalStronger)])]]
-             (succeeder(selector[succeeder(inverter(focalPartOfCompleteSuper)), selector[parallel[partOfSameSuper, isFriendly], inverter(partOfSameSuper), succeeder(partOfSameSuper)], selector[inverter(randomAttack), succeeder(minSuperiorAttack), succeeder(focalStronger)]])
-                 (selector[succeeder(inverter(focalPartOfCompleteSuper)), selector[parallel[partOfSameSuper, isFriendly], inverter(partOfSameSuper), succeeder(partOfSameSuper)], selector[inverter(randomAttack), succeeder(minSuperiorAttack), succeeder(focalStronger)]]
-                     (succeeder(inverter(focalPartOfCompleteSuper))
-                         (inverter(focalPartOfCompleteSuper) focalPartOfCompleteSuper))
-                     (selector[parallel[partOfSameSuper, isFriendly], inverter(partOfSameSuper), succeeder(partOfSameSuper)]
-                         (parallel[partOfSameSuper, isFriendly] partOfSameSuper
-                             isFriendly) (inverter(partOfSameSuper) partOfSameSuper)
-                         (succeeder(partOfSameSuper) partOfSameSuper))
-                     (selector[inverter(randomAttack), succeeder(minSuperiorAttack), succeeder(focalStronger)]
-                         (inverter(randomAttack) randomAttack) (succeeder(minSuperiorAttack)
-                         minSuperiorAttack) (succeeder(focalStronger)
-                         focalStronger)))) (sequence[sequence[sequence[succeeder(isFriendly), inverter(partOfSameSuper), inverter(focalStronger)], succeeder(inverter(randomAttack)), inverter(succeeder(focalPartOfCompleteSuper))], inverter(parallel[sequence[minSuperiorAttack, isFriendly, maxAttack], inverter(randomAttack)]), succeeder(parallel[selector[partOfSameSuper, partOfSameSuper, randomAttack], succeeder(focalStronger)])]
-             (sequence[sequence[succeeder(isFriendly), inverter(partOfSameSuper), inverter(focalStronger)], succeeder(inverter(randomAttack)), inverter(succeeder(focalPartOfCompleteSuper))]
-                 (sequence[succeeder(isFriendly), inverter(partOfSameSuper), inverter(focalStronger)]
-                     (succeeder(isFriendly) isFriendly) (inverter(partOfSameSuper)
-                     partOfSameSuper) (inverter(focalStronger)
-                     focalStronger)) (succeeder(inverter(randomAttack))
-                 (inverter(randomAttack) randomAttack)) (inverter(succeeder(focalPartOfCompleteSuper))
-                 (succeeder(focalPartOfCompleteSuper) focalPartOfCompleteSuper)))
-             (inverter(parallel[sequence[minSuperiorAttack, isFriendly, maxAttack], inverter(randomAttack)])
-                 (parallel[sequence[minSuperiorAttack, isFriendly, maxAttack], inverter(randomAttack)]
-                     (sequence[minSuperiorAttack, isFriendly, maxAttack]
-                         minSuperiorAttack isFriendly maxAttack) (inverter(randomAttack)
-                     randomAttack))) (succeeder(parallel[selector[partOfSameSuper, partOfSameSuper, randomAttack], succeeder(focalStronger)])
-             (parallel[selector[partOfSameSuper, partOfSameSuper, randomAttack], succeeder(focalStronger)]
-                 (selector[partOfSameSuper, partOfSameSuper, randomAttack]
-                     partOfSameSuper partOfSameSuper randomAttack)
-                 (succeeder(focalStronger) focalStronger)))))
-         (inverter(sequence[inverter(parallel[sequence[randomAttack, randomAttack, partOfSameSuper], selector[isFriendly, isFriendly, focalStronger]]), succeeder(inverter(succeeder(maxAttack))), inverter(succeeder(selector[maxAttack, focalPartOfCompleteSuper, randomAttack]))])
-             (sequence[inverter(parallel[sequence[randomAttack, randomAttack, partOfSameSuper], selector[isFriendly, isFriendly, focalStronger]]), succeeder(inverter(succeeder(maxAttack))), inverter(succeeder(selector[maxAttack, focalPartOfCompleteSuper, randomAttack]))]
-                 (inverter(parallel[sequence[randomAttack, randomAttack, partOfSameSuper], selector[isFriendly, isFriendly, focalStronger]])
-                     (parallel[sequence[randomAttack, randomAttack, partOfSameSuper], selector[isFriendly, isFriendly, focalStronger]]
+ (parallel[selector[parallel[succeeder(selector[inverter(parallel[sequence[isFriendly, minSuperiorAttack, randomAttack], succeeder(maxAttack)]), selector[succeeder(succeeder(randomAttack)), parallel[succeeder(maxAttack), selector[isFriendly, focalStronger, focalPartOfCompleteSuper]], selector[succeeder(partOfSameSuper), sequence[focalStronger, minSuperiorAttack, minSuperiorAttack], selector[randomAttack, focalStronger, maxAttack]]], inverter(selector[inverter(partOfSameSuper), sequence[maxAttack, minSuperiorAttack, partOfSameSuper], sequence[isFriendly, partOfSameSuper, focalPartOfCompleteSuper]])]), succeeder(succeeder(parallel[selector[selector[randomAttack, isFriendly, partOfSameSuper], inverter(focalStronger), parallel[maxAttack, randomAttack]], inverter(succeeder(isFriendly))]))], sequence[selector[sequence[sequence[succeeder(succeeder(isFriendly)), parallel[inverter(focalStronger), parallel[isFriendly, focalStronger]], inverter(parallel[isFriendly, partOfSameSuper])], inverter(inverter(parallel[focalPartOfCompleteSuper, partOfSameSuper])), sequence[inverter(sequence[partOfSameSuper, minSuperiorAttack, partOfSameSuper]), succeeder(parallel[minSuperiorAttack, partOfSameSuper]), sequence[inverter(focalPartOfCompleteSuper), parallel[maxAttack, focalStronger], selector[focalPartOfCompleteSuper, maxAttack, maxAttack]]]], succeeder(inverter(inverter(parallel[focalStronger, focalStronger]))), succeeder(sequence[inverter(inverter(focalPartOfCompleteSuper)), parallel[selector[partOfSameSuper, isFriendly, maxAttack], parallel[randomAttack, isFriendly]], inverter(selector[maxAttack, minSuperiorAttack, isFriendly])])], inverter(parallel[succeeder(inverter(inverter(isFriendly))), parallel[inverter(inverter(randomAttack)), selector[sequence[focalPartOfCompleteSuper, maxAttack, focalPartOfCompleteSuper], succeeder(isFriendly), inverter(minSuperiorAttack)]]]), inverter(sequence[sequence[succeeder(parallel[minSuperiorAttack, minSuperiorAttack]), succeeder(parallel[isFriendly, minSuperiorAttack]), inverter(inverter(minSuperiorAttack))], selector[parallel[selector[focalPartOfCompleteSuper, focalStronger, isFriendly], parallel[focalStronger, maxAttack]], parallel[parallel[focalPartOfCompleteSuper, isFriendly], selector[maxAttack, minSuperiorAttack, focalPartOfCompleteSuper]], succeeder(succeeder(partOfSameSuper))], sequence[sequence[succeeder(maxAttack), succeeder(randomAttack), sequence[minSuperiorAttack, focalPartOfCompleteSuper, focalPartOfCompleteSuper]], inverter(parallel[maxAttack, isFriendly]), sequence[parallel[randomAttack, maxAttack], inverter(focalStronger), selector[focalPartOfCompleteSuper, focalStronger, isFriendly]]]])], inverter(inverter(succeeder(sequence[parallel[parallel[maxAttack, isFriendly], parallel[focalStronger, minSuperiorAttack]], parallel[parallel[maxAttack, maxAttack], inverter(minSuperiorAttack)], selector[parallel[isFriendly, maxAttack], selector[isFriendly, focalPartOfCompleteSuper, focalStronger], sequence[focalPartOfCompleteSuper, focalPartOfCompleteSuper, partOfSameSuper]]])))], succeeder(sequence[sequence[succeeder(sequence[succeeder(selector[partOfSameSuper, focalPartOfCompleteSuper, maxAttack]), sequence[succeeder(isFriendly), selector[maxAttack, isFriendly, focalPartOfCompleteSuper], sequence[randomAttack, isFriendly, partOfSameSuper]], parallel[selector[focalStronger, partOfSameSuper, focalPartOfCompleteSuper], sequence[focalStronger, focalPartOfCompleteSuper, focalPartOfCompleteSuper]]]), succeeder(sequence[sequence[sequence[partOfSameSuper, partOfSameSuper, focalStronger], parallel[isFriendly, focalStronger], selector[minSuperiorAttack, randomAttack, focalPartOfCompleteSuper]], inverter(succeeder(focalPartOfCompleteSuper)), parallel[parallel[minSuperiorAttack, maxAttack], inverter(partOfSameSuper)]]), succeeder(sequence[inverter(sequence[randomAttack, randomAttack, partOfSameSuper]), inverter(parallel[randomAttack, focalPartOfCompleteSuper]), inverter(selector[maxAttack, maxAttack, partOfSameSuper])])], inverter(inverter(inverter(sequence[sequence[randomAttack, minSuperiorAttack, partOfSameSuper], succeeder(focalPartOfCompleteSuper), selector[isFriendly, randomAttack, maxAttack]]))), succeeder(inverter(succeeder(parallel[sequence[partOfSameSuper, isFriendly, maxAttack], inverter(randomAttack)])))])]
+     (selector[parallel[succeeder(selector[inverter(parallel[sequence[isFriendly, minSuperiorAttack, randomAttack], succeeder(maxAttack)]), selector[succeeder(succeeder(randomAttack)), parallel[succeeder(maxAttack), selector[isFriendly, focalStronger, focalPartOfCompleteSuper]], selector[succeeder(partOfSameSuper), sequence[focalStronger, minSuperiorAttack, minSuperiorAttack], selector[randomAttack, focalStronger, maxAttack]]], inverter(selector[inverter(partOfSameSuper), sequence[maxAttack, minSuperiorAttack, partOfSameSuper], sequence[isFriendly, partOfSameSuper, focalPartOfCompleteSuper]])]), succeeder(succeeder(parallel[selector[selector[randomAttack, isFriendly, partOfSameSuper], inverter(focalStronger), parallel[maxAttack, randomAttack]], inverter(succeeder(isFriendly))]))], sequence[selector[sequence[sequence[succeeder(succeeder(isFriendly)), parallel[inverter(focalStronger), parallel[isFriendly, focalStronger]], inverter(parallel[isFriendly, partOfSameSuper])], inverter(inverter(parallel[focalPartOfCompleteSuper, partOfSameSuper])), sequence[inverter(sequence[partOfSameSuper, minSuperiorAttack, partOfSameSuper]), succeeder(parallel[minSuperiorAttack, partOfSameSuper]), sequence[inverter(focalPartOfCompleteSuper), parallel[maxAttack, focalStronger], selector[focalPartOfCompleteSuper, maxAttack, maxAttack]]]], succeeder(inverter(inverter(parallel[focalStronger, focalStronger]))), succeeder(sequence[inverter(inverter(focalPartOfCompleteSuper)), parallel[selector[partOfSameSuper, isFriendly, maxAttack], parallel[randomAttack, isFriendly]], inverter(selector[maxAttack, minSuperiorAttack, isFriendly])])], inverter(parallel[succeeder(inverter(inverter(isFriendly))), parallel[inverter(inverter(randomAttack)), selector[sequence[focalPartOfCompleteSuper, maxAttack, focalPartOfCompleteSuper], succeeder(isFriendly), inverter(minSuperiorAttack)]]]), inverter(sequence[sequence[succeeder(parallel[minSuperiorAttack, minSuperiorAttack]), succeeder(parallel[isFriendly, minSuperiorAttack]), inverter(inverter(minSuperiorAttack))], selector[parallel[selector[focalPartOfCompleteSuper, focalStronger, isFriendly], parallel[focalStronger, maxAttack]], parallel[parallel[focalPartOfCompleteSuper, isFriendly], selector[maxAttack, minSuperiorAttack, focalPartOfCompleteSuper]], succeeder(succeeder(partOfSameSuper))], sequence[sequence[succeeder(maxAttack), succeeder(randomAttack), sequence[minSuperiorAttack, focalPartOfCompleteSuper, focalPartOfCompleteSuper]], inverter(parallel[maxAttack, isFriendly]), sequence[parallel[randomAttack, maxAttack], inverter(focalStronger), selector[focalPartOfCompleteSuper, focalStronger, isFriendly]]]])], inverter(inverter(succeeder(sequence[parallel[parallel[maxAttack, isFriendly], parallel[focalStronger, minSuperiorAttack]], parallel[parallel[maxAttack, maxAttack], inverter(minSuperiorAttack)], selector[parallel[isFriendly, maxAttack], selector[isFriendly, focalPartOfCompleteSuper, focalStronger], sequence[focalPartOfCompleteSuper, focalPartOfCompleteSuper, partOfSameSuper]]])))]
+         (parallel[succeeder(selector[inverter(parallel[sequence[isFriendly, minSuperiorAttack, randomAttack], succeeder(maxAttack)]), selector[succeeder(succeeder(randomAttack)), parallel[succeeder(maxAttack), selector[isFriendly, focalStronger, focalPartOfCompleteSuper]], selector[succeeder(partOfSameSuper), sequence[focalStronger, minSuperiorAttack, minSuperiorAttack], selector[randomAttack, focalStronger, maxAttack]]], inverter(selector[inverter(partOfSameSuper), sequence[maxAttack, minSuperiorAttack, partOfSameSuper], sequence[isFriendly, partOfSameSuper, focalPartOfCompleteSuper]])]), succeeder(succeeder(parallel[selector[selector[randomAttack, isFriendly, partOfSameSuper], inverter(focalStronger), parallel[maxAttack, randomAttack]], inverter(succeeder(isFriendly))]))]
+             (succeeder(selector[inverter(parallel[sequence[isFriendly, minSuperiorAttack, randomAttack], succeeder(maxAttack)]), selector[succeeder(succeeder(randomAttack)), parallel[succeeder(maxAttack), selector[isFriendly, focalStronger, focalPartOfCompleteSuper]], selector[succeeder(partOfSameSuper), sequence[focalStronger, minSuperiorAttack, minSuperiorAttack], selector[randomAttack, focalStronger, maxAttack]]], inverter(selector[inverter(partOfSameSuper), sequence[maxAttack, minSuperiorAttack, partOfSameSuper], sequence[isFriendly, partOfSameSuper, focalPartOfCompleteSuper]])])
+                 (selector[inverter(parallel[sequence[isFriendly, minSuperiorAttack, randomAttack], succeeder(maxAttack)]), selector[succeeder(succeeder(randomAttack)), parallel[succeeder(maxAttack), selector[isFriendly, focalStronger, focalPartOfCompleteSuper]], selector[succeeder(partOfSameSuper), sequence[focalStronger, minSuperiorAttack, minSuperiorAttack], selector[randomAttack, focalStronger, maxAttack]]], inverter(selector[inverter(partOfSameSuper), sequence[maxAttack, minSuperiorAttack, partOfSameSuper], sequence[isFriendly, partOfSameSuper, focalPartOfCompleteSuper]])]
+                     (inverter(parallel[sequence[isFriendly, minSuperiorAttack, randomAttack], succeeder(maxAttack)])
+                         (parallel[sequence[isFriendly, minSuperiorAttack, randomAttack], succeeder(maxAttack)]
+                             (sequence[isFriendly, minSuperiorAttack, randomAttack]
+                                 isFriendly minSuperiorAttack randomAttack)
+                             (succeeder(maxAttack) maxAttack))) (selector[succeeder(succeeder(randomAttack)), parallel[succeeder(maxAttack), selector[isFriendly, focalStronger, focalPartOfCompleteSuper]], selector[succeeder(partOfSameSuper), sequence[focalStronger, minSuperiorAttack, minSuperiorAttack], selector[randomAttack, focalStronger, maxAttack]]]
+                     (succeeder(succeeder(randomAttack)) (succeeder(randomAttack)
+                         randomAttack)) (parallel[succeeder(maxAttack), selector[isFriendly, focalStronger, focalPartOfCompleteSuper]]
+                     (succeeder(maxAttack) maxAttack) (selector[isFriendly, focalStronger, focalPartOfCompleteSuper]
+                     isFriendly focalStronger focalPartOfCompleteSuper))
+                     (selector[succeeder(partOfSameSuper), sequence[focalStronger, minSuperiorAttack, minSuperiorAttack], selector[randomAttack, focalStronger, maxAttack]]
+                         (succeeder(partOfSameSuper) partOfSameSuper)
+                         (sequence[focalStronger, minSuperiorAttack, minSuperiorAttack]
+                             focalStronger minSuperiorAttack minSuperiorAttack)
+                         (selector[randomAttack, focalStronger, maxAttack]
+                             randomAttack focalStronger maxAttack))) (inverter(selector[inverter(partOfSameSuper), sequence[maxAttack, minSuperiorAttack, partOfSameSuper], sequence[isFriendly, partOfSameSuper, focalPartOfCompleteSuper]])
+                     (selector[inverter(partOfSameSuper), sequence[maxAttack, minSuperiorAttack, partOfSameSuper], sequence[isFriendly, partOfSameSuper, focalPartOfCompleteSuper]]
+                         (inverter(partOfSameSuper) partOfSameSuper)
+                         (sequence[maxAttack, minSuperiorAttack, partOfSameSuper]
+                             maxAttack minSuperiorAttack partOfSameSuper)
+                         (sequence[isFriendly, partOfSameSuper, focalPartOfCompleteSuper]
+                             isFriendly partOfSameSuper focalPartOfCompleteSuper)))))
+             (succeeder(succeeder(parallel[selector[selector[randomAttack, isFriendly, partOfSameSuper], inverter(focalStronger), parallel[maxAttack, randomAttack]], inverter(succeeder(isFriendly))]))
+                 (succeeder(parallel[selector[selector[randomAttack, isFriendly, partOfSameSuper], inverter(focalStronger), parallel[maxAttack, randomAttack]], inverter(succeeder(isFriendly))])
+                     (parallel[selector[selector[randomAttack, isFriendly, partOfSameSuper], inverter(focalStronger), parallel[maxAttack, randomAttack]], inverter(succeeder(isFriendly))]
+                         (selector[selector[randomAttack, isFriendly, partOfSameSuper], inverter(focalStronger), parallel[maxAttack, randomAttack]]
+                             (selector[randomAttack, isFriendly, partOfSameSuper]
+                                 randomAttack isFriendly partOfSameSuper)
+                             (inverter(focalStronger) focalStronger) (parallel[maxAttack, randomAttack]
+                             maxAttack randomAttack)) (inverter(succeeder(isFriendly))
+                         (succeeder(isFriendly) isFriendly)))))) (sequence[selector[sequence[sequence[succeeder(succeeder(isFriendly)), parallel[inverter(focalStronger), parallel[isFriendly, focalStronger]], inverter(parallel[isFriendly, partOfSameSuper])], inverter(inverter(parallel[focalPartOfCompleteSuper, partOfSameSuper])), sequence[inverter(sequence[partOfSameSuper, minSuperiorAttack, partOfSameSuper]), succeeder(parallel[minSuperiorAttack, partOfSameSuper]), sequence[inverter(focalPartOfCompleteSuper), parallel[maxAttack, focalStronger], selector[focalPartOfCompleteSuper, maxAttack, maxAttack]]]], succeeder(inverter(inverter(parallel[focalStronger, focalStronger]))), succeeder(sequence[inverter(inverter(focalPartOfCompleteSuper)), parallel[selector[partOfSameSuper, isFriendly, maxAttack], parallel[randomAttack, isFriendly]], inverter(selector[maxAttack, minSuperiorAttack, isFriendly])])], inverter(parallel[succeeder(inverter(inverter(isFriendly))), parallel[inverter(inverter(randomAttack)), selector[sequence[focalPartOfCompleteSuper, maxAttack, focalPartOfCompleteSuper], succeeder(isFriendly), inverter(minSuperiorAttack)]]]), inverter(sequence[sequence[succeeder(parallel[minSuperiorAttack, minSuperiorAttack]), succeeder(parallel[isFriendly, minSuperiorAttack]), inverter(inverter(minSuperiorAttack))], selector[parallel[selector[focalPartOfCompleteSuper, focalStronger, isFriendly], parallel[focalStronger, maxAttack]], parallel[parallel[focalPartOfCompleteSuper, isFriendly], selector[maxAttack, minSuperiorAttack, focalPartOfCompleteSuper]], succeeder(succeeder(partOfSameSuper))], sequence[sequence[succeeder(maxAttack), succeeder(randomAttack), sequence[minSuperiorAttack, focalPartOfCompleteSuper, focalPartOfCompleteSuper]], inverter(parallel[maxAttack, isFriendly]), sequence[parallel[randomAttack, maxAttack], inverter(focalStronger), selector[focalPartOfCompleteSuper, focalStronger, isFriendly]]]])]
+         (selector[sequence[sequence[succeeder(succeeder(isFriendly)), parallel[inverter(focalStronger), parallel[isFriendly, focalStronger]], inverter(parallel[isFriendly, partOfSameSuper])], inverter(inverter(parallel[focalPartOfCompleteSuper, partOfSameSuper])), sequence[inverter(sequence[partOfSameSuper, minSuperiorAttack, partOfSameSuper]), succeeder(parallel[minSuperiorAttack, partOfSameSuper]), sequence[inverter(focalPartOfCompleteSuper), parallel[maxAttack, focalStronger], selector[focalPartOfCompleteSuper, maxAttack, maxAttack]]]], succeeder(inverter(inverter(parallel[focalStronger, focalStronger]))), succeeder(sequence[inverter(inverter(focalPartOfCompleteSuper)), parallel[selector[partOfSameSuper, isFriendly, maxAttack], parallel[randomAttack, isFriendly]], inverter(selector[maxAttack, minSuperiorAttack, isFriendly])])]
+             (sequence[sequence[succeeder(succeeder(isFriendly)), parallel[inverter(focalStronger), parallel[isFriendly, focalStronger]], inverter(parallel[isFriendly, partOfSameSuper])], inverter(inverter(parallel[focalPartOfCompleteSuper, partOfSameSuper])), sequence[inverter(sequence[partOfSameSuper, minSuperiorAttack, partOfSameSuper]), succeeder(parallel[minSuperiorAttack, partOfSameSuper]), sequence[inverter(focalPartOfCompleteSuper), parallel[maxAttack, focalStronger], selector[focalPartOfCompleteSuper, maxAttack, maxAttack]]]]
+                 (sequence[succeeder(succeeder(isFriendly)), parallel[inverter(focalStronger), parallel[isFriendly, focalStronger]], inverter(parallel[isFriendly, partOfSameSuper])]
+                     (succeeder(succeeder(isFriendly)) (succeeder(isFriendly)
+                         isFriendly)) (parallel[inverter(focalStronger), parallel[isFriendly, focalStronger]]
+                     (inverter(focalStronger) focalStronger) (parallel[isFriendly, focalStronger]
+                     isFriendly focalStronger)) (inverter(parallel[isFriendly, partOfSameSuper])
+                     (parallel[isFriendly, partOfSameSuper] isFriendly
+                         partOfSameSuper))) (inverter(inverter(parallel[focalPartOfCompleteSuper, partOfSameSuper]))
+                 (inverter(parallel[focalPartOfCompleteSuper, partOfSameSuper])
+                     (parallel[focalPartOfCompleteSuper, partOfSameSuper]
+                         focalPartOfCompleteSuper partOfSameSuper)))
+                 (sequence[inverter(sequence[partOfSameSuper, minSuperiorAttack, partOfSameSuper]), succeeder(parallel[minSuperiorAttack, partOfSameSuper]), sequence[inverter(focalPartOfCompleteSuper), parallel[maxAttack, focalStronger], selector[focalPartOfCompleteSuper, maxAttack, maxAttack]]]
+                     (inverter(sequence[partOfSameSuper, minSuperiorAttack, partOfSameSuper])
+                         (sequence[partOfSameSuper, minSuperiorAttack, partOfSameSuper]
+                             partOfSameSuper minSuperiorAttack partOfSameSuper))
+                     (succeeder(parallel[minSuperiorAttack, partOfSameSuper])
+                         (parallel[minSuperiorAttack, partOfSameSuper]
+                             minSuperiorAttack partOfSameSuper)) (sequence[inverter(focalPartOfCompleteSuper), parallel[maxAttack, focalStronger], selector[focalPartOfCompleteSuper, maxAttack, maxAttack]]
+                     (inverter(focalPartOfCompleteSuper) focalPartOfCompleteSuper)
+                     (parallel[maxAttack, focalStronger] maxAttack
+                         focalStronger) (selector[focalPartOfCompleteSuper, maxAttack, maxAttack]
+                     focalPartOfCompleteSuper maxAttack maxAttack))))
+             (succeeder(inverter(inverter(parallel[focalStronger, focalStronger])))
+                 (inverter(inverter(parallel[focalStronger, focalStronger]))
+                     (inverter(parallel[focalStronger, focalStronger])
+                         (parallel[focalStronger, focalStronger] focalStronger
+                             focalStronger)))) (succeeder(sequence[inverter(inverter(focalPartOfCompleteSuper)), parallel[selector[partOfSameSuper, isFriendly, maxAttack], parallel[randomAttack, isFriendly]], inverter(selector[maxAttack, minSuperiorAttack, isFriendly])])
+             (sequence[inverter(inverter(focalPartOfCompleteSuper)), parallel[selector[partOfSameSuper, isFriendly, maxAttack], parallel[randomAttack, isFriendly]], inverter(selector[maxAttack, minSuperiorAttack, isFriendly])]
+                 (inverter(inverter(focalPartOfCompleteSuper))
+                     (inverter(focalPartOfCompleteSuper) focalPartOfCompleteSuper))
+                 (parallel[selector[partOfSameSuper, isFriendly, maxAttack], parallel[randomAttack, isFriendly]]
+                     (selector[partOfSameSuper, isFriendly, maxAttack]
+                         partOfSameSuper isFriendly maxAttack) (parallel[randomAttack, isFriendly]
+                     randomAttack isFriendly)) (inverter(selector[maxAttack, minSuperiorAttack, isFriendly])
+                 (selector[maxAttack, minSuperiorAttack, isFriendly]
+                     maxAttack minSuperiorAttack isFriendly)))))
+         (inverter(parallel[succeeder(inverter(inverter(isFriendly))), parallel[inverter(inverter(randomAttack)), selector[sequence[focalPartOfCompleteSuper, maxAttack, focalPartOfCompleteSuper], succeeder(isFriendly), inverter(minSuperiorAttack)]]])
+             (parallel[succeeder(inverter(inverter(isFriendly))), parallel[inverter(inverter(randomAttack)), selector[sequence[focalPartOfCompleteSuper, maxAttack, focalPartOfCompleteSuper], succeeder(isFriendly), inverter(minSuperiorAttack)]]]
+                 (succeeder(inverter(inverter(isFriendly)))
+                     (inverter(inverter(isFriendly)) (inverter(isFriendly)
+                         isFriendly))) (parallel[inverter(inverter(randomAttack)), selector[sequence[focalPartOfCompleteSuper, maxAttack, focalPartOfCompleteSuper], succeeder(isFriendly), inverter(minSuperiorAttack)]]
+                 (inverter(inverter(randomAttack)) (inverter(randomAttack)
+                     randomAttack)) (selector[sequence[focalPartOfCompleteSuper, maxAttack, focalPartOfCompleteSuper], succeeder(isFriendly), inverter(minSuperiorAttack)]
+                 (sequence[focalPartOfCompleteSuper, maxAttack, focalPartOfCompleteSuper]
+                     focalPartOfCompleteSuper maxAttack focalPartOfCompleteSuper)
+                 (succeeder(isFriendly) isFriendly) (inverter(minSuperiorAttack)
+                 minSuperiorAttack))))) (inverter(sequence[sequence[succeeder(parallel[minSuperiorAttack, minSuperiorAttack]), succeeder(parallel[isFriendly, minSuperiorAttack]), inverter(inverter(minSuperiorAttack))], selector[parallel[selector[focalPartOfCompleteSuper, focalStronger, isFriendly], parallel[focalStronger, maxAttack]], parallel[parallel[focalPartOfCompleteSuper, isFriendly], selector[maxAttack, minSuperiorAttack, focalPartOfCompleteSuper]], succeeder(succeeder(partOfSameSuper))], sequence[sequence[succeeder(maxAttack), succeeder(randomAttack), sequence[minSuperiorAttack, focalPartOfCompleteSuper, focalPartOfCompleteSuper]], inverter(parallel[maxAttack, isFriendly]), sequence[parallel[randomAttack, maxAttack], inverter(focalStronger), selector[focalPartOfCompleteSuper, focalStronger, isFriendly]]]])
+         (sequence[sequence[succeeder(parallel[minSuperiorAttack, minSuperiorAttack]), succeeder(parallel[isFriendly, minSuperiorAttack]), inverter(inverter(minSuperiorAttack))], selector[parallel[selector[focalPartOfCompleteSuper, focalStronger, isFriendly], parallel[focalStronger, maxAttack]], parallel[parallel[focalPartOfCompleteSuper, isFriendly], selector[maxAttack, minSuperiorAttack, focalPartOfCompleteSuper]], succeeder(succeeder(partOfSameSuper))], sequence[sequence[succeeder(maxAttack), succeeder(randomAttack), sequence[minSuperiorAttack, focalPartOfCompleteSuper, focalPartOfCompleteSuper]], inverter(parallel[maxAttack, isFriendly]), sequence[parallel[randomAttack, maxAttack], inverter(focalStronger), selector[focalPartOfCompleteSuper, focalStronger, isFriendly]]]]
+             (sequence[succeeder(parallel[minSuperiorAttack, minSuperiorAttack]), succeeder(parallel[isFriendly, minSuperiorAttack]), inverter(inverter(minSuperiorAttack))]
+                 (succeeder(parallel[minSuperiorAttack, minSuperiorAttack])
+                     (parallel[minSuperiorAttack, minSuperiorAttack]
+                         minSuperiorAttack minSuperiorAttack)) (succeeder(parallel[isFriendly, minSuperiorAttack])
+                 (parallel[isFriendly, minSuperiorAttack]
+                     isFriendly minSuperiorAttack)) (inverter(inverter(minSuperiorAttack))
+                 (inverter(minSuperiorAttack) minSuperiorAttack)))
+             (selector[parallel[selector[focalPartOfCompleteSuper, focalStronger, isFriendly], parallel[focalStronger, maxAttack]], parallel[parallel[focalPartOfCompleteSuper, isFriendly], selector[maxAttack, minSuperiorAttack, focalPartOfCompleteSuper]], succeeder(succeeder(partOfSameSuper))]
+                 (parallel[selector[focalPartOfCompleteSuper, focalStronger, isFriendly], parallel[focalStronger, maxAttack]]
+                     (selector[focalPartOfCompleteSuper, focalStronger, isFriendly]
+                         focalPartOfCompleteSuper focalStronger isFriendly)
+                     (parallel[focalStronger, maxAttack] focalStronger
+                         maxAttack)) (parallel[parallel[focalPartOfCompleteSuper, isFriendly], selector[maxAttack, minSuperiorAttack, focalPartOfCompleteSuper]]
+                 (parallel[focalPartOfCompleteSuper, isFriendly]
+                     focalPartOfCompleteSuper isFriendly) (selector[maxAttack, minSuperiorAttack, focalPartOfCompleteSuper]
+                 maxAttack minSuperiorAttack focalPartOfCompleteSuper))
+                 (succeeder(succeeder(partOfSameSuper)) (succeeder(partOfSameSuper)
+                     partOfSameSuper))) (sequence[sequence[succeeder(maxAttack), succeeder(randomAttack), sequence[minSuperiorAttack, focalPartOfCompleteSuper, focalPartOfCompleteSuper]], inverter(parallel[maxAttack, isFriendly]), sequence[parallel[randomAttack, maxAttack], inverter(focalStronger), selector[focalPartOfCompleteSuper, focalStronger, isFriendly]]]
+             (sequence[succeeder(maxAttack), succeeder(randomAttack), sequence[minSuperiorAttack, focalPartOfCompleteSuper, focalPartOfCompleteSuper]]
+                 (succeeder(maxAttack) maxAttack) (succeeder(randomAttack)
+                 randomAttack) (sequence[minSuperiorAttack, focalPartOfCompleteSuper, focalPartOfCompleteSuper]
+                 minSuperiorAttack focalPartOfCompleteSuper
+                 focalPartOfCompleteSuper)) (inverter(parallel[maxAttack, isFriendly])
+             (parallel[maxAttack, isFriendly] maxAttack
+                 isFriendly)) (sequence[parallel[randomAttack, maxAttack], inverter(focalStronger), selector[focalPartOfCompleteSuper, focalStronger, isFriendly]]
+             (parallel[randomAttack, maxAttack] randomAttack
+                 maxAttack) (inverter(focalStronger) focalStronger)
+             (selector[focalPartOfCompleteSuper, focalStronger, isFriendly]
+                 focalPartOfCompleteSuper focalStronger isFriendly))))))
+         (inverter(inverter(succeeder(sequence[parallel[parallel[maxAttack, isFriendly], parallel[focalStronger, minSuperiorAttack]], parallel[parallel[maxAttack, maxAttack], inverter(minSuperiorAttack)], selector[parallel[isFriendly, maxAttack], selector[isFriendly, focalPartOfCompleteSuper, focalStronger], sequence[focalPartOfCompleteSuper, focalPartOfCompleteSuper, partOfSameSuper]]])))
+             (inverter(succeeder(sequence[parallel[parallel[maxAttack, isFriendly], parallel[focalStronger, minSuperiorAttack]], parallel[parallel[maxAttack, maxAttack], inverter(minSuperiorAttack)], selector[parallel[isFriendly, maxAttack], selector[isFriendly, focalPartOfCompleteSuper, focalStronger], sequence[focalPartOfCompleteSuper, focalPartOfCompleteSuper, partOfSameSuper]]]))
+                 (succeeder(sequence[parallel[parallel[maxAttack, isFriendly], parallel[focalStronger, minSuperiorAttack]], parallel[parallel[maxAttack, maxAttack], inverter(minSuperiorAttack)], selector[parallel[isFriendly, maxAttack], selector[isFriendly, focalPartOfCompleteSuper, focalStronger], sequence[focalPartOfCompleteSuper, focalPartOfCompleteSuper, partOfSameSuper]]])
+                     (sequence[parallel[parallel[maxAttack, isFriendly], parallel[focalStronger, minSuperiorAttack]], parallel[parallel[maxAttack, maxAttack], inverter(minSuperiorAttack)], selector[parallel[isFriendly, maxAttack], selector[isFriendly, focalPartOfCompleteSuper, focalStronger], sequence[focalPartOfCompleteSuper, focalPartOfCompleteSuper, partOfSameSuper]]]
+                         (parallel[parallel[maxAttack, isFriendly], parallel[focalStronger, minSuperiorAttack]]
+                             (parallel[maxAttack, isFriendly] maxAttack
+                                 isFriendly) (parallel[focalStronger, minSuperiorAttack]
+                             focalStronger minSuperiorAttack)) (parallel[parallel[maxAttack, maxAttack], inverter(minSuperiorAttack)]
+                         (parallel[maxAttack, maxAttack] maxAttack
+                             maxAttack) (inverter(minSuperiorAttack) minSuperiorAttack))
+                         (selector[parallel[isFriendly, maxAttack], selector[isFriendly, focalPartOfCompleteSuper, focalStronger], sequence[focalPartOfCompleteSuper, focalPartOfCompleteSuper, partOfSameSuper]]
+                             (parallel[isFriendly, maxAttack] isFriendly
+                                 maxAttack) (selector[isFriendly, focalPartOfCompleteSuper, focalStronger]
+                             isFriendly focalPartOfCompleteSuper focalStronger)
+                             (sequence[focalPartOfCompleteSuper, focalPartOfCompleteSuper, partOfSameSuper]
+                                 focalPartOfCompleteSuper focalPartOfCompleteSuper
+                                 partOfSameSuper))))))) (succeeder(sequence[sequence[succeeder(sequence[succeeder(selector[partOfSameSuper, focalPartOfCompleteSuper, maxAttack]), sequence[succeeder(isFriendly), selector[maxAttack, isFriendly, focalPartOfCompleteSuper], sequence[randomAttack, isFriendly, partOfSameSuper]], parallel[selector[focalStronger, partOfSameSuper, focalPartOfCompleteSuper], sequence[focalStronger, focalPartOfCompleteSuper, focalPartOfCompleteSuper]]]), succeeder(sequence[sequence[sequence[partOfSameSuper, partOfSameSuper, focalStronger], parallel[isFriendly, focalStronger], selector[minSuperiorAttack, randomAttack, focalPartOfCompleteSuper]], inverter(succeeder(focalPartOfCompleteSuper)), parallel[parallel[minSuperiorAttack, maxAttack], inverter(partOfSameSuper)]]), succeeder(sequence[inverter(sequence[randomAttack, randomAttack, partOfSameSuper]), inverter(parallel[randomAttack, focalPartOfCompleteSuper]), inverter(selector[maxAttack, maxAttack, partOfSameSuper])])], inverter(inverter(inverter(sequence[sequence[randomAttack, minSuperiorAttack, partOfSameSuper], succeeder(focalPartOfCompleteSuper), selector[isFriendly, randomAttack, maxAttack]]))), succeeder(inverter(succeeder(parallel[sequence[partOfSameSuper, isFriendly, maxAttack], inverter(randomAttack)])))])
+     (sequence[sequence[succeeder(sequence[succeeder(selector[partOfSameSuper, focalPartOfCompleteSuper, maxAttack]), sequence[succeeder(isFriendly), selector[maxAttack, isFriendly, focalPartOfCompleteSuper], sequence[randomAttack, isFriendly, partOfSameSuper]], parallel[selector[focalStronger, partOfSameSuper, focalPartOfCompleteSuper], sequence[focalStronger, focalPartOfCompleteSuper, focalPartOfCompleteSuper]]]), succeeder(sequence[sequence[sequence[partOfSameSuper, partOfSameSuper, focalStronger], parallel[isFriendly, focalStronger], selector[minSuperiorAttack, randomAttack, focalPartOfCompleteSuper]], inverter(succeeder(focalPartOfCompleteSuper)), parallel[parallel[minSuperiorAttack, maxAttack], inverter(partOfSameSuper)]]), succeeder(sequence[inverter(sequence[randomAttack, randomAttack, partOfSameSuper]), inverter(parallel[randomAttack, focalPartOfCompleteSuper]), inverter(selector[maxAttack, maxAttack, partOfSameSuper])])], inverter(inverter(inverter(sequence[sequence[randomAttack, minSuperiorAttack, partOfSameSuper], succeeder(focalPartOfCompleteSuper), selector[isFriendly, randomAttack, maxAttack]]))), succeeder(inverter(succeeder(parallel[sequence[partOfSameSuper, isFriendly, maxAttack], inverter(randomAttack)])))]
+         (sequence[succeeder(sequence[succeeder(selector[partOfSameSuper, focalPartOfCompleteSuper, maxAttack]), sequence[succeeder(isFriendly), selector[maxAttack, isFriendly, focalPartOfCompleteSuper], sequence[randomAttack, isFriendly, partOfSameSuper]], parallel[selector[focalStronger, partOfSameSuper, focalPartOfCompleteSuper], sequence[focalStronger, focalPartOfCompleteSuper, focalPartOfCompleteSuper]]]), succeeder(sequence[sequence[sequence[partOfSameSuper, partOfSameSuper, focalStronger], parallel[isFriendly, focalStronger], selector[minSuperiorAttack, randomAttack, focalPartOfCompleteSuper]], inverter(succeeder(focalPartOfCompleteSuper)), parallel[parallel[minSuperiorAttack, maxAttack], inverter(partOfSameSuper)]]), succeeder(sequence[inverter(sequence[randomAttack, randomAttack, partOfSameSuper]), inverter(parallel[randomAttack, focalPartOfCompleteSuper]), inverter(selector[maxAttack, maxAttack, partOfSameSuper])])]
+             (succeeder(sequence[succeeder(selector[partOfSameSuper, focalPartOfCompleteSuper, maxAttack]), sequence[succeeder(isFriendly), selector[maxAttack, isFriendly, focalPartOfCompleteSuper], sequence[randomAttack, isFriendly, partOfSameSuper]], parallel[selector[focalStronger, partOfSameSuper, focalPartOfCompleteSuper], sequence[focalStronger, focalPartOfCompleteSuper, focalPartOfCompleteSuper]]])
+                 (sequence[succeeder(selector[partOfSameSuper, focalPartOfCompleteSuper, maxAttack]), sequence[succeeder(isFriendly), selector[maxAttack, isFriendly, focalPartOfCompleteSuper], sequence[randomAttack, isFriendly, partOfSameSuper]], parallel[selector[focalStronger, partOfSameSuper, focalPartOfCompleteSuper], sequence[focalStronger, focalPartOfCompleteSuper, focalPartOfCompleteSuper]]]
+                     (succeeder(selector[partOfSameSuper, focalPartOfCompleteSuper, maxAttack])
+                         (selector[partOfSameSuper, focalPartOfCompleteSuper, maxAttack]
+                             partOfSameSuper focalPartOfCompleteSuper
+                             maxAttack)) (sequence[succeeder(isFriendly), selector[maxAttack, isFriendly, focalPartOfCompleteSuper], sequence[randomAttack, isFriendly, partOfSameSuper]]
+                     (succeeder(isFriendly) isFriendly) (selector[maxAttack, isFriendly, focalPartOfCompleteSuper]
+                     maxAttack isFriendly focalPartOfCompleteSuper)
+                     (sequence[randomAttack, isFriendly, partOfSameSuper]
+                         randomAttack isFriendly partOfSameSuper))
+                     (parallel[selector[focalStronger, partOfSameSuper, focalPartOfCompleteSuper], sequence[focalStronger, focalPartOfCompleteSuper, focalPartOfCompleteSuper]]
+                         (selector[focalStronger, partOfSameSuper, focalPartOfCompleteSuper]
+                             focalStronger partOfSameSuper focalPartOfCompleteSuper)
+                         (sequence[focalStronger, focalPartOfCompleteSuper, focalPartOfCompleteSuper]
+                             focalStronger focalPartOfCompleteSuper focalPartOfCompleteSuper))))
+             (succeeder(sequence[sequence[sequence[partOfSameSuper, partOfSameSuper, focalStronger], parallel[isFriendly, focalStronger], selector[minSuperiorAttack, randomAttack, focalPartOfCompleteSuper]], inverter(succeeder(focalPartOfCompleteSuper)), parallel[parallel[minSuperiorAttack, maxAttack], inverter(partOfSameSuper)]])
+                 (sequence[sequence[sequence[partOfSameSuper, partOfSameSuper, focalStronger], parallel[isFriendly, focalStronger], selector[minSuperiorAttack, randomAttack, focalPartOfCompleteSuper]], inverter(succeeder(focalPartOfCompleteSuper)), parallel[parallel[minSuperiorAttack, maxAttack], inverter(partOfSameSuper)]]
+                     (sequence[sequence[partOfSameSuper, partOfSameSuper, focalStronger], parallel[isFriendly, focalStronger], selector[minSuperiorAttack, randomAttack, focalPartOfCompleteSuper]]
+                         (sequence[partOfSameSuper, partOfSameSuper, focalStronger]
+                             partOfSameSuper partOfSameSuper focalStronger)
+                         (parallel[isFriendly, focalStronger] isFriendly
+                             focalStronger) (selector[minSuperiorAttack, randomAttack, focalPartOfCompleteSuper]
+                         minSuperiorAttack randomAttack focalPartOfCompleteSuper))
+                     (inverter(succeeder(focalPartOfCompleteSuper))
+                         (succeeder(focalPartOfCompleteSuper) focalPartOfCompleteSuper))
+                     (parallel[parallel[minSuperiorAttack, maxAttack], inverter(partOfSameSuper)]
+                         (parallel[minSuperiorAttack, maxAttack] minSuperiorAttack
+                             maxAttack) (inverter(partOfSameSuper) partOfSameSuper))))
+             (succeeder(sequence[inverter(sequence[randomAttack, randomAttack, partOfSameSuper]), inverter(parallel[randomAttack, focalPartOfCompleteSuper]), inverter(selector[maxAttack, maxAttack, partOfSameSuper])])
+                 (sequence[inverter(sequence[randomAttack, randomAttack, partOfSameSuper]), inverter(parallel[randomAttack, focalPartOfCompleteSuper]), inverter(selector[maxAttack, maxAttack, partOfSameSuper])]
+                     (inverter(sequence[randomAttack, randomAttack, partOfSameSuper])
                          (sequence[randomAttack, randomAttack, partOfSameSuper]
-                             randomAttack randomAttack partOfSameSuper)
-                         (selector[isFriendly, isFriendly, focalStronger]
-                             isFriendly isFriendly focalStronger))) (succeeder(inverter(succeeder(maxAttack)))
-                 (inverter(succeeder(maxAttack)) (succeeder(maxAttack)
-                     maxAttack))) (inverter(succeeder(selector[maxAttack, focalPartOfCompleteSuper, randomAttack]))
-                 (succeeder(selector[maxAttack, focalPartOfCompleteSuper, randomAttack])
-                     (selector[maxAttack, focalPartOfCompleteSuper, randomAttack]
-                         maxAttack focalPartOfCompleteSuper randomAttack)))))
-         (inverter(inverter(selector[inverter(succeeder(maxAttack)), parallel[sequence[randomAttack, randomAttack, minSuperiorAttack], sequence[maxAttack, isFriendly, partOfSameSuper]], succeeder(parallel[focalStronger, isFriendly])]))
-             (inverter(selector[inverter(succeeder(maxAttack)), parallel[sequence[randomAttack, randomAttack, minSuperiorAttack], sequence[maxAttack, isFriendly, partOfSameSuper]], succeeder(parallel[focalStronger, isFriendly])])
-                 (selector[inverter(succeeder(maxAttack)), parallel[sequence[randomAttack, randomAttack, minSuperiorAttack], sequence[maxAttack, isFriendly, partOfSameSuper]], succeeder(parallel[focalStronger, isFriendly])]
-                     (inverter(succeeder(maxAttack)) (succeeder(maxAttack)
-                         maxAttack)) (parallel[sequence[randomAttack, randomAttack, minSuperiorAttack], sequence[maxAttack, isFriendly, partOfSameSuper]]
-                     (sequence[randomAttack, randomAttack, minSuperiorAttack]
-                         randomAttack randomAttack minSuperiorAttack)
-                     (sequence[maxAttack, isFriendly, partOfSameSuper]
-                         maxAttack isFriendly partOfSameSuper)) (succeeder(parallel[focalStronger, isFriendly])
-                     (parallel[focalStronger, isFriendly] focalStronger
-                         isFriendly)))))))
+                             randomAttack randomAttack partOfSameSuper))
+                     (inverter(parallel[randomAttack, focalPartOfCompleteSuper])
+                         (parallel[randomAttack, focalPartOfCompleteSuper]
+                             randomAttack focalPartOfCompleteSuper)) (inverter(selector[maxAttack, maxAttack, partOfSameSuper])
+                     (selector[maxAttack, maxAttack, partOfSameSuper]
+                         maxAttack maxAttack partOfSameSuper)))))
+         (inverter(inverter(inverter(sequence[sequence[randomAttack, minSuperiorAttack, partOfSameSuper], succeeder(focalPartOfCompleteSuper), selector[isFriendly, randomAttack, maxAttack]])))
+             (inverter(inverter(sequence[sequence[randomAttack, minSuperiorAttack, partOfSameSuper], succeeder(focalPartOfCompleteSuper), selector[isFriendly, randomAttack, maxAttack]]))
+                 (inverter(sequence[sequence[randomAttack, minSuperiorAttack, partOfSameSuper], succeeder(focalPartOfCompleteSuper), selector[isFriendly, randomAttack, maxAttack]])
+                     (sequence[sequence[randomAttack, minSuperiorAttack, partOfSameSuper], succeeder(focalPartOfCompleteSuper), selector[isFriendly, randomAttack, maxAttack]]
+                         (sequence[randomAttack, minSuperiorAttack, partOfSameSuper]
+                             randomAttack minSuperiorAttack partOfSameSuper)
+                         (succeeder(focalPartOfCompleteSuper) focalPartOfCompleteSuper)
+                         (selector[isFriendly, randomAttack, maxAttack]
+                             isFriendly randomAttack maxAttack))))) (succeeder(inverter(succeeder(parallel[sequence[partOfSameSuper, isFriendly, maxAttack], inverter(randomAttack)])))
+         (inverter(succeeder(parallel[sequence[partOfSameSuper, isFriendly, maxAttack], inverter(randomAttack)]))
+             (succeeder(parallel[sequence[partOfSameSuper, isFriendly, maxAttack], inverter(randomAttack)])
+                 (parallel[sequence[partOfSameSuper, isFriendly, maxAttack], inverter(randomAttack)]
+                     (sequence[partOfSameSuper, isFriendly, maxAttack]
+                         partOfSameSuper isFriendly maxAttack) (inverter(randomAttack)
+                     randomAttack))))))))
 
-Generation: 1
-Best Individual:
+Best Individual of Run:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.75 Adjusted=0.5714285714285714 Hits=0
+Fitness: Standardized=0.9921875 Adjusted=0.5019607843137255 Hits=0
 Tree 0:
- (succeeder(maxAttack) maxAttack)
+ (parallel[selector[parallel[succeeder(selector[inverter(parallel[sequence[isFriendly, minSuperiorAttack, randomAttack], succeeder(maxAttack)]), selector[succeeder(succeeder(randomAttack)), parallel[succeeder(maxAttack), selector[isFriendly, focalStronger, focalPartOfCompleteSuper]], selector[succeeder(partOfSameSuper), sequence[focalStronger, minSuperiorAttack, minSuperiorAttack], selector[randomAttack, focalStronger, maxAttack]]], inverter(selector[inverter(partOfSameSuper), sequence[maxAttack, minSuperiorAttack, partOfSameSuper], sequence[isFriendly, partOfSameSuper, focalPartOfCompleteSuper]])]), succeeder(succeeder(parallel[selector[selector[randomAttack, isFriendly, partOfSameSuper], inverter(focalStronger), parallel[maxAttack, randomAttack]], inverter(succeeder(isFriendly))]))], sequence[selector[sequence[sequence[succeeder(succeeder(isFriendly)), parallel[inverter(focalStronger), parallel[isFriendly, focalStronger]], inverter(parallel[isFriendly, partOfSameSuper])], inverter(inverter(parallel[focalPartOfCompleteSuper, partOfSameSuper])), sequence[inverter(sequence[partOfSameSuper, minSuperiorAttack, partOfSameSuper]), succeeder(parallel[minSuperiorAttack, partOfSameSuper]), sequence[inverter(focalPartOfCompleteSuper), parallel[maxAttack, focalStronger], selector[focalPartOfCompleteSuper, maxAttack, maxAttack]]]], succeeder(inverter(inverter(parallel[focalStronger, focalStronger]))), succeeder(sequence[inverter(inverter(focalPartOfCompleteSuper)), parallel[selector[partOfSameSuper, isFriendly, maxAttack], parallel[randomAttack, isFriendly]], inverter(selector[maxAttack, minSuperiorAttack, isFriendly])])], inverter(parallel[succeeder(inverter(inverter(isFriendly))), parallel[inverter(inverter(randomAttack)), selector[sequence[focalPartOfCompleteSuper, maxAttack, focalPartOfCompleteSuper], succeeder(isFriendly), inverter(minSuperiorAttack)]]]), inverter(sequence[sequence[succeeder(parallel[minSuperiorAttack, minSuperiorAttack]), succeeder(parallel[isFriendly, minSuperiorAttack]), inverter(inverter(minSuperiorAttack))], selector[parallel[selector[focalPartOfCompleteSuper, focalStronger, isFriendly], parallel[focalStronger, maxAttack]], parallel[parallel[focalPartOfCompleteSuper, isFriendly], selector[maxAttack, minSuperiorAttack, focalPartOfCompleteSuper]], succeeder(succeeder(partOfSameSuper))], sequence[sequence[succeeder(maxAttack), succeeder(randomAttack), sequence[minSuperiorAttack, focalPartOfCompleteSuper, focalPartOfCompleteSuper]], inverter(parallel[maxAttack, isFriendly]), sequence[parallel[randomAttack, maxAttack], inverter(focalStronger), selector[focalPartOfCompleteSuper, focalStronger, isFriendly]]]])], inverter(inverter(succeeder(sequence[parallel[parallel[maxAttack, isFriendly], parallel[focalStronger, minSuperiorAttack]], parallel[parallel[maxAttack, maxAttack], inverter(minSuperiorAttack)], selector[parallel[isFriendly, maxAttack], selector[isFriendly, focalPartOfCompleteSuper, focalStronger], sequence[focalPartOfCompleteSuper, focalPartOfCompleteSuper, partOfSameSuper]]])))], succeeder(sequence[sequence[succeeder(sequence[succeeder(selector[partOfSameSuper, focalPartOfCompleteSuper, maxAttack]), sequence[succeeder(isFriendly), selector[maxAttack, isFriendly, focalPartOfCompleteSuper], sequence[randomAttack, isFriendly, partOfSameSuper]], parallel[selector[focalStronger, partOfSameSuper, focalPartOfCompleteSuper], sequence[focalStronger, focalPartOfCompleteSuper, focalPartOfCompleteSuper]]]), succeeder(sequence[sequence[sequence[partOfSameSuper, partOfSameSuper, focalStronger], parallel[isFriendly, focalStronger], selector[minSuperiorAttack, randomAttack, focalPartOfCompleteSuper]], inverter(succeeder(focalPartOfCompleteSuper)), parallel[parallel[minSuperiorAttack, maxAttack], inverter(partOfSameSuper)]]), succeeder(sequence[inverter(sequence[randomAttack, randomAttack, partOfSameSuper]), inverter(parallel[randomAttack, focalPartOfCompleteSuper]), inverter(selector[maxAttack, maxAttack, partOfSameSuper])])], inverter(inverter(inverter(sequence[sequence[randomAttack, minSuperiorAttack, partOfSameSuper], succeeder(focalPartOfCompleteSuper), selector[isFriendly, randomAttack, maxAttack]]))), succeeder(inverter(succeeder(parallel[sequence[partOfSameSuper, isFriendly, maxAttack], inverter(randomAttack)])))])]
+     (selector[parallel[succeeder(selector[inverter(parallel[sequence[isFriendly, minSuperiorAttack, randomAttack], succeeder(maxAttack)]), selector[succeeder(succeeder(randomAttack)), parallel[succeeder(maxAttack), selector[isFriendly, focalStronger, focalPartOfCompleteSuper]], selector[succeeder(partOfSameSuper), sequence[focalStronger, minSuperiorAttack, minSuperiorAttack], selector[randomAttack, focalStronger, maxAttack]]], inverter(selector[inverter(partOfSameSuper), sequence[maxAttack, minSuperiorAttack, partOfSameSuper], sequence[isFriendly, partOfSameSuper, focalPartOfCompleteSuper]])]), succeeder(succeeder(parallel[selector[selector[randomAttack, isFriendly, partOfSameSuper], inverter(focalStronger), parallel[maxAttack, randomAttack]], inverter(succeeder(isFriendly))]))], sequence[selector[sequence[sequence[succeeder(succeeder(isFriendly)), parallel[inverter(focalStronger), parallel[isFriendly, focalStronger]], inverter(parallel[isFriendly, partOfSameSuper])], inverter(inverter(parallel[focalPartOfCompleteSuper, partOfSameSuper])), sequence[inverter(sequence[partOfSameSuper, minSuperiorAttack, partOfSameSuper]), succeeder(parallel[minSuperiorAttack, partOfSameSuper]), sequence[inverter(focalPartOfCompleteSuper), parallel[maxAttack, focalStronger], selector[focalPartOfCompleteSuper, maxAttack, maxAttack]]]], succeeder(inverter(inverter(parallel[focalStronger, focalStronger]))), succeeder(sequence[inverter(inverter(focalPartOfCompleteSuper)), parallel[selector[partOfSameSuper, isFriendly, maxAttack], parallel[randomAttack, isFriendly]], inverter(selector[maxAttack, minSuperiorAttack, isFriendly])])], inverter(parallel[succeeder(inverter(inverter(isFriendly))), parallel[inverter(inverter(randomAttack)), selector[sequence[focalPartOfCompleteSuper, maxAttack, focalPartOfCompleteSuper], succeeder(isFriendly), inverter(minSuperiorAttack)]]]), inverter(sequence[sequence[succeeder(parallel[minSuperiorAttack, minSuperiorAttack]), succeeder(parallel[isFriendly, minSuperiorAttack]), inverter(inverter(minSuperiorAttack))], selector[parallel[selector[focalPartOfCompleteSuper, focalStronger, isFriendly], parallel[focalStronger, maxAttack]], parallel[parallel[focalPartOfCompleteSuper, isFriendly], selector[maxAttack, minSuperiorAttack, focalPartOfCompleteSuper]], succeeder(succeeder(partOfSameSuper))], sequence[sequence[succeeder(maxAttack), succeeder(randomAttack), sequence[minSuperiorAttack, focalPartOfCompleteSuper, focalPartOfCompleteSuper]], inverter(parallel[maxAttack, isFriendly]), sequence[parallel[randomAttack, maxAttack], inverter(focalStronger), selector[focalPartOfCompleteSuper, focalStronger, isFriendly]]]])], inverter(inverter(succeeder(sequence[parallel[parallel[maxAttack, isFriendly], parallel[focalStronger, minSuperiorAttack]], parallel[parallel[maxAttack, maxAttack], inverter(minSuperiorAttack)], selector[parallel[isFriendly, maxAttack], selector[isFriendly, focalPartOfCompleteSuper, focalStronger], sequence[focalPartOfCompleteSuper, focalPartOfCompleteSuper, partOfSameSuper]]])))]
+         (parallel[succeeder(selector[inverter(parallel[sequence[isFriendly, minSuperiorAttack, randomAttack], succeeder(maxAttack)]), selector[succeeder(succeeder(randomAttack)), parallel[succeeder(maxAttack), selector[isFriendly, focalStronger, focalPartOfCompleteSuper]], selector[succeeder(partOfSameSuper), sequence[focalStronger, minSuperiorAttack, minSuperiorAttack], selector[randomAttack, focalStronger, maxAttack]]], inverter(selector[inverter(partOfSameSuper), sequence[maxAttack, minSuperiorAttack, partOfSameSuper], sequence[isFriendly, partOfSameSuper, focalPartOfCompleteSuper]])]), succeeder(succeeder(parallel[selector[selector[randomAttack, isFriendly, partOfSameSuper], inverter(focalStronger), parallel[maxAttack, randomAttack]], inverter(succeeder(isFriendly))]))]
+             (succeeder(selector[inverter(parallel[sequence[isFriendly, minSuperiorAttack, randomAttack], succeeder(maxAttack)]), selector[succeeder(succeeder(randomAttack)), parallel[succeeder(maxAttack), selector[isFriendly, focalStronger, focalPartOfCompleteSuper]], selector[succeeder(partOfSameSuper), sequence[focalStronger, minSuperiorAttack, minSuperiorAttack], selector[randomAttack, focalStronger, maxAttack]]], inverter(selector[inverter(partOfSameSuper), sequence[maxAttack, minSuperiorAttack, partOfSameSuper], sequence[isFriendly, partOfSameSuper, focalPartOfCompleteSuper]])])
+                 (selector[inverter(parallel[sequence[isFriendly, minSuperiorAttack, randomAttack], succeeder(maxAttack)]), selector[succeeder(succeeder(randomAttack)), parallel[succeeder(maxAttack), selector[isFriendly, focalStronger, focalPartOfCompleteSuper]], selector[succeeder(partOfSameSuper), sequence[focalStronger, minSuperiorAttack, minSuperiorAttack], selector[randomAttack, focalStronger, maxAttack]]], inverter(selector[inverter(partOfSameSuper), sequence[maxAttack, minSuperiorAttack, partOfSameSuper], sequence[isFriendly, partOfSameSuper, focalPartOfCompleteSuper]])]
+                     (inverter(parallel[sequence[isFriendly, minSuperiorAttack, randomAttack], succeeder(maxAttack)])
+                         (parallel[sequence[isFriendly, minSuperiorAttack, randomAttack], succeeder(maxAttack)]
+                             (sequence[isFriendly, minSuperiorAttack, randomAttack]
+                                 isFriendly minSuperiorAttack randomAttack)
+                             (succeeder(maxAttack) maxAttack))) (selector[succeeder(succeeder(randomAttack)), parallel[succeeder(maxAttack), selector[isFriendly, focalStronger, focalPartOfCompleteSuper]], selector[succeeder(partOfSameSuper), sequence[focalStronger, minSuperiorAttack, minSuperiorAttack], selector[randomAttack, focalStronger, maxAttack]]]
+                     (succeeder(succeeder(randomAttack)) (succeeder(randomAttack)
+                         randomAttack)) (parallel[succeeder(maxAttack), selector[isFriendly, focalStronger, focalPartOfCompleteSuper]]
+                     (succeeder(maxAttack) maxAttack) (selector[isFriendly, focalStronger, focalPartOfCompleteSuper]
+                     isFriendly focalStronger focalPartOfCompleteSuper))
+                     (selector[succeeder(partOfSameSuper), sequence[focalStronger, minSuperiorAttack, minSuperiorAttack], selector[randomAttack, focalStronger, maxAttack]]
+                         (succeeder(partOfSameSuper) partOfSameSuper)
+                         (sequence[focalStronger, minSuperiorAttack, minSuperiorAttack]
+                             focalStronger minSuperiorAttack minSuperiorAttack)
+                         (selector[randomAttack, focalStronger, maxAttack]
+                             randomAttack focalStronger maxAttack))) (inverter(selector[inverter(partOfSameSuper), sequence[maxAttack, minSuperiorAttack, partOfSameSuper], sequence[isFriendly, partOfSameSuper, focalPartOfCompleteSuper]])
+                     (selector[inverter(partOfSameSuper), sequence[maxAttack, minSuperiorAttack, partOfSameSuper], sequence[isFriendly, partOfSameSuper, focalPartOfCompleteSuper]]
+                         (inverter(partOfSameSuper) partOfSameSuper)
+                         (sequence[maxAttack, minSuperiorAttack, partOfSameSuper]
+                             maxAttack minSuperiorAttack partOfSameSuper)
+                         (sequence[isFriendly, partOfSameSuper, focalPartOfCompleteSuper]
+                             isFriendly partOfSameSuper focalPartOfCompleteSuper)))))
+             (succeeder(succeeder(parallel[selector[selector[randomAttack, isFriendly, partOfSameSuper], inverter(focalStronger), parallel[maxAttack, randomAttack]], inverter(succeeder(isFriendly))]))
+                 (succeeder(parallel[selector[selector[randomAttack, isFriendly, partOfSameSuper], inverter(focalStronger), parallel[maxAttack, randomAttack]], inverter(succeeder(isFriendly))])
+                     (parallel[selector[selector[randomAttack, isFriendly, partOfSameSuper], inverter(focalStronger), parallel[maxAttack, randomAttack]], inverter(succeeder(isFriendly))]
+                         (selector[selector[randomAttack, isFriendly, partOfSameSuper], inverter(focalStronger), parallel[maxAttack, randomAttack]]
+                             (selector[randomAttack, isFriendly, partOfSameSuper]
+                                 randomAttack isFriendly partOfSameSuper)
+                             (inverter(focalStronger) focalStronger) (parallel[maxAttack, randomAttack]
+                             maxAttack randomAttack)) (inverter(succeeder(isFriendly))
+                         (succeeder(isFriendly) isFriendly)))))) (sequence[selector[sequence[sequence[succeeder(succeeder(isFriendly)), parallel[inverter(focalStronger), parallel[isFriendly, focalStronger]], inverter(parallel[isFriendly, partOfSameSuper])], inverter(inverter(parallel[focalPartOfCompleteSuper, partOfSameSuper])), sequence[inverter(sequence[partOfSameSuper, minSuperiorAttack, partOfSameSuper]), succeeder(parallel[minSuperiorAttack, partOfSameSuper]), sequence[inverter(focalPartOfCompleteSuper), parallel[maxAttack, focalStronger], selector[focalPartOfCompleteSuper, maxAttack, maxAttack]]]], succeeder(inverter(inverter(parallel[focalStronger, focalStronger]))), succeeder(sequence[inverter(inverter(focalPartOfCompleteSuper)), parallel[selector[partOfSameSuper, isFriendly, maxAttack], parallel[randomAttack, isFriendly]], inverter(selector[maxAttack, minSuperiorAttack, isFriendly])])], inverter(parallel[succeeder(inverter(inverter(isFriendly))), parallel[inverter(inverter(randomAttack)), selector[sequence[focalPartOfCompleteSuper, maxAttack, focalPartOfCompleteSuper], succeeder(isFriendly), inverter(minSuperiorAttack)]]]), inverter(sequence[sequence[succeeder(parallel[minSuperiorAttack, minSuperiorAttack]), succeeder(parallel[isFriendly, minSuperiorAttack]), inverter(inverter(minSuperiorAttack))], selector[parallel[selector[focalPartOfCompleteSuper, focalStronger, isFriendly], parallel[focalStronger, maxAttack]], parallel[parallel[focalPartOfCompleteSuper, isFriendly], selector[maxAttack, minSuperiorAttack, focalPartOfCompleteSuper]], succeeder(succeeder(partOfSameSuper))], sequence[sequence[succeeder(maxAttack), succeeder(randomAttack), sequence[minSuperiorAttack, focalPartOfCompleteSuper, focalPartOfCompleteSuper]], inverter(parallel[maxAttack, isFriendly]), sequence[parallel[randomAttack, maxAttack], inverter(focalStronger), selector[focalPartOfCompleteSuper, focalStronger, isFriendly]]]])]
+         (selector[sequence[sequence[succeeder(succeeder(isFriendly)), parallel[inverter(focalStronger), parallel[isFriendly, focalStronger]], inverter(parallel[isFriendly, partOfSameSuper])], inverter(inverter(parallel[focalPartOfCompleteSuper, partOfSameSuper])), sequence[inverter(sequence[partOfSameSuper, minSuperiorAttack, partOfSameSuper]), succeeder(parallel[minSuperiorAttack, partOfSameSuper]), sequence[inverter(focalPartOfCompleteSuper), parallel[maxAttack, focalStronger], selector[focalPartOfCompleteSuper, maxAttack, maxAttack]]]], succeeder(inverter(inverter(parallel[focalStronger, focalStronger]))), succeeder(sequence[inverter(inverter(focalPartOfCompleteSuper)), parallel[selector[partOfSameSuper, isFriendly, maxAttack], parallel[randomAttack, isFriendly]], inverter(selector[maxAttack, minSuperiorAttack, isFriendly])])]
+             (sequence[sequence[succeeder(succeeder(isFriendly)), parallel[inverter(focalStronger), parallel[isFriendly, focalStronger]], inverter(parallel[isFriendly, partOfSameSuper])], inverter(inverter(parallel[focalPartOfCompleteSuper, partOfSameSuper])), sequence[inverter(sequence[partOfSameSuper, minSuperiorAttack, partOfSameSuper]), succeeder(parallel[minSuperiorAttack, partOfSameSuper]), sequence[inverter(focalPartOfCompleteSuper), parallel[maxAttack, focalStronger], selector[focalPartOfCompleteSuper, maxAttack, maxAttack]]]]
+                 (sequence[succeeder(succeeder(isFriendly)), parallel[inverter(focalStronger), parallel[isFriendly, focalStronger]], inverter(parallel[isFriendly, partOfSameSuper])]
+                     (succeeder(succeeder(isFriendly)) (succeeder(isFriendly)
+                         isFriendly)) (parallel[inverter(focalStronger), parallel[isFriendly, focalStronger]]
+                     (inverter(focalStronger) focalStronger) (parallel[isFriendly, focalStronger]
+                     isFriendly focalStronger)) (inverter(parallel[isFriendly, partOfSameSuper])
+                     (parallel[isFriendly, partOfSameSuper] isFriendly
+                         partOfSameSuper))) (inverter(inverter(parallel[focalPartOfCompleteSuper, partOfSameSuper]))
+                 (inverter(parallel[focalPartOfCompleteSuper, partOfSameSuper])
+                     (parallel[focalPartOfCompleteSuper, partOfSameSuper]
+                         focalPartOfCompleteSuper partOfSameSuper)))
+                 (sequence[inverter(sequence[partOfSameSuper, minSuperiorAttack, partOfSameSuper]), succeeder(parallel[minSuperiorAttack, partOfSameSuper]), sequence[inverter(focalPartOfCompleteSuper), parallel[maxAttack, focalStronger], selector[focalPartOfCompleteSuper, maxAttack, maxAttack]]]
+                     (inverter(sequence[partOfSameSuper, minSuperiorAttack, partOfSameSuper])
+                         (sequence[partOfSameSuper, minSuperiorAttack, partOfSameSuper]
+                             partOfSameSuper minSuperiorAttack partOfSameSuper))
+                     (succeeder(parallel[minSuperiorAttack, partOfSameSuper])
+                         (parallel[minSuperiorAttack, partOfSameSuper]
+                             minSuperiorAttack partOfSameSuper)) (sequence[inverter(focalPartOfCompleteSuper), parallel[maxAttack, focalStronger], selector[focalPartOfCompleteSuper, maxAttack, maxAttack]]
+                     (inverter(focalPartOfCompleteSuper) focalPartOfCompleteSuper)
+                     (parallel[maxAttack, focalStronger] maxAttack
+                         focalStronger) (selector[focalPartOfCompleteSuper, maxAttack, maxAttack]
+                     focalPartOfCompleteSuper maxAttack maxAttack))))
+             (succeeder(inverter(inverter(parallel[focalStronger, focalStronger])))
+                 (inverter(inverter(parallel[focalStronger, focalStronger]))
+                     (inverter(parallel[focalStronger, focalStronger])
+                         (parallel[focalStronger, focalStronger] focalStronger
+                             focalStronger)))) (succeeder(sequence[inverter(inverter(focalPartOfCompleteSuper)), parallel[selector[partOfSameSuper, isFriendly, maxAttack], parallel[randomAttack, isFriendly]], inverter(selector[maxAttack, minSuperiorAttack, isFriendly])])
+             (sequence[inverter(inverter(focalPartOfCompleteSuper)), parallel[selector[partOfSameSuper, isFriendly, maxAttack], parallel[randomAttack, isFriendly]], inverter(selector[maxAttack, minSuperiorAttack, isFriendly])]
+                 (inverter(inverter(focalPartOfCompleteSuper))
+                     (inverter(focalPartOfCompleteSuper) focalPartOfCompleteSuper))
+                 (parallel[selector[partOfSameSuper, isFriendly, maxAttack], parallel[randomAttack, isFriendly]]
+                     (selector[partOfSameSuper, isFriendly, maxAttack]
+                         partOfSameSuper isFriendly maxAttack) (parallel[randomAttack, isFriendly]
+                     randomAttack isFriendly)) (inverter(selector[maxAttack, minSuperiorAttack, isFriendly])
+                 (selector[maxAttack, minSuperiorAttack, isFriendly]
+                     maxAttack minSuperiorAttack isFriendly)))))
+         (inverter(parallel[succeeder(inverter(inverter(isFriendly))), parallel[inverter(inverter(randomAttack)), selector[sequence[focalPartOfCompleteSuper, maxAttack, focalPartOfCompleteSuper], succeeder(isFriendly), inverter(minSuperiorAttack)]]])
+             (parallel[succeeder(inverter(inverter(isFriendly))), parallel[inverter(inverter(randomAttack)), selector[sequence[focalPartOfCompleteSuper, maxAttack, focalPartOfCompleteSuper], succeeder(isFriendly), inverter(minSuperiorAttack)]]]
+                 (succeeder(inverter(inverter(isFriendly)))
+                     (inverter(inverter(isFriendly)) (inverter(isFriendly)
+                         isFriendly))) (parallel[inverter(inverter(randomAttack)), selector[sequence[focalPartOfCompleteSuper, maxAttack, focalPartOfCompleteSuper], succeeder(isFriendly), inverter(minSuperiorAttack)]]
+                 (inverter(inverter(randomAttack)) (inverter(randomAttack)
+                     randomAttack)) (selector[sequence[focalPartOfCompleteSuper, maxAttack, focalPartOfCompleteSuper], succeeder(isFriendly), inverter(minSuperiorAttack)]
+                 (sequence[focalPartOfCompleteSuper, maxAttack, focalPartOfCompleteSuper]
+                     focalPartOfCompleteSuper maxAttack focalPartOfCompleteSuper)
+                 (succeeder(isFriendly) isFriendly) (inverter(minSuperiorAttack)
+                 minSuperiorAttack))))) (inverter(sequence[sequence[succeeder(parallel[minSuperiorAttack, minSuperiorAttack]), succeeder(parallel[isFriendly, minSuperiorAttack]), inverter(inverter(minSuperiorAttack))], selector[parallel[selector[focalPartOfCompleteSuper, focalStronger, isFriendly], parallel[focalStronger, maxAttack]], parallel[parallel[focalPartOfCompleteSuper, isFriendly], selector[maxAttack, minSuperiorAttack, focalPartOfCompleteSuper]], succeeder(succeeder(partOfSameSuper))], sequence[sequence[succeeder(maxAttack), succeeder(randomAttack), sequence[minSuperiorAttack, focalPartOfCompleteSuper, focalPartOfCompleteSuper]], inverter(parallel[maxAttack, isFriendly]), sequence[parallel[randomAttack, maxAttack], inverter(focalStronger), selector[focalPartOfCompleteSuper, focalStronger, isFriendly]]]])
+         (sequence[sequence[succeeder(parallel[minSuperiorAttack, minSuperiorAttack]), succeeder(parallel[isFriendly, minSuperiorAttack]), inverter(inverter(minSuperiorAttack))], selector[parallel[selector[focalPartOfCompleteSuper, focalStronger, isFriendly], parallel[focalStronger, maxAttack]], parallel[parallel[focalPartOfCompleteSuper, isFriendly], selector[maxAttack, minSuperiorAttack, focalPartOfCompleteSuper]], succeeder(succeeder(partOfSameSuper))], sequence[sequence[succeeder(maxAttack), succeeder(randomAttack), sequence[minSuperiorAttack, focalPartOfCompleteSuper, focalPartOfCompleteSuper]], inverter(parallel[maxAttack, isFriendly]), sequence[parallel[randomAttack, maxAttack], inverter(focalStronger), selector[focalPartOfCompleteSuper, focalStronger, isFriendly]]]]
+             (sequence[succeeder(parallel[minSuperiorAttack, minSuperiorAttack]), succeeder(parallel[isFriendly, minSuperiorAttack]), inverter(inverter(minSuperiorAttack))]
+                 (succeeder(parallel[minSuperiorAttack, minSuperiorAttack])
+                     (parallel[minSuperiorAttack, minSuperiorAttack]
+                         minSuperiorAttack minSuperiorAttack)) (succeeder(parallel[isFriendly, minSuperiorAttack])
+                 (parallel[isFriendly, minSuperiorAttack]
+                     isFriendly minSuperiorAttack)) (inverter(inverter(minSuperiorAttack))
+                 (inverter(minSuperiorAttack) minSuperiorAttack)))
+             (selector[parallel[selector[focalPartOfCompleteSuper, focalStronger, isFriendly], parallel[focalStronger, maxAttack]], parallel[parallel[focalPartOfCompleteSuper, isFriendly], selector[maxAttack, minSuperiorAttack, focalPartOfCompleteSuper]], succeeder(succeeder(partOfSameSuper))]
+                 (parallel[selector[focalPartOfCompleteSuper, focalStronger, isFriendly], parallel[focalStronger, maxAttack]]
+                     (selector[focalPartOfCompleteSuper, focalStronger, isFriendly]
+                         focalPartOfCompleteSuper focalStronger isFriendly)
+                     (parallel[focalStronger, maxAttack] focalStronger
+                         maxAttack)) (parallel[parallel[focalPartOfCompleteSuper, isFriendly], selector[maxAttack, minSuperiorAttack, focalPartOfCompleteSuper]]
+                 (parallel[focalPartOfCompleteSuper, isFriendly]
+                     focalPartOfCompleteSuper isFriendly) (selector[maxAttack, minSuperiorAttack, focalPartOfCompleteSuper]
+                 maxAttack minSuperiorAttack focalPartOfCompleteSuper))
+                 (succeeder(succeeder(partOfSameSuper)) (succeeder(partOfSameSuper)
+                     partOfSameSuper))) (sequence[sequence[succeeder(maxAttack), succeeder(randomAttack), sequence[minSuperiorAttack, focalPartOfCompleteSuper, focalPartOfCompleteSuper]], inverter(parallel[maxAttack, isFriendly]), sequence[parallel[randomAttack, maxAttack], inverter(focalStronger), selector[focalPartOfCompleteSuper, focalStronger, isFriendly]]]
+             (sequence[succeeder(maxAttack), succeeder(randomAttack), sequence[minSuperiorAttack, focalPartOfCompleteSuper, focalPartOfCompleteSuper]]
+                 (succeeder(maxAttack) maxAttack) (succeeder(randomAttack)
+                 randomAttack) (sequence[minSuperiorAttack, focalPartOfCompleteSuper, focalPartOfCompleteSuper]
+                 minSuperiorAttack focalPartOfCompleteSuper
+                 focalPartOfCompleteSuper)) (inverter(parallel[maxAttack, isFriendly])
+             (parallel[maxAttack, isFriendly] maxAttack
+                 isFriendly)) (sequence[parallel[randomAttack, maxAttack], inverter(focalStronger), selector[focalPartOfCompleteSuper, focalStronger, isFriendly]]
+             (parallel[randomAttack, maxAttack] randomAttack
+                 maxAttack) (inverter(focalStronger) focalStronger)
+             (selector[focalPartOfCompleteSuper, focalStronger, isFriendly]
+                 focalPartOfCompleteSuper focalStronger isFriendly))))))
+         (inverter(inverter(succeeder(sequence[parallel[parallel[maxAttack, isFriendly], parallel[focalStronger, minSuperiorAttack]], parallel[parallel[maxAttack, maxAttack], inverter(minSuperiorAttack)], selector[parallel[isFriendly, maxAttack], selector[isFriendly, focalPartOfCompleteSuper, focalStronger], sequence[focalPartOfCompleteSuper, focalPartOfCompleteSuper, partOfSameSuper]]])))
+             (inverter(succeeder(sequence[parallel[parallel[maxAttack, isFriendly], parallel[focalStronger, minSuperiorAttack]], parallel[parallel[maxAttack, maxAttack], inverter(minSuperiorAttack)], selector[parallel[isFriendly, maxAttack], selector[isFriendly, focalPartOfCompleteSuper, focalStronger], sequence[focalPartOfCompleteSuper, focalPartOfCompleteSuper, partOfSameSuper]]]))
+                 (succeeder(sequence[parallel[parallel[maxAttack, isFriendly], parallel[focalStronger, minSuperiorAttack]], parallel[parallel[maxAttack, maxAttack], inverter(minSuperiorAttack)], selector[parallel[isFriendly, maxAttack], selector[isFriendly, focalPartOfCompleteSuper, focalStronger], sequence[focalPartOfCompleteSuper, focalPartOfCompleteSuper, partOfSameSuper]]])
+                     (sequence[parallel[parallel[maxAttack, isFriendly], parallel[focalStronger, minSuperiorAttack]], parallel[parallel[maxAttack, maxAttack], inverter(minSuperiorAttack)], selector[parallel[isFriendly, maxAttack], selector[isFriendly, focalPartOfCompleteSuper, focalStronger], sequence[focalPartOfCompleteSuper, focalPartOfCompleteSuper, partOfSameSuper]]]
+                         (parallel[parallel[maxAttack, isFriendly], parallel[focalStronger, minSuperiorAttack]]
+                             (parallel[maxAttack, isFriendly] maxAttack
+                                 isFriendly) (parallel[focalStronger, minSuperiorAttack]
+                             focalStronger minSuperiorAttack)) (parallel[parallel[maxAttack, maxAttack], inverter(minSuperiorAttack)]
+                         (parallel[maxAttack, maxAttack] maxAttack
+                             maxAttack) (inverter(minSuperiorAttack) minSuperiorAttack))
+                         (selector[parallel[isFriendly, maxAttack], selector[isFriendly, focalPartOfCompleteSuper, focalStronger], sequence[focalPartOfCompleteSuper, focalPartOfCompleteSuper, partOfSameSuper]]
+                             (parallel[isFriendly, maxAttack] isFriendly
+                                 maxAttack) (selector[isFriendly, focalPartOfCompleteSuper, focalStronger]
+                             isFriendly focalPartOfCompleteSuper focalStronger)
+                             (sequence[focalPartOfCompleteSuper, focalPartOfCompleteSuper, partOfSameSuper]
+                                 focalPartOfCompleteSuper focalPartOfCompleteSuper
+                                 partOfSameSuper))))))) (succeeder(sequence[sequence[succeeder(sequence[succeeder(selector[partOfSameSuper, focalPartOfCompleteSuper, maxAttack]), sequence[succeeder(isFriendly), selector[maxAttack, isFriendly, focalPartOfCompleteSuper], sequence[randomAttack, isFriendly, partOfSameSuper]], parallel[selector[focalStronger, partOfSameSuper, focalPartOfCompleteSuper], sequence[focalStronger, focalPartOfCompleteSuper, focalPartOfCompleteSuper]]]), succeeder(sequence[sequence[sequence[partOfSameSuper, partOfSameSuper, focalStronger], parallel[isFriendly, focalStronger], selector[minSuperiorAttack, randomAttack, focalPartOfCompleteSuper]], inverter(succeeder(focalPartOfCompleteSuper)), parallel[parallel[minSuperiorAttack, maxAttack], inverter(partOfSameSuper)]]), succeeder(sequence[inverter(sequence[randomAttack, randomAttack, partOfSameSuper]), inverter(parallel[randomAttack, focalPartOfCompleteSuper]), inverter(selector[maxAttack, maxAttack, partOfSameSuper])])], inverter(inverter(inverter(sequence[sequence[randomAttack, minSuperiorAttack, partOfSameSuper], succeeder(focalPartOfCompleteSuper), selector[isFriendly, randomAttack, maxAttack]]))), succeeder(inverter(succeeder(parallel[sequence[partOfSameSuper, isFriendly, maxAttack], inverter(randomAttack)])))])
+     (sequence[sequence[succeeder(sequence[succeeder(selector[partOfSameSuper, focalPartOfCompleteSuper, maxAttack]), sequence[succeeder(isFriendly), selector[maxAttack, isFriendly, focalPartOfCompleteSuper], sequence[randomAttack, isFriendly, partOfSameSuper]], parallel[selector[focalStronger, partOfSameSuper, focalPartOfCompleteSuper], sequence[focalStronger, focalPartOfCompleteSuper, focalPartOfCompleteSuper]]]), succeeder(sequence[sequence[sequence[partOfSameSuper, partOfSameSuper, focalStronger], parallel[isFriendly, focalStronger], selector[minSuperiorAttack, randomAttack, focalPartOfCompleteSuper]], inverter(succeeder(focalPartOfCompleteSuper)), parallel[parallel[minSuperiorAttack, maxAttack], inverter(partOfSameSuper)]]), succeeder(sequence[inverter(sequence[randomAttack, randomAttack, partOfSameSuper]), inverter(parallel[randomAttack, focalPartOfCompleteSuper]), inverter(selector[maxAttack, maxAttack, partOfSameSuper])])], inverter(inverter(inverter(sequence[sequence[randomAttack, minSuperiorAttack, partOfSameSuper], succeeder(focalPartOfCompleteSuper), selector[isFriendly, randomAttack, maxAttack]]))), succeeder(inverter(succeeder(parallel[sequence[partOfSameSuper, isFriendly, maxAttack], inverter(randomAttack)])))]
+         (sequence[succeeder(sequence[succeeder(selector[partOfSameSuper, focalPartOfCompleteSuper, maxAttack]), sequence[succeeder(isFriendly), selector[maxAttack, isFriendly, focalPartOfCompleteSuper], sequence[randomAttack, isFriendly, partOfSameSuper]], parallel[selector[focalStronger, partOfSameSuper, focalPartOfCompleteSuper], sequence[focalStronger, focalPartOfCompleteSuper, focalPartOfCompleteSuper]]]), succeeder(sequence[sequence[sequence[partOfSameSuper, partOfSameSuper, focalStronger], parallel[isFriendly, focalStronger], selector[minSuperiorAttack, randomAttack, focalPartOfCompleteSuper]], inverter(succeeder(focalPartOfCompleteSuper)), parallel[parallel[minSuperiorAttack, maxAttack], inverter(partOfSameSuper)]]), succeeder(sequence[inverter(sequence[randomAttack, randomAttack, partOfSameSuper]), inverter(parallel[randomAttack, focalPartOfCompleteSuper]), inverter(selector[maxAttack, maxAttack, partOfSameSuper])])]
+             (succeeder(sequence[succeeder(selector[partOfSameSuper, focalPartOfCompleteSuper, maxAttack]), sequence[succeeder(isFriendly), selector[maxAttack, isFriendly, focalPartOfCompleteSuper], sequence[randomAttack, isFriendly, partOfSameSuper]], parallel[selector[focalStronger, partOfSameSuper, focalPartOfCompleteSuper], sequence[focalStronger, focalPartOfCompleteSuper, focalPartOfCompleteSuper]]])
+                 (sequence[succeeder(selector[partOfSameSuper, focalPartOfCompleteSuper, maxAttack]), sequence[succeeder(isFriendly), selector[maxAttack, isFriendly, focalPartOfCompleteSuper], sequence[randomAttack, isFriendly, partOfSameSuper]], parallel[selector[focalStronger, partOfSameSuper, focalPartOfCompleteSuper], sequence[focalStronger, focalPartOfCompleteSuper, focalPartOfCompleteSuper]]]
+                     (succeeder(selector[partOfSameSuper, focalPartOfCompleteSuper, maxAttack])
+                         (selector[partOfSameSuper, focalPartOfCompleteSuper, maxAttack]
+                             partOfSameSuper focalPartOfCompleteSuper
+                             maxAttack)) (sequence[succeeder(isFriendly), selector[maxAttack, isFriendly, focalPartOfCompleteSuper], sequence[randomAttack, isFriendly, partOfSameSuper]]
+                     (succeeder(isFriendly) isFriendly) (selector[maxAttack, isFriendly, focalPartOfCompleteSuper]
+                     maxAttack isFriendly focalPartOfCompleteSuper)
+                     (sequence[randomAttack, isFriendly, partOfSameSuper]
+                         randomAttack isFriendly partOfSameSuper))
+                     (parallel[selector[focalStronger, partOfSameSuper, focalPartOfCompleteSuper], sequence[focalStronger, focalPartOfCompleteSuper, focalPartOfCompleteSuper]]
+                         (selector[focalStronger, partOfSameSuper, focalPartOfCompleteSuper]
+                             focalStronger partOfSameSuper focalPartOfCompleteSuper)
+                         (sequence[focalStronger, focalPartOfCompleteSuper, focalPartOfCompleteSuper]
+                             focalStronger focalPartOfCompleteSuper focalPartOfCompleteSuper))))
+             (succeeder(sequence[sequence[sequence[partOfSameSuper, partOfSameSuper, focalStronger], parallel[isFriendly, focalStronger], selector[minSuperiorAttack, randomAttack, focalPartOfCompleteSuper]], inverter(succeeder(focalPartOfCompleteSuper)), parallel[parallel[minSuperiorAttack, maxAttack], inverter(partOfSameSuper)]])
+                 (sequence[sequence[sequence[partOfSameSuper, partOfSameSuper, focalStronger], parallel[isFriendly, focalStronger], selector[minSuperiorAttack, randomAttack, focalPartOfCompleteSuper]], inverter(succeeder(focalPartOfCompleteSuper)), parallel[parallel[minSuperiorAttack, maxAttack], inverter(partOfSameSuper)]]
+                     (sequence[sequence[partOfSameSuper, partOfSameSuper, focalStronger], parallel[isFriendly, focalStronger], selector[minSuperiorAttack, randomAttack, focalPartOfCompleteSuper]]
+                         (sequence[partOfSameSuper, partOfSameSuper, focalStronger]
+                             partOfSameSuper partOfSameSuper focalStronger)
+                         (parallel[isFriendly, focalStronger] isFriendly
+                             focalStronger) (selector[minSuperiorAttack, randomAttack, focalPartOfCompleteSuper]
+                         minSuperiorAttack randomAttack focalPartOfCompleteSuper))
+                     (inverter(succeeder(focalPartOfCompleteSuper))
+                         (succeeder(focalPartOfCompleteSuper) focalPartOfCompleteSuper))
+                     (parallel[parallel[minSuperiorAttack, maxAttack], inverter(partOfSameSuper)]
+                         (parallel[minSuperiorAttack, maxAttack] minSuperiorAttack
+                             maxAttack) (inverter(partOfSameSuper) partOfSameSuper))))
+             (succeeder(sequence[inverter(sequence[randomAttack, randomAttack, partOfSameSuper]), inverter(parallel[randomAttack, focalPartOfCompleteSuper]), inverter(selector[maxAttack, maxAttack, partOfSameSuper])])
+                 (sequence[inverter(sequence[randomAttack, randomAttack, partOfSameSuper]), inverter(parallel[randomAttack, focalPartOfCompleteSuper]), inverter(selector[maxAttack, maxAttack, partOfSameSuper])]
+                     (inverter(sequence[randomAttack, randomAttack, partOfSameSuper])
+                         (sequence[randomAttack, randomAttack, partOfSameSuper]
+                             randomAttack randomAttack partOfSameSuper))
+                     (inverter(parallel[randomAttack, focalPartOfCompleteSuper])
+                         (parallel[randomAttack, focalPartOfCompleteSuper]
+                             randomAttack focalPartOfCompleteSuper)) (inverter(selector[maxAttack, maxAttack, partOfSameSuper])
+                     (selector[maxAttack, maxAttack, partOfSameSuper]
+                         maxAttack maxAttack partOfSameSuper)))))
+         (inverter(inverter(inverter(sequence[sequence[randomAttack, minSuperiorAttack, partOfSameSuper], succeeder(focalPartOfCompleteSuper), selector[isFriendly, randomAttack, maxAttack]])))
+             (inverter(inverter(sequence[sequence[randomAttack, minSuperiorAttack, partOfSameSuper], succeeder(focalPartOfCompleteSuper), selector[isFriendly, randomAttack, maxAttack]]))
+                 (inverter(sequence[sequence[randomAttack, minSuperiorAttack, partOfSameSuper], succeeder(focalPartOfCompleteSuper), selector[isFriendly, randomAttack, maxAttack]])
+                     (sequence[sequence[randomAttack, minSuperiorAttack, partOfSameSuper], succeeder(focalPartOfCompleteSuper), selector[isFriendly, randomAttack, maxAttack]]
+                         (sequence[randomAttack, minSuperiorAttack, partOfSameSuper]
+                             randomAttack minSuperiorAttack partOfSameSuper)
+                         (succeeder(focalPartOfCompleteSuper) focalPartOfCompleteSuper)
+                         (selector[isFriendly, randomAttack, maxAttack]
+                             isFriendly randomAttack maxAttack))))) (succeeder(inverter(succeeder(parallel[sequence[partOfSameSuper, isFriendly, maxAttack], inverter(randomAttack)])))
+         (inverter(succeeder(parallel[sequence[partOfSameSuper, isFriendly, maxAttack], inverter(randomAttack)]))
+             (succeeder(parallel[sequence[partOfSameSuper, isFriendly, maxAttack], inverter(randomAttack)])
+                 (parallel[sequence[partOfSameSuper, isFriendly, maxAttack], inverter(randomAttack)]
+                     (sequence[partOfSameSuper, isFriendly, maxAttack]
+                         partOfSameSuper isFriendly maxAttack) (inverter(randomAttack)
+                     randomAttack))))))))

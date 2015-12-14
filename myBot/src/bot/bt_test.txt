@@ -1,1 +1,1 @@
-inverter(maxAttack)
+selector[inverter(selector[isFriendly,inverter(focalStronger),randomSuperiorAttack]),inverter(selector[inverter(isFriendly),focalStronger,maxAttack]),succeeder(isFriendly)]
